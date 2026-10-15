@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Transaction - Create borrowing log</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>644887be-3769-45a6-9df2-cd5f63b7cadf</testCaseGuid>
+</TestCaseEntity>

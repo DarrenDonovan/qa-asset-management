@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Switch Button - Manage Group</name>
+   <tag></tag>
+   <elementGuidId>56d5301f-d647-4632-bbf5-11b3de76a49d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label.relative.w-max.items-center.cursor-pointer.shrink-0.inline-flex.align-bottom.transition-all.duration-200.gap-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tbody//td[contains(., 'Manage group')]/preceding-sibling::td/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>label >> internal:has-text=&quot;Stay on this form after submitting&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>47f3fb4e-4a75-4bd7-a233-3fdeb94e626b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative w-max items-center cursor-pointer shrink-0 inline-flex align-bottom transition-all duration-200 gap-1</value>
+      <webElementGuid>093f1f9e-8699-471b-bce5-041032bcde1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-p-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>2d2acb2c-48e3-4ab1-8e9f-b2e85f1d64f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-wv-name</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>9fe92de1-615c-4333-9fd9-f504272574b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-p-highlight</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>0dc3854b-d75d-403f-b37a-94304e3208b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Stay on this form after submitting </value>
+      <webElementGuid>40bf9dcb-54cd-4511-b0c3-b78249c3b56b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;flex flex-col gap-1 items-end justify-center&quot;]/label[@class=&quot;relative w-max items-center cursor-pointer shrink-0 inline-flex align-bottom transition-all duration-200 gap-1&quot;]</value>
+      <webElementGuid>3aa9f2ad-b0f7-441a-9733-d87ad43c7fe8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='main']/div[2]/label</value>
+      <webElementGuid>1ade2632-016e-4721-bdce-73b9d79f11c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::label[2]</value>
+      <webElementGuid>5d071904-d4b8-44ec-991e-9f0eae62aa5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear Field'])[1]/preceding::label[1]</value>
+      <webElementGuid>64186a0e-0812-4448-9ec1-03526c96ea8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/label</value>
+      <webElementGuid>0c983180-efaf-4f1a-8f61-4d66c9ce66d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Stay on this form after submitting ' or . = 'Stay on this form after submitting ')]</value>
+      <webElementGuid>77377b37-f504-4352-8834-490789abc045</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

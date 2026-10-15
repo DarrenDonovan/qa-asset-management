@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Non Login User. Isi Foto</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0c54ef94-8444-448a-afa4-a5bed6b2e380</testCaseGuid>
+</TestCaseEntity>

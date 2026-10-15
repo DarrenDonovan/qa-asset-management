@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Request borrow</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e25789d7-bb93-4bce-8829-03f7e405cd25</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif</description>
+   <name>Edit borrow - Input durasi selain angka dan lebih dari 3 karakter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1867f033-608a-4e23-935e-29e852177942</testCaseGuid>
+</TestCaseEntity>

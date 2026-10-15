@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Import - Tab Fixed Asset</name>
+   <tag></tag>
+   <elementGuidId>7893bf4a-df78-4a62-9200-692f18c54a2b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Custom Field'])[1]/following::a[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e0418ffd-afd3-47d2-93a2-04addc411a2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>865b8a28-7012-473a-ae3f-eaeb6d432d88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/import/fixed-asset</value>
+      <webElementGuid>6f4c3216-872e-4d57-a459-9872cdcc25e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Fixed Asset</value>
+      <webElementGuid>e4ea3d85-e120-4a62-92dc-24dbb0055cc2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>ec8e1b0e-52d6-40f1-8a7b-548c02c8d1b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>1b50704c-d96c-4109-85e9-9aecb078ce5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative font-medium text-xs leading-4 tracking-[0.02em] flex items-center p-2 pb-1.5 pt-0.5 !h-6 border-b-2 border-grayscale-400 text-grayscale-600 bg-transparent focus-visible:outline-none focus-visible:outline-offset-0 focus-visible:border-primary-200 focus-visible:text-primary-400 transition-all duration-200 cursor-pointer select-none text-decoration-none overflow-hidden user-select-none !no-underline whitespace-nowrap</value>
+      <webElementGuid>b492b95a-5065-4739-8877-afc836344cc1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ui-section</name>
+      <type>Main</type>
+      <value>action</value>
+      <webElementGuid>d3e391aa-e5d6-45e9-b755-a3fd112852fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Fixed Asset</value>
+      <webElementGuid>022b4f0f-36eb-4268-8e1d-c1ea3b06e4f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/microtsm-layout[1]/main[1]/microtsm-application[1]/div[@class=&quot;rounded-lg p-6 flex flex-col gap-y-3 bg-white text-general-800&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;flex flex-col gap-2 text-xs tracking-[0.02em] font-medium&quot;]/wangs-tab-menu[@class=&quot;overflow-x-auto hydrated&quot;]/ul[@class=&quot;flex flex-1 list-none p-0 m-0 text-general-100&quot;]/li[@class=&quot;mr-0&quot;]/a[@class=&quot;relative font-medium text-xs leading-4 tracking-[0.02em] flex items-center p-2 pb-1.5 pt-0.5 !h-6 border-b-2 border-grayscale-400 text-grayscale-600 bg-transparent focus-visible:outline-none focus-visible:outline-offset-0 focus-visible:border-primary-200 focus-visible:text-primary-400 transition-all duration-200 cursor-pointer select-none text-decoration-none overflow-hidden user-select-none !no-underline whitespace-nowrap&quot;]</value>
+      <webElementGuid>e4001f4f-caf1-4a63-9a2b-28a4d5feb7ae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Custom Field'])[1]/following::a[1]</value>
+      <webElementGuid>59227fb2-c177-44ee-88e6-3727c0c4259a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Category'])[1]/following::a[2]</value>
+      <webElementGuid>c2cdacbb-130a-4de3-b9c4-3bc9377bdf4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apply'])[1]/preceding::a[1]</value>
+      <webElementGuid>d2b6b261-7fb2-4f65-b8d9-574552f98e09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/import/fixed-asset')]</value>
+      <webElementGuid>3161742f-5521-4a2b-b3b3-9180d57eda40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/a</value>
+      <webElementGuid>e229fe55-55e0-4531-a9fa-5fd0b82ba7a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/import/fixed-asset' and (text() = 'Fixed Asset' or . = 'Fixed Asset')]</value>
+      <webElementGuid>ad58eb90-97db-40da-883f-3c466ae30bec</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

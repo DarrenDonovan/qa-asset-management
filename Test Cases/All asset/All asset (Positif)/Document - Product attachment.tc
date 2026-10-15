@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Document - Product attachment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a9ec171e-7e88-4c8a-9b9b-2a8aac0fe89a</testCaseGuid>
+</TestCaseEntity>

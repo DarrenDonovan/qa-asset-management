@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif</description>
+   <name>Edit borrow - Submit tanpa field mandatory</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eb187aaa-e97b-408a-8a61-1c8f088b61b8</testCaseGuid>
+</TestCaseEntity>

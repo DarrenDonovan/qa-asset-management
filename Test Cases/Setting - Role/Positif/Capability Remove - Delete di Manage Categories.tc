@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Capability Remove - Delete di Manage Categories</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5b5596a7-0ba8-4933-a7d9-73ddbcca0d1d</testCaseGuid>
+</TestCaseEntity>

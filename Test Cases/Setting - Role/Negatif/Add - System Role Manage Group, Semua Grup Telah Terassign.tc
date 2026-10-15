@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - System Role Manage Group, Semua Grup Telah Terassign</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7fab45b1-62e6-4035-ae08-8b0f606bf5b1</testCaseGuid>
+</TestCaseEntity>

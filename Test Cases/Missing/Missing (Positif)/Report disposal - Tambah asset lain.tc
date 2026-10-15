@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Report disposal - Tambah asset lain</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4a538b37-b676-42b9-872b-b2119a2142f5</testCaseGuid>
+</TestCaseEntity>

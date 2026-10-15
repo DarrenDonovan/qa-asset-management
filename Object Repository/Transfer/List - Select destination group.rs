@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>List - Select destination group</name>
+   <tag></tag>
+   <elementGuidId>8f73b17c-0ed7-4018-b239-6054076b6dde</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div/div[2]/div/div/ul/li/ul/li/div[@data-p-selectable='true'])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=treeitem[name=&quot;Kantor A&quot;i] >> div</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>19347a9b-4073-43ef-8b40-88a418f55666</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center rounded-md p-1 text-surface-700 bg-primary-50 !text-primary-500 [&amp;_*]:text-primary-500 hover:bg-primary-50 transition-shadow duration-200 cursor-pointer select-none cursor-pointer</value>
+      <webElementGuid>96806e09-a4d8-4bad-8880-d58dd4f1fcce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-p-highlight</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>b816fce0-0812-4ea2-aa5a-97bc7d6fbb1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-p-selectable</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>4231696c-f7fb-42ba-8e49-d454aa50c6e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kantor A</value>
+      <webElementGuid>5741c7bb-3e59-47bb-bd88-cc5418136464</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;1755843534816&quot;)/div[@class=&quot;overflow-auto&quot;]/ul[@class=&quot;m-0 p-0 list-none overflow-auto&quot;]/li[@class=&quot;p-0 !pl-1 rounded-md focus:outline-none focus:outline-offset-0&quot;]/ul[@class=&quot;!m-0 list-none p-0 !pl-1&quot;]/li[@class=&quot;p-0 !pl-1 rounded-md focus:outline-none focus:outline-offset-0&quot;]/div[@class=&quot;flex items-center rounded-md p-1 text-surface-700 bg-primary-50 !text-primary-500 [&amp;_*]:text-primary-500 hover:bg-primary-50 transition-shadow duration-200 cursor-pointer select-none cursor-pointer&quot;]</value>
+      <webElementGuid>6b73f695-25df-4885-9e1c-d9b29c1eb4c9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='1755843534816']/div/ul/li/ul/li[2]/div</value>
+      <webElementGuid>b2879858-00fe-45fe-93ec-130a6d2a7864</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Head Office A'])[1]/following::div[1]</value>
+      <webElementGuid>3f049310-e47a-4778-b01e-76b8f116dc8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/following::div[2]</value>
+      <webElementGuid>0a9a0d21-d71c-442f-aa9c-cecc4763716f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kantor B'])[1]/preceding::div[1]</value>
+      <webElementGuid>0e74f8f4-3eac-4277-ae8f-3598244a8d8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/ul/li/ul/li[2]/div</value>
+      <webElementGuid>a95fa8a7-62ee-4d88-9450-87c5b817f25c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Kantor A' or . = 'Kantor A')]</value>
+      <webElementGuid>f7cb0f0c-8986-4774-9330-8b22ca9b6150</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

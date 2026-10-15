@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Cancel report (Bulk action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c6254988-b37c-494d-b2c1-ff6da89e2efa</testCaseGuid>
+</TestCaseEntity>

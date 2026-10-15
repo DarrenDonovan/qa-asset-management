@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Action Menu - Resend Activation Email</name>
+   <tag></tag>
+   <elementGuidId>c6868fc4-ba19-4695-a3fe-0843f57250ee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[(text() = 'Resend Activation Email' or . = 'Resend Activation Email')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Delete Group&quot;i >> a</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8418bc6e-6110-475d-bbb6-109151a06f7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-menuitem-link flex items-center justify-start gap-2 px-4 py-[7px] hover:bg-primary-50/80 text-xs no-underline overflow-hidden cursor-pointer select-none</value>
+      <webElementGuid>e68ca449-84db-40bb-8d5a-7feaa3ffa168</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>ead05652-83a5-4cd2-9ad1-87922c91819d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>4af96656-9bee-4133-a381-abe50f647aef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>action</value>
+      <webElementGuid>e647bcfd-28a3-4bf0-a772-d056c8af6c25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Delete Group</value>
+      <webElementGuid>f77e1de0-cf28-4809-b655-1501e8c42984</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pv_id_40_2&quot;)/div[@class=&quot;p-menuitem-content w-full rounded-md text-inherit transition-shadow duration-200&quot;]/a[@class=&quot;p-menuitem-link flex items-center justify-start gap-2 px-4 py-[7px] hover:bg-primary-50/80 text-xs no-underline overflow-hidden cursor-pointer select-none&quot;]</value>
+      <webElementGuid>7074a331-915b-4259-83c9-3047b89b3c40</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='pv_id_40_2']/div/a</value>
+      <webElementGuid>80ad7e71-cc60-4eda-81e2-d99caba5618e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Group'])[1]/following::a[1]</value>
+      <webElementGuid>6f7b821d-d5a0-46ab-9743-7df678ec38bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Sub Group'])[1]/following::a[2]</value>
+      <webElementGuid>7f37149b-f6b5-435a-8127-4d3cfa6fee1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/div/a</value>
+      <webElementGuid>e39fb3d9-541d-440d-95ea-833d1267415e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Delete Group' or . = 'Delete Group')]</value>
+      <webElementGuid>2d768ae4-1ea6-48fb-bcda-6ef047a16ee9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

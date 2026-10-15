@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Capability Remove - Edit di Manage License dari Detail User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>73a3980f-d684-4f13-9b60-bbc16e72e7a0</testCaseGuid>
+</TestCaseEntity>

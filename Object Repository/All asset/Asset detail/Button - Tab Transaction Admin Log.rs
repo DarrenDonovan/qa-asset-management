@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Tab Transaction Admin Log</name>
+   <tag></tag>
+   <elementGuidId>f9e34cbf-b783-44f8-8227-bb77cb9e20c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Non Login User'])[1]/following::a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Transaction Admin Log&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c66b1cb2-0454-4933-825b-db88bb725993</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>68b1b0af-992d-4d8d-a1cc-19023c92c0e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Transaction Admin Log</value>
+      <webElementGuid>644e41a0-b137-4a67-91f2-7629833caa71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>73afca1a-be1d-41ca-ac17-9a07fff84047</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>72e5d971-eb19-413b-bdb6-36dbd2bd0c85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative font-medium text-xs leading-4 tracking-[0.02em] flex items-center p-2 pb-1.5 pt-0.5 !h-6 border-b-2 focus-visible:outline-none focus-visible:outline-offset-0 transition-all duration-200 cursor-pointer select-none text-decoration-none overflow-hidden user-select-none !no-underline whitespace-nowrap border-primary-500 text-primary-500</value>
+      <webElementGuid>2718ab1e-1572-40de-8a39-a0d0cdbd0e06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ui-section</name>
+      <type>Main</type>
+      <value>action</value>
+      <webElementGuid>abbc5e34-8ec1-434b-9002-fd9dedc84040</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Transaction Admin Log</value>
+      <webElementGuid>5f4fdf01-4a5d-4d38-b478-1ae4f3a9c5b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/microtsm-layout[1]/main[1]/microtsm-application[1]/div[@class=&quot;rounded-lg p-6 flex flex-col gap-y-3 bg-white text-general-800&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;flex flex-col gap-2 text-xs tracking-[0.02em] font-medium&quot;]/div[@class=&quot;flex flex-col gap-[10px]&quot;]/div[@class=&quot;flex flex-col gap-2 mt-2&quot;]/wangs-tab-menu[@class=&quot;overflow-x-auto hydrated&quot;]/ul[@class=&quot;flex flex-1 list-none p-0 m-0 text-general-100&quot;]/li[@class=&quot;mr-0&quot;]/a[@class=&quot;relative font-medium text-xs leading-4 tracking-[0.02em] flex items-center p-2 pb-1.5 pt-0.5 !h-6 border-b-2 focus-visible:outline-none focus-visible:outline-offset-0 transition-all duration-200 cursor-pointer select-none text-decoration-none overflow-hidden user-select-none !no-underline whitespace-nowrap border-primary-500 text-primary-500&quot;]</value>
+      <webElementGuid>f9bdce35-84b8-492a-89d9-80621ecdbfaa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Non Login User'])[1]/following::a[1]</value>
+      <webElementGuid>ec81a6a6-2ef7-4a9c-a206-f0f9ced0ea83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Role'])[1]/following::a[2]</value>
+      <webElementGuid>1b880039-4a93-407d-af85-8cd20fa40332</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='System Log'])[1]/preceding::a[1]</value>
+      <webElementGuid>68315cb6-2fd5-4c69-881c-adc703a505ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a</value>
+      <webElementGuid>de021199-74a0-4195-88ac-1cecc325bc7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Transaction Admin Log' or . = 'Transaction Admin Log')]</value>
+      <webElementGuid>2490db0b-842f-4bea-a650-6262c7e3650c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

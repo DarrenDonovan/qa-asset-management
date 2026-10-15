@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Sub Kategori, Kode Sudah Ada</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7f078c2b-849d-4886-9260-33c72d1ac2f2</testCaseGuid>
+</TestCaseEntity>

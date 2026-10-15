@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Report disposal - Note (Bulk action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>50c25334-8056-4c9d-b6c3-81c84736543e</testCaseGuid>
+</TestCaseEntity>

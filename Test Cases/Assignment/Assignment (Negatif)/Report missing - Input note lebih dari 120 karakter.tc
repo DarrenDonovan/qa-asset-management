@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif</description>
+   <name>Report missing - Input note lebih dari 120 karakter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>10270f92-62eb-4404-a73a-68dd072b8aac</testCaseGuid>
+</TestCaseEntity>

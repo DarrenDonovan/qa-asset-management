@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Submenu - Read Only</name>
+   <tag></tag>
+   <elementGuidId>3a129aec-a2cc-46ae-80a1-c85b8c210634</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a/span[contains(., 'Read Only')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;User Actions&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>774c5878-e625-4a46-ab17-e80ef3119bcb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>ab62f92e-c0be-4d2e-9e70-5985e22cc852</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/report-log/activity-log/user-actions</value>
+      <webElementGuid>d75efa5f-1353-4236-a632-c44a85b2ee22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>User Actions</value>
+      <webElementGuid>d2558f45-eafc-4d89-98fd-e3b56a4ee700</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>b56fe8c1-f845-4b2a-8029-9cab6e82024c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>0b8d6e4b-bb31-4883-83fb-da60be598c71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative font-medium text-xs leading-4 tracking-[0.02em] flex items-center p-2 pb-1.5 pt-0.5 !h-6 border-b-2 border-primary-500 text-primary-500 focus-visible:outline-none focus-visible:outline-offset-0 transition-all duration-200 cursor-pointer select-none text-decoration-none overflow-hidden user-select-none !no-underline whitespace-nowrap</value>
+      <webElementGuid>51ebd219-917d-4623-909b-1e94b3016fe7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ui-section</name>
+      <type>Main</type>
+      <value>action</value>
+      <webElementGuid>075801a4-57ba-4fac-bacd-cfff2a572a28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>User Actions</value>
+      <webElementGuid>6875c999-cbf8-4abc-842f-d5bb35dea3b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/microtsm-layout[1]/main[1]/microtsm-application[1]/div[@class=&quot;rounded-lg p-6 flex flex-col gap-y-3 bg-white text-general-800&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;flex flex-col gap-2 text-xs tracking-[0.02em] font-medium&quot;]/wangs-tab-menu[@class=&quot;overflow-x-auto hydrated&quot;]/ul[@class=&quot;flex flex-1 list-none p-0 m-0 text-general-100&quot;]/li[@class=&quot;mr-0&quot;]/a[@class=&quot;relative font-medium text-xs leading-4 tracking-[0.02em] flex items-center p-2 pb-1.5 pt-0.5 !h-6 border-b-2 border-primary-500 text-primary-500 focus-visible:outline-none focus-visible:outline-offset-0 transition-all duration-200 cursor-pointer select-none text-decoration-none overflow-hidden user-select-none !no-underline whitespace-nowrap&quot;]</value>
+      <webElementGuid>426e83e9-aeec-4ea2-ab4b-0c42b8227857</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sessions'])[1]/following::a[1]</value>
+      <webElementGuid>3b50a6ab-cbb3-4bfb-86c6-c6cdd3289e9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/report-log/activity-log/user-actions')]</value>
+      <webElementGuid>4dfe4b69-b29b-4483-87d8-6047e97ccb86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a</value>
+      <webElementGuid>74639ea5-8ca0-43aa-a9db-3625597eeee4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/report-log/activity-log/user-actions' and (text() = 'User Actions' or . = 'User Actions')]</value>
+      <webElementGuid>1306b0de-3840-44e9-ab08-d09874eea9bc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

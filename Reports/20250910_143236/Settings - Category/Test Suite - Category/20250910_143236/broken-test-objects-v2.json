@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Setting - Category/Single Action Button - Sub Category Test",
+      "brokenLocator": "//span[starts-with(text(), \u0027Sub Category Test\u0027)]/following-sibling::button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li[3]/div/span[2]/button/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250910_143236/Settings - Category/Test Suite - Category/20250910_143236/Object Repository/Setting - Category/Single Action Button - Sub Category Test_position.png"
+    }
+  ]
+}

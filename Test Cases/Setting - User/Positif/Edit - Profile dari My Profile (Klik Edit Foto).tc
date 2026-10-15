@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Profile dari My Profile (Klik Edit Foto)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fd348004-a3cc-45b7-9dfb-6110073e203f</testCaseGuid>
+</TestCaseEntity>

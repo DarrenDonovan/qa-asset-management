@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Manage User and Role > Total Control</description>
+   <name>Capability Remove - Delete di Manage Document Deletion (Total Control)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ba1843b6-4e7c-4225-9097-3215a031f224</testCaseGuid>
+</TestCaseEntity>

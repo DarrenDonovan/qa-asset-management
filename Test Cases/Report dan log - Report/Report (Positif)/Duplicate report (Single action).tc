@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Duplicate report (Single action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>157fceb9-8dbf-40f1-b9c0-7f39645584b7</testCaseGuid>
+</TestCaseEntity>

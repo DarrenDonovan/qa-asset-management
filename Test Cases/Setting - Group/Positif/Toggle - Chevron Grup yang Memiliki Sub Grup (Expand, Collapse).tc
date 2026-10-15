@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Toggle - Chevron Grup yang Memiliki Sub Grup (Expand, Collapse)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a01d3ff5-e8a0-4237-a106-2e806bd68589</testCaseGuid>
+</TestCaseEntity>

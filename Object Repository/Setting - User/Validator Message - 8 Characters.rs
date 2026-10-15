@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Validator Message - 8 Characters</name>
+   <tag></tag>
+   <elementGuidId>a2b0d114-d4d9-4023-8c38-a615271a9cbf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[contains(., '8 characters')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;This code is already exist&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>small</value>
+      <webElementGuid>ffd91269-49ac-4282-a09d-1a042a39b50c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>!mt-0 text-danger-500 text-xs font-light tracking-[0.02em]</value>
+      <webElementGuid>66a504a4-6c9e-41d7-9c3d-5c40091eaf2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-wv-name</name>
+      <type>Main</type>
+      <value>validatormessage</value>
+      <webElementGuid>5d6d1c69-1a2d-4c8b-b32d-3a7645b581bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-wv-section</name>
+      <type>Main</type>
+      <value>root</value>
+      <webElementGuid>2e35b743-f1cd-48a1-a7a0-b4bbfa7b22e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>alert</value>
+      <webElementGuid>c30ff29e-9915-4b1e-8113-a1ce544884e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>This code is already exist</value>
+      <webElementGuid>3093432c-1482-434f-8610-b22aac471c3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/form[@class=&quot;flex flex-col gap-3 text-general-800 text-[0.75rem] font-medium leading-[16.8px] tracking-[0.02em] overflow-y-auto&quot;]/div[1]/div[@class=&quot;grid gap-y-3 gap-x-6&quot;]/div[@class=&quot;flex flex-col items-start justify-start relative gap-1 w-full shrink-0 overflow-hidden&quot;]/small[@class=&quot;!mt-0 text-danger-500 text-xs font-light tracking-[0.02em]&quot;]</value>
+      <webElementGuid>bd283e25-112f-4439-bff5-70688968a6fb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='main']/form/div/div/div[2]/small</value>
+      <webElementGuid>569c59c6-136b-4aa5-8823-f8b057779c84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::small[2]</value>
+      <webElementGuid>339e7f0b-5d19-4c53-a57d-3c39ec06f132</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stay on this form after submitting'])[1]/preceding::small[1]</value>
+      <webElementGuid>6d9f50b4-430b-4de7-9f17-b5a0eb3eec20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear Field'])[1]/preceding::small[2]</value>
+      <webElementGuid>84ea743d-4d5e-4885-9ab3-233e0d7cca9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='This code is already exist']/parent::*</value>
+      <webElementGuid>1feb0927-ae50-4692-8246-a072318897b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/small</value>
+      <webElementGuid>d5c79fce-70e4-4f63-8cca-f59b88e0d164</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//small[(text() = 'This code is already exist' or . = 'This code is already exist')]</value>
+      <webElementGuid>d14390ee-6171-4193-afd5-f07dc5b5af9b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

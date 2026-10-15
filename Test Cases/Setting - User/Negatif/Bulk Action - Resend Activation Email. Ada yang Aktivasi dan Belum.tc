@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Bulk Action - Resend Activation Email. Ada yang Aktivasi dan Belum</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>68c4143a-f389-4829-ad52-10c7a3346a09</testCaseGuid>
+</TestCaseEntity>

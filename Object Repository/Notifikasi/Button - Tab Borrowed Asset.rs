@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Tab Borrowed Asset</name>
+   <tag></tag>
+   <elementGuidId>23972f05-5314-488a-b061-4932bdc4ecc7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Assigned Asset'])[1]/following::a[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Borrowed Asset&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8cecb2ff-00b3-4e32-90e2-1b01acec2ecb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>551204a0-7e54-48bd-a19f-586c3324d1eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/my-asset/borrowed-asset</value>
+      <webElementGuid>a536c987-c724-4306-8b09-b20d8d114ca2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Borrowed Asset</value>
+      <webElementGuid>f8b402e5-2b46-47e3-bec8-b0731068aef3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>87333622-9930-4804-8bd5-0c53fbb0f93c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>d702d022-98df-46f6-b258-16be3f0fdffb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative font-medium text-xs leading-4 tracking-[0.02em] flex items-center p-2 pb-1.5 pt-0.5 !h-6 border-b-2 border-grayscale-400 text-grayscale-600 bg-transparent focus-visible:outline-none focus-visible:outline-offset-0 focus-visible:border-primary-200 focus-visible:text-primary-400 transition-all duration-200 cursor-pointer select-none text-decoration-none overflow-hidden user-select-none !no-underline whitespace-nowrap</value>
+      <webElementGuid>bdbc771c-bfb7-434b-953a-22c17f9aaef9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ui-section</name>
+      <type>Main</type>
+      <value>action</value>
+      <webElementGuid>c3d648a7-56ac-4d08-a788-a963b01e85f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Borrowed Asset</value>
+      <webElementGuid>9cac9dbf-4837-4fae-bca6-139406c3f315</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/microtsm-layout[1]/main[1]/microtsm-application[1]/div[@class=&quot;rounded-lg p-6 flex flex-col gap-y-3 bg-white text-general-800&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;flex flex-col gap-2 text-xs tracking-[0.02em] font-medium&quot;]/wangs-tab-menu[@class=&quot;overflow-x-auto hydrated&quot;]/ul[@class=&quot;flex flex-1 list-none p-0 m-0 text-general-100&quot;]/li[@class=&quot;mr-0&quot;]/a[@class=&quot;relative font-medium text-xs leading-4 tracking-[0.02em] flex items-center p-2 pb-1.5 pt-0.5 !h-6 border-b-2 border-grayscale-400 text-grayscale-600 bg-transparent focus-visible:outline-none focus-visible:outline-offset-0 focus-visible:border-primary-200 focus-visible:text-primary-400 transition-all duration-200 cursor-pointer select-none text-decoration-none overflow-hidden user-select-none !no-underline whitespace-nowrap&quot;]</value>
+      <webElementGuid>fe4709d5-07d9-4568-b088-3b7439d24093</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assigned Asset'])[1]/following::a[1]</value>
+      <webElementGuid>cb501abe-613b-4386-aaac-d40fc585293d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='History'])[1]/preceding::a[1]</value>
+      <webElementGuid>d4e8285a-4883-4186-95e3-ec1e6e253b37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/my-asset/borrowed-asset')]</value>
+      <webElementGuid>1e4e0f99-0cfc-4c52-82dd-838e991b1cb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a</value>
+      <webElementGuid>ce8315a6-24c8-4ac6-b632-0232bb36d380</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/my-asset/borrowed-asset' and (text() = 'Borrowed Asset' or . = 'Borrowed Asset')]</value>
+      <webElementGuid>f6ee578f-4a2d-4ff1-bbc4-5d20c02a9228</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

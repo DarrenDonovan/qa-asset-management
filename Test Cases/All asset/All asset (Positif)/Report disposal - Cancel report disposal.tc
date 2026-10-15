@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Report disposal - Cancel report disposal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>97896949-2f56-416a-b7de-a7fdd6385a3a</testCaseGuid>
+</TestCaseEntity>

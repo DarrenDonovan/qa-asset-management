@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Text - Nama asset</name>
+   <tag></tag>
+   <elementGuidId>65e20a75-ddf6-4187-b478-8cc715df741e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[1]/td[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;asda - 34&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>710db85d-b352-41fe-9fee-e115c90294df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-xs px-2 py-[4.5px] border-0 !border-b !border-solid border-general-100 justify-items-start [&amp;:has([data-wv-section=rowcheckbox])]:text-center [&amp;:has([data-wv-section=rowcheckbox])]:text-center</value>
+      <webElementGuid>0d2013da-b8e4-4705-9b1c-087b9cf37526</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-wv-section</name>
+      <type>Main</type>
+      <value>bodycell</value>
+      <webElementGuid>9de496ec-79b7-4efc-9036-a5ce71440e21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>asda - 34</value>
+      <webElementGuid>6a95112e-ad98-4507-82b4-a30d0768af87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;68b6b27e627a2573335447a4&quot;)/td[@class=&quot;text-xs px-2 py-[4.5px] border-0 !border-b !border-solid border-general-100 justify-items-start [&amp;:has([data-wv-section=rowcheckbox])]:text-center [&amp;:has([data-wv-section=rowcheckbox])]:text-center&quot;]</value>
+      <webElementGuid>5c363bab-857c-47e3-8dd6-20d981d83d0f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='68b6b27e627a2573335447a4']/td[3]</value>
+      <webElementGuid>1c9dde2d-78bd-4368-a25f-83a47796f88a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remaining Time'])[1]/following::td[3]</value>
+      <webElementGuid>d3354d0d-882b-4d46-8679-5f69d348f1d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Note'])[1]/following::td[3]</value>
+      <webElementGuid>ba808f84-b597-47d6-9e1e-ab91b022be7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reported Missing'])[1]/preceding::td[2]</value>
+      <webElementGuid>f1ae4b97-fac7-4131-a328-daaad5410f0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kantor C'])[1]/preceding::td[3]</value>
+      <webElementGuid>0454b2ca-eac0-4454-a2e8-cd3f5ef2fb2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='asda - 34']/parent::*</value>
+      <webElementGuid>1d948bad-2000-4201-a58f-4b74cd715287</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]</value>
+      <webElementGuid>b49a9f0f-546f-4860-82db-a6e5ebd50e7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'asda - 34' or . = 'asda - 34')]</value>
+      <webElementGuid>593cccaf-c018-41fd-b86f-8ef28908c03f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Select Group</name>
+   <tag></tag>
+   <elementGuidId>e46894fa-1770-4457-890e-0da495e22ebe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/div[2]/div/button[@aria-label = 'Select Group']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Select Group&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>55ffb49a-3cd7-4afb-ab6e-5147d2e5b94e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a5954864-6bc3-4778-b2b6-731c6c86ab17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Select Group</value>
+      <webElementGuid>27c81a69-df1b-46ad-80c5-80e359629f13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative items-center inline-flex text-center align-bottom justify-center w-max left leading-none font-medium rounded !text-xs px-3 py-[5px] gap-1 ring-inset ring-1 text-white bg-primary-500 ring-1 ring-primary-500 focus:outline-none focus:outline-offset-0 hover:bg-primary-500/[8%] active:bg-primary-500/[12%]  hover:shadow-hover active:!shadow-none hover:!bg-primary-500/90 active:bg-primary-500/90 hover:ring-0 transition duration-200 ease-in-out cursor-pointer overflow-hidden select-none [&amp;>[data-pc-name=badge]]:min-w-4 [&amp;>[data-pc-name=badge]]:h-4 [&amp;>[data-pc-name=badge]]:leading-4</value>
+      <webElementGuid>d8ac3231-22bc-473c-a6eb-4577d660eb6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-name</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5fc3f333-4c76-4cdc-b025-aa7e49eca7d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>root</value>
+      <webElementGuid>7799df24-92f6-42d8-a599-4317467a3dad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select Group</value>
+      <webElementGuid>7dbdfe03-b085-4cd5-b348-dcff9d6cde71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/microtsm-layout[1]/main[1]/microtsm-application[1]/div[@class=&quot;rounded-lg p-6 flex flex-col gap-y-3 bg-white text-general-800&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;flex flex-col gap-2 text-xs tracking-[0.02em] font-medium&quot;]/div[@class=&quot;flex flex-col gap-3 justify-between&quot;]/form[@class=&quot;flex flex-col gap-3 text-general-800 text-[0.75rem] font-medium leading-[16.8px] tracking-[0.02em]&quot;]/div[1]/div[@class=&quot;grid gap-y-3 gap-x-6&quot;]/div[@class=&quot;flex flex-col gap-2 justify-end&quot;]/div[@class=&quot;flex justify-between&quot;]/div[@class=&quot;flex justify-between gap-2 ml-auto&quot;]/div[@class=&quot;flex justify-between gap-1 items-center&quot;]/button[@class=&quot;relative items-center inline-flex text-center align-bottom justify-center w-max left leading-none font-medium rounded !text-xs px-3 py-[5px] gap-1 ring-inset ring-1 text-white bg-primary-500 ring-1 ring-primary-500 focus:outline-none focus:outline-offset-0 hover:bg-primary-500/[8%] active:bg-primary-500/[12%]  hover:shadow-hover active:!shadow-none hover:!bg-primary-500/90 active:bg-primary-500/90 hover:ring-0 transition duration-200 ease-in-out cursor-pointer overflow-hidden select-none [&amp;>[data-pc-name=badge]]:min-w-4 [&amp;>[data-pc-name=badge]]:h-4 [&amp;>[data-pc-name=badge]]:leading-4&quot;]</value>
+      <webElementGuid>f0f8b892-be44-4de6-b8b9-3f60a0398ebc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[21]</value>
+      <webElementGuid>f7bdb551-4f44-4adc-8b66-c720170b948b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Disposal Group:'])[1]/following::button[1]</value>
+      <webElementGuid>2cdb5945-766f-4ea7-bd99-de41645c202b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Asset'])[1]/preceding::button[3]</value>
+      <webElementGuid>93ec7286-1ad1-4efe-9a13-7cd74b3b9b0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/button</value>
+      <webElementGuid>398b39e1-811d-4465-a9a0-56a86fc827e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Select Group' or . = 'Select Group')]</value>
+      <webElementGuid>0bee1cc5-d2d9-46f6-b503-f5e1ca661519</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

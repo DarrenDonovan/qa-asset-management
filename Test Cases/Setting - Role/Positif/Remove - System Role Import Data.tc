@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Manage User and Role > Total Control</description>
+   <name>Remove - System Role Import Data</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>30368eee-a3a8-44c2-aa05-0226e5072478</testCaseGuid>
+</TestCaseEntity>

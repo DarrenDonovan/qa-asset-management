@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Action Menu - Assign Group</name>
+   <tag></tag>
+   <elementGuidId>0839d754-e4f9-4b01-8958-d0c9d27b045f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[(text() = 'Assign Group' or . = 'Assign Group')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Delete Group&quot;i >> a</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>3c000ce0-bc50-46d3-b19c-da29fdcee8cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-menuitem-link flex items-center justify-start gap-2 px-4 py-[7px] hover:bg-primary-50/80 text-xs no-underline overflow-hidden cursor-pointer select-none</value>
+      <webElementGuid>bc907da4-c3c2-493a-9deb-3a11d6a68899</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>5d2af31e-f855-4573-af98-93a6e1707714</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>1fdf67ef-b5d3-496b-b8f5-e8cb2d2bc397</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>action</value>
+      <webElementGuid>8561d3b4-1884-438b-aceb-f1b647059241</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Delete Group</value>
+      <webElementGuid>9733fe69-26e7-4966-92a8-10f10387e558</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pv_id_40_2&quot;)/div[@class=&quot;p-menuitem-content w-full rounded-md text-inherit transition-shadow duration-200&quot;]/a[@class=&quot;p-menuitem-link flex items-center justify-start gap-2 px-4 py-[7px] hover:bg-primary-50/80 text-xs no-underline overflow-hidden cursor-pointer select-none&quot;]</value>
+      <webElementGuid>8e6e8c5a-d71c-48af-9eba-a49e51a62490</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='pv_id_40_2']/div/a</value>
+      <webElementGuid>c5191b9f-ca08-41a3-9966-2387bc8afa8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Group'])[1]/following::a[1]</value>
+      <webElementGuid>66fca2fe-ba87-4b8b-a137-748beb49c805</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Sub Group'])[1]/following::a[2]</value>
+      <webElementGuid>23571612-6b05-41df-bf50-b308871aa53a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/div/a</value>
+      <webElementGuid>7b76c8e7-255c-46ad-9579-b42e278410ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Delete Group' or . = 'Delete Group')]</value>
+      <webElementGuid>d369da99-1c30-45c0-b31f-e6d12b7b3df8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

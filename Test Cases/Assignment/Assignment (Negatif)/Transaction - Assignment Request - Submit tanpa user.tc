@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif</description>
+   <name>Transaction - Assignment Request - Submit tanpa user</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4bc9914e-4b8d-4b82-9c71-d5dc89fff54b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check - Tampilkan Tabel Kategori</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7aa997a4-14b9-43ee-8007-8b44aedac72b</testCaseGuid>
+</TestCaseEntity>

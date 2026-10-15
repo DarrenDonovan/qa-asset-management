@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Import Custom field - Switch to make data editable</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>388a78ab-8c3c-496b-abfb-3f283c4c0bee</testCaseGuid>
+</TestCaseEntity>

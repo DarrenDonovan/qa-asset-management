@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Import Category - Remove from list (Bulk action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9226203e-6763-4843-b9ba-6f487ad3aabb</testCaseGuid>
+</TestCaseEntity>

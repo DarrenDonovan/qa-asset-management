@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif</description>
+   <name>Duplicate Report - Submit tanpa field mandatory</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7d36b58b-ef4d-4533-afcc-319e9e6196dd</testCaseGuid>
+</TestCaseEntity>

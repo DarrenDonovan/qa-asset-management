@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a</name>
+   <tag></tag>
+   <elementGuidId>b34d5600-6ae4-4c27-bf0a-d9bdaf65cb14</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div > a:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='text_html_957808871']/div/a[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Reset Password&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>87e0843d-45e1-4c46-accc-557b2b545847</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://console.tagsamurai.com/auth/set-new-password/?action=reset&amp;t=lCGNGL4SxG5ijTS</value>
+      <webElementGuid>ff394823-f3eb-4db5-a9ca-522caec6fabe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Reset Password</value>
+      <webElementGuid>493ae0fe-a457-48e4-b413-fae29657d94a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;text_html_957808871&quot;)/div[1]/a[2]</value>
+      <webElementGuid>86319245-77dc-4dd1-8285-077459f5192a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='text_html_957808871']/div/a[2]</value>
+      <webElementGuid>be24cdd4-e33c-4a4e-912a-b55f5c92df84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Reset Password')])[2]</value>
+      <webElementGuid>9665a74a-66da-4e09-8db0-2285c97c5c24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='↗'])[1]/following::a[2]</value>
+      <webElementGuid>40451dd7-724d-4e0e-992b-4b5e6006b04b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='no-reply@tagsamurai.com'])[2]/preceding::a[1]</value>
+      <webElementGuid>5af55901-30c8-42ae-a984-651d3ce9c07d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='testing.user1@mailnesia.com'])[2]/preceding::a[2]</value>
+      <webElementGuid>6d79b880-44b3-4352-ae22-537d93109a2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Reset Password']/parent::*</value>
+      <webElementGuid>faaea80b-0405-43ad-bb15-ffe49f7bc521</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://console.tagsamurai.com/auth/set-new-password/?action=reset&amp;t=lCGNGL4SxG5ijTS')]</value>
+      <webElementGuid>c9697bb6-f9b7-4c57-af99-f552c0cf77ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a[2]</value>
+      <webElementGuid>eec3fb1b-3124-47be-a921-6a5a0d6241ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://console.tagsamurai.com/auth/set-new-password/?action=reset&amp;t=lCGNGL4SxG5ijTS' and (text() = 'Reset Password' or . = 'Reset Password')]</value>
+      <webElementGuid>eb93d265-81c4-4d91-b706-6cf6021e79ca</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

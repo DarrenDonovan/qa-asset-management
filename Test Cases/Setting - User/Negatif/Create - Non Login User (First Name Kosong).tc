@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Non Login User (First Name Kosong)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f4f54267-78ea-4f22-ae29-0a15f8fbccfd</testCaseGuid>
+</TestCaseEntity>

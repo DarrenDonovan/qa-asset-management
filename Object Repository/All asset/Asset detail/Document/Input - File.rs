@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input - File</name>
+   <tag></tag>
+   <elementGuidId>7b3cb53c-b65c-44cf-a79b-dd564cd95f0d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type = 'file']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@placeholder = 'Select File']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=textbox[name=&quot;Select File&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>06ae9df3-487f-43cc-a952-462b4333bfa3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-3 py-[5px] w-full bg-transparent h-max text-general-800 text-xs tracking-[0.02em] font-medium placeholder:text-general-200 placeholder:!font-light appearance-none outline-none</value>
+      <webElementGuid>09270406-b559-4ff0-95f7-9ac3331318ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Select File</value>
+      <webElementGuid>5ead424f-b7e6-45ad-a53f-42ee910dc594</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-name</name>
+      <type>Main</type>
+      <value>inputtext</value>
+      <webElementGuid>1921711b-baf9-47c7-b7eb-23efa79156c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>root</value>
+      <webElementGuid>6acce8b5-7b1f-4168-8fe1-d961690ba373</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/form[@class=&quot;flex flex-col gap-3 text-general-800 text-[0.75rem] font-medium leading-[16.8px] tracking-[0.02em] overflow-y-auto&quot;]/div[1]/div[@class=&quot;grid gap-y-3 gap-x-6&quot;]/div[@class=&quot;flex flex-col gap-4 mt-2&quot;]/div[2]/div[1]/div[1]/div[@class=&quot;grid gap-3 items-end&quot;]/div[@class=&quot;flex flex-col items-start justify-start relative gap-1 w-full shrink-0 overflow-hidden w-full&quot;]/div[@class=&quot;flex flex-col items-start justify-start relative gap-1 w-full shrink-0 overflow-hidden&quot;]/div[@class=&quot;[&amp;_.inputgroupaddon]:ring-general-200 [&amp;:has(:focus)]:!ring-primary-500 [&amp;:has(:focus)_.inputgroupaddon]:!ring-primary-500 ring-[0.5px] [&amp;_.inputgroupaddon]:ring-[0.5px] [&amp;_.inputgroupaddon[data-addon-variant=plain]]:!ring-[0px] [&amp;:has(input)]:cursor-text flex items-stretch w-full ring-inset ring-general-200 rounded bg-white grid grid-cols-[max-content,1fr] grid grid-cols-[max-content,1fr] [&amp;_.inputgroupaddon]:ring-general-200 [&amp;:has(:focus)]:!ring-primary-500 [&amp;:has(:focus)_.inputgroupaddon]:!ring-primary-500 ring-[0.5px] [&amp;_.inputgroupaddon]:ring-[0.5px] [&amp;_.inputgroupaddon[data-addon-variant=plain]]:!ring-[0px] [&amp;:has(input)]:cursor-text flex items-stretch w-full ring-inset ring-general-200 rounded bg-white&quot;]/input[@class=&quot;px-3 py-[5px] w-full bg-transparent h-max text-general-800 text-xs tracking-[0.02em] font-medium placeholder:text-general-200 placeholder:!font-light appearance-none outline-none&quot;]</value>
+      <webElementGuid>c858eb25-ded8-4c7a-ac79-0258d3a1b3a7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='main']/form/div/div/div/div[2]/div/div/div/div/div/div/input</value>
+      <webElementGuid>b70978e9-6a6c-4df0-96e5-b67677e51b4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div/input</value>
+      <webElementGuid>44ceff81-25e3-4c03-ac21-d06e73f167e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Select File']</value>
+      <webElementGuid>c455717a-2716-4a1d-9a72-8e9bbb292324</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

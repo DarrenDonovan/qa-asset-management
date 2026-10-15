@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Remove - System Role Import Data dari Detail User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9dcfaff8-bc4c-430a-bdb8-2a77ea738d8e</testCaseGuid>
+</TestCaseEntity>

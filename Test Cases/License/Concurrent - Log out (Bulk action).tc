@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Concurrent - Log out (Bulk action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dc391413-ab63-4603-a687-0fe560ff6f80</testCaseGuid>
+</TestCaseEntity>

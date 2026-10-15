@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif</description>
+   <name>Transaction transfer - Input note lebih dari 30 karakter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>86aee3fe-96f9-4a6a-a01a-dd0a6564bad0</testCaseGuid>
+</TestCaseEntity>

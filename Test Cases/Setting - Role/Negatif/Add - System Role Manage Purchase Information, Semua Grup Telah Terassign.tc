@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - System Role Manage Purchase Information, Semua Grup Telah Terassign</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f81c6d9f-5ce7-4c99-bf67-045cd7b3b6fa</testCaseGuid>
+</TestCaseEntity>

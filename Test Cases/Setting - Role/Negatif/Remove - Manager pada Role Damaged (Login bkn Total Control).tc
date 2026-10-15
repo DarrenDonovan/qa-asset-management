@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Manage User and Role -> Total Control</description>
+   <name>Remove - Manager pada Role Damaged (Login bkn Total Control)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d63149e2-3eaf-423d-ae06-b8af0e3dd669</testCaseGuid>
+</TestCaseEntity>

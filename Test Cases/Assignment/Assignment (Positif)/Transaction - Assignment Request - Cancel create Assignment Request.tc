@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Transaction - Assignment Request - Cancel create Assignment Request</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4485e5f8-3391-4a82-851d-379587d69706</testCaseGuid>
+</TestCaseEntity>

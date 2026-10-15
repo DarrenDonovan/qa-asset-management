@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Import Custom field - Import (Single action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2d733c61-bcd2-413a-b616-6352b0c2948d</testCaseGuid>
+</TestCaseEntity>

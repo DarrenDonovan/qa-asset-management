@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Document - Purchase attachment - Upload file lebih dari 1 MB</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d6959f83-544d-47d1-89a8-433fc23d57bc</testCaseGuid>
+</TestCaseEntity>

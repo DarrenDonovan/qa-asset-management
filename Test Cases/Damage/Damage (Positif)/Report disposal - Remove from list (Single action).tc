@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Report disposal - Remove from list (Single action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bdf49fa2-595f-426c-a6d6-d984d7ecaf54</testCaseGuid>
+</TestCaseEntity>

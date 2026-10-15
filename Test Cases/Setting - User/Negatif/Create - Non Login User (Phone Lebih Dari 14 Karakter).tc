@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Non Login User (Phone Lebih Dari 14 Karakter)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9ae3c7e4-a64e-4b7a-82b0-d9f51fafd05b</testCaseGuid>
+</TestCaseEntity>

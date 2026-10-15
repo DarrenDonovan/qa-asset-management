@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Capability Add - Edit di Manage User and Role</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b95eadc5-5e87-425f-abd5-11709528e61c</testCaseGuid>
+</TestCaseEntity>

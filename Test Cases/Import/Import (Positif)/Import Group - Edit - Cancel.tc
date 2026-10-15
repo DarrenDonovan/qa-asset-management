@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Import Group - Edit - Cancel</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7497d02c-f71b-458d-a020-c9e3f3a64f31</testCaseGuid>
+</TestCaseEntity>

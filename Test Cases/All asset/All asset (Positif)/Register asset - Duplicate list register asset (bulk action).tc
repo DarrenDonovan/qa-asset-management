@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Register asset - Duplicate list register asset (bulk action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2c71944e-2fe0-47a7-910b-5c615e9185d9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Remove - System Role Manage Group dari Detail User (Assign)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aaad0d4b-0348-4c7d-929c-975f19e67bea</testCaseGuid>
+</TestCaseEntity>

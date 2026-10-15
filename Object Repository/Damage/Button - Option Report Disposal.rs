@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Option Report Disposal</name>
+   <tag></tag>
+   <elementGuidId>471d7efc-e399-4df4-82ad-9e747d7b3c60</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[contains(@aria-label,'Disposal')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Report Disposal&quot;i >> a</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e4332fdb-0486-4095-9707-40525cbe5408</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-menuitem-link flex items-center justify-start gap-2 px-4 py-[7px] hover:bg-primary-50/80 text-xs no-underline overflow-hidden cursor-pointer select-none</value>
+      <webElementGuid>e970574e-fced-492e-a931-68aec6690f0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>7b6b5cdd-8303-4334-829c-35a20bcf88a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>7d043132-016f-4162-8330-d26807a7ee77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>action</value>
+      <webElementGuid>e4a7bc85-f302-4e5b-96a5-455ab806f2a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Report Disposal</value>
+      <webElementGuid>833c64f3-d354-45f7-923e-5c8be3416e4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;single-action-menu_1&quot;)/div[@class=&quot;p-menuitem-content w-full rounded-md text-inherit transition-shadow duration-200&quot;]/a[@class=&quot;p-menuitem-link flex items-center justify-start gap-2 px-4 py-[7px] hover:bg-primary-50/80 text-xs no-underline overflow-hidden cursor-pointer select-none&quot;]</value>
+      <webElementGuid>8700508a-9852-4913-a93d-c7e9cedc3d82</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='single-action-menu_1']/div/a</value>
+      <webElementGuid>63ad31ac-acaf-4245-8ae6-04cbe9e37479</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mark as Repaired'])[1]/following::a[1]</value>
+      <webElementGuid>d49a1059-127a-4864-be6f-be0b33eada42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 2 of 2'])[1]/following::a[2]</value>
+      <webElementGuid>b41b4c89-cf05-4c1a-a111-5fb8f3b25ae0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Damaged Log'])[1]/preceding::a[1]</value>
+      <webElementGuid>76a858a8-eaa7-449a-99e2-43242565c80a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/div/a</value>
+      <webElementGuid>f38f6e77-5d53-45a5-a0e4-24571c757545</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Report Disposal' or . = 'Report Disposal')]</value>
+      <webElementGuid>873d05eb-53d5-42b6-8903-f5a681669a81</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

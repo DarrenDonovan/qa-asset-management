@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Update - Sub Grup, Kode Grup Sudah Ada</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>749a9e65-c39c-4fe1-8e9d-8fe664fd77c4</testCaseGuid>
+</TestCaseEntity>

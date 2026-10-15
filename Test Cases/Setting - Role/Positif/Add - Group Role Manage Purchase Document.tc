@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - Group Role Manage Purchase Document</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f46a1c31-f805-4016-a8ac-72e4e68fca83</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Move Group tanpa asset</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a309644e-adcc-489e-9a34-0cd8c36c5cfb</testCaseGuid>
+</TestCaseEntity>

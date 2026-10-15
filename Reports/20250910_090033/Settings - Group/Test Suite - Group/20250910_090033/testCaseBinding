@@ -1,0 +1,65 @@
+{"testCaseName":"Test Cases/login","testCaseId":"Test Cases/login","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Check - Tampilan Default Sidebar","testCaseId":"Test Cases/Setting - Group/Positif/Check - Tampilan Default Sidebar","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Create - Grup Baru","testCaseId":"Test Cases/Setting - Group/Positif/Create - Grup Baru","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Check - Melihat Changelog Grup","testCaseId":"Test Cases/Setting - Group/Positif/Check - Melihat Changelog Grup","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Check - Tampilkan Tabel Grup","testCaseId":"Test Cases/Setting - Group/Positif/Check - Tampilkan Tabel Grup","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/View Log - Grup","testCaseId":"Test Cases/Setting - Group/Positif/View Log - Grup","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Negatif/Create - Grup Baru, Nama Tidak Diisi","testCaseId":"Test Cases/Setting - Group/Negatif/Create - Grup Baru, Nama Tidak Diisi","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Negatif/Create - Grup Baru, Nama Diisi All","testCaseId":"Test Cases/Setting - Group/Negatif/Create - Grup Baru, Nama Diisi All","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Negatif/Create - Grup Baru, Nama Sudah Ada","testCaseId":"Test Cases/Setting - Group/Negatif/Create - Grup Baru, Nama Sudah Ada","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Negatif/Create - Grup Baru, Nama Grup Lebih dari 30 Karakter","testCaseId":"Test Cases/Setting - Group/Negatif/Create - Grup Baru, Nama Grup Lebih dari 30 Karakter","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Negatif/Create - Grup Baru, Kode Grup Sudah Ada","testCaseId":"Test Cases/Setting - Group/Negatif/Create - Grup Baru, Kode Grup Sudah Ada","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Negatif/Create - Grup Baru, Kode Group Lebih dari 4 Karakter","testCaseId":"Test Cases/Setting - Group/Negatif/Create - Grup Baru, Kode Group Lebih dari 4 Karakter","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Create - Grup Baru, Klik Clear Field","testCaseId":"Test Cases/Setting - Group/Positif/Create - Grup Baru, Klik Clear Field","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Negatif/Create - Grup Baru, Mengisi Kode dengan Bukan Angka atau Huruf","testCaseId":"Test Cases/Setting - Group/Negatif/Create - Grup Baru, Mengisi Kode dengan Bukan Angka atau Huruf","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Update - Nama Grup","testCaseId":"Test Cases/Setting - Group/Positif/Update - Nama Grup","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/View Log - Grup","testCaseId":"Test Cases/Setting - Group/Positif/View Log - Grup","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Update - Kode Grup","testCaseId":"Test Cases/Setting - Group/Positif/Update - Kode Grup","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/View Log - Grup","testCaseId":"Test Cases/Setting - Group/Positif/View Log - Grup","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Negatif/Update - Grup, Nama Grup Tidak Diisi","testCaseId":"Test Cases/Setting - Group/Negatif/Update - Grup, Nama Grup Tidak Diisi","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Negatif/Update - Grup, Nama Grup Sudah Ada","testCaseId":"Test Cases/Setting - Group/Negatif/Update - Grup, Nama Grup Sudah Ada","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Negatif/Update - Grup, Nama Grup Lebih dari 30 Karakter","testCaseId":"Test Cases/Setting - Group/Negatif/Update - Grup, Nama Grup Lebih dari 30 Karakter","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Negatif/Update - Grup, Kode Grup Sudah Ada","testCaseId":"Test Cases/Setting - Group/Negatif/Update - Grup, Kode Grup Sudah Ada","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Negatif/Update - Grup, Kode Grup Lebih dari 4 Karakter","testCaseId":"Test Cases/Setting - Group/Negatif/Update - Grup, Kode Grup Lebih dari 4 Karakter","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Update - Grup, Klik Clear Field","testCaseId":"Test Cases/Setting - Group/Positif/Update - Grup, Klik Clear Field","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Create - Sub Grup Baru","testCaseId":"Test Cases/Setting - Group/Positif/Create - Sub Grup Baru","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/View Log - Grup","testCaseId":"Test Cases/Setting - Group/Positif/View Log - Grup","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Check - Urutan Grup di Sidebar Ascending","testCaseId":"Test Cases/Setting - Group/Positif/Check - Urutan Grup di Sidebar Ascending","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Toggle - Chevron Grup yang Memiliki Sub Grup (Expand, Collapse)","testCaseId":"Test Cases/Setting - Group/Positif/Toggle - Chevron Grup yang Memiliki Sub Grup (Expand, Collapse)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Negatif/Create - Sub Grup Baru Nama Grup Tidak Diisi","testCaseId":"Test Cases/Setting - Group/Negatif/Create - Sub Grup Baru Nama Grup Tidak Diisi","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Negatif/Create - Sub Grup Baru, Nama Grup Sudah Ada","testCaseId":"Test Cases/Setting - Group/Negatif/Create - Sub Grup Baru, Nama Grup Sudah Ada","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Negatif/Create - Sub Grup Baru, Nama Grup Lebih Dari 30 Karakter","testCaseId":"Test Cases/Setting - Group/Negatif/Create - Sub Grup Baru, Nama Grup Lebih Dari 30 Karakter","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Negatif/Create - Sub Grup Baru, Kode Grup Sudah Ada","testCaseId":"Test Cases/Setting - Group/Negatif/Create - Sub Grup Baru, Kode Grup Sudah Ada","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Negatif/Create - Sub Grup Baru, Kode Grup Lebih Dari 4 Karakter","testCaseId":"Test Cases/Setting - Group/Negatif/Create - Sub Grup Baru, Kode Grup Lebih Dari 4 Karakter","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Create - Sub Grup Baru, Klik Clear Field","testCaseId":"Test Cases/Setting - Group/Positif/Create - Sub Grup Baru, Klik Clear Field","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Update - Nama Sub Grup","testCaseId":"Test Cases/Setting - Group/Positif/Update - Nama Sub Grup","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/View Log - Grup","testCaseId":"Test Cases/Setting - Group/Positif/View Log - Grup","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Update - Kode Sub Grup","testCaseId":"Test Cases/Setting - Group/Positif/Update - Kode Sub Grup","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/View Log - Grup","testCaseId":"Test Cases/Setting - Group/Positif/View Log - Grup","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Negatif/Update - Sub Grup, Nama Grup Tidak Diisi","testCaseId":"Test Cases/Setting - Group/Negatif/Update - Sub Grup, Nama Grup Tidak Diisi","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Negatif/Update - Sub Grup, Nama Grup Sudah Ada","testCaseId":"Test Cases/Setting - Group/Negatif/Update - Sub Grup, Nama Grup Sudah Ada","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Negatif/Update - Sub Grup, Kode Grup Sudah Ada","testCaseId":"Test Cases/Setting - Group/Negatif/Update - Sub Grup, Kode Grup Sudah Ada","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Negatif/Update - Sub Grup, Kode Grup Lebih dari 4 Karakter","testCaseId":"Test Cases/Setting - Group/Negatif/Update - Sub Grup, Kode Grup Lebih dari 4 Karakter","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Update - Sub Grup, Masukkan Huruf Kecil di Field Kode","testCaseId":"Test Cases/Setting - Group/Positif/Update - Sub Grup, Masukkan Huruf Kecil di Field Kode","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/View Log - Grup","testCaseId":"Test Cases/Setting - Group/Positif/View Log - Grup","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Update - Sub Grup, Klik Clear Field","testCaseId":"Test Cases/Setting - Group/Positif/Update - Sub Grup, Klik Clear Field","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Delete - Sub Grup","testCaseId":"Test Cases/Setting - Group/Positif/Delete - Sub Grup","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/View Log - Grup","testCaseId":"Test Cases/Setting - Group/Positif/View Log - Grup","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Delete - Grup","testCaseId":"Test Cases/Setting - Group/Positif/Delete - Grup","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/View Log - Grup","testCaseId":"Test Cases/Setting - Group/Positif/View Log - Grup","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Create - Grup Baru, Masukkan Huruf Kecil di Field Kode","testCaseId":"Test Cases/Setting - Group/Positif/Create - Grup Baru, Masukkan Huruf Kecil di Field Kode","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/View Log - Grup","testCaseId":"Test Cases/Setting - Group/Positif/View Log - Grup","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Create - Sub Grup Baru, Masukkan Huruf Kecil di Field Kode","testCaseId":"Test Cases/Setting - Group/Positif/Create - Sub Grup Baru, Masukkan Huruf Kecil di Field Kode","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/View Log - Grup","testCaseId":"Test Cases/Setting - Group/Positif/View Log - Grup","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Create - Sub Grup Baru, Ceklis Stay on This Form","testCaseId":"Test Cases/Setting - Group/Positif/Create - Sub Grup Baru, Ceklis Stay on This Form","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/View Log - Grup","testCaseId":"Test Cases/Setting - Group/Positif/View Log - Grup","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Negatif/Create - Sub Grup Baru, Hierarki Sub Grup Lebih dari 3 Level","testCaseId":"Test Cases/Setting - Group/Negatif/Create - Sub Grup Baru, Hierarki Sub Grup Lebih dari 3 Level","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Update - Grup, Masukkan Huruf Kecil di Field Kode","testCaseId":"Test Cases/Setting - Group/Positif/Update - Grup, Masukkan Huruf Kecil di Field Kode","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/View Log - Grup","testCaseId":"Test Cases/Setting - Group/Positif/View Log - Grup","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Delete - Sub Grup Memiliki Asset","testCaseId":"Test Cases/Setting - Group/Positif/Delete - Sub Grup Memiliki Asset","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/View Log - Grup","testCaseId":"Test Cases/Setting - Group/Positif/View Log - Grup","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Delete - Grup Memiliki Asset","testCaseId":"Test Cases/Setting - Group/Positif/Delete - Grup Memiliki Asset","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/View Log - Grup","testCaseId":"Test Cases/Setting - Group/Positif/View Log - Grup","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Create - Grup Baru, Ceklis Stay On This Form","testCaseId":"Test Cases/Setting - Group/Positif/Create - Grup Baru, Ceklis Stay On This Form","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/View Log - Grup","testCaseId":"Test Cases/Setting - Group/Positif/View Log - Grup","iterationVariableName":""}
+{"testCaseName":"Test Cases/Setting - Group/Positif/Delete - Grup Satu-Satunya","testCaseId":"Test Cases/Setting - Group/Positif/Delete - Grup Satu-Satunya","iterationVariableName":""}

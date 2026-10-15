@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Non Login User. Klik Clear Field</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>69466999-30e1-4c76-9fed-83d25ab1f9ce</testCaseGuid>
+</TestCaseEntity>

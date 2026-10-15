@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Capability Remove - Edit di Manage Group dari Detail User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>70315964-e738-4038-b930-dc4b86c978a2</testCaseGuid>
+</TestCaseEntity>

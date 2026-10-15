@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif</description>
+   <name>Register asset - Input useful life selain angka dan lebih dari 3 karakter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2ac21c8e-016b-40d0-917a-84d48a5bb7e3</testCaseGuid>
+</TestCaseEntity>

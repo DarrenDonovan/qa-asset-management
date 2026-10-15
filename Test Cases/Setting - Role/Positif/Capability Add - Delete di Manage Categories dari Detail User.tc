@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Capability Add - Delete di Manage Categories dari Detail User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2057adfc-3b96-45d7-a8cb-cf6264baa638</testCaseGuid>
+</TestCaseEntity>

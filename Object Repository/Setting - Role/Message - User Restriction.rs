@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Message - User Restriction</name>
+   <tag></tag>
+   <elementGuidId>a095bf93-433c-429e-913d-ba6d0ff2ae60</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table/tbody/tr[1]/td[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;Delete&quot;i] >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>bb6843af-76af-42d0-b0e3-870f1e31fe4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-xs px-2 py-[4.5px] border-0 !border-b !border-solid border-general-100 justify-items-start [&amp;:has([data-wv-section=rowcheckbox])]:text-center [&amp;:has([data-wv-section=rowcheckbox])]:text-center</value>
+      <webElementGuid>9b8a29b4-09f6-411e-b160-b6d5e7f05473</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-wv-section</name>
+      <type>Main</type>
+      <value>bodycell</value>
+      <webElementGuid>ba585c33-f6b1-44ce-854d-bd80d727ffde</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Delete</value>
+      <webElementGuid>ce14a2ed-89b2-47ee-98fb-47c3bd0a7345</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;68a826b9ec6f14182cf77676&quot;)/td[@class=&quot;text-xs px-2 py-[4.5px] border-0 !border-b !border-solid border-general-100 justify-items-start [&amp;:has([data-wv-section=rowcheckbox])]:text-center [&amp;:has([data-wv-section=rowcheckbox])]:text-center&quot;]</value>
+      <webElementGuid>7a81b708-6b8d-4c21-bce2-6e319c2adadc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='68a826b9ec6f14182cf77676']/td[2]</value>
+      <webElementGuid>44b69314-91ed-4317-a6ba-824f4eff7b0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Modified By'])[1]/following::td[2]</value>
+      <webElementGuid>ff950b70-6ad0-4c0a-b26a-c75b178708c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Field'])[1]/following::td[2]</value>
+      <webElementGuid>9e80c80f-a968-4a0b-a42c-320ceb2131b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Delete']/parent::*</value>
+      <webElementGuid>e75615ba-ad87-408f-b0d1-e892ae0f7879</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]</value>
+      <webElementGuid>7c574a1b-0370-4dc5-bd79-23451f4ae463</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Delete' or . = 'Delete')]</value>
+      <webElementGuid>123c8fac-4da2-4dd8-91e9-7dcfb385fb9c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

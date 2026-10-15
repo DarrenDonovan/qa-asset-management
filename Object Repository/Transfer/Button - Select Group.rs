@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Select Group</name>
+   <tag></tag>
+   <elementGuidId>d8cfc98b-599a-438c-8f32-cdce110347b6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/table/tbody/tr/td[3]/following-sibling::td//button[@aria-label = 'Select Group']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Select Group&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f1ba6014-f6c5-4414-8a17-da63e99307ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>739313a1-3fc7-4d84-aa25-dfe1ec533540</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Select Group</value>
+      <webElementGuid>07607fc0-560b-4f28-b4f7-3cda926b36c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>!w-full relative items-center inline-flex text-center align-bottom justify-center w-max left leading-none font-medium rounded !text-xs px-3 py-[5px] gap-1 ring-inset ring-1 text-white bg-primary-500 ring-1 ring-primary-500 focus:outline-none focus:outline-offset-0 hover:bg-primary-500/[8%] active:bg-primary-500/[12%]  hover:shadow-hover active:!shadow-none hover:!bg-primary-500/90 active:bg-primary-500/90 hover:ring-0 transition duration-200 ease-in-out cursor-pointer overflow-hidden select-none [&amp;>[data-pc-name=badge]]:min-w-4 [&amp;>[data-pc-name=badge]]:h-4 [&amp;>[data-pc-name=badge]]:leading-4</value>
+      <webElementGuid>26880f17-508b-402f-ae42-60154bb8dfdf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-name</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>fa8368d1-7eea-4d2b-a3ba-3b1c40bbaaa5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>root</value>
+      <webElementGuid>587c14ea-ea41-4e5b-af5b-b2a9efc4f62a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select Group</value>
+      <webElementGuid>e6981e53-ecf0-4684-8854-c8ffd8f4975f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;68996228e48a8d28177ef593&quot;)/td[@class=&quot;text-xs px-2 py-[4.5px] border-0 !border-b !border-solid border-general-100 justify-items-start [&amp;:has([data-wv-section=rowcheckbox])]:text-center [&amp;:has([data-wv-section=rowcheckbox])]:text-center&quot;]/div[@class=&quot;flex flex-col gap-1&quot;]/div[@class=&quot;flex flex-col items-start justify-start relative gap-1 w-full shrink-0 overflow-hidden&quot;]/button[@class=&quot;!w-full relative items-center inline-flex text-center align-bottom justify-center w-max left leading-none font-medium rounded !text-xs px-3 py-[5px] gap-1 ring-inset ring-1 text-white bg-primary-500 ring-1 ring-primary-500 focus:outline-none focus:outline-offset-0 hover:bg-primary-500/[8%] active:bg-primary-500/[12%]  hover:shadow-hover active:!shadow-none hover:!bg-primary-500/90 active:bg-primary-500/90 hover:ring-0 transition duration-200 ease-in-out cursor-pointer overflow-hidden select-none [&amp;>[data-pc-name=badge]]:min-w-4 [&amp;>[data-pc-name=badge]]:h-4 [&amp;>[data-pc-name=badge]]:leading-4&quot;]</value>
+      <webElementGuid>520b7fc1-1e26-4c45-8625-b4e37c49ac87</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[30]</value>
+      <webElementGuid>0230a429-8f0e-4027-b916-35e2a7cc3a44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='68996228e48a8d28177ef593']/td[8]/div/div/button</value>
+      <webElementGuid>a17722c1-cbce-480f-92b1-6fbf03c72cd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kantor C'])[1]/following::button[1]</value>
+      <webElementGuid>6d405e1f-fa0b-4738-ac4c-c841c2c64597</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arsip'])[1]/following::button[1]</value>
+      <webElementGuid>31e92b84-097c-4907-8322-03825fa8c4a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[2]</value>
+      <webElementGuid>39f4b74d-e4f4-49b0-906a-2346ee79fcb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[8]/div/div/button</value>
+      <webElementGuid>496341fc-89aa-4fde-8a83-e713a26af990</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Select Group' or . = 'Select Group')]</value>
+      <webElementGuid>ae72ef93-fc56-400d-8614-046eef27e002</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

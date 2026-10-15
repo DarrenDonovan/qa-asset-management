@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Module - Fixed Asset</name>
+   <tag></tag>
+   <elementGuidId>fbe80558-3118-4c88-9be8-fa9a7fa0352a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = ' Fixed Asset ' or . = ' Fixed Asset ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e78d7a72-09e8-445f-90d1-547d0e736452</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-menu-label</name>
+      <type>Main</type>
+      <value>Settings</value>
+      <webElementGuid>445b8489-7398-4058-ab0d-b4fa44523204</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center gap-1.5 w-full px-[8px] py-[5px]</value>
+      <webElementGuid>35956df9-ac3d-416b-9869-dece13732f07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Settings </value>
+      <webElementGuid>702ed1ab-6598-4ae2-84b9-141c6cfa6c84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-left-app&quot;)/div[@class=&quot;relative pb-3 rounded-md&quot;]/div[@class=&quot;overflow-auto&quot;]/ul[@class=&quot;grid m-0 p-0 gap-1 list-none overflow-auto&quot;]/li[@class=&quot;rounded-md grid gap-0.5 pl-2 focus:outline-none focus:outline-offset-0&quot;]/div[@class=&quot;flex items-center relative rounded-md gap-[6px] hover:bg-general-50 inactive group transition-shadow duration-200 select-none cursor-pointer&quot;]/span[@class=&quot;inline-flex justify-between items-center w-full text-xs font-medium text-general-800 dark:text-general-100 dark:group-hover:text-general-800&quot;]/div[@class=&quot;flex items-center gap-1.5 w-full px-[8px] py-[5px]&quot;]</value>
+      <webElementGuid>34f817d2-e34e-43dd-a883-d9e66777f5d3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebar-left-app']/div[2]/div/ul/li[4]/div/span[2]/div</value>
+      <webElementGuid>38bf98a5-6448-4626-a66f-4dd063015c01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Settings']/parent::*</value>
+      <webElementGuid>637abc92-1e4d-44a1-a20b-a3e380bc6d3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/div/span[2]/div</value>
+      <webElementGuid>735fe80b-8a1f-4b7d-91cb-39e172ca8f80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Settings ' or . = ' Settings ')]</value>
+      <webElementGuid>d119e998-29cb-4bd8-8b7b-bca007a26999</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

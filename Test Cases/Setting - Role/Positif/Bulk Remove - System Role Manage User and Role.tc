@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Bulk Remove - System Role Manage User and Role</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0a19e70b-90fe-4521-9d04-23230a11f4e5</testCaseGuid>
+</TestCaseEntity>

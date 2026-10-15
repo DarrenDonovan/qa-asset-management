@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif</description>
+   <name>Transaction - Create borrowing log - Input note lebih dari 30 karakter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>00392ab7-778a-43e3-afee-0e3244eb59f6</testCaseGuid>
+</TestCaseEntity>

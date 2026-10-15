@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - Global Role Manage Depreciation Method</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3d48f7e4-822e-41a7-8c5b-89015bbdbe6f</testCaseGuid>
+</TestCaseEntity>

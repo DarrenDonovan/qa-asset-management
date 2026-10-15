@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif</description>
+   <name>Generate Report - Input email tidak sesuai format</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e735eeee-ec3b-4c71-85b0-3764fa6b3a0e</testCaseGuid>
+</TestCaseEntity>

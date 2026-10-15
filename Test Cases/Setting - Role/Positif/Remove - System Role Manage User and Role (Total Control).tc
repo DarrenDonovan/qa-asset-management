@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Manage User and Role > Total Control</description>
+   <name>Remove - System Role Manage User and Role (Total Control)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e48c7c23-8887-4aa1-9f74-b8157dda6e39</testCaseGuid>
+</TestCaseEntity>

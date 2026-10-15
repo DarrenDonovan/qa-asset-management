@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Tabel - Row register asset</name>
+   <tag></tag>
+   <elementGuidId>1eb41ebd-9e58-40f5-b194-9442eb308c1d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table/tbody/tr</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;Dokumen&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>b16ee6c6-a796-4dd6-9d73-95fd97728e97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-xs px-2 py-1.5 border-0 border-b border-t !border-solid border-general-100 dark:border-general-100</value>
+      <webElementGuid>0c3e3a39-9968-4244-b0c0-b3cf6e4e4cc0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ts-section</name>
+      <type>Main</type>
+      <value>bodycell</value>
+      <webElementGuid>632fd1b1-d79b-4c30-b223-0b7d95e941c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dokumen</value>
+      <webElementGuid>4fd6c87f-c8a2-4a03-902a-0100e8e86682</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/microtsm-layout[1]/main[1]/microtsm-application[1]/div[@class=&quot;mb-6 rounded-lg p-6 flex flex-col gap-y-3 bg-white text-general-800&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;flex flex-col gap-2 text-xs tracking-[0.02em] font-medium&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;flex flex-col gap-2 justify-center text-xs font-medium&quot;]/div[@class=&quot;overflow-auto w-full overflow-auto relative rounded-lg rounded-br-none rounded-bl-none&quot;]/table[@class=&quot;min-w-max w-full min-w-max w-full !border-separate !border-spacing-0 border !border-solid !border-general-100 !border-t-0 !border-l-0 !border-r-0 !rounded-lg&quot;]/tbody[@class=&quot;[&amp;_tr:last-of-type>td]:!border-b-0 [&amp;_tr:last-of-type>td:last-child]:!rounded-br-lg [&amp;_tr:last-of-type>td:first-child]:!rounded-bl-lg&quot;]/tr[@class=&quot;border-b border-general-100 text-general-800 text-xs font-normal&quot;]/td[@class=&quot;text-xs px-2 py-1.5 border-0 border-b border-t !border-solid border-general-100 dark:border-general-100&quot;]</value>
+      <webElementGuid>eb7b00e4-5331-4cc8-a531-a9e2b3bbe077</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Asset Photo'])[1]/following::td[2]</value>
+      <webElementGuid>d8a3d848-63f8-483e-bc3f-4ce1e25a5ac8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Useful Life'])[1]/following::td[2]</value>
+      <webElementGuid>2cb1d11b-774b-434e-a6ab-45e452981bd4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='- 38'])[1]/preceding::td[1]</value>
+      <webElementGuid>1e6cfac9-15a5-466a-a4bd-685a8d44b283</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]</value>
+      <webElementGuid>05cfec3a-528a-4c23-9795-3fbecf7571a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Dokumen' or . = 'Dokumen')]</value>
+      <webElementGuid>df419ef0-d499-4f23-8433-29365fd9e5cd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif</description>
+   <name>Create Disposal Log - Missing - Input Additional Note lebih dari 120 karakter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>155c175a-27f2-42cf-914e-e0dd75120616</testCaseGuid>
+</TestCaseEntity>

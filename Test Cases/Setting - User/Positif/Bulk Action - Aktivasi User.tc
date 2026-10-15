@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Bulk Action - Aktivasi User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ac9228df-80e0-4b15-97d8-554ee2f26a5e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Linked asset - Detach asset (Single action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b1bb3f6c-e714-4b0c-a33a-6068bdeba2b7</testCaseGuid>
+</TestCaseEntity>

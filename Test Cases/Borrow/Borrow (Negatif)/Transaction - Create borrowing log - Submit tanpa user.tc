@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif</description>
+   <name>Transaction - Create borrowing log - Submit tanpa user</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8549c33a-c137-4493-91cb-c373d6425c7d</testCaseGuid>
+</TestCaseEntity>

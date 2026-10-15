@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - System Role Manage Purchase Document, Semua Grup Telah Terassign</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>45fe2f23-21d1-4f39-9ff6-1893f822e125</testCaseGuid>
+</TestCaseEntity>

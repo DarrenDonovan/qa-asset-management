@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Setting - Category/Chevron - Sub Category Test",
+      "brokenLocator": "//ul//div[.//span[starts-with(text(), \u0027Sub Category Test\u0027)]]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li[3]/div/button/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250910_134938/Settings - Category/Test Suite - Category/20250910_134939/Object Repository/Setting - Category/Chevron - Sub Category Test_position.png"
+    }
+  ]
+}

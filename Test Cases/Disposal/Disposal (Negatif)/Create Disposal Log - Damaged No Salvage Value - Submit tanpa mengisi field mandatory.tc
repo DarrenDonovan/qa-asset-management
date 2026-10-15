@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif</description>
+   <name>Create Disposal Log - Damaged No Salvage Value - Submit tanpa mengisi field mandatory</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>903fc3e2-2cbd-475a-91a6-1fdbefba9491</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Manage User and Role -> Total Control</description>
+   <name>Remove - Manager pada Role Disposal (Login bkn Total Control)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1cf99c04-3a4a-4fd7-af58-4faa5127da5c</testCaseGuid>
+</TestCaseEntity>

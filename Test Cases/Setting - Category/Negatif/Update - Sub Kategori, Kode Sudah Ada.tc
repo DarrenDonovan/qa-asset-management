@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Update - Sub Kategori, Kode Sudah Ada</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3415e99e-7cdc-4421-91cc-8fd13280a233</testCaseGuid>
+</TestCaseEntity>

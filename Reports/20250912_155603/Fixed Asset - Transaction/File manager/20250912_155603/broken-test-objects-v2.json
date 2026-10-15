@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/File manager/Toast - Success, file has been deleted",
+      "brokenLocator": "//div[(contains(text(), \u0027Success\u0027) or contains(., \u0027Success\u0027))]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[2]/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250912_155603/Fixed Asset - Transaction/File manager/20250912_155603/Object Repository/File manager/Toast - Success, file has been deleted_position.png"
+    }
+  ]
+}

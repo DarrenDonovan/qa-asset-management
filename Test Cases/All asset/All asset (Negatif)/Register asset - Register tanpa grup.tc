@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif</description>
+   <name>Register asset - Register tanpa grup</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>96e626f8-d1bd-4dcc-9c41-8c26a2bbb06f</testCaseGuid>
+</TestCaseEntity>

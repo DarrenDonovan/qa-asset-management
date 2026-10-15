@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input - Report name</name>
+   <tag></tag>
+   <elementGuidId>c1707866-9693-46c2-b755-be367fed4d8e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@placeholder='Enter report name']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Enter report name&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>5b34be2c-b337-497a-8990-871ccb3e0dc5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-3 py-[5px] w-full bg-transparent h-max text-general-800 text-xs tracking-[0.02em] font-medium placeholder:text-general-200 placeholder:!font-light appearance-none outline-none</value>
+      <webElementGuid>203d5408-c7ff-412d-978a-30c2d934f845</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter report name</value>
+      <webElementGuid>19195b86-3245-475d-8c45-19e9ab67d77a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-name</name>
+      <type>Main</type>
+      <value>inputtext</value>
+      <webElementGuid>19a34c6e-2165-4b5d-8db1-380cb6671121</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>root</value>
+      <webElementGuid>df688841-6ac8-4cf7-ba16-4aa413af8d33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>d1089534-49fb-442d-90b1-e1768dafef22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/microtsm-layout[1]/main[1]/microtsm-application[1]/div[@class=&quot;rounded-lg p-6 flex flex-col gap-y-3 bg-white text-general-800&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;flex flex-col gap-2 text-xs tracking-[0.02em] font-medium&quot;]/form[@class=&quot;grid grid-cols-1 gap-4&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;grid gap-x-6 sm:gap-x-3 gap-y-3 grid-cols-4&quot;]/div[@class=&quot;flex flex-col items-start justify-start relative gap-1 w-full shrink-0 overflow-hidden&quot;]/div[@class=&quot;!ring-danger-500 [&amp;_.inputgroupaddon]:ring-danger-500 [&amp;:has(:focus)]:!ring-primary-500 [&amp;:has(:focus)_.inputgroupaddon]:!ring-primary-500 ring-[0.5px] [&amp;_.inputgroupaddon]:ring-[0.5px] [&amp;_.inputgroupaddon[data-addon-variant=plain]]:!ring-[0px] [&amp;:has(input)]:cursor-text flex items-stretch w-full ring-inset ring-general-200 rounded bg-white grid grid [&amp;_.inputgroupaddon]:ring-general-200 [&amp;:has(:focus)]:!ring-primary-500 [&amp;:has(:focus)_.inputgroupaddon]:!ring-primary-500 ring-[0.5px] [&amp;_.inputgroupaddon]:ring-[0.5px] [&amp;_.inputgroupaddon[data-addon-variant=plain]]:!ring-[0px] [&amp;:has(input)]:cursor-text flex items-stretch w-full ring-inset ring-general-200 rounded bg-white&quot;]/input[@class=&quot;px-3 py-[5px] w-full bg-transparent h-max text-general-800 text-xs tracking-[0.02em] font-medium placeholder:text-general-200 placeholder:!font-light appearance-none outline-none&quot;]</value>
+      <webElementGuid>90091a48-386e-4cc3-9101-9e6dee2b0694</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/input</value>
+      <webElementGuid>31a0a7a2-309e-4fe3-bd6a-cb2d49030ac7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Enter report name']</value>
+      <webElementGuid>ae690044-8baf-4f85-a14e-b9b0da7a3082</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

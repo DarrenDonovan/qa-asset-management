@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Chevron - Default Group</name>
+   <tag></tag>
+   <elementGuidId>9e28a97b-a588-4136-bc86-dee555029f8f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'View Log' or . = 'View Log')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul//div[.//span[starts-with(text(), 'Default')]]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;View Log&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ac591b82-707a-4bf1-9266-a0d0c6395436</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>12a4cf58-dabb-4f26-bc88-4ebd464ea0fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>View Log</value>
+      <webElementGuid>7968e88a-f1e8-4200-af62-edf1005ae2e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ml-auto mt-auto gap-2 [&amp;_i]:w-[14px] [&amp;_i]:h-[14px] relative items-center inline-flex text-center align-bottom justify-center w-max right flex-row-reverse leading-none font-medium rounded !text-xs px-3 py-[5px] gap-1 ring-inset ring-1 bg-transparent ring-transparent text-primary-500 focus:outline-none focus:outline-offset-0 hover:bg-primary-500/[8%] active:bg-primary-500/[12%] transition duration-200 ease-in-out cursor-pointer overflow-hidden select-none [&amp;>[data-pc-name=badge]]:min-w-4 [&amp;>[data-pc-name=badge]]:h-4 [&amp;>[data-pc-name=badge]]:leading-4</value>
+      <webElementGuid>cca6f289-2e6e-42c1-a6e8-8ad308743d67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ts-section</name>
+      <type>Main</type>
+      <value>buttonviewlog</value>
+      <webElementGuid>e79fecfc-dcf5-411a-98eb-9a1027c7122d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-name</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d984fb2d-8c19-46f6-8839-c415b792c854</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>root</value>
+      <webElementGuid>76a9b24b-f892-4691-8ba3-c96d3439033b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View Log</value>
+      <webElementGuid>3c070cba-d754-4566-a60c-2966e3d293c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-right&quot;)/microtsm-application[1]/div[@class=&quot;relative pb-3 w-[214px] bg-surface-0 h-full flex flex-col [&amp;>*]:basis-0 transition-transform&quot;]/div[@class=&quot;flex flex-end items-center px-3 py-[3px]&quot;]/button[@class=&quot;ml-auto mt-auto gap-2 [&amp;_i]:w-[14px] [&amp;_i]:h-[14px] relative items-center inline-flex text-center align-bottom justify-center w-max right flex-row-reverse leading-none font-medium rounded !text-xs px-3 py-[5px] gap-1 ring-inset ring-1 bg-transparent ring-transparent text-primary-500 focus:outline-none focus:outline-offset-0 hover:bg-primary-500/[8%] active:bg-primary-500/[12%] transition duration-200 ease-in-out cursor-pointer overflow-hidden select-none [&amp;>[data-pc-name=badge]]:min-w-4 [&amp;>[data-pc-name=badge]]:h-4 [&amp;>[data-pc-name=badge]]:leading-4&quot;]</value>
+      <webElementGuid>24d1801e-3175-4e9b-b59c-a16b8eab1468</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[33]</value>
+      <webElementGuid>cab5c4c3-0e2d-418e-b84d-a7e55faf9b58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//aside[@id='sidebar-right']/microtsm-application/div/div[5]/button</value>
+      <webElementGuid>b41c9193-89c7-4a72-8da3-3d7fdbbedad1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='asd'])[1]/following::button[2]</value>
+      <webElementGuid>d8430205-061b-4e29-9851-8f89f7e69d0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pendingins'])[1]/following::button[4]</value>
+      <webElementGuid>55b4e95f-a1dd-4652-a75e-3f368b6c887f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/button</value>
+      <webElementGuid>c947b7d0-3daf-4612-a253-2e8e8e840c4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'View Log' or . = 'View Log')]</value>
+      <webElementGuid>e5afbdcd-f051-4621-830a-6291a4c3728a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif</description>
+   <name>Report missing - Submit tanpa field mandatory</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>def97ef5-9e0f-4add-bb3a-1d62b3741db7</testCaseGuid>
+</TestCaseEntity>

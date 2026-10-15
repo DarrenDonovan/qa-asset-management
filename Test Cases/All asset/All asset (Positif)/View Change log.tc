@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>View Change log</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>638e6a52-8b54-470e-bbfc-07cff81558bd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>de3e8487-97d1-4247-b92d-0a0f37866278</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>de3e8487-97d1-4247-b92d-0a0f37866278</id>
+      <masked>false</masked>
+      <name>expectedAction</name>
+   </variable>
+</TestCaseEntity>

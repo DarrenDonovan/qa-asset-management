@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Update - Kategori, Nama Tidak Diisi</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>969c59c1-f013-4232-9574-3d8a66b746f5</testCaseGuid>
+</TestCaseEntity>

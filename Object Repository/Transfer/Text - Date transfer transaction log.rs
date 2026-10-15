@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Text - Date transfer transaction log</name>
+   <tag></tag>
+   <elementGuidId>19d9581a-76a4-4ca1-85bb-6b3a390f0e77</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[1]/td[1]//span[text()]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;QA Qtera&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6e5eaeb1-054a-4de8-956a-d9dc6e8b71e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-nowrap whitespace-nowrap font-semibold text-[9px] leading-3 tracking-[0.02em]</value>
+      <webElementGuid>e464629c-532d-4980-b123-4a6f57053bb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>contenteditable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>485d60b6-f596-4a98-93f1-572a41f768dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>spellcheck</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>810132be-dc35-4fac-9b00-d3cc91d0d224</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>not equal</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>QA Qtera</value>
+      <webElementGuid>1a46b598-7265-4038-b8ba-4dc224b82d66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;68ae7cceaecc7fbd10215742&quot;)/td[@class=&quot;text-xs px-2 py-[4.5px] border-0 !border-b !border-solid border-general-100 justify-items-start [&amp;:has([data-wv-section=rowcheckbox])]:text-center [&amp;:has([data-wv-section=rowcheckbox])]:text-center&quot;]/div[1]/div[@class=&quot;flex gap-1 items-center&quot;]/span[@class=&quot;inline-flex items-center p-1 rounded-lg text-primary-500 bg-primary-50&quot;]/span[@class=&quot;text-nowrap whitespace-nowrap font-semibold text-[9px] leading-3 tracking-[0.02em]&quot;]</value>
+      <webElementGuid>74af820d-e0dd-4867-bd1b-9b643030353d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='68ae7cceaecc7fbd10215742']/td[6]/div/div/span/span</value>
+      <webElementGuid>3fb81006-5e37-479c-b42e-04883d465f3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Head ..ice A'])[1]/following::span[2]</value>
+      <webElementGuid>f2a1a5d4-85dc-4385-bc96-5cbe196c3583</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Head ..ice A'])[2]/preceding::span[6]</value>
+      <webElementGuid>8a3c7759-6635-4a6b-b11d-83148f9541a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='QA Qtera']/parent::*</value>
+      <webElementGuid>db469224-5a54-4048-8d85-565c2c0b1968</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span/span</value>
+      <webElementGuid>5a118879-cb70-469f-aed5-115d77e89284</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'QA Qtera' or . = 'QA Qtera')]</value>
+      <webElementGuid>078c0426-686c-4138-ae13-650eeb92da42</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

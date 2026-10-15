@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Setting - Group/Button - New Group",
+      "brokenLocator": "//button[@type \u003d \u0027button\u0027 and (text() \u003d \u0027New Group\u0027 or . \u003d \u0027New Group\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[19]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250910_090033/Settings - Group/Test Suite - Group/20250910_090033/Object Repository/Setting - Group/Button - New Group_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Setting - Group/Textbox - Group Name",
+      "brokenLocator": "//div[label[(text() \u003d \u0027Group Name \u0027)]]//input",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
+}

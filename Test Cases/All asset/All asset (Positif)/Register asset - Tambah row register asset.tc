@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Register asset - Tambah row register asset</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1ee89fd0-1e34-431b-8d03-645e9a3ca6e5</testCaseGuid>
+</TestCaseEntity>

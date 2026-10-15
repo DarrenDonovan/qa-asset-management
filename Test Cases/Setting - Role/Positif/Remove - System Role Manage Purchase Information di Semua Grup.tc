@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Manage User and Role > Total Control</description>
+   <name>Remove - System Role Manage Purchase Information di Semua Grup</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6860a9ae-0160-471e-9d0b-6d55c1d2b0cc</testCaseGuid>
+</TestCaseEntity>

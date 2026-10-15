@@ -1,0 +1,23 @@
+2025-10-09 16:49:54.008 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Setting - User/Test Suite - User
+2025-10-09 16:49:54.157 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Qa05qwerty
+2025-10-09 16:49:54.158 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = automation-test-fixed-asset-enterprise
+2025-10-09 16:49:54.159 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = HP - Darren
+2025-10-09 16:49:54.160 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-10-09 16:49:54.162 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.88.76
+2025-10-09 16:49:54.164 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.0.0
+2025-10-09 16:49:54.916 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-09 16:49:54.916 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Setting - User/Positif/Login - Login Navigate ke User
+2025-10-09 16:49:55.405 DEBUG t.Login - Login Navigate ke User         - 1: Common_Utils.openBrowser(url)
+2025-10-09 16:49:55.918 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-09 16:49:55.992 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 09, 2025 4:49:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 140
+Oct 09, 2025 4:49:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 140.0.7339.208. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-10-09 16:49:58.278 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ba37bbdb8342d8d1029f2a88fffa25d9
+2025-10-09 16:49:58.279 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.208
+2025-10-09 16:49:58.280 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-10-09 16:49:58.282 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-09 16:49:58.295 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-09 16:49:58.977 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Common_Utils.openBrowser is PASSED
+2025-10-09 16:49:58.979 DEBUG t.Login - Login Navigate ke User         - 2: Common_Utils.login(email, password)

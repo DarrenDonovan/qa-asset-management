@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Dialog - All Roles has been Assigned</name>
+   <tag></tag>
+   <elementGuidId>b81a514e-5c71-4169-b3a2-197111e9a5d4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@role='dialog'])[.//p[contains(., 'All roles have been assigned')]]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^All$/</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e6ff5330-372c-4c61-8e6e-a8fcf92fc123</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center rounded-md p-1 text-surface-700 bg-primary-50 !text-primary-500 [&amp;_*]:text-primary-500 hover:bg-primary-50 transition-shadow duration-200 cursor-pointer select-none cursor-pointer</value>
+      <webElementGuid>2f6cf2c2-ffe2-4a03-bcff-f3f2e53036fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-p-highlight</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>d3b6e78e-1843-47f3-b644-5bca38eb9294</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-p-selectable</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>9717e380-19e9-4876-b78c-bf29f815f5cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>All</value>
+      <webElementGuid>833b1df0-39db-4e77-9d11-235b3634ffee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;1756094430946&quot;)/div[@class=&quot;overflow-auto&quot;]/ul[@class=&quot;m-0 p-0 list-none overflow-auto&quot;]/li[@class=&quot;p-0 !pl-1 rounded-md focus:outline-none focus:outline-offset-0&quot;]/div[@class=&quot;flex items-center rounded-md p-1 text-surface-700 bg-primary-50 !text-primary-500 [&amp;_*]:text-primary-500 hover:bg-primary-50 transition-shadow duration-200 cursor-pointer select-none cursor-pointer&quot;]</value>
+      <webElementGuid>16a18497-65ce-4dd8-9f23-73597f08f29a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='1756094430946']/div/ul/li/div</value>
+      <webElementGuid>34909aa6-c51a-4a8f-a45e-70646a748220</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Group'])[1]/following::div[3]</value>
+      <webElementGuid>1454d8cd-95b6-43ab-ae00-8f434e73cdba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Group'])[2]/following::div[5]</value>
+      <webElementGuid>784a8ae5-5307-40ec-9a74-15566b613a53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Default'])[1]/preceding::div[1]</value>
+      <webElementGuid>d76fac06-c01f-49ed-acc8-e9ca075d12eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/ul/li/div</value>
+      <webElementGuid>f243989e-725b-453a-b19b-dfa83d657c61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'All' or . = 'All')]</value>
+      <webElementGuid>0db4b7c7-88c1-4c3a-a156-4276fc14c3cb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

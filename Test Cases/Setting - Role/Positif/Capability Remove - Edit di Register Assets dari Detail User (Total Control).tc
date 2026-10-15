@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Capability Remove - Edit di Register Assets dari Detail User (Total Control)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c9ca4691-426c-47ed-af07-98963d29fadd</testCaseGuid>
+</TestCaseEntity>

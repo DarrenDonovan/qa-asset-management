@@ -1,0 +1,33 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Disposal/Create disposal/Button - Disposal",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[24]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Borrow/List - Select asset",
+      "brokenLocator": "(//table)[2]/tbody/tr[1]/td[3]\r\n",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Model/Type\u0027])[1]/following::td[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250915_113200/Fixed Asset - Transaction/Disposal/Disposal -/20250915_113200/Object Repository/Borrow/List - Select asset_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/All asset/Register asset/Remove from list/Button - Bulk action - Option remove from List",
+      "brokenLocator": "//li[contains(@aria-label,\u0027Remove\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027No selected item\u0027])[1]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250915_113200/Fixed Asset - Transaction/Disposal/Disposal -/20250915_113200/Object Repository/All asset/Register asset/Remove from list/Button - Bulk action - Option remove from List_neighbor.png"
+    }
+  ]
+}

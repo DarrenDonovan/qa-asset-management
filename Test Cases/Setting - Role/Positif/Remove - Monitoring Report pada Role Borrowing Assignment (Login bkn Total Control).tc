@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Manage User Role -> Total Control</description>
+   <name>Remove - Monitoring Report pada Role Borrowing Assignment (Login bkn Total Control)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ecb4311f-b939-40cf-bfd3-84800c2316f9</testCaseGuid>
+</TestCaseEntity>

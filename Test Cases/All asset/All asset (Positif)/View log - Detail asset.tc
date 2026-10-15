@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>View log - Detail asset</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>61fae214-e187-42e6-95b9-9ddb9cd93ed5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>86a019b7-d042-449b-a30d-e5e37c96e6b2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>86a019b7-d042-449b-a30d-e5e37c96e6b2</id>
+      <masked>false</masked>
+      <name>expectedAction</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Remove - System Role Manage Purchase Document dari Detail User (Total Control) (Switch)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a89cbd4b-140a-4e3f-8bcf-d5fd4d3abc02</testCaseGuid>
+</TestCaseEntity>

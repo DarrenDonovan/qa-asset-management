@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Bulk Action - Resend Activation Email</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d4ae47c2-e4bc-4051-8c48-ceea15ce8337</testCaseGuid>
+</TestCaseEntity>

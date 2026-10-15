@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Remove - System Role Register Assets dari Detail User (Switch)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e11a221b-51f0-4044-8862-2bbacc886fff</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Update - Kategori, Nama Lebih dari 30 Karakter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c656d8f9-a336-42de-807b-d636a944dd8a</testCaseGuid>
+</TestCaseEntity>

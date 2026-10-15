@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Textbox - Group Name</name>
+   <tag></tag>
+   <elementGuidId>a705a37b-3891-4386-9a64-9b46af810584</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[label[(text() = 'Group Name ')]]//input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>dd161e45-f056-42ed-afc2-a8eca3f7cf9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-3 py-[5px] w-full bg-transparent h-max text-general-800 text-xs tracking-[0.02em] font-medium placeholder:text-general-200 placeholder:!font-light appearance-none outline-none</value>
+      <webElementGuid>b859cbff-ac88-4442-bed8-54413511fecc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter group name</value>
+      <webElementGuid>7ece70b5-a4ab-4a9f-8f8e-c9da8b4d8728</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-name</name>
+      <type>Main</type>
+      <value>inputtext</value>
+      <webElementGuid>9016c547-f36c-42e0-8d3e-a9b74518b01c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>root</value>
+      <webElementGuid>08cc60c7-dba8-48e4-9100-b1d5170d29f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/form[@class=&quot;flex flex-col gap-3 text-general-800 text-[0.75rem] font-medium leading-[16.8px] tracking-[0.02em] overflow-y-auto&quot;]/div[1]/div[@class=&quot;grid gap-y-3 gap-x-6&quot;]/div[@class=&quot;flex flex-col items-start justify-start relative gap-1 w-full shrink-0 overflow-hidden&quot;]/div[@class=&quot;[&amp;_.inputgroupaddon]:ring-general-200 [&amp;:has(:focus)]:!ring-primary-500 [&amp;:has(:focus)_.inputgroupaddon]:!ring-primary-500 ring-[0.5px] [&amp;_.inputgroupaddon]:ring-[0.5px] [&amp;_.inputgroupaddon[data-addon-variant=plain]]:!ring-[0px] [&amp;:has(input)]:cursor-text flex items-stretch w-full ring-inset ring-general-200 rounded bg-white grid grid [&amp;_.inputgroupaddon]:ring-general-200 [&amp;:has(:focus)]:!ring-primary-500 [&amp;:has(:focus)_.inputgroupaddon]:!ring-primary-500 ring-[0.5px] [&amp;_.inputgroupaddon]:ring-[0.5px] [&amp;_.inputgroupaddon[data-addon-variant=plain]]:!ring-[0px] [&amp;:has(input)]:cursor-text flex items-stretch w-full ring-inset ring-general-200 rounded bg-white&quot;]/input[@class=&quot;px-3 py-[5px] w-full bg-transparent h-max text-general-800 text-xs tracking-[0.02em] font-medium placeholder:text-general-200 placeholder:!font-light appearance-none outline-none&quot;]</value>
+      <webElementGuid>09e63b83-da41-468d-84e3-253706d9175a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='main']/form/div/div/div/div/input</value>
+      <webElementGuid>7fc14784-a506-400e-8cbc-0c22fd7124b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/input</value>
+      <webElementGuid>d4155218-1afa-42f7-a497-d73e43b213a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Enter group name']</value>
+      <webElementGuid>61a04117-d764-4eb7-b267-0ea48b3b0b53</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

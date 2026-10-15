@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Capability Remove - Edit di Manage Purchase Information dari Detail User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>725dec7a-5635-4c8e-8164-a55808e1ef7b</testCaseGuid>
+</TestCaseEntity>

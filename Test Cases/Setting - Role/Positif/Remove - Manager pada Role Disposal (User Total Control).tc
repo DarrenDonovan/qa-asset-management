@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Remove - Manager pada Role Disposal (User Total Control)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>860d4339-7bd1-41e5-9266-bab727a6c300</testCaseGuid>
+</TestCaseEntity>

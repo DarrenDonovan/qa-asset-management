@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Manage User and Role > Total Control</description>
+   <name>Capability Remove - Edit di Manage Group (Total Control)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ead7e0df-2399-490b-b8e0-e2c4da595264</testCaseGuid>
+</TestCaseEntity>

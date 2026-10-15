@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Transaction - Assignment Request - Remove from list (Bulk action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c306628d-7e63-4bc5-b9c2-3f32ad178838</testCaseGuid>
+</TestCaseEntity>

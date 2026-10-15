@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Remove - System Role Manage License dari Detail User (Total Control) (Assign)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ec162a8b-d610-402d-b713-8a48d30d60d4</testCaseGuid>
+</TestCaseEntity>

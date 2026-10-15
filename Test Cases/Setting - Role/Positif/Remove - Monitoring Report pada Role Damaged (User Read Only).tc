@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Remove - Monitoring Report pada Role Damaged (User Read Only)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>456a97ec-de70-4c2c-88cb-c597129c8e1f</testCaseGuid>
+</TestCaseEntity>

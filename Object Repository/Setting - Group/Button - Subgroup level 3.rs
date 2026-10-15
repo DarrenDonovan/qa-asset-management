@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Subgroup level 3</name>
+   <tag></tag>
+   <elementGuidId>008bc51c-40d7-4010-93af-23480e7492b7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Borrowed' or . = 'Borrowed')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@data-pc-name='paginator']//span[@data-pc-section='current']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.inline-flex.items-center.p-1.rounded-lg.text-primary-500.bg-primary-50</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;Borrowed&quot;i] >> span >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>078ec230-6337-459b-b83d-848549221622</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inline-flex items-center p-1 rounded-lg text-primary-500 bg-primary-50</value>
+      <webElementGuid>a92c9962-15e3-451d-8c43-297477f5d359</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-wv-name</name>
+      <type>Main</type>
+      <value>badge</value>
+      <webElementGuid>e8682d25-7eea-4a2a-a634-7bc024cf0abe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-wv-section</name>
+      <type>Main</type>
+      <value>root</value>
+      <webElementGuid>59bbacd4-3ab1-4fcb-a2b3-16f4971fe76b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Borrowed</value>
+      <webElementGuid>f493b9e4-5459-4dfa-bfc8-d51bff56b7b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;68a58f36627a2573335445a9&quot;)/td[@class=&quot;text-xs px-2 py-[4.5px] border-0 !border-b !border-solid border-general-100 justify-items-start [&amp;:has([data-wv-section=rowcheckbox])]:text-center [&amp;:has([data-wv-section=rowcheckbox])]:text-center&quot;]/span[@class=&quot;inline-flex items-center p-1 rounded-lg text-primary-500 bg-primary-50&quot;]</value>
+      <webElementGuid>d3c67027-b188-4672-88a8-283fbc3f9992</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='68a58f36627a2573335445a9']/td[5]/span</value>
+      <webElementGuid>230f50d4-efda-457f-a13d-96ef66ebc6da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remaining Time'])[1]/following::span[3]</value>
+      <webElementGuid>53ff39ed-cdcd-49dd-9fb9-c8a56176ec4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kantor A'])[1]/preceding::span[2]</value>
+      <webElementGuid>4d685d9e-8d9e-4314-98ac-b16eb56e2d54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[5]/span</value>
+      <webElementGuid>a12828dd-3c9a-4bf3-b83a-8f12a6bca1af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Borrowed' or . = 'Borrowed')]</value>
+      <webElementGuid>bba48350-79bf-4fd7-b258-fdc373931499</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

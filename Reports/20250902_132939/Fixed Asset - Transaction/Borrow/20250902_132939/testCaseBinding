@@ -1,0 +1,11 @@
+{"testCaseName":"Test Cases/login","testCaseId":"Test Cases/login","iterationVariableName":""}
+{"testCaseName":"Test Cases/Borrow/Transaksi Borrow","testCaseId":"Test Cases/Borrow/Transaksi Borrow","iterationVariableName":""}
+{"testCaseName":"Test Cases/Borrow/Edit borrow","testCaseId":"Test Cases/Borrow/Edit borrow","iterationVariableName":""}
+{"testCaseName":"Test Cases/Borrow/Edit borrow - Bulk action","testCaseId":"Test Cases/Borrow/Edit borrow - Bulk action","iterationVariableName":""}
+{"testCaseName":"Test Cases/Borrow/Report damage","testCaseId":"Test Cases/Borrow/Report damage","iterationVariableName":""}
+{"testCaseName":"Test Cases/Borrow/Report missing","testCaseId":"Test Cases/Borrow/Report missing","iterationVariableName":""}
+{"testCaseName":"Test Cases/Borrow/Cancel report","testCaseId":"Test Cases/Borrow/Cancel report","iterationVariableName":""}
+{"testCaseName":"Test Cases/Borrow/Cancel report - bulk action","testCaseId":"Test Cases/Borrow/Cancel report - bulk action","iterationVariableName":""}
+{"testCaseName":"Test Cases/Borrow/Return borrow","testCaseId":"Test Cases/Borrow/Return borrow","iterationVariableName":""}
+{"testCaseName":"Test Cases/Borrow/Return borrow - bulk cation","testCaseId":"Test Cases/Borrow/Return borrow - bulk cation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Borrow/Borrowing log History","testCaseId":"Test Cases/Borrow/Borrowing log History","iterationVariableName":""}

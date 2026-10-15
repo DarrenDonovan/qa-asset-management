@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Remove - User Role Read Only</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>524a218d-4d24-4b4d-a13a-732dc80fea0d</testCaseGuid>
+</TestCaseEntity>

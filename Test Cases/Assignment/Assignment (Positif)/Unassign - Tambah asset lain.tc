@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Unassign - Tambah asset lain</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8bf4d477-560e-4dc5-9648-0d0662176bb0</testCaseGuid>
+</TestCaseEntity>

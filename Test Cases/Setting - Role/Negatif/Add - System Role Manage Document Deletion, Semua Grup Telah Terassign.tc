@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - System Role Manage Document Deletion, Semua Grup Telah Terassign</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7b9a06c9-0d76-4fca-9372-c737d79c8488</testCaseGuid>
+</TestCaseEntity>

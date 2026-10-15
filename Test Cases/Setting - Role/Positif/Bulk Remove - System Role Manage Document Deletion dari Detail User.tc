@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Bulk Remove - System Role Manage Document Deletion dari Detail User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0f6db405-2acc-409c-b6df-a942de9e4bdb</testCaseGuid>
+</TestCaseEntity>

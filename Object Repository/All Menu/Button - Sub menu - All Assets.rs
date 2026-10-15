@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Sub menu - All Assets</name>
+   <tag></tag>
+   <elementGuidId>51088037-66c5-4c93-a7e0-4ef1ca598287</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebar-left-app']/div[2]/div/ul/li/ul/li/div/span[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;All Assets&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>58d8f074-74b8-4a54-8834-c2169a4330b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-menu-label</name>
+      <type>Main</type>
+      <value>All Assets</value>
+      <webElementGuid>e43633e0-a263-4257-ab0c-e78703deeb35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-navigate-to</name>
+      <type>Main</type>
+      <value>/assets/all</value>
+      <webElementGuid>e4812d31-97a1-4e81-a5c1-fcf4ec9b8f76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center gap-1.5 w-full px-[8px] py-[5px]</value>
+      <webElementGuid>e2536c5a-2fa2-4f3d-9687-55f6fdc5b12f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> All Assets </value>
+      <webElementGuid>8b93c705-3015-43d3-8fcd-328df27c3887</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-left-app&quot;)/div[@class=&quot;relative pb-3 rounded-md&quot;]/div[@class=&quot;overflow-auto&quot;]/ul[@class=&quot;grid m-0 p-0 gap-1 list-none overflow-auto&quot;]/li[@class=&quot;rounded-md grid gap-0.5 pl-2 focus:outline-none focus:outline-offset-0&quot;]/ul[@class=&quot;m-0 list-none p-0 !pl-2 gap-0.5 grid duration-300 transition-all ease-in&quot;]/li[@class=&quot;rounded-md grid gap-0.5 pl-2 focus:outline-none focus:outline-offset-0&quot;]/div[@class=&quot;flex items-center relative rounded-md gap-[6px] hover:bg-general-50 inactive group transition-shadow duration-200 select-none cursor-pointer&quot;]/span[@class=&quot;inline-flex justify-between items-center w-full text-xs font-medium text-general-800 dark:text-general-100 dark:group-hover:text-general-800&quot;]/div[@class=&quot;flex items-center gap-1.5 w-full px-[8px] py-[5px]&quot;]</value>
+      <webElementGuid>21aee6b1-0bcf-46fa-99de-8a76170b0161</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebar-left-app']/div[2]/div/ul/li/ul/li/div/span[2]/div</value>
+      <webElementGuid>40274dc1-75fa-4c0c-a512-07da08993eb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menu'])[1]/following::div[6]</value>
+      <webElementGuid>d347e0fa-f7e5-48fc-9b24-73823e65b087</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Borrow'])[1]/preceding::div[1]</value>
+      <webElementGuid>51681b9d-df59-4178-a082-0eb36802cba5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assignment'])[1]/preceding::div[3]</value>
+      <webElementGuid>6f580c1d-42e8-489b-ae8c-7638ed4c5187</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='All Assets']/parent::*</value>
+      <webElementGuid>aaf4e7f6-c149-42ac-b271-e250ba23beee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/ul/li/div/span[2]/div</value>
+      <webElementGuid>beea82b1-8977-47a7-a936-91ee27b849d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' All Assets ' or . = ' All Assets ')]</value>
+      <webElementGuid>c0d79c5a-9b21-43ff-8aff-eb5e70479963</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif</description>
+   <name>Register asset - Register tanpa mengisi field mandatory</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8ea94925-e864-418b-a8da-4eb51261dd97</testCaseGuid>
+</TestCaseEntity>

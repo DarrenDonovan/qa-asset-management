@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Non Login User. Set as Temporary User (Hold dulu)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>554bdf58-2d4e-4e4e-8cdb-7c98bd854b4a</testCaseGuid>
+</TestCaseEntity>

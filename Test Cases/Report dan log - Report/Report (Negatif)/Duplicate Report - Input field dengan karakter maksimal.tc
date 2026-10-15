@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Duplicate Report - Input field dengan karakter maksimal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>753c23e5-c039-46ce-a30d-aaabb39685b6</testCaseGuid>
+</TestCaseEntity>

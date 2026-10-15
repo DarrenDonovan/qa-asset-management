@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Damage - Recycle bin - Recover (Bulk action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>00b8288d-3062-45af-b81d-3e4d32af7aea</testCaseGuid>
+</TestCaseEntity>

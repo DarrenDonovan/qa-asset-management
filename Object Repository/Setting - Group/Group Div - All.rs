@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Group Div - All</name>
+   <tag></tag>
+   <elementGuidId>26aac425-38d0-4bf2-8182-ba2e55104583</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[text() ='All']/parent::span/parent::div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^All$/</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>bb0afb2b-e2b2-4763-a82c-9471f40a2c5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center rounded-md p-1 text-surface-700 bg-primary-50 !text-primary-500 [&amp;_*]:text-primary-500 hover:bg-primary-50 transition-shadow duration-200 cursor-pointer select-none cursor-pointer</value>
+      <webElementGuid>94b0b967-86ca-4071-9a6b-b4c697838bd4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-p-highlight</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>f8fd0dfe-2550-4f63-bc75-c287961d9b48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-p-selectable</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>7f07d25b-62cf-45e4-97ed-b915b37ad312</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>All</value>
+      <webElementGuid>8b4312be-19d4-4c56-99c7-fed440736bed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;1756094430946&quot;)/div[@class=&quot;overflow-auto&quot;]/ul[@class=&quot;m-0 p-0 list-none overflow-auto&quot;]/li[@class=&quot;p-0 !pl-1 rounded-md focus:outline-none focus:outline-offset-0&quot;]/div[@class=&quot;flex items-center rounded-md p-1 text-surface-700 bg-primary-50 !text-primary-500 [&amp;_*]:text-primary-500 hover:bg-primary-50 transition-shadow duration-200 cursor-pointer select-none cursor-pointer&quot;]</value>
+      <webElementGuid>def6b3bc-5bb7-47de-8362-7d78deaf6c26</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='1756094430946']/div/ul/li/div</value>
+      <webElementGuid>f910e389-be22-4022-ae85-aae4138e622a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Group'])[1]/following::div[3]</value>
+      <webElementGuid>d55f7277-af38-4f9a-82c8-e6f441a8112b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Group'])[2]/following::div[5]</value>
+      <webElementGuid>8f0de0ac-2ced-47fd-9592-031aabeadf64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Default'])[1]/preceding::div[1]</value>
+      <webElementGuid>ecdcc476-0355-4ec7-a956-a54161bd3c6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/ul/li/div</value>
+      <webElementGuid>b3309886-4922-40b1-95dd-c43cad88363b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'All' or . = 'All')]</value>
+      <webElementGuid>f6ca2fdb-e0c2-43e9-b05c-f71924a9426c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - Foto di My Profile</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b1ea29bc-73c1-4fc8-bff8-2dc6d6a23c34</testCaseGuid>
+</TestCaseEntity>

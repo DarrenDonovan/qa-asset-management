@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="All asset -" time="175.259" tests="25" failures="2" errors="0">
+   <testsuite name="All asset -" tests="25" failures="2" errors="0" time="175.259" skipped="0" timestamp="12-09-2025T16:26:03" hostname="Administrator - DESKTOP" id="Test Suites/Fixed Asset - Transaction/All asset/All asset -">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\automation-test-fixed-asset-basic\\Reports\\20250912_162548\\Fixed Asset - Transaction\\All asset\\All asset -\\20250912_162548"/>
+         <property name="logFiles" value="D:\\automation-test-fixed-asset-basic\\Reports\\20250912_162548\\Fixed Asset - Transaction\\All asset\\All asset -\\20250912_162548\\execution0.log"/>
+         <property name="attachments" value="D:\\automation-test-fixed-asset-basic\\Reports\\20250912_162548\\Fixed Asset - Transaction\\All asset\\All asset -\\20250912_162548\\1757669202434.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_162548\\Fixed Asset - Transaction\\All asset\\All asset -\\20250912_162548\\1757669204524.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_162548\\Fixed Asset - Transaction\\All asset\\All asset -\\20250912_162548\\1757669205314.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_162548\\Fixed Asset - Transaction\\All asset\\All asset -\\20250912_162548\\1757669206054.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_162548\\Fixed Asset - Transaction\\All asset\\All asset -\\20250912_162548\\1757669243874.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_162548\\Fixed Asset - Transaction\\All asset\\All asset -\\20250912_162548\\1757669244354.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_162548\\Fixed Asset - Transaction\\All asset\\All asset -\\20250912_162548\\1757669244836.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_162548\\Fixed Asset - Transaction\\All asset\\All asset -\\20250912_162548\\1757669245304.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_162548\\Fixed Asset - Transaction\\All asset\\All asset -\\20250912_162548\\1757669331781.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_162548\\Fixed Asset - Transaction\\All asset\\All asset -\\20250912_162548\\1757669331936.png"/>
+         <property name="hostName" value="Administrator - DESKTOP"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.6.223"/>
+         <property name="browser" value="Edge Chromium 140"/>
+         <property name="hostAddress" value="169.254.111.16"/>
+         <property name="sessionId" value="a5b2329b7f9d658bb215e8f3cd3230f2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/login" time="31.832" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:26:03 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+12-09-2025T16:26:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-09-2025T16:26:04 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+12-09-2025T16:26:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-09-2025T16:26:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-09-2025T16:26:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-09-2025T16:26:06 - [MESSAGE][PASSED] - Current window maximized
+
+12-09-2025T16:26:06 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://staging-console.tagsamurai.com' successfully
+
+12-09-2025T16:26:08 - [MESSAGE][PASSED] - Navigate to 'https://staging-console.tagsamurai.com' successfully
+
+12-09-2025T16:26:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login session object/Input - Email"), email): Text 'user1basic2staging@qwertysystem.net' is set on object 'Object Repository/Login session object/Input - Email'
+
+12-09-2025T16:26:18 - [MESSAGE][PASSED] - Text 'user1basic2staging@qwertysystem.net' is set on object 'Object Repository/Login session object/Input - Email'
+
+12-09-2025T16:26:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login session object/Input - Password"), password): Text 'Gaadaobatnya1@' is set on object 'Object Repository/Login session object/Input - Password'
+
+12-09-2025T16:26:19 - [MESSAGE][PASSED] - Text 'Gaadaobatnya1@' is set on object 'Object Repository/Login session object/Input - Password'
+
+12-09-2025T16:26:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login session object/Button - Login")): Object: 'Object Repository/Login session object/Button - Login' is clicked on
+
+12-09-2025T16:26:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login session object/Button - Login' is clicked on
+
+12-09-2025T16:26:20 - [TEST_STEP][PASSED] - isPopupPresent = verifyElementPresent(findTestObject("Login session object/Page_TAG SAMURAI/Popup duplicate login"), 20, OPTIONAL): Object 'Object Repository/Login session object/Page_TAG SAMURAI/Popup duplicate login' is present
+
+12-09-2025T16:26:21 - [MESSAGE][PASSED] - Object 'Object Repository/Login session object/Page_TAG SAMURAI/Popup duplicate login' is present
+
+12-09-2025T16:26:21 - [TEST_STEP][PASSED] - if (isPopupPresent): Object: 'Object Repository/Login session object/Page_TAG SAMURAI/button_Confirm_duplicate login' is clicked on
+
+12-09-2025T16:26:21 - [TEST_STEP][PASSED] - click(findTestObject("Login session object/Page_TAG SAMURAI/button_Confirm_duplicate login"), STOP_ON_FAILURE): Object: 'Object Repository/Login session object/Page_TAG SAMURAI/button_Confirm_duplicate login' is clicked on
+
+12-09-2025T16:26:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login session object/Page_TAG SAMURAI/button_Confirm_duplicate login' is clicked on
+
+12-09-2025T16:26:22 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+12-09-2025T16:26:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+12-09-2025T16:26:22 - [TEST_STEP][PASSED] - delay(5, OPTIONAL): Delayed 5 second(s)
+
+12-09-2025T16:26:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+12-09-2025T16:26:27 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("All Menu/Button - Module - Fixed Asset"), 30): Object 'Object Repository/All Menu/Button - Module - Fixed Asset' is clickable
+
+12-09-2025T16:26:27 - [MESSAGE][PASSED] - Object 'Object Repository/All Menu/Button - Module - Fixed Asset' is clickable
+
+12-09-2025T16:26:27 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Module - Fixed Asset")): Object: 'Object Repository/All Menu/Button - Module - Fixed Asset' is clicked on
+
+12-09-2025T16:26:29 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Module - Fixed Asset' is clicked on
+
+12-09-2025T16:26:29 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+12-09-2025T16:26:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+12-09-2025T16:26:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("All Menu/Button - Menu - Fixed Asset")): Object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is visible
+
+12-09-2025T16:26:35 - [MESSAGE][PASSED] - Object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Register asset - (Negatif)/Register asset - Register tanpa grup" time="0.76" classname="Test Cases/All asset/Register asset - (Negatif)/Register asset - Register tanpa grup" status="FAILED">
+         <failure type="FAILED" message="Test Cases/All asset/Register asset - (Negatif)/Register asset - Register tanpa grup FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/All Menu/Button - Sub menu - All Assets'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at Register asset - Register tanpa grup.run(Register asset - Register tanpa grup:29)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1757669148305.run(TempTestSuite1757669148305.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable&#xa;  (Session info: MicrosoftEdge=140.0.3485.54)&#xa;Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'&#xa;System info: host: 'DESKTOP', ip: '169.254.111.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CEdgeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.54, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:56524}, msedge: {msedgedriverVersion: 140.0.3485.54 (3cc379a8a5fb..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: a5b2329b7f9d658bb215e8f3cd3230f2&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)&#xa;	at org.openqa.selenium.WebElement$click.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[12-09-2025T16:26:45 - [TEST_CASE][FAILED] - Test Cases/All asset/Register asset - (Negatif)/Register asset - Register tanpa grup: Test Cases/All asset/Register asset - (Negatif)/Register asset - Register tanpa grup FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/All Menu/Button - Sub menu - All Assets'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Register asset - Register tanpa grup.run(Register asset - Register tanpa grup:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757669148305.run(TempTestSuite1757669148305.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=140.0.3485.54)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP', ip: '169.254.111.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.54, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:56524}, msedge: {msedgedriverVersion: 140.0.3485.54 (3cc379a8a5fb..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5b2329b7f9d658bb215e8f3cd3230f2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+
+12-09-2025T16:26:45 - [TEST_STEP][PASSED] - buttonAktif = getAttribute(findTestObject("All Menu/Button - Menu - Fixed Asset"), "aria-expanded"): Attribute 'aria-expanded' of object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is: 'true'
+
+12-09-2025T16:26:45 - [MESSAGE][PASSED] - Attribute 'aria-expanded' of object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is: 'true'
+
+12-09-2025T16:26:45 - [TEST_STEP][PASSED] - if (buttonAktif == "false"): null
+
+12-09-2025T16:26:45 - [TEST_STEP][PASSED] - else: null
+
+12-09-2025T16:26:45 - [TEST_STEP][FAILED] - click(findTestObject("All Menu/Button - Sub menu - All Assets")): Unable to click on object 'Object Repository/All Menu/Button - Sub menu - All Assets' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/All Menu/Button - Sub menu - All Assets'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Register asset - Register tanpa grup.run(Register asset - Register tanpa grup:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757669148305.run(TempTestSuite1757669148305.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=140.0.3485.54)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP', ip: '169.254.111.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.54, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:56524}, msedge: {msedgedriverVersion: 140.0.3485.54 (3cc379a8a5fb..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5b2329b7f9d658bb215e8f3cd3230f2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1756891827779.run(Script1756891827779.groovy:29)
+	... 18 more
+)
+
+12-09-2025T16:26:46 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/All Menu/Button - Sub menu - All Assets' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/All Menu/Button - Sub menu - All Assets'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Register asset - Register tanpa grup.run(Register asset - Register tanpa grup:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757669148305.run(TempTestSuite1757669148305.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=140.0.3485.54)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP', ip: '169.254.111.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.54, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:56524}, msedge: {msedgedriverVersion: 140.0.3485.54 (3cc379a8a5fb..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5b2329b7f9d658bb215e8f3cd3230f2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1756891827779.run(Script1756891827779.groovy:29)
+	... 18 more
+)
+[[ATTACHMENT|D:\\automation-test-fixed-asset-basic\\Reports\\20250912_162548\\Fixed Asset - Transaction\\All asset\\All asset -\\20250912_162548\\1757669206054.png]]]]></system-out>
+         <system-err><![CDATA[12-09-2025T16:26:45 - [TEST_CASE][FAILED] - Test Cases/All asset/Register asset - (Negatif)/Register asset - Register tanpa grup: Test Cases/All asset/Register asset - (Negatif)/Register asset - Register tanpa grup FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/All Menu/Button - Sub menu - All Assets'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Register asset - Register tanpa grup.run(Register asset - Register tanpa grup:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757669148305.run(TempTestSuite1757669148305.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=140.0.3485.54)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP', ip: '169.254.111.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.54, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:56524}, msedge: {msedgedriverVersion: 140.0.3485.54 (3cc379a8a5fb..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5b2329b7f9d658bb215e8f3cd3230f2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Register asset - (Negatif)/Register asset - Register tanpa category" time="11.01" classname="Test Cases/All asset/Register asset - (Negatif)/Register asset - Register tanpa category" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:26:46 - [TEST_CASE][PASSED] - Test Cases/All asset/Register asset - (Negatif)/Register asset - Register tanpa category: Test Cases/All asset/Register asset - (Negatif)/Register asset - Register tanpa category
+
+12-09-2025T16:26:46 - [TEST_STEP][NOT_RUN] - click(findTestObject("All Menu/Button - Sub menu - All Assets")): NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - All Assets"))
+
+12-09-2025T16:26:46 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - All Assets"))
+
+12-09-2025T16:26:46 - [TEST_STEP][NOT_RUN] - click(findTestObject("All asset/Register asset/Button - Register")): NOT_RUN: click(findTestObject("All asset/Register asset/Button - Register"))
+
+12-09-2025T16:26:46 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All asset/Register asset/Button - Register"))
+
+12-09-2025T16:26:46 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+12-09-2025T16:26:46 - [MESSAGE][PASSED] - Refresh successfully
+
+12-09-2025T16:26:46 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Select Group")): Object: 'Object Repository/All asset/Register asset/Button - Select Group' is clicked on
+
+12-09-2025T16:26:50 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Select Group' is clicked on
+
+12-09-2025T16:26:50 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/List - Group")): Object: 'Object Repository/All asset/Register asset/List - Group' is clicked on
+
+12-09-2025T16:26:52 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/List - Group' is clicked on
+
+12-09-2025T16:26:52 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Select")): Object: 'Object Repository/All asset/Register asset/Button - Select' is clicked on
+
+12-09-2025T16:26:52 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Select' is clicked on
+
+12-09-2025T16:26:52 - [TEST_STEP][PASSED] - setText(findTestObject("All asset/Register asset/Input - Asset name"), "asd"): Text 'asd' is set on object 'Object Repository/All asset/Register asset/Input - Asset name'
+
+12-09-2025T16:26:53 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/All asset/Register asset/Input - Asset name'
+
+12-09-2025T16:26:53 - [TEST_STEP][PASSED] - setText(findTestObject("All asset/Register asset/Input - Brand"), "asd"): Text 'asd' is set on object 'Object Repository/All asset/Register asset/Input - Brand'
+
+12-09-2025T16:26:54 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/All asset/Register asset/Input - Brand'
+
+12-09-2025T16:26:54 - [TEST_STEP][PASSED] - setText(findTestObject("All asset/Register asset/Input - Model"), "asd"): Text 'asd' is set on object 'Object Repository/All asset/Register asset/Input - Model'
+
+12-09-2025T16:26:54 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/All asset/Register asset/Input - Model'
+
+12-09-2025T16:26:54 - [TEST_STEP][PASSED] - setText(findTestObject("All asset/Register asset/Input - Measurement"), "asd"): Text 'asd' is set on object 'Object Repository/All asset/Register asset/Input - Measurement'
+
+12-09-2025T16:26:55 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/All asset/Register asset/Input - Measurement'
+
+12-09-2025T16:26:55 - [TEST_STEP][PASSED] - setText(findTestObject("All asset/Register asset/Input - Useful life"), "123"): Text '123' is set on object 'Object Repository/All asset/Register asset/Input - Useful life'
+
+12-09-2025T16:26:56 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/All asset/Register asset/Input - Useful life'
+
+12-09-2025T16:26:56 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Register")): Object: 'Object Repository/All asset/Register asset/Button - Register' is clicked on
+
+12-09-2025T16:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Register' is clicked on
+
+12-09-2025T16:26:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("All asset/Register asset/Alert - You must pick a category"), STOP_ON_FAILURE): Object 'Object Repository/All asset/Register asset/Alert - You must pick a category' is visible
+
+12-09-2025T16:26:57 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Alert - You must pick a category' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Register asset - (Negatif)/Register asset - Register tanpa mengisi field mandatory" time="13.0" classname="Test Cases/All asset/Register asset - (Negatif)/Register asset - Register tanpa mengisi field mandatory" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:26:57 - [TEST_CASE][PASSED] - Test Cases/All asset/Register asset - (Negatif)/Register asset - Register tanpa mengisi field mandatory: Test Cases/All asset/Register asset - (Negatif)/Register asset - Register tanpa mengisi field mandatory
+
+12-09-2025T16:26:57 - [TEST_STEP][NOT_RUN] - click(findTestObject("All Menu/Button - Sub menu - All Assets")): NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - All Assets"))
+
+12-09-2025T16:26:57 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - All Assets"))
+
+12-09-2025T16:26:57 - [TEST_STEP][NOT_RUN] - click(findTestObject("All asset/Register asset/Button - Register")): NOT_RUN: click(findTestObject("All asset/Register asset/Button - Register"))
+
+12-09-2025T16:26:57 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All asset/Register asset/Button - Register"))
+
+12-09-2025T16:26:57 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+12-09-2025T16:26:58 - [MESSAGE][PASSED] - Refresh successfully
+
+12-09-2025T16:26:58 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Select Group")): Object: 'Object Repository/All asset/Register asset/Button - Select Group' is clicked on
+
+12-09-2025T16:27:03 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Select Group' is clicked on
+
+12-09-2025T16:27:03 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/List - Group")): Object: 'Object Repository/All asset/Register asset/List - Group' is clicked on
+
+12-09-2025T16:27:04 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/List - Group' is clicked on
+
+12-09-2025T16:27:04 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Select")): Object: 'Object Repository/All asset/Register asset/Button - Select' is clicked on
+
+12-09-2025T16:27:05 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Select' is clicked on
+
+12-09-2025T16:27:05 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Select Category")): Object: 'Object Repository/All asset/Register asset/Button - Select Category' is clicked on
+
+12-09-2025T16:27:06 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Select Category' is clicked on
+
+12-09-2025T16:27:06 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/List - Category")): Object: 'Object Repository/All asset/Register asset/List - Category' is clicked on
+
+12-09-2025T16:27:07 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/List - Category' is clicked on
+
+12-09-2025T16:27:07 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Select")): Object: 'Object Repository/All asset/Register asset/Button - Select' is clicked on
+
+12-09-2025T16:27:07 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Select' is clicked on
+
+12-09-2025T16:27:07 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Register")): Object: 'Object Repository/All asset/Register asset/Button - Register' is clicked on
+
+12-09-2025T16:27:09 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Register' is clicked on
+
+12-09-2025T16:27:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("All asset/Register asset/Field - Border danger")): Object 'Object Repository/All asset/Register asset/Field - Border danger' is visible
+
+12-09-2025T16:27:09 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Field - Border danger' is visible
+
+12-09-2025T16:27:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("All asset/Register asset/Alert - Field mandatory")): Object 'Object Repository/All asset/Register asset/Alert - Field mandatory' is visible
+
+12-09-2025T16:27:10 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Alert - Field mandatory' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Register asset - (Negatif)/Register asset - Input field lebih dari 30 karakter" time="4.89" classname="Test Cases/All asset/Register asset - (Negatif)/Register asset - Input field lebih dari 30 karakter" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:27:10 - [TEST_CASE][PASSED] - Test Cases/All asset/Register asset - (Negatif)/Register asset - Input field lebih dari 30 karakter: Test Cases/All asset/Register asset - (Negatif)/Register asset - Input field lebih dari 30 karakter
+
+12-09-2025T16:27:10 - [TEST_STEP][NOT_RUN] - click(findTestObject("All Menu/Button - Sub menu - All Assets")): NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - All Assets"))
+
+12-09-2025T16:27:10 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - All Assets"))
+
+12-09-2025T16:27:10 - [TEST_STEP][NOT_RUN] - click(findTestObject("All asset/Register asset/Button - Register")): NOT_RUN: click(findTestObject("All asset/Register asset/Button - Register"))
+
+12-09-2025T16:27:10 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All asset/Register asset/Button - Register"))
+
+12-09-2025T16:27:10 - [TEST_STEP][NOT_RUN] - click(findTestObject("All asset/Register asset/Button - Select Group")): NOT_RUN: click(findTestObject("All asset/Register asset/Button - Select Group"))
+
+12-09-2025T16:27:10 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All asset/Register asset/Button - Select Group"))
+
+12-09-2025T16:27:10 - [TEST_STEP][NOT_RUN] - click(findTestObject("All asset/Register asset/List - Group")): NOT_RUN: click(findTestObject("All asset/Register asset/List - Group"))
+
+12-09-2025T16:27:10 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All asset/Register asset/List - Group"))
+
+12-09-2025T16:27:10 - [TEST_STEP][NOT_RUN] - click(findTestObject("All asset/Register asset/Button - Select")): NOT_RUN: click(findTestObject("All asset/Register asset/Button - Select"))
+
+12-09-2025T16:27:10 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All asset/Register asset/Button - Select"))
+
+12-09-2025T16:27:10 - [TEST_STEP][NOT_RUN] - click(findTestObject("All asset/Register asset/Button - Select Category")): NOT_RUN: click(findTestObject("All asset/Register asset/Button - Select Category"))
+
+12-09-2025T16:27:10 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All asset/Register asset/Button - Select Category"))
+
+12-09-2025T16:27:10 - [TEST_STEP][NOT_RUN] - click(findTestObject("All asset/Register asset/List - Category")): NOT_RUN: click(findTestObject("All asset/Register asset/List - Category"))
+
+12-09-2025T16:27:10 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All asset/Register asset/List - Category"))
+
+12-09-2025T16:27:10 - [TEST_STEP][NOT_RUN] - click(findTestObject("All asset/Register asset/Button - Select")): NOT_RUN: click(findTestObject("All asset/Register asset/Button - Select"))
+
+12-09-2025T16:27:10 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All asset/Register asset/Button - Select"))
+
+12-09-2025T16:27:10 - [TEST_STEP][PASSED] - setText(findTestObject("All asset/Register asset/Input - Asset name"), "AAAAaaaaaBBBBbbbbCCCCccccDDDDDDDdddddd"): Text 'AAAAaaaaaBBBBbbbbCCCCccccDDDDDDDdddddd' is set on object 'Object Repository/All asset/Register asset/Input - Asset name'
+
+12-09-2025T16:27:11 - [MESSAGE][PASSED] - Text 'AAAAaaaaaBBBBbbbbCCCCccccDDDDDDDdddddd' is set on object 'Object Repository/All asset/Register asset/Input - Asset name'
+
+12-09-2025T16:27:11 - [TEST_STEP][PASSED] - actualValue = getAttribute(findTestObject("All asset/Register asset/Input - Asset name"), "value"): Attribute 'value' of object 'Object Repository/All asset/Register asset/Input - Asset name' is: 'AAAAaaaaaBBBBbbbbCCCCccccDDDDD'
+
+12-09-2025T16:27:11 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/All asset/Register asset/Input - Asset name' is: 'AAAAaaaaaBBBBbbbbCCCCccccDDDDD'
+
+12-09-2025T16:27:11 - [TEST_STEP][PASSED] - verifyLessThanOrEqual(actualValue.length(), 30): Actual number '30' is less than or equal to expected number '30'
+
+12-09-2025T16:27:11 - [MESSAGE][PASSED] - Actual number '30' is less than or equal to expected number '30'
+
+12-09-2025T16:27:11 - [TEST_STEP][PASSED] - setText(findTestObject("All asset/Register asset/Input - Brand"), "AAAAaaaaaBBBBbbbbCCCCccccDDDDDDDdddddd"): Text 'AAAAaaaaaBBBBbbbbCCCCccccDDDDDDDdddddd' is set on object 'Object Repository/All asset/Register asset/Input - Brand'
+
+12-09-2025T16:27:12 - [MESSAGE][PASSED] - Text 'AAAAaaaaaBBBBbbbbCCCCccccDDDDDDDdddddd' is set on object 'Object Repository/All asset/Register asset/Input - Brand'
+
+12-09-2025T16:27:12 - [TEST_STEP][PASSED] - actualValue1 = getAttribute(findTestObject("All asset/Register asset/Input - Brand"), "value"): Attribute 'value' of object 'Object Repository/All asset/Register asset/Input - Brand' is: 'AAAAaaaaaBBBBbbbbCCCCccccDDDDD'
+
+12-09-2025T16:27:12 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/All asset/Register asset/Input - Brand' is: 'AAAAaaaaaBBBBbbbbCCCCccccDDDDD'
+
+12-09-2025T16:27:12 - [TEST_STEP][PASSED] - verifyLessThanOrEqual(actualValue1.length(), 30): Actual number '30' is less than or equal to expected number '30'
+
+12-09-2025T16:27:12 - [MESSAGE][PASSED] - Actual number '30' is less than or equal to expected number '30'
+
+12-09-2025T16:27:12 - [TEST_STEP][PASSED] - setText(findTestObject("All asset/Register asset/Input - Model"), "AAAAaaaaaBBBBbbbbCCCCccccDDDDDDDdddddd"): Text 'AAAAaaaaaBBBBbbbbCCCCccccDDDDDDDdddddd' is set on object 'Object Repository/All asset/Register asset/Input - Model'
+
+12-09-2025T16:27:13 - [MESSAGE][PASSED] - Text 'AAAAaaaaaBBBBbbbbCCCCccccDDDDDDDdddddd' is set on object 'Object Repository/All asset/Register asset/Input - Model'
+
+12-09-2025T16:27:13 - [TEST_STEP][PASSED] - actualValue2 = getAttribute(findTestObject("All asset/Register asset/Input - Model"), "value"): Attribute 'value' of object 'Object Repository/All asset/Register asset/Input - Model' is: 'AAAAaaaaaBBBBbbbbCCCCccccDDDDD'
+
+12-09-2025T16:27:13 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/All asset/Register asset/Input - Model' is: 'AAAAaaaaaBBBBbbbbCCCCccccDDDDD'
+
+12-09-2025T16:27:13 - [TEST_STEP][PASSED] - verifyLessThanOrEqual(actualValue2.length(), 30): Actual number '30' is less than or equal to expected number '30'
+
+12-09-2025T16:27:13 - [MESSAGE][PASSED] - Actual number '30' is less than or equal to expected number '30'
+
+12-09-2025T16:27:13 - [TEST_STEP][PASSED] - setText(findTestObject("All asset/Register asset/Input - Measurement"), "AAAAaaaaaBBBBbbbbCCCCccccDDDDDDDdddddd"): Text 'AAAAaaaaaBBBBbbbbCCCCccccDDDDDDDdddddd' is set on object 'Object Repository/All asset/Register asset/Input - Measurement'
+
+12-09-2025T16:27:14 - [MESSAGE][PASSED] - Text 'AAAAaaaaaBBBBbbbbCCCCccccDDDDDDDdddddd' is set on object 'Object Repository/All asset/Register asset/Input - Measurement'
+
+12-09-2025T16:27:14 - [TEST_STEP][PASSED] - actualValue3 = getAttribute(findTestObject("All asset/Register asset/Input - Measurement"), "value"): Attribute 'value' of object 'Object Repository/All asset/Register asset/Input - Measurement' is: 'AAAAaaaaaBBBBbbbbCCCCccccDDDDD'
+
+12-09-2025T16:27:15 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/All asset/Register asset/Input - Measurement' is: 'AAAAaaaaaBBBBbbbbCCCCccccDDDDD'
+
+12-09-2025T16:27:15 - [TEST_STEP][PASSED] - verifyLessThanOrEqual(actualValue3.length(), 30): Actual number '30' is less than or equal to expected number '30'
+
+12-09-2025T16:27:15 - [MESSAGE][PASSED] - Actual number '30' is less than or equal to expected number '30']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Register asset - (Negatif)/Register asset - Input useful life selain angka dan lebih dari 3 karakter" time="1.075" classname="Test Cases/All asset/Register asset - (Negatif)/Register asset - Input useful life selain angka dan lebih dari 3 karakter" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:27:15 - [TEST_CASE][PASSED] - Test Cases/All asset/Register asset - (Negatif)/Register asset - Input useful life selain angka dan lebih dari 3 karakter: Test Cases/All asset/Register asset - (Negatif)/Register asset - Input useful life selain angka dan lebih dari 3 karakter
+
+12-09-2025T16:27:15 - [TEST_STEP][NOT_RUN] - click(findTestObject("All Menu/Button - Sub menu - All Assets")): NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - All Assets"))
+
+12-09-2025T16:27:15 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - All Assets"))
+
+12-09-2025T16:27:15 - [TEST_STEP][NOT_RUN] - click(findTestObject("All asset/Register asset/Button - Register")): NOT_RUN: click(findTestObject("All asset/Register asset/Button - Register"))
+
+12-09-2025T16:27:15 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All asset/Register asset/Button - Register"))
+
+12-09-2025T16:27:15 - [TEST_STEP][PASSED] - setText(findTestObject("All asset/Register asset/Input - Useful life"), "12b@"): Text '12b@' is set on object 'Object Repository/All asset/Register asset/Input - Useful life'
+
+12-09-2025T16:27:15 - [MESSAGE][PASSED] - Text '12b@' is set on object 'Object Repository/All asset/Register asset/Input - Useful life'
+
+12-09-2025T16:27:15 - [TEST_STEP][PASSED] - valueuseful = getAttribute(findTestObject("All asset/Register asset/Input - Useful life"), "value"): Attribute 'value' of object 'Object Repository/All asset/Register asset/Input - Useful life' is: '12'
+
+12-09-2025T16:27:16 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/All asset/Register asset/Input - Useful life' is: '12'
+
+12-09-2025T16:27:16 - [TEST_STEP][PASSED] - if (valueuseful ==~ "^\d*$"): Hanya angka yang terdeteksi.
+
+12-09-2025T16:27:16 - [TEST_STEP][PASSED] - comment("Hanya angka yang terdeteksi."): Hanya angka yang terdeteksi.
+
+12-09-2025T16:27:16 - [MESSAGE][INFO] - Hanya angka yang terdeteksi.
+
+12-09-2025T16:27:16 - [TEST_STEP][PASSED] - verifyLessThanOrEqual(valueuseful.length(), 3): Actual number '2' is less than or equal to expected number '3'
+
+12-09-2025T16:27:16 - [MESSAGE][PASSED] - Actual number '2' is less than or equal to expected number '3']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Register asset - (Positif)/Register asset - Duplicate list register asset (single action)" time="1.18" classname="Test Cases/All asset/Register asset - (Positif)/Register asset - Duplicate list register asset (single action)" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:27:16 - [TEST_CASE][PASSED] - Test Cases/All asset/Register asset - (Positif)/Register asset - Duplicate list register asset (single action): Test Cases/All asset/Register asset - (Positif)/Register asset - Duplicate list register asset (single action)
+
+12-09-2025T16:27:16 - [TEST_STEP][NOT_RUN] - rowBefore = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size(): NOT_RUN: rowBefore = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size()
+
+12-09-2025T16:27:16 - [MESSAGE][NOT_RUN] - NOT_RUN: rowBefore = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size()
+
+12-09-2025T16:27:16 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Single action - Duplikat")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Single action - Duplikat' is clicked on
+
+12-09-2025T16:27:16 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Single action - Duplikat' is clicked on
+
+12-09-2025T16:27:16 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Option duplikat")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Option duplikat' is clicked on
+
+12-09-2025T16:27:17 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Option duplikat' is clicked on
+
+12-09-2025T16:27:17 - [TEST_STEP][NOT_RUN] - rowAfter = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size(): NOT_RUN: rowAfter = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size()
+
+12-09-2025T16:27:17 - [MESSAGE][NOT_RUN] - NOT_RUN: rowAfter = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size()
+
+12-09-2025T16:27:17 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+12-09-2025T16:27:17 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+12-09-2025T16:27:17 - [TEST_STEP][NOT_RUN] - verifyEqual(rowAfter, rowBefore + 1): NOT_RUN: verifyEqual(rowAfter, rowBefore + 1)
+
+12-09-2025T16:27:17 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyEqual(rowAfter, rowBefore + 1)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Register asset - (Positif)/Register asset - Duplicate list register asset (bulk action)" time="1.926" classname="Test Cases/All asset/Register asset - (Positif)/Register asset - Duplicate list register asset (bulk action)" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:27:17 - [TEST_CASE][PASSED] - Test Cases/All asset/Register asset - (Positif)/Register asset - Duplicate list register asset (bulk action): Test Cases/All asset/Register asset - (Positif)/Register asset - Duplicate list register asset (bulk action)
+
+12-09-2025T16:27:17 - [TEST_STEP][NOT_RUN] - rowBefore = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size(): NOT_RUN: rowBefore = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size()
+
+12-09-2025T16:27:17 - [MESSAGE][NOT_RUN] - NOT_RUN: rowBefore = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size()
+
+12-09-2025T16:27:17 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Checkbox - Untuk duplicate")): Object: 'Object Repository/All asset/Register asset/Remove from list/Checkbox - Untuk duplicate' is clicked on
+
+12-09-2025T16:27:17 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Checkbox - Untuk duplicate' is clicked on
+
+12-09-2025T16:27:17 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk Action")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+12-09-2025T16:27:18 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+12-09-2025T16:27:18 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk action - Option duplicate")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk action - Option duplicate' is clicked on
+
+12-09-2025T16:27:19 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk action - Option duplicate' is clicked on
+
+12-09-2025T16:27:19 - [TEST_STEP][NOT_RUN] - rowAfter = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size(): NOT_RUN: rowAfter = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size()
+
+12-09-2025T16:27:19 - [MESSAGE][NOT_RUN] - NOT_RUN: rowAfter = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size()
+
+12-09-2025T16:27:19 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+12-09-2025T16:27:19 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+12-09-2025T16:27:19 - [TEST_STEP][NOT_RUN] - verifyEqual(rowAfter, rowBefore + 1): NOT_RUN: verifyEqual(rowAfter, rowBefore + 1)
+
+12-09-2025T16:27:19 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyEqual(rowAfter, rowBefore + 1)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Register asset - (Positif)/Register asset - Tambah row register asset" time="1.63" classname="Test Cases/All asset/Register asset - (Positif)/Register asset - Tambah row register asset" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:27:19 - [TEST_CASE][PASSED] - Test Cases/All asset/Register asset - (Positif)/Register asset - Tambah row register asset: Test Cases/All asset/Register asset - (Positif)/Register asset - Tambah row register asset
+
+12-09-2025T16:27:19 - [TEST_STEP][NOT_RUN] - click(findTestObject("All Menu/Button - Sub menu - All Assets")): NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - All Assets"))
+
+12-09-2025T16:27:19 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - All Assets"))
+
+12-09-2025T16:27:19 - [TEST_STEP][NOT_RUN] - click(findTestObject("All asset/Register asset/Button - Register")): NOT_RUN: click(findTestObject("All asset/Register asset/Button - Register"))
+
+12-09-2025T16:27:19 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All asset/Register asset/Button - Register"))
+
+12-09-2025T16:27:19 - [TEST_STEP][NOT_RUN] - click(findTestObject("All asset/Register asset/Button - Select Group")): NOT_RUN: click(findTestObject("All asset/Register asset/Button - Select Group"))
+
+12-09-2025T16:27:19 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All asset/Register asset/Button - Select Group"))
+
+12-09-2025T16:27:19 - [TEST_STEP][NOT_RUN] - click(findTestObject("All asset/Register asset/List - Group")): NOT_RUN: click(findTestObject("All asset/Register asset/List - Group"))
+
+12-09-2025T16:27:19 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All asset/Register asset/List - Group"))
+
+12-09-2025T16:27:19 - [TEST_STEP][NOT_RUN] - click(findTestObject("All asset/Register asset/Button - Select")): NOT_RUN: click(findTestObject("All asset/Register asset/Button - Select"))
+
+12-09-2025T16:27:19 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All asset/Register asset/Button - Select"))
+
+12-09-2025T16:27:19 - [TEST_STEP][NOT_RUN] - click(findTestObject("All asset/Register asset/Button - Select Category")): NOT_RUN: click(findTestObject("All asset/Register asset/Button - Select Category"))
+
+12-09-2025T16:27:19 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All asset/Register asset/Button - Select Category"))
+
+12-09-2025T16:27:19 - [TEST_STEP][NOT_RUN] - click(findTestObject("All asset/Register asset/List - Category")): NOT_RUN: click(findTestObject("All asset/Register asset/List - Category"))
+
+12-09-2025T16:27:19 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All asset/Register asset/List - Category"))
+
+12-09-2025T16:27:19 - [TEST_STEP][NOT_RUN] - click(findTestObject("All asset/Register asset/Button - Select")): NOT_RUN: click(findTestObject("All asset/Register asset/Button - Select"))
+
+12-09-2025T16:27:19 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All asset/Register asset/Button - Select"))
+
+12-09-2025T16:27:19 - [TEST_STEP][NOT_RUN] - setText(findTestObject("All asset/Register asset/Input - Asset name"), "asd"): NOT_RUN: setText(findTestObject("All asset/Register asset/Input - Asset name"), "asd")
+
+12-09-2025T16:27:19 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("All asset/Register asset/Input - Asset name"), "asd")
+
+12-09-2025T16:27:19 - [TEST_STEP][NOT_RUN] - setText(findTestObject("All asset/Register asset/Input - Brand"), "asd"): NOT_RUN: setText(findTestObject("All asset/Register asset/Input - Brand"), "asd")
+
+12-09-2025T16:27:19 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("All asset/Register asset/Input - Brand"), "asd")
+
+12-09-2025T16:27:19 - [TEST_STEP][NOT_RUN] - setText(findTestObject("All asset/Register asset/Input - Model"), "asd"): NOT_RUN: setText(findTestObject("All asset/Register asset/Input - Model"), "asd")
+
+12-09-2025T16:27:19 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("All asset/Register asset/Input - Model"), "asd")
+
+12-09-2025T16:27:19 - [TEST_STEP][NOT_RUN] - setText(findTestObject("All asset/Register asset/Input - Measurement"), "asd"): NOT_RUN: setText(findTestObject("All asset/Register asset/Input - Measurement"), "asd")
+
+12-09-2025T16:27:19 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("All asset/Register asset/Input - Measurement"), "asd")
+
+12-09-2025T16:27:19 - [TEST_STEP][NOT_RUN] - setText(findTestObject("All asset/Register asset/Input - Useful life"), "123"): NOT_RUN: setText(findTestObject("All asset/Register asset/Input - Useful life"), "123")
+
+12-09-2025T16:27:19 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("All asset/Register asset/Input - Useful life"), "123")
+
+12-09-2025T16:27:19 - [TEST_STEP][PASSED] - rowBefore = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size(): Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+12-09-2025T16:27:19 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+12-09-2025T16:27:19 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("All asset/Register asset/Button - Tambah Row")): Object 'Object Repository/All asset/Register asset/Button - Tambah Row' is clickable
+
+12-09-2025T16:27:20 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Button - Tambah Row' is clickable
+
+12-09-2025T16:27:20 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Tambah Row")): Object: 'Object Repository/All asset/Register asset/Button - Tambah Row' is clicked on
+
+12-09-2025T16:27:20 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Tambah Row' is clicked on
+
+12-09-2025T16:27:20 - [TEST_STEP][PASSED] - rowAfter = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size(): Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+12-09-2025T16:27:20 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+12-09-2025T16:27:20 - [TEST_STEP][PASSED] - verifyEqual(rowAfter, rowBefore + 1): Actual object '10' and expected object '10' are equal
+
+12-09-2025T16:27:20 - [MESSAGE][PASSED] - Actual object '10' and expected object '10' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Register asset - (Positif)/Register asset - Remove from list (Single action)" time="2.57" classname="Test Cases/All asset/Register asset - (Positif)/Register asset - Remove from list (Single action)" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:27:20 - [TEST_CASE][PASSED] - Test Cases/All asset/Register asset - (Positif)/Register asset - Remove from list (Single action): Test Cases/All asset/Register asset - (Positif)/Register asset - Remove from list (Single action)
+
+12-09-2025T16:27:20 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Single action - Register asset")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Single action - Register asset' is clicked on
+
+12-09-2025T16:27:21 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Single action - Register asset' is clicked on
+
+12-09-2025T16:27:21 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Option remove from List")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Option remove from List' is clicked on
+
+12-09-2025T16:27:22 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Option remove from List' is clicked on
+
+12-09-2025T16:27:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("All asset/Register asset/Remove from list/Dialog - Remove from list"), 10): Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+12-09-2025T16:27:22 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+12-09-2025T16:27:22 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Remove")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+12-09-2025T16:27:22 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+12-09-2025T16:27:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list"), "Success, asset has been removed from list."): Actual text and expected text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are matched.
+
+12-09-2025T16:27:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Register asset - (Positif)/Register asset - Remove from list (Bulk action)" time="0.48" classname="Test Cases/All asset/Register asset - (Positif)/Register asset - Remove from list (Bulk action)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/All asset/Register asset - (Positif)/Register asset - Remove from list (Bulk action) FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/All asset/Register asset/Remove from list/Checkbox - Remove from list'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at Register asset - Remove from list (Bulk action).run(Register asset - Remove from list (Bulk action):20)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1757669148305.run(TempTestSuite1757669148305.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable&#xa;  (Session info: MicrosoftEdge=140.0.3485.54)&#xa;Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'&#xa;System info: host: 'DESKTOP', ip: '169.254.111.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CEdgeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.54, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:56524}, msedge: {msedgedriverVersion: 140.0.3485.54 (3cc379a8a5fb..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: a5b2329b7f9d658bb215e8f3cd3230f2&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)&#xa;	at org.openqa.selenium.WebElement$click.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[12-09-2025T16:27:24 - [TEST_CASE][FAILED] - Test Cases/All asset/Register asset - (Positif)/Register asset - Remove from list (Bulk action): Test Cases/All asset/Register asset - (Positif)/Register asset - Remove from list (Bulk action) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/All asset/Register asset/Remove from list/Checkbox - Remove from list'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Register asset - Remove from list (Bulk action).run(Register asset - Remove from list (Bulk action):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757669148305.run(TempTestSuite1757669148305.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=140.0.3485.54)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP', ip: '169.254.111.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.54, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:56524}, msedge: {msedgedriverVersion: 140.0.3485.54 (3cc379a8a5fb..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5b2329b7f9d658bb215e8f3cd3230f2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+
+12-09-2025T16:27:25 - [TEST_STEP][FAILED] - click(findTestObject("All asset/Register asset/Remove from list/Checkbox - Remove from list")): Unable to click on object 'Object Repository/All asset/Register asset/Remove from list/Checkbox - Remove from list' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/All asset/Register asset/Remove from list/Checkbox - Remove from list'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Register asset - Remove from list (Bulk action).run(Register asset - Remove from list (Bulk action):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757669148305.run(TempTestSuite1757669148305.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=140.0.3485.54)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP', ip: '169.254.111.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.54, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:56524}, msedge: {msedgedriverVersion: 140.0.3485.54 (3cc379a8a5fb..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5b2329b7f9d658bb215e8f3cd3230f2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1756891827782.run(Script1756891827782.groovy:20)
+	... 18 more
+)
+
+12-09-2025T16:27:25 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/All asset/Register asset/Remove from list/Checkbox - Remove from list' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/All asset/Register asset/Remove from list/Checkbox - Remove from list'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Register asset - Remove from list (Bulk action).run(Register asset - Remove from list (Bulk action):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757669148305.run(TempTestSuite1757669148305.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=140.0.3485.54)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP', ip: '169.254.111.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.54, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:56524}, msedge: {msedgedriverVersion: 140.0.3485.54 (3cc379a8a5fb..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5b2329b7f9d658bb215e8f3cd3230f2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1756891827782.run(Script1756891827782.groovy:20)
+	... 18 more
+)
+[[ATTACHMENT|D:\\automation-test-fixed-asset-basic\\Reports\\20250912_162548\\Fixed Asset - Transaction\\All asset\\All asset -\\20250912_162548\\1757669245304.png]]]]></system-out>
+         <system-err><![CDATA[12-09-2025T16:27:24 - [TEST_CASE][FAILED] - Test Cases/All asset/Register asset - (Positif)/Register asset - Remove from list (Bulk action): Test Cases/All asset/Register asset - (Positif)/Register asset - Remove from list (Bulk action) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/All asset/Register asset/Remove from list/Checkbox - Remove from list'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Register asset - Remove from list (Bulk action).run(Register asset - Remove from list (Bulk action):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757669148305.run(TempTestSuite1757669148305.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=140.0.3485.54)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP', ip: '169.254.111.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.54, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:56524}, msedge: {msedgedriverVersion: 140.0.3485.54 (3cc379a8a5fb..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5b2329b7f9d658bb215e8f3cd3230f2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Register asset - (Positif)/Register asset - Cancel register" time="1.773" classname="Test Cases/All asset/Register asset - (Positif)/Register asset - Cancel register" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:27:25 - [TEST_CASE][PASSED] - Test Cases/All asset/Register asset - (Positif)/Register asset - Cancel register: Test Cases/All asset/Register asset - (Positif)/Register asset - Cancel register
+
+12-09-2025T16:27:25 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Cancel")): Object: 'Object Repository/All asset/Register asset/Button - Cancel' is clicked on
+
+12-09-2025T16:27:26 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Cancel' is clicked on
+
+12-09-2025T16:27:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("All asset/Register asset/Dialog - Cancel register"), 10): Object 'Object Repository/All asset/Register asset/Dialog - Cancel register' is visible
+
+12-09-2025T16:27:26 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Dialog - Cancel register' is visible
+
+12-09-2025T16:27:26 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Continue")): Object: 'Object Repository/All asset/Register asset/Button - Continue' is clicked on
+
+12-09-2025T16:27:26 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Continue' is clicked on
+
+12-09-2025T16:27:26 - [TEST_STEP][PASSED] - currentUrl = getUrl(): Current window's url is: 'https://staging-fam.tagsamurai.com/assets/all'
+
+12-09-2025T16:27:27 - [MESSAGE][PASSED] - Current window's url is: 'https://staging-fam.tagsamurai.com/assets/all'
+
+12-09-2025T16:27:27 - [TEST_STEP][PASSED] - verifyMatch(currentUrl, ".*assets.*", true): Actual text 'https://staging-fam.tagsamurai.com/assets/all' and expected text '.*assets.*' are matched  using regular expression
+
+12-09-2025T16:27:27 - [MESSAGE][PASSED] - Actual text 'https://staging-fam.tagsamurai.com/assets/all' and expected text '.*assets.*' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Edit asset - (Negatif)/Edit asset - Clear field dan submit" time="6.91" classname="Test Cases/All asset/Edit asset - (Negatif)/Edit asset - Clear field dan submit" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:27:27 - [TEST_CASE][PASSED] - Test Cases/All asset/Edit asset - (Negatif)/Edit asset - Clear field dan submit: Test Cases/All asset/Edit asset - (Negatif)/Edit asset - Clear field dan submit
+
+12-09-2025T16:27:27 - [TEST_STEP][NOT_RUN] - click(findTestObject("All Menu/Button - Sub menu - All Assets")): NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - All Assets"))
+
+12-09-2025T16:27:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - All Assets"))
+
+12-09-2025T16:27:27 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Edit asset/Button - single action")): Object: 'Object Repository/All asset/Edit asset/Button - single action' is clicked on
+
+12-09-2025T16:27:30 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Edit asset/Button - single action' is clicked on
+
+12-09-2025T16:27:30 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Edit asset/Button - Option Edit")): Object: 'Object Repository/All asset/Edit asset/Button - Option Edit' is clicked on
+
+12-09-2025T16:27:30 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Edit asset/Button - Option Edit' is clicked on
+
+12-09-2025T16:27:30 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Bulk action/Button - Clear Field")): Object: 'Object Repository/All asset/Bulk action/Button - Clear Field' is clicked on
+
+12-09-2025T16:27:32 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Bulk action/Button - Clear Field' is clicked on
+
+12-09-2025T16:27:32 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Edit asset/Button - Submit")): Object: 'Object Repository/All asset/Edit asset/Button - Submit' is clicked on
+
+12-09-2025T16:27:33 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Edit asset/Button - Submit' is clicked on
+
+12-09-2025T16:27:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("All asset/Edit asset/Field - Border danger edit")): Object 'Object Repository/All asset/Edit asset/Field - Border danger edit' is visible
+
+12-09-2025T16:27:33 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Edit asset/Field - Border danger edit' is visible
+
+12-09-2025T16:27:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("All asset/Edit asset/Alert - Field mandatory edit")): Object 'Object Repository/All asset/Edit asset/Alert - Field mandatory edit' is visible
+
+12-09-2025T16:27:34 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Edit asset/Alert - Field mandatory edit' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Edit asset - (Negatif)/Edit asset - Upload photo lebih dari 1 MB" time="1.391" classname="Test Cases/All asset/Edit asset - (Negatif)/Edit asset - Upload photo lebih dari 1 MB" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:27:34 - [TEST_CASE][PASSED] - Test Cases/All asset/Edit asset - (Negatif)/Edit asset - Upload photo lebih dari 1 MB: Test Cases/All asset/Edit asset - (Negatif)/Edit asset - Upload photo lebih dari 1 MB
+
+12-09-2025T16:27:34 - [TEST_STEP][NOT_RUN] - click(findTestObject("All Menu/Button - Sub menu - All Assets")): NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - All Assets"))
+
+12-09-2025T16:27:34 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - All Assets"))
+
+12-09-2025T16:27:34 - [TEST_STEP][NOT_RUN] - click(findTestObject("All asset/Edit asset/Button - single action")): NOT_RUN: click(findTestObject("All asset/Edit asset/Button - single action"))
+
+12-09-2025T16:27:34 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All asset/Edit asset/Button - single action"))
+
+12-09-2025T16:27:34 - [TEST_STEP][NOT_RUN] - click(findTestObject("All asset/Edit asset/Button - Option Edit")): NOT_RUN: click(findTestObject("All asset/Edit asset/Button - Option Edit"))
+
+12-09-2025T16:27:34 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All asset/Edit asset/Button - Option Edit"))
+
+12-09-2025T16:27:34 - [TEST_STEP][PASSED] - uploadFile(findTestObject("All asset/Edit asset/Input - Upload photo"), "D:\Katalon QA - Tag Samurai\katalon-test-tutor\Photo\Group.png"): File 'D:\Katalon QA - Tag Samurai\katalon-test-tutor\Photo\Group.png' sent to object: 'Object Repository/All asset/Edit asset/Input - Upload photo'
+
+12-09-2025T16:27:34 - [MESSAGE][PASSED] - File 'D:\Katalon QA - Tag Samurai\katalon-test-tutor\Photo\Group.png' sent to object: 'Object Repository/All asset/Edit asset/Input - Upload photo'
+
+12-09-2025T16:27:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("All asset/Edit asset/Alert - Field mandatory edit")): Object 'Object Repository/All asset/Edit asset/Alert - Field mandatory edit' is visible
+
+12-09-2025T16:27:35 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Edit asset/Alert - Field mandatory edit' is visible
+
+12-09-2025T16:27:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+12-09-2025T16:27:35 - [MESSAGE][WARNING] - Test object id is null
+
+12-09-2025T16:27:35 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+12-09-2025T16:27:35 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Report damage - (Negatif)/Report damage - Submit tanpa field mandatory" time="3.504" classname="Test Cases/All asset/Report damage - (Negatif)/Report damage - Submit tanpa field mandatory" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:27:35 - [TEST_CASE][PASSED] - Test Cases/All asset/Report damage - (Negatif)/Report damage - Submit tanpa field mandatory: Test Cases/All asset/Report damage - (Negatif)/Report damage - Submit tanpa field mandatory
+
+12-09-2025T16:27:35 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Button - Single action untuk report")): Object: 'Object Repository/All asset/Button - Single action untuk report' is clicked on
+
+12-09-2025T16:27:36 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Button - Single action untuk report' is clicked on
+
+12-09-2025T16:27:36 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Button - Single action - Option report damage")): Object: 'Object Repository/All asset/Button - Single action - Option report damage' is clicked on
+
+12-09-2025T16:27:36 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Button - Single action - Option report damage' is clicked on
+
+12-09-2025T16:27:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Report damage/Button - Submit")): Object: 'Object Repository/Borrow/Report damage/Button - Submit' is clicked on
+
+12-09-2025T16:27:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Report damage/Button - Submit' is clicked on
+
+12-09-2025T16:27:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Borrow/Report damage/Text - Note must not be empty")): Object 'Object Repository/Borrow/Report damage/Text - Note must not be empty' is visible
+
+12-09-2025T16:27:39 - [MESSAGE][PASSED] - Object 'Object Repository/Borrow/Report damage/Text - Note must not be empty' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Report damage - (Negatif)/Report damage - Input note lebih dari 120 karakter" time="2.036" classname="Test Cases/All asset/Report damage - (Negatif)/Report damage - Input note lebih dari 120 karakter" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:27:39 - [TEST_CASE][PASSED] - Test Cases/All asset/Report damage - (Negatif)/Report damage - Input note lebih dari 120 karakter: Test Cases/All asset/Report damage - (Negatif)/Report damage - Input note lebih dari 120 karakter
+
+12-09-2025T16:27:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Borrow/Report damage/Input - Note reported damage"), "asdfaaaaaaaaaaaaaaasdasnkandkankdnkaskdasdasksdfkdnskfsdkfskfsnssdsfsdfsfdfsdfsfsfsaaaaaaassssssadasdasdssssssssssssssssssssssssssssssssssss"): Text 'asdfaaaaaaaaaaaaaaasdasnkandkankdnkaskdasdasksdfkdnskfsdkfskfsnssdsfsdfsfdfsdfsfsfsaaaaaaassssssadasdasdssssssssssssssssssssssssssssssssssss' is set on object 'Object Repository/Borrow/Report damage/Input - Note reported damage'
+
+12-09-2025T16:27:40 - [MESSAGE][PASSED] - Text 'asdfaaaaaaaaaaaaaaasdasnkandkankdnkaskdasdasksdfkdnskfsdkfskfsnssdsfsdfsfdfsdfsfsfsaaaaaaassssssadasdasdssssssssssssssssssssssssssssssssssss' is set on object 'Object Repository/Borrow/Report damage/Input - Note reported damage'
+
+12-09-2025T16:27:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Report damage/Button - Submit")): Object: 'Object Repository/Borrow/Report damage/Button - Submit' is clicked on
+
+12-09-2025T16:27:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Report damage/Button - Submit' is clicked on
+
+12-09-2025T16:27:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Borrow/Report damage/Text - Max. 120 characters")): Object 'Object Repository/Borrow/Report damage/Text - Max. 120 characters' is visible
+
+12-09-2025T16:27:41 - [MESSAGE][PASSED] - Object 'Object Repository/Borrow/Report damage/Text - Max. 120 characters' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Report damage - (Negatif)/Report damage - Upload photo lebih dari 1 MB" time="1.36" classname="Test Cases/All asset/Report damage - (Negatif)/Report damage - Upload photo lebih dari 1 MB" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:27:41 - [TEST_CASE][PASSED] - Test Cases/All asset/Report damage - (Negatif)/Report damage - Upload photo lebih dari 1 MB: Test Cases/All asset/Report damage - (Negatif)/Report damage - Upload photo lebih dari 1 MB
+
+12-09-2025T16:27:41 - [TEST_STEP][PASSED] - uploadFile(findTestObject("All asset/Edit asset/Input - Upload photo"), "D:\Katalon QA - Tag Samurai\katalon-test-tutor\Photo\Group.png"): File 'D:\Katalon QA - Tag Samurai\katalon-test-tutor\Photo\Group.png' sent to object: 'Object Repository/All asset/Edit asset/Input - Upload photo'
+
+12-09-2025T16:27:41 - [MESSAGE][PASSED] - File 'D:\Katalon QA - Tag Samurai\katalon-test-tutor\Photo\Group.png' sent to object: 'Object Repository/All asset/Edit asset/Input - Upload photo'
+
+12-09-2025T16:27:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Borrow/Report damage/Text - Ukuran gambar terlalu besar Maks. 1 MB")): Object 'Object Repository/Borrow/Report damage/Text - Ukuran gambar terlalu besar Maks. 1 MB' is visible
+
+12-09-2025T16:27:42 - [MESSAGE][PASSED] - Object 'Object Repository/Borrow/Report damage/Text - Ukuran gambar terlalu besar Maks. 1 MB' is visible
+
+12-09-2025T16:27:42 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Cancel")): Object: 'Object Repository/All asset/Register asset/Button - Cancel' is clicked on
+
+12-09-2025T16:27:42 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Cancel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Report missing - (Negatif)/Report missing - Submit tanpa field mandatory" time="5.73" classname="Test Cases/All asset/Report missing - (Negatif)/Report missing - Submit tanpa field mandatory" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:27:42 - [TEST_CASE][PASSED] - Test Cases/All asset/Report missing - (Negatif)/Report missing - Submit tanpa field mandatory: Test Cases/All asset/Report missing - (Negatif)/Report missing - Submit tanpa field mandatory
+
+12-09-2025T16:27:42 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Button - Single action untuk report")): Object: 'Object Repository/All asset/Button - Single action untuk report' is clicked on
+
+12-09-2025T16:27:43 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Button - Single action untuk report' is clicked on
+
+12-09-2025T16:27:43 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Button - Single action - Option report missing")): Object: 'Object Repository/All asset/Button - Single action - Option report missing' is clicked on
+
+12-09-2025T16:27:43 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Button - Single action - Option report missing' is clicked on
+
+12-09-2025T16:27:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Report damage/Button - Submit")): Object: 'Object Repository/Borrow/Report damage/Button - Submit' is clicked on
+
+12-09-2025T16:27:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Report damage/Button - Submit' is clicked on
+
+12-09-2025T16:27:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Borrow/Report damage/Text - Note must not be empty")): Object 'Object Repository/Borrow/Report damage/Text - Note must not be empty' is visible
+
+12-09-2025T16:27:48 - [MESSAGE][PASSED] - Object 'Object Repository/Borrow/Report damage/Text - Note must not be empty' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Report missing - (Negatif)/Report missing - Input note lebih dari 120 karakter" time="2.503" classname="Test Cases/All asset/Report missing - (Negatif)/Report missing - Input note lebih dari 120 karakter" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:27:48 - [TEST_CASE][PASSED] - Test Cases/All asset/Report missing - (Negatif)/Report missing - Input note lebih dari 120 karakter: Test Cases/All asset/Report missing - (Negatif)/Report missing - Input note lebih dari 120 karakter
+
+12-09-2025T16:27:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Borrow/Report damage/Input - Note reported damage"), "asdfaaaaaaaaaaaaaaasdasnkandkankdnkaskdasdasksdfkdnskfsdkfskfsnssdsfsdfsfdfsdfsfsfsaaaaaaassssssadasdasdssssssssssssssssssssssssssssssssssss"): Text 'asdfaaaaaaaaaaaaaaasdasnkandkankdnkaskdasdasksdfkdnskfsdkfskfsnssdsfsdfsfdfsdfsfsfsaaaaaaassssssadasdasdssssssssssssssssssssssssssssssssssss' is set on object 'Object Repository/Borrow/Report damage/Input - Note reported damage'
+
+12-09-2025T16:27:49 - [MESSAGE][PASSED] - Text 'asdfaaaaaaaaaaaaaaasdasnkandkankdnkaskdasdasksdfkdnskfsdkfskfsnssdsfsdfsfdfsdfsfsfsaaaaaaassssssadasdasdssssssssssssssssssssssssssssssssssss' is set on object 'Object Repository/Borrow/Report damage/Input - Note reported damage'
+
+12-09-2025T16:27:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Report damage/Button - Submit")): Object: 'Object Repository/Borrow/Report damage/Button - Submit' is clicked on
+
+12-09-2025T16:27:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Report damage/Button - Submit' is clicked on
+
+12-09-2025T16:27:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Borrow/Report damage/Text - Max. 120 characters")): Object 'Object Repository/Borrow/Report damage/Text - Max. 120 characters' is visible
+
+12-09-2025T16:27:50 - [MESSAGE][PASSED] - Object 'Object Repository/Borrow/Report damage/Text - Max. 120 characters' is visible
+
+12-09-2025T16:27:50 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Cancel")): Object: 'Object Repository/All asset/Register asset/Button - Cancel' is clicked on
+
+12-09-2025T16:27:50 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Cancel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Report disposal - (Negatif)/Report disposal - Input note lebih dari 30 karakter" time="5.115" classname="Test Cases/All asset/Report disposal - (Negatif)/Report disposal - Input note lebih dari 30 karakter" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:27:50 - [TEST_CASE][PASSED] - Test Cases/All asset/Report disposal - (Negatif)/Report disposal - Input note lebih dari 30 karakter: Test Cases/All asset/Report disposal - (Negatif)/Report disposal - Input note lebih dari 30 karakter
+
+12-09-2025T16:27:50 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Edit asset/Button - single action")): Object: 'Object Repository/All asset/Edit asset/Button - single action' is clicked on
+
+12-09-2025T16:27:51 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Edit asset/Button - single action' is clicked on
+
+12-09-2025T16:27:51 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Button - Single action - Option report disposal")): Object: 'Object Repository/All asset/Button - Single action - Option report disposal' is clicked on
+
+12-09-2025T16:27:52 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Button - Single action - Option report disposal' is clicked on
+
+12-09-2025T16:27:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Borrow/Edit borrow/Input - Note"), "asdasdsasdwssddwwdasceerilnlmfignoiroskdnis"): Text 'asdasdsasdwssddwwdasceerilnlmfignoiroskdnis' is set on object 'Object Repository/Borrow/Edit borrow/Input - Note'
+
+12-09-2025T16:27:55 - [MESSAGE][PASSED] - Text 'asdasdsasdwssddwwdasceerilnlmfignoiroskdnis' is set on object 'Object Repository/Borrow/Edit borrow/Input - Note'
+
+12-09-2025T16:27:55 - [TEST_STEP][PASSED] - actualNote = getAttribute(findTestObject("Object Repository/Borrow/Edit borrow/Input - Note"), "value"): Attribute 'value' of object 'Object Repository/Borrow/Edit borrow/Input - Note' is: 'asdasdsasdwssddwwdasceerilnlmf'
+
+12-09-2025T16:27:55 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Borrow/Edit borrow/Input - Note' is: 'asdasdsasdwssddwwdasceerilnlmf'
+
+12-09-2025T16:27:55 - [TEST_STEP][PASSED] - verifyEqual(actualNote.length(), 30): Actual object '30' and expected object '30' are equal
+
+12-09-2025T16:27:55 - [MESSAGE][PASSED] - Actual object '30' and expected object '30' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Report disposal - (Positif)/Report disposal - Note (Bulk action)" time="3.62" classname="Test Cases/All asset/Report disposal - (Positif)/Report disposal - Note (Bulk action)" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:27:55 - [TEST_CASE][PASSED] - Test Cases/All asset/Report disposal - (Positif)/Report disposal - Note (Bulk action): Test Cases/All asset/Report disposal - (Positif)/Report disposal - Note (Bulk action)
+
+12-09-2025T16:27:55 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/Checkbox")): Object: 'Object Repository/Borrow/Checkbox' is clicked on
+
+12-09-2025T16:27:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Checkbox' is clicked on
+
+12-09-2025T16:27:56 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk Action")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+12-09-2025T16:27:56 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+12-09-2025T16:27:56 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/Edit borrow/Button - Option Note")): Object: 'Object Repository/Borrow/Edit borrow/Button - Option Note' is clicked on
+
+12-09-2025T16:27:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Edit borrow/Button - Option Note' is clicked on
+
+12-09-2025T16:27:57 - [TEST_STEP][PASSED] - setText(findTestObject("Borrow/Edit borrow/Input - Note bulk action"), "asd"): Text 'asd' is set on object 'Object Repository/Borrow/Edit borrow/Input - Note bulk action'
+
+12-09-2025T16:27:58 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/Borrow/Edit borrow/Input - Note bulk action'
+
+12-09-2025T16:27:58 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/Edit borrow/Button - Apply")): Object: 'Object Repository/Borrow/Edit borrow/Button - Apply' is clicked on
+
+12-09-2025T16:27:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Edit borrow/Button - Apply' is clicked on
+
+12-09-2025T16:27:58 - [TEST_STEP][PASSED] - actualNote = getAttribute(findTestObject("Object Repository/Borrow/Edit borrow/Input - Note"), "value"): Attribute 'value' of object 'Object Repository/Borrow/Edit borrow/Input - Note' is: 'asd'
+
+12-09-2025T16:27:59 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Borrow/Edit borrow/Input - Note' is: 'asd'
+
+12-09-2025T16:27:59 - [TEST_STEP][PASSED] - verifyEqual(actualNote, "asd"): Actual object 'asd' and expected object 'asd' are equal
+
+12-09-2025T16:27:59 - [MESSAGE][PASSED] - Actual object 'asd' and expected object 'asd' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Report disposal - (Positif)/Report disposal - Tambah asset lain" time="8.92" classname="Test Cases/All asset/Report disposal - (Positif)/Report disposal - Tambah asset lain" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:27:59 - [TEST_CASE][PASSED] - Test Cases/All asset/Report disposal - (Positif)/Report disposal - Tambah asset lain: Test Cases/All asset/Report disposal - (Positif)/Report disposal - Tambah asset lain
+
+12-09-2025T16:27:59 - [TEST_STEP][PASSED] - rowBefore = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size(): Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+12-09-2025T16:27:59 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+12-09-2025T16:27:59 - [TEST_STEP][PASSED] - println("Jumlah baris sebelum aksi: " + rowBefore): null
+
+12-09-2025T16:27:59 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+12-09-2025T16:27:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+12-09-2025T16:27:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Button - Asset")): Object: 'Object Repository/Borrow/Button - Asset' is clicked on
+
+12-09-2025T16:28:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Asset' is clicked on
+
+12-09-2025T16:28:00 - [TEST_STEP][PASSED] - waitForPageLoad(5, OPTIONAL): Wait for page load successfully
+
+12-09-2025T16:28:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+12-09-2025T16:28:00 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/List - Select asset")): Object: 'Object Repository/Borrow/List - Select asset' is clicked on
+
+12-09-2025T16:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/List - Select asset' is clicked on
+
+12-09-2025T16:28:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Button - Select")): Object: 'Object Repository/Borrow/Button - Select' is clicked on
+
+12-09-2025T16:28:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Select' is clicked on
+
+12-09-2025T16:28:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+12-09-2025T16:28:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+12-09-2025T16:28:08 - [TEST_STEP][PASSED] - rowAfter = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size(): Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+12-09-2025T16:28:08 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+12-09-2025T16:28:08 - [TEST_STEP][PASSED] - println("Jumlah baris setelah aksi: " + rowAfter): null
+
+12-09-2025T16:28:08 - [TEST_STEP][PASSED] - verifyEqual(rowAfter, rowBefore + 1): Actual object '2' and expected object '2' are equal
+
+12-09-2025T16:28:08 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Report disposal - (Positif)/Report disposal - Remove from list (Single action)" time="2.553" classname="Test Cases/All asset/Report disposal - (Positif)/Report disposal - Remove from list (Single action)" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:28:08 - [TEST_CASE][PASSED] - Test Cases/All asset/Report disposal - (Positif)/Report disposal - Remove from list (Single action): Test Cases/All asset/Report disposal - (Positif)/Report disposal - Remove from list (Single action)
+
+12-09-2025T16:28:08 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Single action - Register asset")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Single action - Register asset' is clicked on
+
+12-09-2025T16:28:08 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Single action - Register asset' is clicked on
+
+12-09-2025T16:28:08 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Option remove from List")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Option remove from List' is clicked on
+
+12-09-2025T16:28:09 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Option remove from List' is clicked on
+
+12-09-2025T16:28:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("All asset/Register asset/Remove from list/Dialog - Remove from list"), 10): Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+12-09-2025T16:28:10 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+12-09-2025T16:28:10 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Remove")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+12-09-2025T16:28:10 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+12-09-2025T16:28:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list"), "Success, asset has been removed from the list."): Actual text and expected text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are matched.
+
+12-09-2025T16:28:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Report disposal - (Positif)/Report disposal - Remove from list (Bulk action)" time="3.625" classname="Test Cases/All asset/Report disposal - (Positif)/Report disposal - Remove from list (Bulk action)" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:28:52 - [TEST_CASE][PASSED] - Test Cases/All asset/Report disposal - (Positif)/Report disposal - Remove from list (Bulk action): Test Cases/All asset/Report disposal - (Positif)/Report disposal - Remove from list (Bulk action)
+
+12-09-2025T16:28:52 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Checkbox - Remove from list")): Object: 'Object Repository/All asset/Register asset/Remove from list/Checkbox - Remove from list' is clicked on
+
+12-09-2025T16:28:53 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Checkbox - Remove from list' is clicked on
+
+12-09-2025T16:28:53 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk Action")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+12-09-2025T16:28:53 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+12-09-2025T16:28:53 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk action - Option remove from List")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk action - Option remove from List' is clicked on
+
+12-09-2025T16:28:54 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk action - Option remove from List' is clicked on
+
+12-09-2025T16:28:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("All asset/Register asset/Remove from list/Dialog - Remove from list"), 0): Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+12-09-2025T16:28:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-09-2025T16:28:54 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+12-09-2025T16:28:54 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Remove")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+12-09-2025T16:28:55 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+12-09-2025T16:28:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list"), "Success, asset has been removed from the list."): Actual text and expected text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are matched.
+
+12-09-2025T16:28:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Report disposal - (Positif)/Report disposal - Cancel report disposal" time="2.632" classname="Test Cases/All asset/Report disposal - (Positif)/Report disposal - Cancel report disposal" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:28:55 - [TEST_CASE][PASSED] - Test Cases/All asset/Report disposal - (Positif)/Report disposal - Cancel report disposal: Test Cases/All asset/Report disposal - (Positif)/Report disposal - Cancel report disposal
+
+12-09-2025T16:28:55 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Cancel")): Object: 'Object Repository/All asset/Register asset/Button - Cancel' is clicked on
+
+12-09-2025T16:28:56 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Cancel' is clicked on
+
+12-09-2025T16:28:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("All asset/Register asset/Dialog - Cancel register"), 10): Object 'Object Repository/All asset/Register asset/Dialog - Cancel register' is visible
+
+12-09-2025T16:28:57 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Dialog - Cancel register' is visible
+
+12-09-2025T16:28:57 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Continue")): Object: 'Object Repository/All asset/Register asset/Button - Continue' is clicked on
+
+12-09-2025T16:28:58 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Continue' is clicked on
+
+12-09-2025T16:28:58 - [TEST_STEP][PASSED] - currentUrl = getUrl(): Current window's url is: 'https://staging-fam.tagsamurai.com/assets/all'
+
+12-09-2025T16:28:58 - [MESSAGE][PASSED] - Current window's url is: 'https://staging-fam.tagsamurai.com/assets/all'
+
+12-09-2025T16:28:58 - [TEST_STEP][PASSED] - verifyMatch(currentUrl, ".*assets.*", true): Actual text 'https://staging-fam.tagsamurai.com/assets/all' and expected text '.*assets.*' are matched  using regular expression
+
+12-09-2025T16:28:58 - [MESSAGE][PASSED] - Actual text 'https://staging-fam.tagsamurai.com/assets/all' and expected text '.*assets.*' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-09-2025T16:26:03 - [TEST_SUITE][FAILED] - All asset -: Test Cases/All asset/Register asset - (Negatif)/Register asset - Register tanpa grup FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/All asset/Register asset/Button - Select Category'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Register asset - Register tanpa grup.run(Register asset - Register tanpa grup:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757669148305.run(TempTestSuite1757669148305.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=140.0.3485.54)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP', ip: '169.254.111.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.54, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:56524}, msedge: {msedgedriverVersion: 140.0.3485.54 (3cc379a8a5fb..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5b2329b7f9d658bb215e8f3cd3230f2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[12-09-2025T16:26:03 - [TEST_SUITE][FAILED] - All asset -: Test Cases/All asset/Register asset - (Negatif)/Register asset - Register tanpa grup FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/All asset/Register asset/Button - Select Category'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Register asset - Register tanpa grup.run(Register asset - Register tanpa grup:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757669148305.run(TempTestSuite1757669148305.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=140.0.3485.54)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP', ip: '169.254.111.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.54, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:56524}, msedge: {msedgedriverVersion: 140.0.3485.54 (3cc379a8a5fb..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5b2329b7f9d658bb215e8f3cd3230f2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

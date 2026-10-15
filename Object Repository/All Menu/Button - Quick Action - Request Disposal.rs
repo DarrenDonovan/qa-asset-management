@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Quick Action - Request Disposal</name>
+   <tag></tag>
+   <elementGuidId>cd1e36f7-58df-421f-af82-e6769f6ac4b6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div//li[contains(@data-ts-name, 'disposal')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>a >> internal:has-text=&quot;Request Disposal&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>32ae9070-2758-4b93-af05-9441cc4e4b15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center justify-start gap-2 px-4 py-2 hover:bg-primary-50 no-underline overflow-hidden cursor-pointer select-none</value>
+      <webElementGuid>f20e36e2-547a-4713-aa46-d4aa57b7be83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>action</value>
+      <webElementGuid>687418a1-8027-4cb4-a4c1-6d424cb28a06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>d21f20f5-b978-4d29-9e49-c7e6426dab49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Request Disposal</value>
+      <webElementGuid>fbe052bc-baee-4e4d-9e4a-873576f29bb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;1755834391732&quot;)/div[@class=&quot;p-overlaypanel-content items-center flex&quot;]/div[@class=&quot;w-max py-2 flex flex-col gap-3&quot;]/ul[@class=&quot;flex flex-col list-none m-0 p-0 outline-none transition-shadow&quot;]/li[@class=&quot;cursor-pointer&quot;]/a[@class=&quot;flex items-center justify-start gap-2 px-4 py-2 hover:bg-primary-50 no-underline overflow-hidden cursor-pointer select-none&quot;]</value>
+      <webElementGuid>344cf0db-1e2a-48cf-b8c9-4366458353fa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='1755834391732']/div/div/ul/li[4]/a</value>
+      <webElementGuid>a027aeac-6f90-4389-bafd-28fd397af98b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Request Transfer'])[1]/following::a[1]</value>
+      <webElementGuid>f48cb7c1-c342-4388-a0fa-29a91e8ee71b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Request Assign'])[1]/following::a[2]</value>
+      <webElementGuid>0e039fd4-5969-41a7-ace2-27a49ac20091</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register Asset'])[1]/preceding::a[1]</value>
+      <webElementGuid>990c6152-ca8c-4e84-92c3-a38f9aa71045</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/a</value>
+      <webElementGuid>d74138a6-e76e-41d6-ba4b-008bb5164ab1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Request Disposal' or . = 'Request Disposal')]</value>
+      <webElementGuid>cf29bb04-c157-4394-b5e3-6b2a39e02637</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

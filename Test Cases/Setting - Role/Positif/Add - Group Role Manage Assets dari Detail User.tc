@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - Group Role Manage Assets dari Detail User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1c40a39-5577-4ce3-9d38-3a6acda2fe8f</testCaseGuid>
+</TestCaseEntity>

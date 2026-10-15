@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Manage User and Role > Total Control</description>
+   <name>Capability Remove - Delete di Manage Group (Total Control)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>96be75c2-77c3-40ee-ae57-6e09fc6f21c5</testCaseGuid>
+</TestCaseEntity>

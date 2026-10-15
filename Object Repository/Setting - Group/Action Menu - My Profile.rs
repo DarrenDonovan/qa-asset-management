@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Action Menu - My Profile</name>
+   <tag></tag>
+   <elementGuidId>df62e121-7df3-43be-bacd-d658c8572b28</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[(text() = 'Profile' or . = 'Profile')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>a >> internal:has-text=&quot;Profile&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ba52b52f-9bb6-4df7-a581-2dd5b1020072</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>1a2e70c3-fc50-4c7e-8c0c-d753154c3c7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center justify-start gap-2 px-4 py-1.5 text-xs no-underline overflow-hidden cursor-pointer select-none</value>
+      <webElementGuid>62207c46-e777-4af7-8273-fc27c55b79ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>action</value>
+      <webElementGuid>f0d53135-fccb-4529-99a3-2a3823dd35bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>8685fd95-0ad4-4a3f-9755-c905bb4c573d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Profile</value>
+      <webElementGuid>d0871f76-8ca8-432f-a7b8-0bb1136b4408</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;1755756746136&quot;)/div[@class=&quot;p-overlaypanel-content items-center flex&quot;]/div[@class=&quot;py-3 flex flex-col gap-3 w-full&quot;]/div[@class=&quot;border-t border-general-100&quot;]/ul[@class=&quot;list-none m-0 p-0 outline-none transition-shadow&quot;]/li[@class=&quot;cursor-pointer hover:bg-primary-50&quot;]/a[@class=&quot;flex items-center justify-start gap-2 px-4 py-1.5 text-xs no-underline overflow-hidden cursor-pointer select-none&quot;]</value>
+      <webElementGuid>beb5c079-35e1-45e5-98a6-d630d678ca71</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='1755756746136']/div/div/div[2]/ul/li/a</value>
+      <webElementGuid>9dd066f3-e05a-461c-80d8-5cd3722e70ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Basic 1 Staging'])[1]/following::a[1]</value>
+      <webElementGuid>1091f597-fd3a-411d-9dd4-7d387c319c21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='user1basic1staging@qwertysystem.net'])[1]/following::a[1]</value>
+      <webElementGuid>6d808bd2-e000-49e6-b306-8548b15acec1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Asset'])[1]/preceding::a[1]</value>
+      <webElementGuid>92836221-7dc6-4270-93a2-e7da3f79f4dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ul/li/a</value>
+      <webElementGuid>b1266b2e-3536-4495-bfe4-a3a95fd8289f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Profile' or . = 'Profile')]</value>
+      <webElementGuid>2c6015e3-cf56-477e-9655-e1bf8cc6cf8a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

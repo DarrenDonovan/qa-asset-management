@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Capability Add - Delete di Manage Document Deletion</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f6106010-72f4-43b2-bf4a-6ce935d0fd92</testCaseGuid>
+</TestCaseEntity>

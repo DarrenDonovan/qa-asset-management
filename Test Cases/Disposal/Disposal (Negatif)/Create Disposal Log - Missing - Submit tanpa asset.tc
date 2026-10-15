@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif</description>
+   <name>Create Disposal Log - Missing - Submit tanpa asset</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0983902a-0620-46f6-8b3c-233a14f40d15</testCaseGuid>
+</TestCaseEntity>

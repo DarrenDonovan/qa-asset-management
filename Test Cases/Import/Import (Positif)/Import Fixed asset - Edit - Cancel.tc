@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Import Fixed asset - Edit - Cancel</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ec3c031b-cf2f-4edf-a590-e65f9596d91a</testCaseGuid>
+</TestCaseEntity>

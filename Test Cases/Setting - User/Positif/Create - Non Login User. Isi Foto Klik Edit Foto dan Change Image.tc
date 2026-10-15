@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Non Login User. Isi Foto Klik Edit Foto dan Change Image</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0ef45958-9a05-4b3c-abd4-0f4f9f0fb6e9</testCaseGuid>
+</TestCaseEntity>

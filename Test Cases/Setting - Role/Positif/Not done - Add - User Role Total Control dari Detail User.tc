@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Dari Setting > User > Detail > Role</description>
+   <name>Not done - Add - User Role Total Control dari Detail User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6a3a0594-e1af-4bbe-a655-5da9a98ab175</testCaseGuid>
+</TestCaseEntity>

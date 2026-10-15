@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Sub menu - Assignment</name>
+   <tag></tag>
+   <elementGuidId>daf9bb6f-dc6a-4123-949c-b41312d6ba14</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebar-left-app']/div[2]/div/ul/li/ul/li[3]/div/span[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Assignment&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0bcd810b-3cc6-485f-a321-4a323b1daa87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-menu-label</name>
+      <type>Main</type>
+      <value>Assignment</value>
+      <webElementGuid>9055fa81-8e3d-4f88-b6f1-aee6e75489b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-navigate-to</name>
+      <type>Main</type>
+      <value>/assets/assignment</value>
+      <webElementGuid>a9599d35-3b54-4f00-b241-903896de2dc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center gap-1.5 w-full px-[8px] py-[5px]</value>
+      <webElementGuid>3e60ba06-fb4a-4eac-b3a9-b1af7ad8e41a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Assignment </value>
+      <webElementGuid>75032319-8b12-4bf2-8882-9c197c2af16b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-left-app&quot;)/div[@class=&quot;relative pb-3 rounded-md&quot;]/div[@class=&quot;overflow-auto&quot;]/ul[@class=&quot;grid m-0 p-0 gap-1 list-none overflow-auto&quot;]/li[@class=&quot;rounded-md grid gap-0.5 pl-2 focus:outline-none focus:outline-offset-0&quot;]/ul[@class=&quot;m-0 list-none p-0 !pl-2 gap-0.5 grid duration-300 transition-all ease-in&quot;]/li[@class=&quot;rounded-md grid gap-0.5 pl-2 focus:outline-none focus:outline-offset-0&quot;]/div[@class=&quot;flex items-center relative rounded-md gap-[6px] hover:bg-general-50 inactive group transition-shadow duration-200 select-none cursor-pointer&quot;]/span[@class=&quot;inline-flex justify-between items-center w-full text-xs font-medium text-general-800 dark:text-general-100 dark:group-hover:text-general-800&quot;]/div[@class=&quot;flex items-center gap-1.5 w-full px-[8px] py-[5px]&quot;]</value>
+      <webElementGuid>c2841113-70a2-4a5a-ac84-d1ca70f5fac8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebar-left-app']/div[2]/div/ul/li/ul/li[3]/div/span[2]/div</value>
+      <webElementGuid>03c5a6ac-a92b-4f02-a18d-70e0b40f6ee7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Borrow'])[1]/following::div[2]</value>
+      <webElementGuid>5fe4d879-9816-4d31-8970-abd454c69cdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Assets'])[1]/following::div[4]</value>
+      <webElementGuid>e04d9acf-7024-4880-a7a7-97a3f6f0d93b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transfer'])[1]/preceding::div[1]</value>
+      <webElementGuid>68860722-b80f-44eb-a9fd-d4887febbcd4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Damage'])[1]/preceding::div[3]</value>
+      <webElementGuid>30c7e6f5-df36-46a8-a902-e8ed7331263d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Assignment']/parent::*</value>
+      <webElementGuid>da227752-067d-4606-a310-1331ffae3ad9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/ul/li[3]/div/span[2]/div</value>
+      <webElementGuid>1514f641-2252-4ca7-852a-478f8b3c03e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Assignment ' or . = ' Assignment ')]</value>
+      <webElementGuid>9220d843-e58d-4d03-9248-934d7fc622ab</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Capability Remove - Delete di Manage Purchase Document dari Detail User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1278694d-c5dd-4353-b4bd-81a17e831c77</testCaseGuid>
+</TestCaseEntity>

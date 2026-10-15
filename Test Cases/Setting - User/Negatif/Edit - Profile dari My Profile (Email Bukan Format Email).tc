@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Profile dari My Profile (Email Bukan Format Email)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>43aea3ce-d708-4c97-8b6a-7384f0846bd5</testCaseGuid>
+</TestCaseEntity>

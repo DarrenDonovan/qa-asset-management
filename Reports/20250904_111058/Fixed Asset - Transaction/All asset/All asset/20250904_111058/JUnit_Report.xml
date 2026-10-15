@@ -1,0 +1,1383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="All asset" time="661.474" tests="16" failures="0" errors="0">
+   <testsuite name="All asset" tests="16" failures="0" errors="0" time="661.474" skipped="0" timestamp="04-09-2025T11:11:14" hostname="Administrator - DESKTOP" id="Test Suites/Fixed Asset - Transaction/All asset/All asset">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\Katalon QA - Tag Samurai\\katalon-test-tutor\\Reports\\20250904_111058\\Fixed Asset - Transaction\\All asset\\All asset\\20250904_111058"/>
+         <property name="logFiles" value="D:\\Katalon QA - Tag Samurai\\katalon-test-tutor\\Reports\\20250904_111058\\Fixed Asset - Transaction\\All asset\\All asset\\20250904_111058\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon QA - Tag Samurai\\katalon-test-tutor\\Reports\\20250904_111058\\Fixed Asset - Transaction\\All asset\\All asset\\20250904_111058\\1756959326215.png, D:\\Katalon QA - Tag Samurai\\katalon-test-tutor\\Reports\\20250904_111058\\Fixed Asset - Transaction\\All asset\\All asset\\20250904_111058\\1756959355113.png, D:\\Katalon QA - Tag Samurai\\katalon-test-tutor\\Reports\\20250904_111058\\Fixed Asset - Transaction\\All asset\\All asset\\20250904_111058\\1756959612194.png, D:\\Katalon QA - Tag Samurai\\katalon-test-tutor\\Reports\\20250904_111058\\Fixed Asset - Transaction\\All asset\\All asset\\20250904_111058\\1756959612408.png, D:\\Katalon QA - Tag Samurai\\katalon-test-tutor\\Reports\\20250904_111058\\Fixed Asset - Transaction\\All asset\\All asset\\20250904_111058\\1756959617214.png, D:\\Katalon QA - Tag Samurai\\katalon-test-tutor\\Reports\\20250904_111058\\Fixed Asset - Transaction\\All asset\\All asset\\20250904_111058\\1756959617384.png, D:\\Katalon QA - Tag Samurai\\katalon-test-tutor\\Reports\\20250904_111058\\Fixed Asset - Transaction\\All asset\\All asset\\20250904_111058\\1756959665134.png, D:\\Katalon QA - Tag Samurai\\katalon-test-tutor\\Reports\\20250904_111058\\Fixed Asset - Transaction\\All asset\\All asset\\20250904_111058\\1756959665394.png"/>
+         <property name="hostName" value="Administrator - DESKTOP"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.6.223"/>
+         <property name="browser" value="Edge Chromium 139"/>
+         <property name="hostAddress" value="169.254.111.16"/>
+         <property name="sessionId" value="85dcd717896f56892b1540df047cc51d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/login" time="32.925" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[04-09-2025T11:11:14 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+04-09-2025T11:11:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-09-2025T11:11:15 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+04-09-2025T11:11:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-09-2025T11:11:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-09-2025T11:11:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+04-09-2025T11:11:18 - [MESSAGE][PASSED] - Current window maximized
+
+04-09-2025T11:11:18 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://staging-console.tagsamurai.com' successfully
+
+04-09-2025T11:11:20 - [MESSAGE][PASSED] - Navigate to 'http://staging-console.tagsamurai.com' successfully
+
+04-09-2025T11:11:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login session object/Input - Email"), email): Text 'user1basic2staging@qwertysystem.net' is set on object 'Object Repository/Login session object/Input - Email'
+
+04-09-2025T11:11:29 - [MESSAGE][PASSED] - Text 'user1basic2staging@qwertysystem.net' is set on object 'Object Repository/Login session object/Input - Email'
+
+04-09-2025T11:11:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login session object/Input - Password"), password): Text 'Gaadaobatnya1@' is set on object 'Object Repository/Login session object/Input - Password'
+
+04-09-2025T11:11:30 - [MESSAGE][PASSED] - Text 'Gaadaobatnya1@' is set on object 'Object Repository/Login session object/Input - Password'
+
+04-09-2025T11:11:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login session object/Button - Login")): Object: 'Object Repository/Login session object/Button - Login' is clicked on
+
+04-09-2025T11:11:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login session object/Button - Login' is clicked on
+
+04-09-2025T11:11:31 - [TEST_STEP][PASSED] - isPopupPresent = verifyElementPresent(findTestObject("Login session object/Page_TAG SAMURAI/Popup duplicate login"), 20, OPTIONAL): Object 'Object Repository/Login session object/Page_TAG SAMURAI/Popup duplicate login' is present
+
+04-09-2025T11:11:32 - [MESSAGE][PASSED] - Object 'Object Repository/Login session object/Page_TAG SAMURAI/Popup duplicate login' is present
+
+04-09-2025T11:11:32 - [TEST_STEP][PASSED] - if (isPopupPresent): Object: 'Object Repository/Login session object/Page_TAG SAMURAI/button_Confirm_duplicate login' is clicked on
+
+04-09-2025T11:11:32 - [TEST_STEP][PASSED] - click(findTestObject("Login session object/Page_TAG SAMURAI/button_Confirm_duplicate login"), STOP_ON_FAILURE): Object: 'Object Repository/Login session object/Page_TAG SAMURAI/button_Confirm_duplicate login' is clicked on
+
+04-09-2025T11:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login session object/Page_TAG SAMURAI/button_Confirm_duplicate login' is clicked on
+
+04-09-2025T11:11:33 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+04-09-2025T11:11:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+04-09-2025T11:11:33 - [TEST_STEP][PASSED] - delay(5, OPTIONAL): Delayed 5 second(s)
+
+04-09-2025T11:11:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-09-2025T11:11:38 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("All Menu/Button - Module - Fixed Asset"), 30): Object 'Object Repository/All Menu/Button - Module - Fixed Asset' is clickable
+
+04-09-2025T11:11:38 - [MESSAGE][PASSED] - Object 'Object Repository/All Menu/Button - Module - Fixed Asset' is clickable
+
+04-09-2025T11:11:38 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Module - Fixed Asset")): Object: 'Object Repository/All Menu/Button - Module - Fixed Asset' is clicked on
+
+04-09-2025T11:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Module - Fixed Asset' is clicked on
+
+04-09-2025T11:11:40 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+04-09-2025T11:11:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+04-09-2025T11:11:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("All Menu/Button - Menu - Fixed Asset")): Object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is visible
+
+04-09-2025T11:11:47 - [MESSAGE][PASSED] - Object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Register asset" time="47.102" classname="Test Cases/All asset/Register asset" status="PASSED">
+         <system-out><![CDATA[04-09-2025T11:11:47 - [TEST_CASE][PASSED] - Test Cases/All asset/Register asset: Test Cases/All asset/Register asset
+
+04-09-2025T11:11:48 - [TEST_STEP][PASSED] - buttonAktif = getAttribute(findTestObject("All Menu/Button - Menu - Fixed Asset"), "aria-expanded"): Attribute 'aria-expanded' of object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is: 'false'
+
+04-09-2025T11:11:48 - [MESSAGE][PASSED] - Attribute 'aria-expanded' of object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is: 'false'
+
+04-09-2025T11:11:48 - [TEST_STEP][PASSED] - if (buttonAktif == "false"): null
+
+04-09-2025T11:11:48 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Menu - Fixed Asset")): Object: 'Object Repository/All Menu/Button - Menu - Fixed Asset' is clicked on
+
+04-09-2025T11:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Menu - Fixed Asset' is clicked on
+
+04-09-2025T11:11:48 - [TEST_STEP][PASSED] - println(buttonAktif): null
+
+04-09-2025T11:11:48 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Sub menu - All Assets")): Object: 'Object Repository/All Menu/Button - Sub menu - All Assets' is clicked on
+
+04-09-2025T11:11:49 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Sub menu - All Assets' is clicked on
+
+04-09-2025T11:11:49 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Register")): Object: 'Object Repository/All asset/Register asset/Button - Register' is clicked on
+
+04-09-2025T11:11:55 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Register' is clicked on
+
+04-09-2025T11:11:55 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Select Group")): Object: 'Object Repository/All asset/Register asset/Button - Select Group' is clicked on
+
+04-09-2025T11:11:58 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Select Group' is clicked on
+
+04-09-2025T11:11:58 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/List - Group")): Object: 'Object Repository/All asset/Register asset/List - Group' is clicked on
+
+04-09-2025T11:11:59 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/List - Group' is clicked on
+
+04-09-2025T11:11:59 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Select")): Object: 'Object Repository/All asset/Register asset/Button - Select' is clicked on
+
+04-09-2025T11:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Select' is clicked on
+
+04-09-2025T11:12:00 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Select Category")): Object: 'Object Repository/All asset/Register asset/Button - Select Category' is clicked on
+
+04-09-2025T11:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Select Category' is clicked on
+
+04-09-2025T11:12:00 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/List - Category")): Object: 'Object Repository/All asset/Register asset/List - Category' is clicked on
+
+04-09-2025T11:12:01 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/List - Category' is clicked on
+
+04-09-2025T11:12:01 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Select")): Object: 'Object Repository/All asset/Register asset/Button - Select' is clicked on
+
+04-09-2025T11:12:02 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Select' is clicked on
+
+04-09-2025T11:12:02 - [TEST_STEP][PASSED] - setText(findTestObject("All asset/Register asset/Input - Asset name"), "Printer"): Text 'Printer' is set on object 'Object Repository/All asset/Register asset/Input - Asset name'
+
+04-09-2025T11:12:03 - [MESSAGE][PASSED] - Text 'Printer' is set on object 'Object Repository/All asset/Register asset/Input - Asset name'
+
+04-09-2025T11:12:03 - [TEST_STEP][PASSED] - setText(findTestObject("All asset/Register asset/Input - Brand"), "Epson"): Text 'Epson' is set on object 'Object Repository/All asset/Register asset/Input - Brand'
+
+04-09-2025T11:12:04 - [MESSAGE][PASSED] - Text 'Epson' is set on object 'Object Repository/All asset/Register asset/Input - Brand'
+
+04-09-2025T11:12:04 - [TEST_STEP][PASSED] - setText(findTestObject("All asset/Register asset/Input - Model"), "lfmdg"): Text 'lfmdg' is set on object 'Object Repository/All asset/Register asset/Input - Model'
+
+04-09-2025T11:12:05 - [MESSAGE][PASSED] - Text 'lfmdg' is set on object 'Object Repository/All asset/Register asset/Input - Model'
+
+04-09-2025T11:12:05 - [TEST_STEP][PASSED] - setText(findTestObject("All asset/Register asset/Input - Measurement"), "unit"): Text 'unit' is set on object 'Object Repository/All asset/Register asset/Input - Measurement'
+
+04-09-2025T11:12:06 - [MESSAGE][PASSED] - Text 'unit' is set on object 'Object Repository/All asset/Register asset/Input - Measurement'
+
+04-09-2025T11:12:06 - [TEST_STEP][PASSED] - setText(findTestObject("All asset/Register asset/Input - Useful life"), "5"): Text '5' is set on object 'Object Repository/All asset/Register asset/Input - Useful life'
+
+04-09-2025T11:12:06 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/All asset/Register asset/Input - Useful life'
+
+04-09-2025T11:12:06 - [TEST_STEP][PASSED] - uploadFile(findTestObject("All asset/Register asset/Input - Upload photo"), "D:\Katalon QA - Tag Samurai\katalon-test-tutor\Photo\wangsit.jpg"): File 'D:\Katalon QA - Tag Samurai\katalon-test-tutor\Photo\wangsit.jpg' sent to object: 'Object Repository/All asset/Register asset/Input - Upload photo'
+
+04-09-2025T11:12:07 - [MESSAGE][PASSED] - File 'D:\Katalon QA - Tag Samurai\katalon-test-tutor\Photo\wangsit.jpg' sent to object: 'Object Repository/All asset/Register asset/Input - Upload photo'
+
+04-09-2025T11:12:07 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+04-09-2025T11:12:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-09-2025T11:12:09 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Apply photo")): Object: 'Object Repository/All asset/Register asset/Button - Apply photo' is clicked on
+
+04-09-2025T11:12:09 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Apply photo' is clicked on
+
+04-09-2025T11:12:09 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Register")): Object: 'Object Repository/All asset/Register asset/Button - Register' is clicked on
+
+04-09-2025T11:12:10 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Register' is clicked on
+
+04-09-2025T11:12:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("All asset/Register asset/Dialog - Confirm Register Asset"), 5): Object 'Object Repository/All asset/Register asset/Dialog - Confirm Register Asset' is visible
+
+04-09-2025T11:12:10 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Dialog - Confirm Register Asset' is visible
+
+04-09-2025T11:12:10 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Continue")): Object: 'Object Repository/All asset/Register asset/Button - Continue' is clicked on
+
+04-09-2025T11:12:11 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Continue' is clicked on
+
+04-09-2025T11:12:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("All asset/Register asset/Toast - Success, asset(s) has been registered"), "Success, asset(s) has been registered."): Actual text and expected text of test object 'Object Repository/All asset/Register asset/Toast - Success, asset(s) has been registered' are matched.
+
+04-09-2025T11:12:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/All asset/Register asset/Toast - Success, asset(s) has been registered' are matched.
+
+04-09-2025T11:12:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("All asset/View Log/View Change log"), ["expectedAction":"create"], STOP_ON_FAILURE): Call Test Case 'Test Cases/All asset/View Log/View Change log' successfully
+
+04-09-2025T11:12:14 - [TEST_CASE][PASSED] - Test Cases/All asset/View Log/View Change log: Test Cases/All asset/View Log/View Change log
+
+04-09-2025T11:12:14 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Changelog/Button - Changelog")): Object: 'Object Repository/All asset/Changelog/Button - Changelog' is clicked on
+
+04-09-2025T11:12:14 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Changelog/Button - Changelog' is clicked on
+
+04-09-2025T11:12:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("All asset/Changelog/Dialog - Change log")): Object 'Object Repository/All asset/Changelog/Dialog - Change log' is visible
+
+04-09-2025T11:12:15 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Changelog/Dialog - Change log' is visible
+
+04-09-2025T11:12:15 - [TEST_STEP][PASSED] - actionLog = getText(findTestObject("All asset/Changelog/Text - Action changelog asset")): Text of object 'Object Repository/All asset/Changelog/Text - Action changelog asset' is: 'Create'
+
+04-09-2025T11:12:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/All asset/Changelog/Text - Action changelog asset' is: 'Create'
+
+04-09-2025T11:12:16 - [TEST_STEP][NOT_RUN] - verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase()): NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+04-09-2025T11:12:16 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+04-09-2025T11:12:16 - [TEST_STEP][PASSED] - verifyMatch(actionLog.toLowerCase(), ".*" + expectedAction.toLowerCase() + ".*", true): Actual text 'create' and expected text '.*create.*' are matched  using regular expression
+
+04-09-2025T11:12:16 - [MESSAGE][PASSED] - Actual text 'create' and expected text '.*create.*' are matched  using regular expression
+
+04-09-2025T11:12:16 - [TEST_STEP][PASSED] - sendKeys(null, Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+04-09-2025T11:12:16 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+04-09-2025T11:12:16 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+04-09-2025T11:12:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/All asset/View Log/View Change log' successfully
+
+04-09-2025T11:12:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("All asset/View Log/View log - Detail asset"), ["expectedAction":"create"], STOP_ON_FAILURE): Call Test Case 'Test Cases/All asset/View Log/View log - Detail asset' successfully
+
+04-09-2025T11:12:16 - [TEST_CASE][PASSED] - Test Cases/All asset/View Log/View log - Detail asset: Test Cases/All asset/View Log/View log - Detail asset
+
+04-09-2025T11:12:16 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Asset detail/Document/Button - Single action")): Object: 'Object Repository/All asset/Asset detail/Document/Button - Single action' is clicked on
+
+04-09-2025T11:12:17 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Asset detail/Document/Button - Single action' is clicked on
+
+04-09-2025T11:12:17 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Asset detail/Button - Single action- Option detail")): Object: 'Object Repository/All asset/Asset detail/Button - Single action- Option detail' is clicked on
+
+04-09-2025T11:12:18 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Asset detail/Button - Single action- Option detail' is clicked on
+
+04-09-2025T11:12:18 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Asset detail/Button - Change Log")): Object: 'Object Repository/All asset/Asset detail/Button - Change Log' is clicked on
+
+04-09-2025T11:12:21 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Asset detail/Button - Change Log' is clicked on
+
+04-09-2025T11:12:21 - [TEST_STEP][PASSED] - actionLog = getText(findTestObject("Report dan log/Text - Action changelog asset")): Text of object 'Object Repository/Report dan log/Text - Action changelog asset' is: 'Create'
+
+04-09-2025T11:12:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Report dan log/Text - Action changelog asset' is: 'Create'
+
+04-09-2025T11:12:22 - [TEST_STEP][NOT_RUN] - verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase()): NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+04-09-2025T11:12:22 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+04-09-2025T11:12:22 - [TEST_STEP][PASSED] - verifyMatch(actionLog.toLowerCase(), ".*" + expectedAction.toLowerCase() + ".*", true): Actual text 'create' and expected text '.*create.*' are matched  using regular expression
+
+04-09-2025T11:12:22 - [MESSAGE][PASSED] - Actual text 'create' and expected text '.*create.*' are matched  using regular expression
+
+04-09-2025T11:12:22 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+04-09-2025T11:12:22 - [MESSAGE][PASSED] - Navigate back successfully
+
+04-09-2025T11:12:22 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+04-09-2025T11:12:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+04-09-2025T11:12:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/All asset/View Log/View log - Detail asset' successfully
+
+04-09-2025T11:12:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("All asset/View Log/VIew log - Activity log - User actions"), ["expectedAction":"create"], STOP_ON_FAILURE): Call Test Case 'Test Cases/All asset/View Log/VIew log - Activity log - User actions' successfully
+
+04-09-2025T11:12:22 - [TEST_CASE][PASSED] - Test Cases/All asset/View Log/VIew log - Activity log - User actions: Test Cases/All asset/View Log/VIew log - Activity log - User actions
+
+04-09-2025T11:12:22 - [TEST_STEP][PASSED] - buttonAktif = getAttribute(findTestObject("All Menu/Button - Menu - Report Log"), "aria-expanded"): Attribute 'aria-expanded' of object 'Object Repository/All Menu/Button - Menu - Report Log' is: 'false'
+
+04-09-2025T11:12:24 - [MESSAGE][PASSED] - Attribute 'aria-expanded' of object 'Object Repository/All Menu/Button - Menu - Report Log' is: 'false'
+
+04-09-2025T11:12:24 - [TEST_STEP][PASSED] - if (buttonAktif == "false"): null
+
+04-09-2025T11:12:24 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Menu - Report Log")): Object: 'Object Repository/All Menu/Button - Menu - Report Log' is clicked on
+
+04-09-2025T11:12:24 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Menu - Report Log' is clicked on
+
+04-09-2025T11:12:24 - [TEST_STEP][PASSED] - println(buttonAktif): null
+
+04-09-2025T11:12:24 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Sub menu - Activity log")): Object: 'Object Repository/All Menu/Button - Sub menu - Activity log' is clicked on
+
+04-09-2025T11:12:25 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Sub menu - Activity log' is clicked on
+
+04-09-2025T11:12:25 - [TEST_STEP][PASSED] - click(findTestObject("Report dan log/Button - Tab User Action")): Object: 'Object Repository/Report dan log/Button - Tab User Action' is clicked on
+
+04-09-2025T11:12:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Report dan log/Button - Tab User Action' is clicked on
+
+04-09-2025T11:12:27 - [TEST_STEP][PASSED] - actionLog = getText(findTestObject("Report dan log/Text - Action changelog asset")): Text of object 'Object Repository/Report dan log/Text - Action changelog asset' is: 'Create'
+
+04-09-2025T11:12:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Report dan log/Text - Action changelog asset' is: 'Create'
+
+04-09-2025T11:12:29 - [TEST_STEP][NOT_RUN] - verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase()): NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+04-09-2025T11:12:29 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+04-09-2025T11:12:29 - [TEST_STEP][PASSED] - verifyMatch(actionLog.toLowerCase(), ".*" + expectedAction.toLowerCase() + ".*", true): Actual text 'create' and expected text '.*create.*' are matched  using regular expression
+
+04-09-2025T11:12:29 - [MESSAGE][PASSED] - Actual text 'create' and expected text '.*create.*' are matched  using regular expression
+
+04-09-2025T11:12:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/All asset/View Log/VIew log - Activity log - User actions' successfully
+
+04-09-2025T11:12:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("All asset/View Log/View log - User - System log"), ["expectedAction":"create"], STOP_ON_FAILURE): Call Test Case 'Test Cases/All asset/View Log/View log - User - System log' successfully
+
+04-09-2025T11:12:29 - [TEST_CASE][PASSED] - Test Cases/All asset/View Log/View log - User - System log: Test Cases/All asset/View Log/View log - User - System log
+
+04-09-2025T11:12:29 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Profile")): Object: 'Object Repository/All Menu/Button - Profile' is clicked on
+
+04-09-2025T11:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Profile' is clicked on
+
+04-09-2025T11:12:29 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Option - Profile")): Object: 'Object Repository/All Menu/Button - Option - Profile' is clicked on
+
+04-09-2025T11:12:30 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Option - Profile' is clicked on
+
+04-09-2025T11:12:30 - [TEST_STEP][PASSED] - click(findTestObject("Report dan log/Button - Tab System Log Profile")): Object: 'Object Repository/Report dan log/Button - Tab System Log Profile' is clicked on
+
+04-09-2025T11:12:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Report dan log/Button - Tab System Log Profile' is clicked on
+
+04-09-2025T11:12:34 - [TEST_STEP][PASSED] - actionLog = getText(findTestObject("Report dan log/Text - Activity system log profile")): Text of object 'Object Repository/Report dan log/Text - Activity system log profile' is: 'Create'
+
+04-09-2025T11:12:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Report dan log/Text - Activity system log profile' is: 'Create'
+
+04-09-2025T11:12:35 - [TEST_STEP][NOT_RUN] - verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase()): NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+04-09-2025T11:12:35 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+04-09-2025T11:12:35 - [TEST_STEP][PASSED] - verifyMatch(actionLog.toLowerCase(), ".*" + expectedAction.toLowerCase() + ".*", true): Actual text 'create' and expected text '.*create.*' are matched  using regular expression
+
+04-09-2025T11:12:35 - [MESSAGE][PASSED] - Actual text 'create' and expected text '.*create.*' are matched  using regular expression
+
+04-09-2025T11:12:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/All asset/View Log/View log - User - System log' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Edit asset (Single action)" time="31.662" classname="Test Cases/All asset/Edit asset (Single action)" status="PASSED">
+         <system-out><![CDATA[04-09-2025T11:12:35 - [TEST_CASE][PASSED] - Test Cases/All asset/Edit asset (Single action): Test Cases/All asset/Edit asset (Single action)
+
+04-09-2025T11:12:35 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Sidebar")): Object: 'Object Repository/All Menu/Button - Sidebar' is clicked on
+
+04-09-2025T11:12:35 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Sidebar' is clicked on
+
+04-09-2025T11:12:35 - [TEST_STEP][PASSED] - buttonAktif = getAttribute(findTestObject("All Menu/Button - Menu - Fixed Asset"), "aria-expanded"): Attribute 'aria-expanded' of object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is: 'true'
+
+04-09-2025T11:12:35 - [MESSAGE][PASSED] - Attribute 'aria-expanded' of object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is: 'true'
+
+04-09-2025T11:12:35 - [TEST_STEP][PASSED] - if (buttonAktif == "false"): null
+
+04-09-2025T11:12:35 - [TEST_STEP][PASSED] - else: null
+
+04-09-2025T11:12:35 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Sub menu - All Assets")): Object: 'Object Repository/All Menu/Button - Sub menu - All Assets' is clicked on
+
+04-09-2025T11:12:36 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Sub menu - All Assets' is clicked on
+
+04-09-2025T11:12:36 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Edit asset/Button - single action")): Object: 'Object Repository/All asset/Edit asset/Button - single action' is clicked on
+
+04-09-2025T11:12:38 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Edit asset/Button - single action' is clicked on
+
+04-09-2025T11:12:38 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Edit asset/Button - Option Edit")): Object: 'Object Repository/All asset/Edit asset/Button - Option Edit' is clicked on
+
+04-09-2025T11:12:39 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Edit asset/Button - Option Edit' is clicked on
+
+04-09-2025T11:12:39 - [TEST_STEP][PASSED] - clearText(findTestObject("All asset/Edit asset/Input - Name")): Text of object 'Object Repository/All asset/Edit asset/Input - Name' is cleared
+
+04-09-2025T11:12:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/All asset/Edit asset/Input - Name' is cleared
+
+04-09-2025T11:12:40 - [TEST_STEP][PASSED] - setText(findTestObject("All asset/Edit asset/Input - Name"), "Nama(Edit)"): Text 'Nama(Edit)' is set on object 'Object Repository/All asset/Edit asset/Input - Name'
+
+04-09-2025T11:12:41 - [MESSAGE][PASSED] - Text 'Nama(Edit)' is set on object 'Object Repository/All asset/Edit asset/Input - Name'
+
+04-09-2025T11:12:41 - [TEST_STEP][PASSED] - setText(findTestObject("All asset/Edit asset/Input - Brand"), "asd"): Text 'asd' is set on object 'Object Repository/All asset/Edit asset/Input - Brand'
+
+04-09-2025T11:12:42 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/All asset/Edit asset/Input - Brand'
+
+04-09-2025T11:12:42 - [TEST_STEP][PASSED] - setText(findTestObject("All asset/Edit asset/Input - Measurement"), "asd"): Text 'asd' is set on object 'Object Repository/All asset/Edit asset/Input - Measurement'
+
+04-09-2025T11:12:43 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/All asset/Edit asset/Input - Measurement'
+
+04-09-2025T11:12:43 - [TEST_STEP][PASSED] - setText(findTestObject("All asset/Edit asset/Input - Model"), "asd"): Text 'asd' is set on object 'Object Repository/All asset/Edit asset/Input - Model'
+
+04-09-2025T11:12:43 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/All asset/Edit asset/Input - Model'
+
+04-09-2025T11:12:43 - [TEST_STEP][PASSED] - setText(findTestObject("All asset/Edit asset/Input - Useful"), "1"): Text '1' is set on object 'Object Repository/All asset/Edit asset/Input - Useful'
+
+04-09-2025T11:12:44 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/All asset/Edit asset/Input - Useful'
+
+04-09-2025T11:12:44 - [TEST_STEP][PASSED] - uploadFile(findTestObject("All asset/Edit asset/Input - Upload photo"), "D:\Katalon QA - Tag Samurai\katalon-test-tutor\Photo\wangsit.jpg"): File 'D:\Katalon QA - Tag Samurai\katalon-test-tutor\Photo\wangsit.jpg' sent to object: 'Object Repository/All asset/Edit asset/Input - Upload photo'
+
+04-09-2025T11:12:45 - [MESSAGE][PASSED] - File 'D:\Katalon QA - Tag Samurai\katalon-test-tutor\Photo\wangsit.jpg' sent to object: 'Object Repository/All asset/Edit asset/Input - Upload photo'
+
+04-09-2025T11:12:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-09-2025T11:12:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-09-2025T11:12:47 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Apply photo")): Object: 'Object Repository/All asset/Register asset/Button - Apply photo' is clicked on
+
+04-09-2025T11:12:47 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Apply photo' is clicked on
+
+04-09-2025T11:12:47 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Edit asset/Button - Submit")): Object: 'Object Repository/All asset/Edit asset/Button - Submit' is clicked on
+
+04-09-2025T11:12:48 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Edit asset/Button - Submit' is clicked on
+
+04-09-2025T11:12:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("All asset/Edit asset/Toast - Success, asset has been edited"), "Success, asset has been edited."): Actual text and expected text of test object 'Object Repository/All asset/Edit asset/Toast - Success, asset has been edited' are matched.
+
+04-09-2025T11:12:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/All asset/Edit asset/Toast - Success, asset has been edited' are matched.
+
+04-09-2025T11:12:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("All asset/View Log/View Change log"), ["expectedAction":"edit"], STOP_ON_FAILURE): Call Test Case 'Test Cases/All asset/View Log/View Change log' successfully
+
+04-09-2025T11:12:51 - [TEST_CASE][PASSED] - Test Cases/All asset/View Log/View Change log: Test Cases/All asset/View Log/View Change log
+
+04-09-2025T11:12:51 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Changelog/Button - Changelog")): Object: 'Object Repository/All asset/Changelog/Button - Changelog' is clicked on
+
+04-09-2025T11:12:51 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Changelog/Button - Changelog' is clicked on
+
+04-09-2025T11:12:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("All asset/Changelog/Dialog - Change log")): Object 'Object Repository/All asset/Changelog/Dialog - Change log' is visible
+
+04-09-2025T11:12:52 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Changelog/Dialog - Change log' is visible
+
+04-09-2025T11:12:52 - [TEST_STEP][PASSED] - actionLog = getText(findTestObject("All asset/Changelog/Text - Action changelog asset")): Text of object 'Object Repository/All asset/Changelog/Text - Action changelog asset' is: 'Edit'
+
+04-09-2025T11:12:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/All asset/Changelog/Text - Action changelog asset' is: 'Edit'
+
+04-09-2025T11:12:52 - [TEST_STEP][NOT_RUN] - verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase()): NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+04-09-2025T11:12:52 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+04-09-2025T11:12:52 - [TEST_STEP][PASSED] - verifyMatch(actionLog.toLowerCase(), ".*" + expectedAction.toLowerCase() + ".*", true): Actual text 'edit' and expected text '.*edit.*' are matched  using regular expression
+
+04-09-2025T11:12:52 - [MESSAGE][PASSED] - Actual text 'edit' and expected text '.*edit.*' are matched  using regular expression
+
+04-09-2025T11:12:52 - [TEST_STEP][PASSED] - sendKeys(null, Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+04-09-2025T11:12:52 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+04-09-2025T11:12:53 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+04-09-2025T11:12:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/All asset/View Log/View Change log' successfully
+
+04-09-2025T11:12:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("All asset/View Log/View log - Detail asset"), ["expectedAction":"edit"], STOP_ON_FAILURE): Call Test Case 'Test Cases/All asset/View Log/View log - Detail asset' successfully
+
+04-09-2025T11:12:53 - [TEST_CASE][PASSED] - Test Cases/All asset/View Log/View log - Detail asset: Test Cases/All asset/View Log/View log - Detail asset
+
+04-09-2025T11:12:53 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Asset detail/Document/Button - Single action")): Object: 'Object Repository/All asset/Asset detail/Document/Button - Single action' is clicked on
+
+04-09-2025T11:12:54 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Asset detail/Document/Button - Single action' is clicked on
+
+04-09-2025T11:12:54 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Asset detail/Button - Single action- Option detail")): Object: 'Object Repository/All asset/Asset detail/Button - Single action- Option detail' is clicked on
+
+04-09-2025T11:12:54 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Asset detail/Button - Single action- Option detail' is clicked on
+
+04-09-2025T11:12:54 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Asset detail/Button - Change Log")): Object: 'Object Repository/All asset/Asset detail/Button - Change Log' is clicked on
+
+04-09-2025T11:12:57 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Asset detail/Button - Change Log' is clicked on
+
+04-09-2025T11:12:57 - [TEST_STEP][PASSED] - actionLog = getText(findTestObject("Report dan log/Text - Action changelog asset")): Text of object 'Object Repository/Report dan log/Text - Action changelog asset' is: 'Edit'
+
+04-09-2025T11:12:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Report dan log/Text - Action changelog asset' is: 'Edit'
+
+04-09-2025T11:12:58 - [TEST_STEP][NOT_RUN] - verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase()): NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+04-09-2025T11:12:58 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+04-09-2025T11:12:58 - [TEST_STEP][PASSED] - verifyMatch(actionLog.toLowerCase(), ".*" + expectedAction.toLowerCase() + ".*", true): Actual text 'edit' and expected text '.*edit.*' are matched  using regular expression
+
+04-09-2025T11:12:58 - [MESSAGE][PASSED] - Actual text 'edit' and expected text '.*edit.*' are matched  using regular expression
+
+04-09-2025T11:12:58 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+04-09-2025T11:12:58 - [MESSAGE][PASSED] - Navigate back successfully
+
+04-09-2025T11:12:58 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+04-09-2025T11:12:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+04-09-2025T11:12:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/All asset/View Log/View log - Detail asset' successfully
+
+04-09-2025T11:12:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("All asset/View Log/VIew log - Activity log - User actions"), ["expectedAction":"edit"], STOP_ON_FAILURE): Call Test Case 'Test Cases/All asset/View Log/VIew log - Activity log - User actions' successfully
+
+04-09-2025T11:12:58 - [TEST_CASE][PASSED] - Test Cases/All asset/View Log/VIew log - Activity log - User actions: Test Cases/All asset/View Log/VIew log - Activity log - User actions
+
+04-09-2025T11:12:58 - [TEST_STEP][PASSED] - buttonAktif = getAttribute(findTestObject("All Menu/Button - Menu - Report Log"), "aria-expanded"): Attribute 'aria-expanded' of object 'Object Repository/All Menu/Button - Menu - Report Log' is: 'true'
+
+04-09-2025T11:13:00 - [MESSAGE][PASSED] - Attribute 'aria-expanded' of object 'Object Repository/All Menu/Button - Menu - Report Log' is: 'true'
+
+04-09-2025T11:13:00 - [TEST_STEP][PASSED] - if (buttonAktif == "false"): null
+
+04-09-2025T11:13:00 - [TEST_STEP][PASSED] - else: null
+
+04-09-2025T11:13:00 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Sub menu - Activity log")): Object: 'Object Repository/All Menu/Button - Sub menu - Activity log' is clicked on
+
+04-09-2025T11:13:00 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Sub menu - Activity log' is clicked on
+
+04-09-2025T11:13:00 - [TEST_STEP][PASSED] - click(findTestObject("Report dan log/Button - Tab User Action")): Object: 'Object Repository/Report dan log/Button - Tab User Action' is clicked on
+
+04-09-2025T11:13:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Report dan log/Button - Tab User Action' is clicked on
+
+04-09-2025T11:13:02 - [TEST_STEP][PASSED] - actionLog = getText(findTestObject("Report dan log/Text - Action changelog asset")): Text of object 'Object Repository/Report dan log/Text - Action changelog asset' is: 'Edit'
+
+04-09-2025T11:13:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Report dan log/Text - Action changelog asset' is: 'Edit'
+
+04-09-2025T11:13:02 - [TEST_STEP][NOT_RUN] - verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase()): NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+04-09-2025T11:13:02 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+04-09-2025T11:13:02 - [TEST_STEP][PASSED] - verifyMatch(actionLog.toLowerCase(), ".*" + expectedAction.toLowerCase() + ".*", true): Actual text 'edit' and expected text '.*edit.*' are matched  using regular expression
+
+04-09-2025T11:13:02 - [MESSAGE][PASSED] - Actual text 'edit' and expected text '.*edit.*' are matched  using regular expression
+
+04-09-2025T11:13:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/All asset/View Log/VIew log - Activity log - User actions' successfully
+
+04-09-2025T11:13:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("All asset/View Log/View log - User - System log"), ["expectedAction":"edit"], STOP_ON_FAILURE): Call Test Case 'Test Cases/All asset/View Log/View log - User - System log' successfully
+
+04-09-2025T11:13:03 - [TEST_CASE][PASSED] - Test Cases/All asset/View Log/View log - User - System log: Test Cases/All asset/View Log/View log - User - System log
+
+04-09-2025T11:13:03 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Profile")): Object: 'Object Repository/All Menu/Button - Profile' is clicked on
+
+04-09-2025T11:13:03 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Profile' is clicked on
+
+04-09-2025T11:13:03 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Option - Profile")): Object: 'Object Repository/All Menu/Button - Option - Profile' is clicked on
+
+04-09-2025T11:13:04 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Option - Profile' is clicked on
+
+04-09-2025T11:13:04 - [TEST_STEP][PASSED] - click(findTestObject("Report dan log/Button - Tab System Log Profile")): Object: 'Object Repository/Report dan log/Button - Tab System Log Profile' is clicked on
+
+04-09-2025T11:13:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Report dan log/Button - Tab System Log Profile' is clicked on
+
+04-09-2025T11:13:05 - [TEST_STEP][PASSED] - actionLog = getText(findTestObject("Report dan log/Text - Activity system log profile")): Text of object 'Object Repository/Report dan log/Text - Activity system log profile' is: 'Edit'
+
+04-09-2025T11:13:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/Report dan log/Text - Activity system log profile' is: 'Edit'
+
+04-09-2025T11:13:06 - [TEST_STEP][NOT_RUN] - verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase()): NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+04-09-2025T11:13:06 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+04-09-2025T11:13:06 - [TEST_STEP][PASSED] - verifyMatch(actionLog.toLowerCase(), ".*" + expectedAction.toLowerCase() + ".*", true): Actual text 'edit' and expected text '.*edit.*' are matched  using regular expression
+
+04-09-2025T11:13:06 - [MESSAGE][PASSED] - Actual text 'edit' and expected text '.*edit.*' are matched  using regular expression
+
+04-09-2025T11:13:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/All asset/View Log/View log - User - System log' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Transaction Assignment (Single action)" time="12.784" classname="Test Cases/All asset/Transaction Assignment (Single action)" status="PASSED">
+         <system-out><![CDATA[04-09-2025T11:13:06 - [TEST_CASE][PASSED] - Test Cases/All asset/Transaction Assignment (Single action): Test Cases/All asset/Transaction Assignment (Single action)
+
+04-09-2025T11:13:06 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Sidebar")): Object: 'Object Repository/All Menu/Button - Sidebar' is clicked on
+
+04-09-2025T11:13:07 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Sidebar' is clicked on
+
+04-09-2025T11:13:07 - [TEST_STEP][PASSED] - buttonAktif = getAttribute(findTestObject("All Menu/Button - Menu - Fixed Asset"), "aria-expanded"): Attribute 'aria-expanded' of object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is: 'true'
+
+04-09-2025T11:13:07 - [MESSAGE][PASSED] - Attribute 'aria-expanded' of object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is: 'true'
+
+04-09-2025T11:13:07 - [TEST_STEP][PASSED] - if (buttonAktif == "false"): null
+
+04-09-2025T11:13:07 - [TEST_STEP][PASSED] - else: null
+
+04-09-2025T11:13:07 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Sub menu - All Assets")): Object: 'Object Repository/All Menu/Button - Sub menu - All Assets' is clicked on
+
+04-09-2025T11:13:07 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Sub menu - All Assets' is clicked on
+
+04-09-2025T11:13:07 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Borrow/Button - Single action available")): Object: 'Object Repository/All asset/Borrow/Button - Single action available' is clicked on
+
+04-09-2025T11:13:10 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Borrow/Button - Single action available' is clicked on
+
+04-09-2025T11:13:10 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Assign/Button - Single action - Option assignment")): Object: 'Object Repository/All asset/Assign/Button - Single action - Option assignment' is clicked on
+
+04-09-2025T11:13:10 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Assign/Button - Single action - Option assignment' is clicked on
+
+04-09-2025T11:13:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/Button - Select User")): Object: 'Object Repository/Assignment/Button - Select User' is clicked on
+
+04-09-2025T11:13:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/Button - Select User' is clicked on
+
+04-09-2025T11:13:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/List - Select user")): Object: 'Object Repository/Assignment/List - Select user' is clicked on
+
+04-09-2025T11:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/List - Select user' is clicked on
+
+04-09-2025T11:13:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/Button - Select1")): Object: 'Object Repository/Assignment/Button - Select1' is clicked on
+
+04-09-2025T11:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/Button - Select1' is clicked on
+
+04-09-2025T11:13:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Assignment/Input - Note"), "contoh"): Text 'contoh' is set on object 'Object Repository/Assignment/Input - Note'
+
+04-09-2025T11:13:17 - [MESSAGE][PASSED] - Text 'contoh' is set on object 'Object Repository/Assignment/Input - Note'
+
+04-09-2025T11:13:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/Button - Submit")): Object: 'Object Repository/Assignment/Button - Submit' is clicked on
+
+04-09-2025T11:13:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/Button - Submit' is clicked on
+
+04-09-2025T11:13:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Assignment/Toast - Success, assignment request has been submitted"), "Success, assignment request has been submitted."): Actual text and expected text of test object 'Object Repository/Assignment/Toast - Success, assignment request has been submitted' are matched.
+
+04-09-2025T11:13:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Assignment/Toast - Success, assignment request has been submitted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Transaction Assignment (Bulk action)" time="16.272" classname="Test Cases/All asset/Transaction Assignment (Bulk action)" status="PASSED">
+         <system-out><![CDATA[04-09-2025T11:15:26 - [TEST_CASE][PASSED] - Test Cases/All asset/Transaction Assignment (Bulk action): Test Cases/All asset/Transaction Assignment (Bulk action)
+
+04-09-2025T11:15:26 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Sub menu - All Assets")): Object: 'Object Repository/All Menu/Button - Sub menu - All Assets' is clicked on
+
+04-09-2025T11:15:26 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Sub menu - All Assets' is clicked on
+
+04-09-2025T11:15:26 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Bulk action/Checkbox - Status available")): Object: 'Object Repository/All asset/Bulk action/Checkbox - Status available' is clicked on
+
+04-09-2025T11:15:27 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Bulk action/Checkbox - Status available' is clicked on
+
+04-09-2025T11:15:27 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk Action")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+04-09-2025T11:15:33 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+04-09-2025T11:15:33 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Bulk action/Button - Bulk action - Option Assignment")): Object: 'Object Repository/All asset/Bulk action/Button - Bulk action - Option Assignment' is clicked on
+
+04-09-2025T11:15:33 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Bulk action/Button - Bulk action - Option Assignment' is clicked on
+
+04-09-2025T11:15:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/Button - Select User")): Object: 'Object Repository/Assignment/Button - Select User' is clicked on
+
+04-09-2025T11:15:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/Button - Select User' is clicked on
+
+04-09-2025T11:15:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/List - Select user")): Object: 'Object Repository/Assignment/List - Select user' is clicked on
+
+04-09-2025T11:15:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/List - Select user' is clicked on
+
+04-09-2025T11:15:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/Button - Select1")): Object: 'Object Repository/Assignment/Button - Select1' is clicked on
+
+04-09-2025T11:15:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/Button - Select1' is clicked on
+
+04-09-2025T11:15:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Assignment/Input - Note"), "contoh"): Text 'contoh' is set on object 'Object Repository/Assignment/Input - Note'
+
+04-09-2025T11:15:39 - [MESSAGE][PASSED] - Text 'contoh' is set on object 'Object Repository/Assignment/Input - Note'
+
+04-09-2025T11:15:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/Button - Submit")): Object: 'Object Repository/Assignment/Button - Submit' is clicked on
+
+04-09-2025T11:15:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/Button - Submit' is clicked on
+
+04-09-2025T11:15:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Assignment/Toast - Success, assignment request has been submitted"), "Success, assignment request has been submitted."): Actual text and expected text of test object 'Object Repository/Assignment/Toast - Success, assignment request has been submitted' are matched.
+
+04-09-2025T11:15:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Assignment/Toast - Success, assignment request has been submitted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Transaction Borrow (Single action)" time="11.9" classname="Test Cases/All asset/Transaction Borrow (Single action)" status="PASSED">
+         <system-out><![CDATA[04-09-2025T11:15:42 - [TEST_CASE][PASSED] - Test Cases/All asset/Transaction Borrow (Single action): Test Cases/All asset/Transaction Borrow (Single action)
+
+04-09-2025T11:15:42 - [TEST_STEP][NOT_RUN] - click(findTestObject("All Menu/Button - Sidebar")): NOT_RUN: click(findTestObject("All Menu/Button - Sidebar"))
+
+04-09-2025T11:15:42 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All Menu/Button - Sidebar"))
+
+04-09-2025T11:15:42 - [TEST_STEP][NOT_RUN] - buttonAktif = getAttribute(findTestObject("All Menu/Button - Menu - Fixed Asset"), "aria-expanded"): NOT_RUN: buttonAktif = getAttribute(findTestObject("All Menu/Button - Menu - Fixed Asset"), "aria-expanded")
+
+04-09-2025T11:15:42 - [MESSAGE][NOT_RUN] - NOT_RUN: buttonAktif = getAttribute(findTestObject("All Menu/Button - Menu - Fixed Asset"), "aria-expanded")
+
+04-09-2025T11:15:42 - [TEST_STEP][NOT_RUN] - if (buttonAktif == "false"): NOT_RUN: if (buttonAktif == "false")
+
+04-09-2025T11:15:42 - [MESSAGE][NOT_RUN] - NOT_RUN: if (buttonAktif == "false")
+
+04-09-2025T11:15:42 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Sub menu - All Assets")): Object: 'Object Repository/All Menu/Button - Sub menu - All Assets' is clicked on
+
+04-09-2025T11:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Sub menu - All Assets' is clicked on
+
+04-09-2025T11:15:43 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Borrow/Button - Single action available")): Object: 'Object Repository/All asset/Borrow/Button - Single action available' is clicked on
+
+04-09-2025T11:15:46 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Borrow/Button - Single action available' is clicked on
+
+04-09-2025T11:15:46 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Borrow/Button - Option Borrow")): Object: 'Object Repository/All asset/Borrow/Button - Option Borrow' is clicked on
+
+04-09-2025T11:15:47 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Borrow/Button - Option Borrow' is clicked on
+
+04-09-2025T11:15:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Button - Select User")): Object: 'Object Repository/Borrow/Button - Select User' is clicked on
+
+04-09-2025T11:15:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Select User' is clicked on
+
+04-09-2025T11:15:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/List - Select user")): Object: 'Object Repository/Borrow/List - Select user' is clicked on
+
+04-09-2025T11:15:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/List - Select user' is clicked on
+
+04-09-2025T11:15:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Button - Select1")): Object: 'Object Repository/Borrow/Button - Select1' is clicked on
+
+04-09-2025T11:15:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Select1' is clicked on
+
+04-09-2025T11:15:51 - [TEST_STEP][PASSED] - setText(findTestObject("Borrow/Input - Duration"), "12"): Text '12' is set on object 'Object Repository/Borrow/Input - Duration'
+
+04-09-2025T11:15:52 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Borrow/Input - Duration'
+
+04-09-2025T11:15:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Borrow/Input - Note"), "asd"): Text 'asd' is set on object 'Object Repository/Borrow/Input - Note'
+
+04-09-2025T11:15:53 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/Borrow/Input - Note'
+
+04-09-2025T11:15:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Button - Submit")): Object: 'Object Repository/Borrow/Button - Submit' is clicked on
+
+04-09-2025T11:15:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Submit' is clicked on
+
+04-09-2025T11:15:53 - [TEST_STEP][NOT_RUN] - isPopupPresent = verifyElementPresent(findTestObject("Object Repository/Borrow/Dialog - Confirm Status Update"), 0, OPTIONAL): NOT_RUN: isPopupPresent = verifyElementPresent(findTestObject("Object Repository/Borrow/Dialog - Confirm Status Update"), 0, OPTIONAL)
+
+04-09-2025T11:15:53 - [MESSAGE][NOT_RUN] - NOT_RUN: isPopupPresent = verifyElementPresent(findTestObject("Object Repository/Borrow/Dialog - Confirm Status Update"), 0, OPTIONAL)
+
+04-09-2025T11:15:53 - [TEST_STEP][NOT_RUN] - if (isPopupPresent): NOT_RUN: if (isPopupPresent)
+
+04-09-2025T11:15:53 - [MESSAGE][NOT_RUN] - NOT_RUN: if (isPopupPresent)
+
+04-09-2025T11:15:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Borrow/Toast - Success, borrowing request has been submitted"), "Success, borrowing request has been submitted."): Actual text and expected text of test object 'Object Repository/Borrow/Toast - Success, borrowing request has been submitted' are matched.
+
+04-09-2025T11:15:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Borrow/Toast - Success, borrowing request has been submitted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Transaction Borrow (Bulk action)" time="41.235" classname="Test Cases/All asset/Transaction Borrow (Bulk action)" status="PASSED">
+         <system-out><![CDATA[04-09-2025T11:15:55 - [TEST_CASE][PASSED] - Test Cases/All asset/Transaction Borrow (Bulk action): Test Cases/All asset/Transaction Borrow (Bulk action)
+
+04-09-2025T11:15:55 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Sub menu - All Assets")): Object: 'Object Repository/All Menu/Button - Sub menu - All Assets' is clicked on
+
+04-09-2025T11:16:25 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Sub menu - All Assets' is clicked on
+
+04-09-2025T11:16:25 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Bulk action/Checkbox - Status available")): Object: 'Object Repository/All asset/Bulk action/Checkbox - Status available' is clicked on
+
+04-09-2025T11:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Bulk action/Checkbox - Status available' is clicked on
+
+04-09-2025T11:16:26 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk Action")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+04-09-2025T11:16:27 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+04-09-2025T11:16:27 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Bulk action/Button - Bulk action - Option Borrow")): Object: 'Object Repository/All asset/Bulk action/Button - Bulk action - Option Borrow' is clicked on
+
+04-09-2025T11:16:28 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Bulk action/Button - Bulk action - Option Borrow' is clicked on
+
+04-09-2025T11:16:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Button - Select User")): Object: 'Object Repository/Borrow/Button - Select User' is clicked on
+
+04-09-2025T11:16:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Select User' is clicked on
+
+04-09-2025T11:16:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/List - Select user")): Object: 'Object Repository/Borrow/List - Select user' is clicked on
+
+04-09-2025T11:16:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/List - Select user' is clicked on
+
+04-09-2025T11:16:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Button - Select1")): Object: 'Object Repository/Borrow/Button - Select1' is clicked on
+
+04-09-2025T11:16:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Select1' is clicked on
+
+04-09-2025T11:16:32 - [TEST_STEP][PASSED] - setText(findTestObject("Borrow/Input - Duration"), "12"): Text '12' is set on object 'Object Repository/Borrow/Input - Duration'
+
+04-09-2025T11:16:33 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Borrow/Input - Duration'
+
+04-09-2025T11:16:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Borrow/Input - Note"), "asd"): Text 'asd' is set on object 'Object Repository/Borrow/Input - Note'
+
+04-09-2025T11:16:33 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/Borrow/Input - Note'
+
+04-09-2025T11:16:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Button - Submit")): Object: 'Object Repository/Borrow/Button - Submit' is clicked on
+
+04-09-2025T11:16:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Submit' is clicked on
+
+04-09-2025T11:16:34 - [TEST_STEP][NOT_RUN] - isPopupPresent = verifyElementPresent(findTestObject("Object Repository/Borrow/Dialog - Confirm Status Update"), 0, OPTIONAL): NOT_RUN: isPopupPresent = verifyElementPresent(findTestObject("Object Repository/Borrow/Dialog - Confirm Status Update"), 0, OPTIONAL)
+
+04-09-2025T11:16:34 - [MESSAGE][NOT_RUN] - NOT_RUN: isPopupPresent = verifyElementPresent(findTestObject("Object Repository/Borrow/Dialog - Confirm Status Update"), 0, OPTIONAL)
+
+04-09-2025T11:16:34 - [TEST_STEP][NOT_RUN] - if (isPopupPresent): NOT_RUN: if (isPopupPresent)
+
+04-09-2025T11:16:34 - [MESSAGE][NOT_RUN] - NOT_RUN: if (isPopupPresent)
+
+04-09-2025T11:16:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Borrow/Toast - Success, borrowing request has been submitted"), "Success, borrowing request has been submitted."): Actual text and expected text of test object 'Object Repository/Borrow/Toast - Success, borrowing request has been submitted' are matched.
+
+04-09-2025T11:16:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Borrow/Toast - Success, borrowing request has been submitted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Transaction Transfer (Single action)" time="12.923" classname="Test Cases/All asset/Transaction Transfer (Single action)" status="PASSED">
+         <system-out><![CDATA[04-09-2025T11:16:36 - [TEST_CASE][PASSED] - Test Cases/All asset/Transaction Transfer (Single action): Test Cases/All asset/Transaction Transfer (Single action)
+
+04-09-2025T11:16:36 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Sub menu - All Assets")): Object: 'Object Repository/All Menu/Button - Sub menu - All Assets' is clicked on
+
+04-09-2025T11:16:37 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Sub menu - All Assets' is clicked on
+
+04-09-2025T11:16:37 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Edit asset/Button - single action")): Object: 'Object Repository/All asset/Edit asset/Button - single action' is clicked on
+
+04-09-2025T11:16:39 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Edit asset/Button - single action' is clicked on
+
+04-09-2025T11:16:39 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Button - Single action - Option transfer")): Object: 'Object Repository/All asset/Button - Single action - Option transfer' is clicked on
+
+04-09-2025T11:16:40 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Button - Single action - Option transfer' is clicked on
+
+04-09-2025T11:16:40 - [TEST_STEP][PASSED] - click(findTestObject("Transfer/Button - Select Group")): Object: 'Object Repository/Transfer/Button - Select Group' is clicked on
+
+04-09-2025T11:16:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Transfer/Button - Select Group' is clicked on
+
+04-09-2025T11:16:43 - [TEST_STEP][PASSED] - click(findTestObject("Transfer/List - Select destination group")): Object: 'Object Repository/Transfer/List - Select destination group' is clicked on
+
+04-09-2025T11:16:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Transfer/List - Select destination group' is clicked on
+
+04-09-2025T11:16:44 - [TEST_STEP][PASSED] - click(findTestObject("Transfer/Button - Select Group Dialog")): Object: 'Object Repository/Transfer/Button - Select Group Dialog' is clicked on
+
+04-09-2025T11:16:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Transfer/Button - Select Group Dialog' is clicked on
+
+04-09-2025T11:16:45 - [TEST_STEP][PASSED] - setText(findTestObject("Transfer/Input - Note"), "asd"): Text 'asd' is set on object 'Object Repository/Transfer/Input - Note'
+
+04-09-2025T11:16:46 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/Transfer/Input - Note'
+
+04-09-2025T11:16:46 - [TEST_STEP][PASSED] - click(findTestObject("Transfer/Button - Submit")): Object: 'Object Repository/Transfer/Button - Submit' is clicked on
+
+04-09-2025T11:16:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Transfer/Button - Submit' is clicked on
+
+04-09-2025T11:16:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Transfer/Toast - Success"), 10): Object 'Object Repository/Transfer/Toast - Success' is visible
+
+04-09-2025T11:16:49 - [MESSAGE][PASSED] - Object 'Object Repository/Transfer/Toast - Success' is visible
+
+04-09-2025T11:16:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/Toast - Success"), "Success, transfer log has been submitted."): Actual text and expected text of test object 'Object Repository/Transfer/Toast - Success' are matched.
+
+04-09-2025T11:16:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/Toast - Success' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Transaction Transfer (Bulk action)" time="95.55" classname="Test Cases/All asset/Transaction Transfer (Bulk action)" status="PASSED">
+         <system-out><![CDATA[04-09-2025T11:16:49 - [TEST_CASE][PASSED] - Test Cases/All asset/Transaction Transfer (Bulk action): Test Cases/All asset/Transaction Transfer (Bulk action)
+
+04-09-2025T11:16:49 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Sub menu - All Assets")): Object: 'Object Repository/All Menu/Button - Sub menu - All Assets' is clicked on
+
+04-09-2025T11:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Sub menu - All Assets' is clicked on
+
+04-09-2025T11:16:50 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Bulk action/Checkbox - Status available")): Object: 'Object Repository/All asset/Bulk action/Checkbox - Status available' is clicked on
+
+04-09-2025T11:18:15 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Bulk action/Checkbox - Status available' is clicked on
+
+04-09-2025T11:18:15 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk Action")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+04-09-2025T11:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+04-09-2025T11:18:17 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Bulk action/Button - Bulk action - Option Transfer")): Object: 'Object Repository/All asset/Bulk action/Button - Bulk action - Option Transfer' is clicked on
+
+04-09-2025T11:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Bulk action/Button - Bulk action - Option Transfer' is clicked on
+
+04-09-2025T11:18:17 - [TEST_STEP][PASSED] - click(findTestObject("Transfer/Button - Select Group")): Object: 'Object Repository/Transfer/Button - Select Group' is clicked on
+
+04-09-2025T11:18:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Transfer/Button - Select Group' is clicked on
+
+04-09-2025T11:18:19 - [TEST_STEP][PASSED] - click(findTestObject("Transfer/List - Select destination group")): Object: 'Object Repository/Transfer/List - Select destination group' is clicked on
+
+04-09-2025T11:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Transfer/List - Select destination group' is clicked on
+
+04-09-2025T11:18:20 - [TEST_STEP][PASSED] - click(findTestObject("Transfer/Button - Select Group Dialog")): Object: 'Object Repository/Transfer/Button - Select Group Dialog' is clicked on
+
+04-09-2025T11:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Transfer/Button - Select Group Dialog' is clicked on
+
+04-09-2025T11:18:20 - [TEST_STEP][PASSED] - setText(findTestObject("Transfer/Input - Note"), "asd"): Text 'asd' is set on object 'Object Repository/Transfer/Input - Note'
+
+04-09-2025T11:18:21 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/Transfer/Input - Note'
+
+04-09-2025T11:18:21 - [TEST_STEP][PASSED] - click(findTestObject("Transfer/Button - Submit")): Object: 'Object Repository/Transfer/Button - Submit' is clicked on
+
+04-09-2025T11:18:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Transfer/Button - Submit' is clicked on
+
+04-09-2025T11:18:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Transfer/Toast - Success"), 10): Object 'Object Repository/Transfer/Toast - Success' is visible
+
+04-09-2025T11:18:24 - [MESSAGE][PASSED] - Object 'Object Repository/Transfer/Toast - Success' is visible
+
+04-09-2025T11:18:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/Toast - Success"), "Success, transfer log has been submitted."): Actual text and expected text of test object 'Object Repository/Transfer/Toast - Success' are matched.
+
+04-09-2025T11:18:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/Toast - Success' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Report damage (Single action)" time="11.2" classname="Test Cases/All asset/Report damage (Single action)" status="PASSED">
+         <system-out><![CDATA[04-09-2025T11:18:25 - [TEST_CASE][PASSED] - Test Cases/All asset/Report damage (Single action): Test Cases/All asset/Report damage (Single action)
+
+04-09-2025T11:18:25 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Sub menu - All Assets")): Object: 'Object Repository/All Menu/Button - Sub menu - All Assets' is clicked on
+
+04-09-2025T11:18:25 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Sub menu - All Assets' is clicked on
+
+04-09-2025T11:18:25 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Button - Single action untuk report")): Object: 'Object Repository/All asset/Button - Single action untuk report' is clicked on
+
+04-09-2025T11:18:28 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Button - Single action untuk report' is clicked on
+
+04-09-2025T11:18:28 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Button - Single action - Option report damage")): Object: 'Object Repository/All asset/Button - Single action - Option report damage' is clicked on
+
+04-09-2025T11:18:29 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Button - Single action - Option report damage' is clicked on
+
+04-09-2025T11:18:29 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/Borrow/Report damage/Button - Upload photo"), "D:\Katalon QA - Tag Samurai\katalon-test-tutor\Photo\contoh photo damage.jpeg"): File 'D:\Katalon QA - Tag Samurai\katalon-test-tutor\Photo\contoh photo damage.jpeg' sent to object: 'Object Repository/Borrow/Report damage/Button - Upload photo'
+
+04-09-2025T11:18:30 - [MESSAGE][PASSED] - File 'D:\Katalon QA - Tag Samurai\katalon-test-tutor\Photo\contoh photo damage.jpeg' sent to object: 'Object Repository/Borrow/Report damage/Button - Upload photo'
+
+04-09-2025T11:18:30 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+04-09-2025T11:18:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+04-09-2025T11:18:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Report damage/Button - Apply")): Object: 'Object Repository/Borrow/Report damage/Button - Apply' is clicked on
+
+04-09-2025T11:18:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Report damage/Button - Apply' is clicked on
+
+04-09-2025T11:18:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Borrow/Report damage/Input - Note reported damage"), "asdf"): Text 'asdf' is set on object 'Object Repository/Borrow/Report damage/Input - Note reported damage'
+
+04-09-2025T11:18:32 - [MESSAGE][PASSED] - Text 'asdf' is set on object 'Object Repository/Borrow/Report damage/Input - Note reported damage'
+
+04-09-2025T11:18:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Report damage/Button - Submit")): Object: 'Object Repository/Borrow/Report damage/Button - Submit' is clicked on
+
+04-09-2025T11:18:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Report damage/Button - Submit' is clicked on
+
+04-09-2025T11:18:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Report damage/Button - Continue")): Object: 'Object Repository/Borrow/Report damage/Button - Continue' is clicked on
+
+04-09-2025T11:18:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Report damage/Button - Continue' is clicked on
+
+04-09-2025T11:18:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Borrow/Report damage/Toast - Success, damaged asset report has been _80899e_1"), "Success, damaged asset report has been submitted."): Actual text and expected text of test object 'Object Repository/Borrow/Report damage/Toast - Success, damaged asset report has been _80899e_1' are matched.
+
+04-09-2025T11:18:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Borrow/Report damage/Toast - Success, damaged asset report has been _80899e_1' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Report missing (Single action)" time="71.798" classname="Test Cases/All asset/Report missing (Single action)" status="PASSED">
+         <system-out><![CDATA[04-09-2025T11:18:36 - [TEST_CASE][PASSED] - Test Cases/All asset/Report missing (Single action): Test Cases/All asset/Report missing (Single action)
+
+04-09-2025T11:18:36 - [TEST_STEP][NOT_RUN] - click(findTestObject("All Menu/Button - Sub menu - All Assets")): NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - All Assets"))
+
+04-09-2025T11:18:36 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - All Assets"))
+
+04-09-2025T11:18:36 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Button - Single action untuk report")): Object: 'Object Repository/All asset/Button - Single action untuk report' is clicked on
+
+04-09-2025T11:18:37 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Button - Single action untuk report' is clicked on
+
+04-09-2025T11:18:37 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Button - Single action - Option report missing")): Object: 'Object Repository/All asset/Button - Single action - Option report missing' is clicked on
+
+04-09-2025T11:18:38 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Button - Single action - Option report missing' is clicked on
+
+04-09-2025T11:18:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Borrow/Report missing/Input - Note report missing"), "asd"): Text 'asd' is set on object 'Object Repository/Borrow/Report missing/Input - Note report missing'
+
+04-09-2025T11:18:39 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/Borrow/Report missing/Input - Note report missing'
+
+04-09-2025T11:18:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Report missing/Button - Submit")): Object: 'Object Repository/Borrow/Report missing/Button - Submit' is clicked on
+
+04-09-2025T11:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Report missing/Button - Submit' is clicked on
+
+04-09-2025T11:18:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Borrow/Report missing/Dialog - Report submit missing"), 10): Object 'Object Repository/Borrow/Report missing/Dialog - Report submit missing' is visible
+
+04-09-2025T11:18:40 - [MESSAGE][PASSED] - Object 'Object Repository/Borrow/Report missing/Dialog - Report submit missing' is visible
+
+04-09-2025T11:18:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Report missing/Button - Report")): Object: 'Object Repository/Borrow/Report missing/Button - Report' is clicked on
+
+04-09-2025T11:18:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Report missing/Button - Report' is clicked on
+
+04-09-2025T11:18:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Borrow/Report missing/Toast - Success, missing asset has been reported_1"), "Success, missing asset has been reported."): Actual text and expected text of test object 'Object Repository/Borrow/Report missing/Toast - Success, missing asset has been reported_1' are matched.
+
+04-09-2025T11:19:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[(contains(text(), 'Success') or contains(., 'Success'))]'. Please recheck the objects properties to make sure the desired element is located. 
+
+04-09-2025T11:19:43 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Borrow/Report missing/Toast - Success, missing asset has been reported_1'. Try using Self-healing.
+
+04-09-2025T11:19:48 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: D:/Katalon QA - Tag Samurai/katalon-test-tutor/Reports/Self-healing/Object Repository/Borrow/Report missing/Toast - Success, missing asset has been reported_1_XPATH.png
+
+04-09-2025T11:19:48 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Borrow/Report missing/Toast - Success, missing asset has been reported_1' was broken. Propose an alternative one: '//div[(text() = 'Success, missing asset has been reported.' or . = 'Success, missing asset has been reported.')]'.
+
+04-09-2025T11:19:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Borrow/Report missing/Toast - Success, missing asset has been reported_1' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Report disposal (Single action)" time="12.517" classname="Test Cases/All asset/Report disposal (Single action)" status="PASSED">
+         <system-out><![CDATA[04-09-2025T11:19:48 - [TEST_CASE][PASSED] - Test Cases/All asset/Report disposal (Single action): Test Cases/All asset/Report disposal (Single action)
+
+04-09-2025T11:19:48 - [TEST_STEP][NOT_RUN] - click(findTestObject("All Menu/Button - Sub menu - All Assets")): NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - All Assets"))
+
+04-09-2025T11:19:48 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - All Assets"))
+
+04-09-2025T11:19:48 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Edit asset/Button - single action")): Object: 'Object Repository/All asset/Edit asset/Button - single action' is clicked on
+
+04-09-2025T11:19:50 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Edit asset/Button - single action' is clicked on
+
+04-09-2025T11:19:50 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Button - Single action - Option report disposal")): Object: 'Object Repository/All asset/Button - Single action - Option report disposal' is clicked on
+
+04-09-2025T11:19:52 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Button - Single action - Option report disposal' is clicked on
+
+04-09-2025T11:19:52 - [TEST_STEP][PASSED] - setText(findTestObject("Damage/Input - Note report disposal"), "asd"): Text 'asd' is set on object 'Object Repository/Damage/Input - Note report disposal'
+
+04-09-2025T11:19:57 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/Damage/Input - Note report disposal'
+
+04-09-2025T11:19:57 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Edit asset/Button - Submit")): Object: 'Object Repository/All asset/Edit asset/Button - Submit' is clicked on
+
+04-09-2025T11:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Edit asset/Button - Submit' is clicked on
+
+04-09-2025T11:19:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Damage/Toast - Success, disposal report has been submitted"), "Success, disposal report has been submitted."): Actual text and expected text of test object 'Object Repository/Damage/Toast - Success, disposal report has been submitted' are matched.
+
+04-09-2025T11:20:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Damage/Toast - Success, disposal report has been submitted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Report disposal (Bulk action)" time="7.24" classname="Test Cases/All asset/Report disposal (Bulk action)" status="PASSED">
+         <system-out><![CDATA[04-09-2025T11:20:00 - [TEST_CASE][PASSED] - Test Cases/All asset/Report disposal (Bulk action): Test Cases/All asset/Report disposal (Bulk action)
+
+04-09-2025T11:20:00 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Checkbox - Status bukan disposal")): Object: 'Object Repository/All asset/Checkbox - Status bukan disposal' is clicked on
+
+04-09-2025T11:20:01 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Checkbox - Status bukan disposal' is clicked on
+
+04-09-2025T11:20:01 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk Action")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+04-09-2025T11:20:01 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+04-09-2025T11:20:01 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Bulk action/Button - Bulk action - Option Report Disposal")): Object: 'Object Repository/All asset/Bulk action/Button - Bulk action - Option Report Disposal' is clicked on
+
+04-09-2025T11:20:02 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Bulk action/Button - Bulk action - Option Report Disposal' is clicked on
+
+04-09-2025T11:20:02 - [TEST_STEP][PASSED] - setText(findTestObject("Damage/Input - Note report disposal"), "asd"): Text 'asd' is set on object 'Object Repository/Damage/Input - Note report disposal'
+
+04-09-2025T11:20:04 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/Damage/Input - Note report disposal'
+
+04-09-2025T11:20:04 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Edit asset/Button - Submit")): Object: 'Object Repository/All asset/Edit asset/Button - Submit' is clicked on
+
+04-09-2025T11:20:04 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Edit asset/Button - Submit' is clicked on
+
+04-09-2025T11:20:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Damage/Toast - Success, disposal report has been submitted"), 10): Object 'Object Repository/Damage/Toast - Success, disposal report has been submitted' is visible
+
+04-09-2025T11:20:07 - [MESSAGE][PASSED] - Object 'Object Repository/Damage/Toast - Success, disposal report has been submitted' is visible
+
+04-09-2025T11:20:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Damage/Toast - Success, disposal report has been submitted"), "Success, disposal report has been submitted."): Actual text and expected text of test object 'Object Repository/Damage/Toast - Success, disposal report has been submitted' are matched.
+
+04-09-2025T11:20:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Damage/Toast - Success, disposal report has been submitted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Cancel Report Disposal (Single action)" time="34.018" classname="Test Cases/All asset/Cancel Report Disposal (Single action)" status="PASSED">
+         <system-out><![CDATA[04-09-2025T11:20:17 - [TEST_CASE][PASSED] - Test Cases/All asset/Cancel Report Disposal (Single action): Test Cases/All asset/Cancel Report Disposal (Single action)
+
+04-09-2025T11:20:17 - [TEST_STEP][NOT_RUN] - click(findTestObject("All Menu/Button - Sub menu - All Assets")): NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - All Assets"))
+
+04-09-2025T11:20:17 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - All Assets"))
+
+04-09-2025T11:20:17 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+04-09-2025T11:20:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+04-09-2025T11:20:17 - [TEST_STEP][PASSED] - click(findTestObject("Missing/Button - Single action menu missing-status disposal")): Object: 'Object Repository/Missing/Button - Single action menu missing-status disposal' is clicked on
+
+04-09-2025T11:20:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Missing/Button - Single action menu missing-status disposal' is clicked on
+
+04-09-2025T11:20:47 - [TEST_STEP][PASSED] - click(findTestObject("Missing/Button - Option Cancel Disposal Report")): Object: 'Object Repository/Missing/Button - Option Cancel Disposal Report' is clicked on
+
+04-09-2025T11:20:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Missing/Button - Option Cancel Disposal Report' is clicked on
+
+04-09-2025T11:20:48 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Cancel report/Button - Decline report disposal"), STOP_ON_FAILURE): Object: 'Object Repository/All asset/Cancel report/Button - Decline report disposal' is clicked on
+
+04-09-2025T11:20:49 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Cancel report/Button - Decline report disposal' is clicked on
+
+04-09-2025T11:20:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("All asset/Cancel report/Toast - Success, disposal report has been canceled"), "Success, report has been declined."): Actual text and expected text of test object 'Object Repository/All asset/Cancel report/Toast - Success, disposal report has been canceled' are matched.
+
+04-09-2025T11:20:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/All asset/Cancel report/Toast - Success, disposal report has been canceled' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Cancel Report Disposal (Bulk action)" time="4.78" classname="Test Cases/All asset/Cancel Report Disposal (Bulk action)" status="PASSED">
+         <system-out><![CDATA[04-09-2025T11:20:51 - [TEST_CASE][PASSED] - Test Cases/All asset/Cancel Report Disposal (Bulk action): Test Cases/All asset/Cancel Report Disposal (Bulk action)
+
+04-09-2025T11:20:51 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Bulk action/Checkbox - Status disposal")): Object: 'Object Repository/All asset/Bulk action/Checkbox - Status disposal' is clicked on
+
+04-09-2025T11:20:52 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Bulk action/Checkbox - Status disposal' is clicked on
+
+04-09-2025T11:20:52 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk Action")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+04-09-2025T11:20:53 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+04-09-2025T11:20:53 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Bulk action/Button - Bulk action - Option Cancel Report")): Object: 'Object Repository/All asset/Bulk action/Button - Bulk action - Option Cancel Report' is clicked on
+
+04-09-2025T11:20:53 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Bulk action/Button - Bulk action - Option Cancel Report' is clicked on
+
+04-09-2025T11:20:53 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Cancel report/Button - Decline report disposal"), STOP_ON_FAILURE): Object: 'Object Repository/All asset/Cancel report/Button - Decline report disposal' is clicked on
+
+04-09-2025T11:20:54 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Cancel report/Button - Decline report disposal' is clicked on
+
+04-09-2025T11:20:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("All asset/Cancel report/Toast - Success, disposal report has been canceled"), "Success, report has been declined."): Actual text and expected text of test object 'Object Repository/All asset/Cancel report/Toast - Success, disposal report has been canceled' are matched.
+
+04-09-2025T11:20:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/All asset/Cancel report/Toast - Success, disposal report has been canceled' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All asset/Edit useful life dan clear field (Bulk action)" time="70.667" classname="Test Cases/All asset/Edit useful life dan clear field (Bulk action)" status="PASSED">
+         <system-out><![CDATA[04-09-2025T11:21:05 - [TEST_CASE][PASSED] - Test Cases/All asset/Edit useful life dan clear field (Bulk action): Test Cases/All asset/Edit useful life dan clear field (Bulk action)
+
+04-09-2025T11:21:05 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Checkbox - file manager")): Object: 'Object Repository/File manager/Checkbox - file manager' is clicked on
+
+04-09-2025T11:21:06 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Checkbox - file manager' is clicked on
+
+04-09-2025T11:21:06 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk Action")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+04-09-2025T11:21:07 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+04-09-2025T11:21:07 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Bulk action/Button - Bulk action - Option Edit Useful Life")): Object: 'Object Repository/All asset/Bulk action/Button - Bulk action - Option Edit Useful Life' is clicked on
+
+04-09-2025T11:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Bulk action/Button - Bulk action - Option Edit Useful Life' is clicked on
+
+04-09-2025T11:21:09 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Bulk action/Dialog - Edit useful life")): Object: 'Object Repository/All asset/Bulk action/Dialog - Edit useful life' is clicked on
+
+04-09-2025T11:21:11 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Bulk action/Dialog - Edit useful life' is clicked on
+
+04-09-2025T11:21:11 - [TEST_STEP][PASSED] - setText(findTestObject("All asset/Bulk action/Input - Useful life"), "1"): Text '1' is set on object 'Object Repository/All asset/Bulk action/Input - Useful life'
+
+04-09-2025T11:21:14 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/All asset/Bulk action/Input - Useful life'
+
+04-09-2025T11:21:14 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Bulk action/Button - Clear Field")): Object: 'Object Repository/All asset/Bulk action/Button - Clear Field' is clicked on
+
+04-09-2025T11:21:14 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Bulk action/Button - Clear Field' is clicked on
+
+04-09-2025T11:21:14 - [TEST_STEP][PASSED] - setText(findTestObject("All asset/Bulk action/Input - Useful life"), "15"): Text '15' is set on object 'Object Repository/All asset/Bulk action/Input - Useful life'
+
+04-09-2025T11:21:15 - [MESSAGE][PASSED] - Text '15' is set on object 'Object Repository/All asset/Bulk action/Input - Useful life'
+
+04-09-2025T11:21:15 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Bulk action/Button - Save")): Object: 'Object Repository/All asset/Bulk action/Button - Save' is clicked on
+
+04-09-2025T11:21:16 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Bulk action/Button - Save' is clicked on
+
+04-09-2025T11:21:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("All asset/Bulk action/Toast - Success, useful life has been edited")): Object 'Object Repository/All asset/Bulk action/Toast - Success, useful life has been edited' is visible
+
+04-09-2025T11:21:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Success, useful life has been edited.'])[1]/following::div[5]'. Please recheck the objects properties to make sure the desired element is located. 
+
+04-09-2025T11:21:48 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/All asset/Bulk action/Toast - Success, useful life has been edited'. Try using Self-healing.
+
+04-09-2025T11:21:50 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Success, useful life has been edited.'])[1]/following::div[5]'.
+
+04-09-2025T11:21:51 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 10 of 33'])[1]/following::div[13]'.
+
+04-09-2025T11:21:51 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[2]/div/div/div'.
+
+04-09-2025T11:21:52 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: D:/Katalon QA - Tag Samurai/katalon-test-tutor/Reports/Self-healing/Object Repository/All asset/Bulk action/Toast - Success, useful life has been edited_position.png
+
+04-09-2025T11:21:52 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/All asset/Bulk action/Toast - Success, useful life has been edited' was broken. Propose an alternative one: '//div[2]/div/div/div'.
+
+04-09-2025T11:21:52 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Bulk action/Toast - Success, useful life has been edited' is visible
+
+04-09-2025T11:21:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("All asset/View Log/View Change log"), ["expectedAction":"edit"], STOP_ON_FAILURE): Call Test Case 'Test Cases/All asset/View Log/View Change log' successfully
+
+04-09-2025T11:21:52 - [TEST_CASE][PASSED] - Test Cases/All asset/View Log/View Change log: Test Cases/All asset/View Log/View Change log
+
+04-09-2025T11:21:52 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Changelog/Button - Changelog")): Object: 'Object Repository/All asset/Changelog/Button - Changelog' is clicked on
+
+04-09-2025T11:21:53 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Changelog/Button - Changelog' is clicked on
+
+04-09-2025T11:21:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("All asset/Changelog/Dialog - Change log")): Object 'Object Repository/All asset/Changelog/Dialog - Change log' is visible
+
+04-09-2025T11:21:56 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Changelog/Dialog - Change log' is visible
+
+04-09-2025T11:21:56 - [TEST_STEP][PASSED] - actionLog = getText(findTestObject("All asset/Changelog/Text - Action changelog asset")): Text of object 'Object Repository/All asset/Changelog/Text - Action changelog asset' is: 'Edit'
+
+04-09-2025T11:21:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/All asset/Changelog/Text - Action changelog asset' is: 'Edit'
+
+04-09-2025T11:21:58 - [TEST_STEP][NOT_RUN] - verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase()): NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+04-09-2025T11:21:58 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+04-09-2025T11:21:58 - [TEST_STEP][PASSED] - verifyMatch(actionLog.toLowerCase(), ".*" + expectedAction.toLowerCase() + ".*", true): Actual text 'edit' and expected text '.*edit.*' are matched  using regular expression
+
+04-09-2025T11:21:58 - [MESSAGE][PASSED] - Actual text 'edit' and expected text '.*edit.*' are matched  using regular expression
+
+04-09-2025T11:21:58 - [TEST_STEP][PASSED] - sendKeys(null, Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+04-09-2025T11:21:58 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+04-09-2025T11:21:59 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+04-09-2025T11:21:59 - [MESSAGE][INFO] - 
+
+04-09-2025T11:21:59 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+04-09-2025T11:21:59 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+04-09-2025T11:21:59 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+04-09-2025T11:21:59 - [MESSAGE][INFO] - ==============================================================
+
+04-09-2025T11:21:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/All asset/View Log/View Change log' successfully
+
+04-09-2025T11:21:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("All asset/View Log/View log - Detail asset"), ["expectedAction":"edit"], STOP_ON_FAILURE): Call Test Case 'Test Cases/All asset/View Log/View log - Detail asset' successfully
+
+04-09-2025T11:21:59 - [TEST_CASE][PASSED] - Test Cases/All asset/View Log/View log - Detail asset: Test Cases/All asset/View Log/View log - Detail asset
+
+04-09-2025T11:21:59 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Asset detail/Document/Button - Single action")): Object: 'Object Repository/All asset/Asset detail/Document/Button - Single action' is clicked on
+
+04-09-2025T11:21:59 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Asset detail/Document/Button - Single action' is clicked on
+
+04-09-2025T11:21:59 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Asset detail/Button - Single action- Option detail")): Object: 'Object Repository/All asset/Asset detail/Button - Single action- Option detail' is clicked on
+
+04-09-2025T11:22:00 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Asset detail/Button - Single action- Option detail' is clicked on
+
+04-09-2025T11:22:00 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Asset detail/Button - Change Log")): Object: 'Object Repository/All asset/Asset detail/Button - Change Log' is clicked on
+
+04-09-2025T11:22:02 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Asset detail/Button - Change Log' is clicked on
+
+04-09-2025T11:22:02 - [TEST_STEP][PASSED] - actionLog = getText(findTestObject("Report dan log/Text - Action changelog asset")): Text of object 'Object Repository/Report dan log/Text - Action changelog asset' is: 'Edit'
+
+04-09-2025T11:22:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Report dan log/Text - Action changelog asset' is: 'Edit'
+
+04-09-2025T11:22:03 - [TEST_STEP][NOT_RUN] - verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase()): NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+04-09-2025T11:22:03 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+04-09-2025T11:22:03 - [TEST_STEP][PASSED] - verifyMatch(actionLog.toLowerCase(), ".*" + expectedAction.toLowerCase() + ".*", true): Actual text 'edit' and expected text '.*edit.*' are matched  using regular expression
+
+04-09-2025T11:22:03 - [MESSAGE][PASSED] - Actual text 'edit' and expected text '.*edit.*' are matched  using regular expression
+
+04-09-2025T11:22:03 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+04-09-2025T11:22:03 - [MESSAGE][PASSED] - Navigate back successfully
+
+04-09-2025T11:22:03 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+04-09-2025T11:22:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+04-09-2025T11:22:03 - [MESSAGE][INFO] - 
+
+04-09-2025T11:22:03 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+04-09-2025T11:22:03 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+04-09-2025T11:22:03 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+04-09-2025T11:22:03 - [MESSAGE][INFO] - ==============================================================
+
+04-09-2025T11:22:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/All asset/View Log/View log - Detail asset' successfully
+
+04-09-2025T11:22:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("All asset/View Log/VIew log - Activity log - User actions"), ["expectedAction":"edit"], STOP_ON_FAILURE): Call Test Case 'Test Cases/All asset/View Log/VIew log - Activity log - User actions' successfully
+
+04-09-2025T11:22:03 - [TEST_CASE][PASSED] - Test Cases/All asset/View Log/VIew log - Activity log - User actions: Test Cases/All asset/View Log/VIew log - Activity log - User actions
+
+04-09-2025T11:22:03 - [TEST_STEP][PASSED] - buttonAktif = getAttribute(findTestObject("All Menu/Button - Menu - Report Log"), "aria-expanded"): Attribute 'aria-expanded' of object 'Object Repository/All Menu/Button - Menu - Report Log' is: 'false'
+
+04-09-2025T11:22:07 - [MESSAGE][PASSED] - Attribute 'aria-expanded' of object 'Object Repository/All Menu/Button - Menu - Report Log' is: 'false'
+
+04-09-2025T11:22:07 - [TEST_STEP][PASSED] - if (buttonAktif == "false"): null
+
+04-09-2025T11:22:07 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Menu - Report Log")): Object: 'Object Repository/All Menu/Button - Menu - Report Log' is clicked on
+
+04-09-2025T11:22:07 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Menu - Report Log' is clicked on
+
+04-09-2025T11:22:07 - [TEST_STEP][PASSED] - println(buttonAktif): null
+
+04-09-2025T11:22:07 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Sub menu - Activity log")): Object: 'Object Repository/All Menu/Button - Sub menu - Activity log' is clicked on
+
+04-09-2025T11:22:08 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Sub menu - Activity log' is clicked on
+
+04-09-2025T11:22:08 - [TEST_STEP][PASSED] - click(findTestObject("Report dan log/Button - Tab User Action")): Object: 'Object Repository/Report dan log/Button - Tab User Action' is clicked on
+
+04-09-2025T11:22:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Report dan log/Button - Tab User Action' is clicked on
+
+04-09-2025T11:22:09 - [TEST_STEP][PASSED] - actionLog = getText(findTestObject("Report dan log/Text - Action changelog asset")): Text of object 'Object Repository/Report dan log/Text - Action changelog asset' is: 'Edit'
+
+04-09-2025T11:22:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/Report dan log/Text - Action changelog asset' is: 'Edit'
+
+04-09-2025T11:22:12 - [TEST_STEP][NOT_RUN] - verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase()): NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+04-09-2025T11:22:12 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+04-09-2025T11:22:12 - [TEST_STEP][PASSED] - verifyMatch(actionLog.toLowerCase(), ".*" + expectedAction.toLowerCase() + ".*", true): Actual text 'edit' and expected text '.*edit.*' are matched  using regular expression
+
+04-09-2025T11:22:12 - [MESSAGE][PASSED] - Actual text 'edit' and expected text '.*edit.*' are matched  using regular expression
+
+04-09-2025T11:22:12 - [MESSAGE][INFO] - 
+
+04-09-2025T11:22:12 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+04-09-2025T11:22:12 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+04-09-2025T11:22:12 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+04-09-2025T11:22:12 - [MESSAGE][INFO] - ==============================================================
+
+04-09-2025T11:22:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/All asset/View Log/VIew log - Activity log - User actions' successfully
+
+04-09-2025T11:22:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("All asset/View Log/View log - User - System log"), ["expectedAction":"edit"], STOP_ON_FAILURE): Call Test Case 'Test Cases/All asset/View Log/View log - User - System log' successfully
+
+04-09-2025T11:22:12 - [TEST_CASE][PASSED] - Test Cases/All asset/View Log/View log - User - System log: Test Cases/All asset/View Log/View log - User - System log
+
+04-09-2025T11:22:12 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Profile")): Object: 'Object Repository/All Menu/Button - Profile' is clicked on
+
+04-09-2025T11:22:12 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Profile' is clicked on
+
+04-09-2025T11:22:12 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Option - Profile")): Object: 'Object Repository/All Menu/Button - Option - Profile' is clicked on
+
+04-09-2025T11:22:13 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Option - Profile' is clicked on
+
+04-09-2025T11:22:13 - [TEST_STEP][PASSED] - click(findTestObject("Report dan log/Button - Tab System Log Profile")): Object: 'Object Repository/Report dan log/Button - Tab System Log Profile' is clicked on
+
+04-09-2025T11:22:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Report dan log/Button - Tab System Log Profile' is clicked on
+
+04-09-2025T11:22:15 - [TEST_STEP][PASSED] - actionLog = getText(findTestObject("Report dan log/Text - Activity system log profile")): Text of object 'Object Repository/Report dan log/Text - Activity system log profile' is: 'Edit'
+
+04-09-2025T11:22:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Report dan log/Text - Activity system log profile' is: 'Edit'
+
+04-09-2025T11:22:16 - [TEST_STEP][NOT_RUN] - verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase()): NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+04-09-2025T11:22:16 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+04-09-2025T11:22:16 - [TEST_STEP][PASSED] - verifyMatch(actionLog.toLowerCase(), ".*" + expectedAction.toLowerCase() + ".*", true): Actual text 'edit' and expected text '.*edit.*' are matched  using regular expression
+
+04-09-2025T11:22:16 - [MESSAGE][PASSED] - Actual text 'edit' and expected text '.*edit.*' are matched  using regular expression
+
+04-09-2025T11:22:16 - [MESSAGE][INFO] - 
+
+04-09-2025T11:22:16 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+04-09-2025T11:22:16 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+04-09-2025T11:22:16 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+04-09-2025T11:22:16 - [MESSAGE][INFO] - ==============================================================
+
+04-09-2025T11:22:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/All asset/View Log/View log - User - System log' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-09-2025T11:11:14 - [TEST_SUITE][FAILED] - All asset: Test Cases/All asset/Transaction Assignment (Bulk action) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Transaction Assignment (Bulk action).run(Transaction Assignment (Bulk action):24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1756959058785.run(TempTestSuite1756959058785.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div outlined="" class="flex items-center gap-1 transition-all shrink-0 py-[5px] px-3 ring-inset ring-1 ring-primary-500 rounded" data-wv-section="dropdownmenu" data-pc-name="dropdown" data-pc-section="root" id="pv_id_654">...</div> is not clickable at point (213, 147). Other element would receive the click: <div id="sidebar-left-app" class="bg-white w-full px-4 overflow-auto duration-150 ease-in transition-all !ml-0 !h-full" data-ts-name="sidebar-container" domelement="[object HTMLElement]" name="@tagsamurai/ts-mfe-sidebar-left">...</div>
+  (Session info: MicrosoftEdge=139.0.3405.125)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP', ip: '169.254.111.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 139.0.3405.125, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52479}, msedge: {msedgedriverVersion: 138.0.3351.77 (efaf6935b436..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85dcd717896f56892b1540df047cc51d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[04-09-2025T11:11:14 - [TEST_SUITE][FAILED] - All asset: Test Cases/All asset/Transaction Assignment (Bulk action) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Transaction Assignment (Bulk action).run(Transaction Assignment (Bulk action):24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1756959058785.run(TempTestSuite1756959058785.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div outlined="" class="flex items-center gap-1 transition-all shrink-0 py-[5px] px-3 ring-inset ring-1 ring-primary-500 rounded" data-wv-section="dropdownmenu" data-pc-name="dropdown" data-pc-section="root" id="pv_id_654">...</div> is not clickable at point (213, 147). Other element would receive the click: <div id="sidebar-left-app" class="bg-white w-full px-4 overflow-auto duration-150 ease-in transition-all !ml-0 !h-full" data-ts-name="sidebar-container" domelement="[object HTMLElement]" name="@tagsamurai/ts-mfe-sidebar-left">...</div>
+  (Session info: MicrosoftEdge=139.0.3405.125)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP', ip: '169.254.111.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 139.0.3405.125, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52479}, msedge: {msedgedriverVersion: 138.0.3351.77 (efaf6935b436..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85dcd717896f56892b1540df047cc51d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

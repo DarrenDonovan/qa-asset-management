@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Disposal" time="229.086" tests="9" failures="1" errors="0">
+   <testsuite name="Disposal" tests="9" failures="1" errors="0" time="229.086" skipped="0" timestamp="15-09-2025T11:45:48" hostname="Administrator - DESKTOP" id="Test Suites/Fixed Asset - Transaction/Disposal/Disposal">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\automation-test-fixed-asset-basic\\Reports\\20250915_114534\\Fixed Asset - Transaction\\Disposal\\Disposal\\20250915_114534"/>
+         <property name="logFiles" value="D:\\automation-test-fixed-asset-basic\\Reports\\20250915_114534\\Fixed Asset - Transaction\\Disposal\\Disposal\\20250915_114534\\execution0.log"/>
+         <property name="attachments" value="D:\\automation-test-fixed-asset-basic\\Reports\\20250915_114534\\Fixed Asset - Transaction\\Disposal\\Disposal\\20250915_114534\\1757911657314.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_114534\\Fixed Asset - Transaction\\Disposal\\Disposal\\20250915_114534\\1757911657631.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_114534\\Fixed Asset - Transaction\\Disposal\\Disposal\\20250915_114534\\1757911713936.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_114534\\Fixed Asset - Transaction\\Disposal\\Disposal\\20250915_114534\\1757911714079.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_114534\\Fixed Asset - Transaction\\Disposal\\Disposal\\20250915_114534\\1757911736330.png"/>
+         <property name="hostName" value="Administrator - DESKTOP"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.6.223"/>
+         <property name="browser" value="Edge Chromium 140"/>
+         <property name="hostAddress" value="169.254.111.16"/>
+         <property name="sessionId" value="1c4fb274657a6b0a698aaa89860be227"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/login" time="33.084" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:45:49 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+15-09-2025T11:45:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2025T11:45:49 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+15-09-2025T11:45:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2025T11:45:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2025T11:45:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+15-09-2025T11:45:52 - [MESSAGE][PASSED] - Current window maximized
+
+15-09-2025T11:45:52 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://staging-console.tagsamurai.com' successfully
+
+15-09-2025T11:45:54 - [MESSAGE][PASSED] - Navigate to 'https://staging-console.tagsamurai.com' successfully
+
+15-09-2025T11:45:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login session object/Input - Email"), email): Text 'user1basic2staging@qwertysystem.net' is set on object 'Object Repository/Login session object/Input - Email'
+
+15-09-2025T11:46:02 - [MESSAGE][PASSED] - Text 'user1basic2staging@qwertysystem.net' is set on object 'Object Repository/Login session object/Input - Email'
+
+15-09-2025T11:46:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login session object/Input - Password"), password): Text 'Gaadaobatnya1@' is set on object 'Object Repository/Login session object/Input - Password'
+
+15-09-2025T11:46:04 - [MESSAGE][PASSED] - Text 'Gaadaobatnya1@' is set on object 'Object Repository/Login session object/Input - Password'
+
+15-09-2025T11:46:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login session object/Button - Login")): Object: 'Object Repository/Login session object/Button - Login' is clicked on
+
+15-09-2025T11:46:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login session object/Button - Login' is clicked on
+
+15-09-2025T11:46:04 - [TEST_STEP][PASSED] - isPopupPresent = verifyElementPresent(findTestObject("Login session object/Page_TAG SAMURAI/Popup duplicate login"), 20, OPTIONAL): Object 'Object Repository/Login session object/Page_TAG SAMURAI/Popup duplicate login' is present
+
+15-09-2025T11:46:07 - [MESSAGE][PASSED] - Object 'Object Repository/Login session object/Page_TAG SAMURAI/Popup duplicate login' is present
+
+15-09-2025T11:46:07 - [TEST_STEP][PASSED] - if (isPopupPresent): Object: 'Object Repository/Login session object/Page_TAG SAMURAI/button_Confirm_duplicate login' is clicked on
+
+15-09-2025T11:46:07 - [TEST_STEP][PASSED] - click(findTestObject("Login session object/Page_TAG SAMURAI/button_Confirm_duplicate login"), STOP_ON_FAILURE): Object: 'Object Repository/Login session object/Page_TAG SAMURAI/button_Confirm_duplicate login' is clicked on
+
+15-09-2025T11:46:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login session object/Page_TAG SAMURAI/button_Confirm_duplicate login' is clicked on
+
+15-09-2025T11:46:08 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+15-09-2025T11:46:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+15-09-2025T11:46:08 - [TEST_STEP][PASSED] - delay(5, OPTIONAL): Delayed 5 second(s)
+
+15-09-2025T11:46:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+15-09-2025T11:46:13 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("All Menu/Button - Module - Fixed Asset"), 30): Object 'Object Repository/All Menu/Button - Module - Fixed Asset' is clickable
+
+15-09-2025T11:46:13 - [MESSAGE][PASSED] - Object 'Object Repository/All Menu/Button - Module - Fixed Asset' is clickable
+
+15-09-2025T11:46:13 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Module - Fixed Asset")): Object: 'Object Repository/All Menu/Button - Module - Fixed Asset' is clicked on
+
+15-09-2025T11:46:15 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Module - Fixed Asset' is clicked on
+
+15-09-2025T11:46:15 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+15-09-2025T11:46:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+15-09-2025T11:46:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("All Menu/Button - Menu - Fixed Asset")): Object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is visible
+
+15-09-2025T11:46:22 - [MESSAGE][PASSED] - Object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Disposal/Decline report (Single action)" time="7.898" classname="Test Cases/Disposal/Decline report (Single action)" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:46:22 - [TEST_CASE][PASSED] - Test Cases/Disposal/Decline report (Single action): Test Cases/Disposal/Decline report (Single action)
+
+15-09-2025T11:46:22 - [TEST_STEP][PASSED] - buttonAktif = getAttribute(findTestObject("All Menu/Button - Menu - Fixed Asset"), "aria-expanded"): Attribute 'aria-expanded' of object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is: 'false'
+
+15-09-2025T11:46:22 - [MESSAGE][PASSED] - Attribute 'aria-expanded' of object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is: 'false'
+
+15-09-2025T11:46:22 - [TEST_STEP][PASSED] - if (buttonAktif == "false"): Object: 'Object Repository/All Menu/Button - Menu - Fixed Asset' is clicked on
+
+15-09-2025T11:46:22 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Menu - Fixed Asset")): Object: 'Object Repository/All Menu/Button - Menu - Fixed Asset' is clicked on
+
+15-09-2025T11:46:23 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Menu - Fixed Asset' is clicked on
+
+15-09-2025T11:46:23 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Sub menu - Disposal")): Object: 'Object Repository/All Menu/Button - Sub menu - Disposal' is clicked on
+
+15-09-2025T11:46:23 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Sub menu - Disposal' is clicked on
+
+15-09-2025T11:46:23 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Button - Single action disposal")): Object: 'Object Repository/Disposal/Button - Single action disposal' is clicked on
+
+15-09-2025T11:46:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Button - Single action disposal' is clicked on
+
+15-09-2025T11:46:26 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Button - Option Decline Report")): Object: 'Object Repository/Disposal/Button - Option Decline Report' is clicked on
+
+15-09-2025T11:46:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Button - Option Decline Report' is clicked on
+
+15-09-2025T11:46:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Disposal/Dialog - Decline report"), 10): Object 'Object Repository/Disposal/Dialog - Decline report' is visible
+
+15-09-2025T11:46:27 - [MESSAGE][PASSED] - Object 'Object Repository/Disposal/Dialog - Decline report' is visible
+
+15-09-2025T11:46:27 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Button - Decline")): Object: 'Object Repository/Disposal/Button - Decline' is clicked on
+
+15-09-2025T11:46:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Button - Decline' is clicked on
+
+15-09-2025T11:46:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Disposal/Toast - Success, report has been declined"), "Success, report has been declined."): Actual text and expected text of test object 'Object Repository/Disposal/Toast - Success, report has been declined' are matched.
+
+15-09-2025T11:46:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Disposal/Toast - Success, report has been declined' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Disposal/Decline report (Bulk action)" time="5.057" classname="Test Cases/Disposal/Decline report (Bulk action)" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:46:30 - [TEST_CASE][PASSED] - Test Cases/Disposal/Decline report (Bulk action): Test Cases/Disposal/Decline report (Bulk action)
+
+15-09-2025T11:46:30 - [TEST_STEP][NOT_RUN] - click(findTestObject("All Menu/Button - Sub menu - Disposal")): NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - Disposal"))
+
+15-09-2025T11:46:30 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - Disposal"))
+
+15-09-2025T11:46:30 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/Checkbox")): Object: 'Object Repository/Borrow/Checkbox' is clicked on
+
+15-09-2025T11:46:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Checkbox' is clicked on
+
+15-09-2025T11:46:30 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Bulk Action")): Object: 'Object Repository/File manager/Button - Bulk Action' is clicked on
+
+15-09-2025T11:46:31 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Bulk Action' is clicked on
+
+15-09-2025T11:46:31 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Button - Option Decline Report")): Object: 'Object Repository/Disposal/Button - Option Decline Report' is clicked on
+
+15-09-2025T11:46:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Button - Option Decline Report' is clicked on
+
+15-09-2025T11:46:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Disposal/Dialog - Decline report"), 10): Object 'Object Repository/Disposal/Dialog - Decline report' is visible
+
+15-09-2025T11:46:32 - [MESSAGE][PASSED] - Object 'Object Repository/Disposal/Dialog - Decline report' is visible
+
+15-09-2025T11:46:32 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Button - Decline")): Object: 'Object Repository/Disposal/Button - Decline' is clicked on
+
+15-09-2025T11:46:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Button - Decline' is clicked on
+
+15-09-2025T11:46:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Disposal/Toast - Success, report has been declined"), "Success, report has been declined."): Actual text and expected text of test object 'Object Repository/Disposal/Toast - Success, report has been declined' are matched.
+
+15-09-2025T11:46:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Disposal/Toast - Success, report has been declined' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value" time="14.303" classname="Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:46:35 - [TEST_CASE][PASSED] - Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value: Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value
+
+15-09-2025T11:46:35 - [TEST_STEP][NOT_RUN] - click(findTestObject("All Menu/Button - Sub menu - Disposal")): NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - Disposal"))
+
+15-09-2025T11:46:35 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - Disposal"))
+
+15-09-2025T11:46:35 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Disposal")): Object: 'Object Repository/Disposal/Create disposal/Button - Disposal' is clicked on
+
+15-09-2025T11:46:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Disposal' is clicked on
+
+15-09-2025T11:46:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Disposal/Create disposal/Dialog - Last condition"), 10): Object 'Object Repository/Disposal/Create disposal/Dialog - Last condition' is visible
+
+15-09-2025T11:46:36 - [MESSAGE][PASSED] - Object 'Object Repository/Disposal/Create disposal/Dialog - Last condition' is visible
+
+15-09-2025T11:46:36 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Dropdown last condition")): Object: 'Object Repository/Disposal/Create disposal/Button - Dropdown last condition' is clicked on
+
+15-09-2025T11:46:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Dropdown last condition' is clicked on
+
+15-09-2025T11:46:36 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Option damage atau no salvage value")): Object: 'Object Repository/Disposal/Create disposal/Button - Option damage atau no salvage value' is clicked on
+
+15-09-2025T11:46:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Option damage atau no salvage value' is clicked on
+
+15-09-2025T11:46:37 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Apply")): Object: 'Object Repository/Disposal/Create disposal/Button - Apply' is clicked on
+
+15-09-2025T11:46:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Apply' is clicked on
+
+15-09-2025T11:46:37 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Select disposal method")): Object: 'Object Repository/Disposal/Create disposal/Button - Select disposal method' is clicked on
+
+15-09-2025T11:46:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Select disposal method' is clicked on
+
+15-09-2025T11:46:39 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Option Donate")): Object: 'Object Repository/Disposal/Create disposal/Button - Option Donate' is clicked on
+
+15-09-2025T11:46:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Option Donate' is clicked on
+
+15-09-2025T11:46:40 - [TEST_STEP][PASSED] - setText(findTestObject("Disposal/Create disposal/Input - Organization company name"), "Qtera"): Text 'Qtera' is set on object 'Object Repository/Disposal/Create disposal/Input - Organization company name'
+
+15-09-2025T11:46:41 - [MESSAGE][PASSED] - Text 'Qtera' is set on object 'Object Repository/Disposal/Create disposal/Input - Organization company name'
+
+15-09-2025T11:46:41 - [TEST_STEP][PASSED] - setText(findTestObject("Disposal/Create disposal/Input - Aditional note"), "asd"): Text 'asd' is set on object 'Object Repository/Disposal/Create disposal/Input - Aditional note'
+
+15-09-2025T11:46:41 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/Disposal/Create disposal/Input - Aditional note'
+
+15-09-2025T11:46:41 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Select Group")): Object: 'Object Repository/Disposal/Create disposal/Button - Select Group' is clicked on
+
+15-09-2025T11:46:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Select Group' is clicked on
+
+15-09-2025T11:46:42 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/List - Select group")): Object: 'Object Repository/Disposal/Create disposal/List - Select group' is clicked on
+
+15-09-2025T11:46:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/List - Select group' is clicked on
+
+15-09-2025T11:46:43 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Select")): Object: 'Object Repository/Disposal/Create disposal/Button - Select' is clicked on
+
+15-09-2025T11:46:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Select' is clicked on
+
+15-09-2025T11:46:43 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Asset")): Object: 'Object Repository/Disposal/Create disposal/Button - Asset' is clicked on
+
+15-09-2025T11:46:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Asset' is clicked on
+
+15-09-2025T11:46:44 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/List - Select asset")): Object: 'Object Repository/Disposal/Create disposal/List - Select asset' is clicked on
+
+15-09-2025T11:46:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/List - Select asset' is clicked on
+
+15-09-2025T11:46:46 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Select")): Object: 'Object Repository/Disposal/Create disposal/Button - Select' is clicked on
+
+15-09-2025T11:46:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Select' is clicked on
+
+15-09-2025T11:46:46 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Submit")): Object: 'Object Repository/Disposal/Create disposal/Button - Submit' is clicked on
+
+15-09-2025T11:46:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Submit' is clicked on
+
+15-09-2025T11:46:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Disposal/Create disposal/Toast - Success, disposal request has been submitted"), "Success, disposal request has been submitted."): Actual text and expected text of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' are matched.
+
+15-09-2025T11:46:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Disposal/Create Disposal Log - Missing" time="56.441" classname="Test Cases/Disposal/Create Disposal Log - Missing" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Disposal/Create Disposal Log - Missing FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at Create Disposal Log - Missing.run(Create Disposal Log - Missing:42)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1757911534402.run(TempTestSuite1757911534402.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Disposal&#xa;Photo&#xa;Name&#xa;Asset ID&#xa;Brand&#xa;Model/Type&#xa;Origin Group&#xa;Last Condition&#xa;Note&#xa;Last Update&#xa;asd - 63 00000063&#xa;asd&#xa;asd&#xa;Head ..ice A&#xa;Missing&#xa;- 15/09/25 11:31:28&#xa;adasd - 66 00000066&#xa;asdas&#xa;dasd&#xa;Kantor B&#xa;Missing&#xa;- 15/09/25 11:31:21&#xa;asd - 64 00000064&#xa;ad&#xa;adad&#xa;Kantor A&#xa;No Salvage Value&#xa;- 15/09/25 11:29:06&#xa;asd - 39 00000039&#xa;asd&#xa;asd&#xa;Head ..ice A&#xa;No Salvage Value&#xa;- 15/09/25 11:28:53&#xa;1&#xa;Showing 1 to 4 of 4&#xa;10' and expected text 'Success, disposal request has been submitted.' of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 21 more&#xa;"/>
+         <system-out><![CDATA[15-09-2025T11:47:37 - [TEST_CASE][FAILED] - Test Cases/Disposal/Create Disposal Log - Missing: Test Cases/Disposal/Create Disposal Log - Missing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Create Disposal Log - Missing.run(Create Disposal Log - Missing:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757911534402.run(TempTestSuite1757911534402.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Disposal
+Photo
+Name
+Asset ID
+Brand
+Model/Type
+Origin Group
+Last Condition
+Note
+Last Update
+asd - 63 00000063
+asd
+asd
+Head ..ice A
+Missing
+- 15/09/25 11:31:28
+adasd - 66 00000066
+asdas
+dasd
+Kantor B
+Missing
+- 15/09/25 11:31:21
+asd - 64 00000064
+ad
+adad
+Kantor A
+No Salvage Value
+- 15/09/25 11:29:06
+asd - 39 00000039
+asd
+asd
+Head ..ice A
+No Salvage Value
+- 15/09/25 11:28:53
+1
+Showing 1 to 4 of 4
+10' and expected text 'Success, disposal request has been submitted.' of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 21 more
+
+
+15-09-2025T11:47:37 - [TEST_STEP][NOT_RUN] - click(findTestObject("All Menu/Button - Sub menu - Disposal")): NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - Disposal"))
+
+15-09-2025T11:47:37 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - Disposal"))
+
+15-09-2025T11:47:37 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Disposal")): Object: 'Object Repository/Disposal/Create disposal/Button - Disposal' is clicked on
+
+15-09-2025T11:47:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Disposal' is clicked on
+
+15-09-2025T11:47:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Disposal/Create disposal/Dialog - Last condition"), 10): Object 'Object Repository/Disposal/Create disposal/Dialog - Last condition' is visible
+
+15-09-2025T11:47:42 - [MESSAGE][PASSED] - Object 'Object Repository/Disposal/Create disposal/Dialog - Last condition' is visible
+
+15-09-2025T11:47:42 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Dropdown last condition")): Object: 'Object Repository/Disposal/Create disposal/Button - Dropdown last condition' is clicked on
+
+15-09-2025T11:47:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Dropdown last condition' is clicked on
+
+15-09-2025T11:47:42 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Option missing")): Object: 'Object Repository/Disposal/Create disposal/Button - Option missing' is clicked on
+
+15-09-2025T11:47:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Option missing' is clicked on
+
+15-09-2025T11:47:43 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Apply")): Object: 'Object Repository/Disposal/Create disposal/Button - Apply' is clicked on
+
+15-09-2025T11:47:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Apply' is clicked on
+
+15-09-2025T11:47:44 - [TEST_STEP][PASSED] - setText(findTestObject("Disposal/Create disposal/Input - Aditional note"), "asd"): Text 'asd' is set on object 'Object Repository/Disposal/Create disposal/Input - Aditional note'
+
+15-09-2025T11:47:45 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/Disposal/Create disposal/Input - Aditional note'
+
+15-09-2025T11:47:45 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Asset")): Object: 'Object Repository/Disposal/Create disposal/Button - Asset' is clicked on
+
+15-09-2025T11:47:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Asset' is clicked on
+
+15-09-2025T11:47:46 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/List - Select asset")): Object: 'Object Repository/Disposal/Create disposal/List - Select asset' is clicked on
+
+15-09-2025T11:47:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/List - Select asset' is clicked on
+
+15-09-2025T11:47:48 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Select")): Object: 'Object Repository/Disposal/Create disposal/Button - Select' is clicked on
+
+15-09-2025T11:47:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Select' is clicked on
+
+15-09-2025T11:47:50 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Submit")): Object: 'Object Repository/Disposal/Create disposal/Button - Submit' is clicked on
+
+15-09-2025T11:47:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Submit' is clicked on
+
+15-09-2025T11:47:52 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Disposal/Create disposal/Toast - Success, disposal request has been submitted"), "Success, disposal request has been submitted."): Verify element text of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Create Disposal Log - Missing.run(Create Disposal Log - Missing:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757911534402.run(TempTestSuite1757911534402.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Disposal
+Photo
+Name
+Asset ID
+Brand
+Model/Type
+Origin Group
+Last Condition
+Note
+Last Update
+asd - 63 00000063
+asd
+asd
+Head ..ice A
+Missing
+- 15/09/25 11:31:28
+adasd - 66 00000066
+asdas
+dasd
+Kantor B
+Missing
+- 15/09/25 11:31:21
+asd - 64 00000064
+ad
+adad
+Kantor A
+No Salvage Value
+- 15/09/25 11:29:06
+asd - 39 00000039
+asd
+asd
+Head ..ice A
+No Salvage Value
+- 15/09/25 11:28:53
+1
+Showing 1 to 4 of 4
+10' and expected text 'Success, disposal request has been submitted.' of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 21 more
+)
+
+15-09-2025T11:48:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[(contains(text(), 'Success') or contains(., 'Success'))]'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2025T11:48:25 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted'. Try using Self-healing.
+
+15-09-2025T11:48:25 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 207 column 10 path $.brokenTestObjects[20].<<<<<<<
+
+15-09-2025T11:48:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Success, disposal request has been submitted.'])[1]/following::div[5]'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2025T11:48:29 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Success, disposal request has been submitted.'])[1]/following::div[5]'.
+
+15-09-2025T11:48:31 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 9 of 9'])[1]/following::div[13]'.
+
+15-09-2025T11:48:33 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[2]/div/div/div'.
+
+15-09-2025T11:48:33 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: D:/automation-test-fixed-asset-basic/Reports/Self-healing/Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted_position.png
+
+15-09-2025T11:48:33 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 207 column 10 path $.brokenTestObjects[20].<<<<<<<
+
+15-09-2025T11:48:33 - [MESSAGE][ERROR] - [SELF-HEALING] D:\automation-test-fixed-asset-basic\Reports\Self-healing\broken-test-objects-v2.json does not exist or is provided by Self-healing Plugin!
+
+15-09-2025T11:48:33 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' was broken. Propose an alternative one: '//div[2]/div/div/div'.
+
+15-09-2025T11:48:34 - [MESSAGE][FAILED] - Actual text 'Disposal
+Photo
+Name
+Asset ID
+Brand
+Model/Type
+Origin Group
+Last Condition
+Note
+Last Update
+asd - 63 00000063
+asd
+asd
+Head ..ice A
+Missing
+- 15/09/25 11:31:28
+adasd - 66 00000066
+asdas
+dasd
+Kantor B
+Missing
+- 15/09/25 11:31:21
+asd - 64 00000064
+ad
+adad
+Kantor A
+No Salvage Value
+- 15/09/25 11:29:06
+asd - 39 00000039
+asd
+asd
+Head ..ice A
+No Salvage Value
+- 15/09/25 11:28:53
+1
+Showing 1 to 4 of 4
+10' and expected text 'Success, disposal request has been submitted.' of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Disposal
+Photo
+Name
+Asset ID
+Brand
+Model/Type
+Origin Group
+Last Condition
+Note
+Last Update
+asd - 63 00000063
+asd
+asd
+Head ..ice A
+Missing
+- 15/09/25 11:31:28
+adasd - 66 00000066
+asdas
+dasd
+Kantor B
+Missing
+- 15/09/25 11:31:21
+asd - 64 00000064
+ad
+adad
+Kantor A
+No Salvage Value
+- 15/09/25 11:29:06
+asd - 39 00000039
+asd
+asd
+Head ..ice A
+No Salvage Value
+- 15/09/25 11:28:53
+1
+Showing 1 to 4 of 4
+10' and expected text 'Success, disposal request has been submitted.' of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Create Disposal Log - Missing.run(Create Disposal Log - Missing:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757911534402.run(TempTestSuite1757911534402.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|D:\\automation-test-fixed-asset-basic\\Reports\\20250915_114534\\Fixed Asset - Transaction\\Disposal\\Disposal\\20250915_114534\\1757911713936.png]]
+
+15-09-2025T11:48:34 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Create Disposal Log - Missing.run(Create Disposal Log - Missing:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757911534402.run(TempTestSuite1757911534402.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Disposal
+Photo
+Name
+Asset ID
+Brand
+Model/Type
+Origin Group
+Last Condition
+Note
+Last Update
+asd - 63 00000063
+asd
+asd
+Head ..ice A
+Missing
+- 15/09/25 11:31:28
+adasd - 66 00000066
+asdas
+dasd
+Kantor B
+Missing
+- 15/09/25 11:31:21
+asd - 64 00000064
+ad
+adad
+Kantor A
+No Salvage Value
+- 15/09/25 11:29:06
+asd - 39 00000039
+asd
+asd
+Head ..ice A
+No Salvage Value
+- 15/09/25 11:28:53
+1
+Showing 1 to 4 of 4
+10' and expected text 'Success, disposal request has been submitted.' of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 21 more
+)
+[[ATTACHMENT|D:\\automation-test-fixed-asset-basic\\Reports\\20250915_114534\\Fixed Asset - Transaction\\Disposal\\Disposal\\20250915_114534\\1757911714079.png]]]]></system-out>
+         <system-err><![CDATA[15-09-2025T11:47:37 - [TEST_CASE][FAILED] - Test Cases/Disposal/Create Disposal Log - Missing: Test Cases/Disposal/Create Disposal Log - Missing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Create Disposal Log - Missing.run(Create Disposal Log - Missing:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757911534402.run(TempTestSuite1757911534402.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Disposal
+Photo
+Name
+Asset ID
+Brand
+Model/Type
+Origin Group
+Last Condition
+Note
+Last Update
+asd - 63 00000063
+asd
+asd
+Head ..ice A
+Missing
+- 15/09/25 11:31:28
+adasd - 66 00000066
+asdas
+dasd
+Kantor B
+Missing
+- 15/09/25 11:31:21
+asd - 64 00000064
+ad
+adad
+Kantor A
+No Salvage Value
+- 15/09/25 11:29:06
+asd - 39 00000039
+asd
+asd
+Head ..ice A
+No Salvage Value
+- 15/09/25 11:28:53
+1
+Showing 1 to 4 of 4
+10' and expected text 'Success, disposal request has been submitted.' of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 21 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Disposal/Request disposal - Missing (Single action)" time="7.165" classname="Test Cases/Disposal/Request disposal - Missing (Single action)" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:48:34 - [TEST_CASE][PASSED] - Test Cases/Disposal/Request disposal - Missing (Single action): Test Cases/Disposal/Request disposal - Missing (Single action)
+
+15-09-2025T11:48:34 - [TEST_STEP][NOT_RUN] - click(findTestObject("All Menu/Button - Sub menu - Disposal")): NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - Disposal"))
+
+15-09-2025T11:48:34 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - Disposal"))
+
+15-09-2025T11:48:34 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Single action missing")): Object: 'Object Repository/Disposal/Create disposal/Button - Single action missing' is clicked on
+
+15-09-2025T11:48:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Single action missing' is clicked on
+
+15-09-2025T11:48:34 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Option Request Disposal")): Object: 'Object Repository/Disposal/Create disposal/Button - Option Request Disposal' is clicked on
+
+15-09-2025T11:48:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Option Request Disposal' is clicked on
+
+15-09-2025T11:48:35 - [TEST_STEP][PASSED] - setText(findTestObject("Disposal/Create disposal/Input - Aditional note"), "asd"): Text 'asd' is set on object 'Object Repository/Disposal/Create disposal/Input - Aditional note'
+
+15-09-2025T11:48:38 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/Disposal/Create disposal/Input - Aditional note'
+
+15-09-2025T11:48:38 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Submit")): Object: 'Object Repository/Disposal/Create disposal/Button - Submit' is clicked on
+
+15-09-2025T11:48:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Submit' is clicked on
+
+15-09-2025T11:48:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Disposal/Create disposal/Toast - Success, disposal request has been submitted"), "Success, disposal request has been submitted."): Actual text and expected text of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' are matched.
+
+15-09-2025T11:48:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Disposal/Request disposal - Missing (Bulk action)" time="7.528" classname="Test Cases/Disposal/Request disposal - Missing (Bulk action)" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:48:41 - [TEST_CASE][PASSED] - Test Cases/Disposal/Request disposal - Missing (Bulk action): Test Cases/Disposal/Request disposal - Missing (Bulk action)
+
+15-09-2025T11:48:41 - [TEST_STEP][NOT_RUN] - click(findTestObject("All Menu/Button - Sub menu - Disposal")): NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - Disposal"))
+
+15-09-2025T11:48:41 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - Disposal"))
+
+15-09-2025T11:48:41 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Checkbox - Status missing")): Object: 'Object Repository/Disposal/Checkbox - Status missing' is clicked on
+
+15-09-2025T11:48:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Checkbox - Status missing' is clicked on
+
+15-09-2025T11:48:43 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Bulk Action")): Object: 'Object Repository/File manager/Button - Bulk Action' is clicked on
+
+15-09-2025T11:48:44 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Bulk Action' is clicked on
+
+15-09-2025T11:48:44 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Option Request Disposal")): Object: 'Object Repository/Disposal/Create disposal/Button - Option Request Disposal' is clicked on
+
+15-09-2025T11:48:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Option Request Disposal' is clicked on
+
+15-09-2025T11:48:44 - [TEST_STEP][PASSED] - setText(findTestObject("Disposal/Create disposal/Input - Aditional note"), "asd"): Text 'asd' is set on object 'Object Repository/Disposal/Create disposal/Input - Aditional note'
+
+15-09-2025T11:48:46 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/Disposal/Create disposal/Input - Aditional note'
+
+15-09-2025T11:48:46 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Submit")): Object: 'Object Repository/Disposal/Create disposal/Button - Submit' is clicked on
+
+15-09-2025T11:48:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Submit' is clicked on
+
+15-09-2025T11:48:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Disposal/Create disposal/Toast - Success, disposal request has been submitted"), "Success, disposal request has been submitted."): Actual text and expected text of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' are matched.
+
+15-09-2025T11:48:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Disposal/Request disposal - Damaged No Salvage Value (Single action)" time="17.376" classname="Test Cases/Disposal/Request disposal - Damaged No Salvage Value (Single action)" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:48:48 - [TEST_CASE][PASSED] - Test Cases/Disposal/Request disposal - Damaged No Salvage Value (Single action): Test Cases/Disposal/Request disposal - Damaged No Salvage Value (Single action)
+
+15-09-2025T11:48:49 - [TEST_STEP][NOT_RUN] - click(findTestObject("All Menu/Button - Sub menu - Disposal")): NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - Disposal"))
+
+15-09-2025T11:48:49 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - Disposal"))
+
+15-09-2025T11:48:49 - [TEST_STEP][PASSED] - isNoValue = verifyElementPresent(findTestObject("Disposal/Create disposal/Button - Single action no salvage value"), 5, OPTIONAL): Object 'Object Repository/Disposal/Create disposal/Button - Single action no salvage value' is present
+
+15-09-2025T11:48:49 - [MESSAGE][PASSED] - Object 'Object Repository/Disposal/Create disposal/Button - Single action no salvage value' is present
+
+15-09-2025T11:48:49 - [TEST_STEP][PASSED] - isDamaged = verifyElementPresent(findTestObject("Disposal/Create disposal/Button - Single action damaged"), 5, OPTIONAL): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Disposal/Create disposal/Button - Single action damaged' located by '(//table/tbody/tr/td//span[text()= 'Damaged']/following::td//button)[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Disposal/Create disposal/Button - Single action damaged' located by '(//table/tbody/tr/td//span[text()= 'Damaged']/following::td//button)[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1487)
+	at Request disposal - Damaged No Salvage Value (Single action).run(Request disposal - Damaged No Salvage Value (Single action):25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757911534402.run(TempTestSuite1757911534402.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+15-09-2025T11:48:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//table/tbody/tr/td//span[text()= 'Damaged']/following::td//button)[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2025T11:48:56 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Disposal/Create disposal/Button - Single action damaged' located by '(//table/tbody/tr/td//span[text()= 'Damaged']/following::td//button)[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Disposal/Create disposal/Button - Single action damaged' located by '(//table/tbody/tr/td//span[text()= 'Damaged']/following::td//button)[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1487)
+	at Request disposal - Damaged No Salvage Value (Single action).run(Request disposal - Damaged No Salvage Value (Single action):25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757911534402.run(TempTestSuite1757911534402.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|D:\\automation-test-fixed-asset-basic\\Reports\\20250915_114534\\Fixed Asset - Transaction\\Disposal\\Disposal\\20250915_114534\\1757911736330.png]]
+
+15-09-2025T11:48:56 - [TEST_STEP][PASSED] - if (isNoValue && isDamaged): null
+
+15-09-2025T11:48:56 - [TEST_STEP][PASSED] - else if (isNoValue): Object: 'Object Repository/Disposal/Create disposal/Button - Single action no salvage value' is clicked on
+
+15-09-2025T11:48:56 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Single action no salvage value")): Object: 'Object Repository/Disposal/Create disposal/Button - Single action no salvage value' is clicked on
+
+15-09-2025T11:48:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Single action no salvage value' is clicked on
+
+15-09-2025T11:48:56 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Option Request Disposal")): Object: 'Object Repository/Disposal/Create disposal/Button - Option Request Disposal' is clicked on
+
+15-09-2025T11:48:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Option Request Disposal' is clicked on
+
+15-09-2025T11:48:57 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Select disposal method")): Object: 'Object Repository/Disposal/Create disposal/Button - Select disposal method' is clicked on
+
+15-09-2025T11:48:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Select disposal method' is clicked on
+
+15-09-2025T11:48:59 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Option Donate")): Object: 'Object Repository/Disposal/Create disposal/Button - Option Donate' is clicked on
+
+15-09-2025T11:48:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Option Donate' is clicked on
+
+15-09-2025T11:48:59 - [TEST_STEP][PASSED] - setText(findTestObject("Disposal/Create disposal/Input - Organization company name"), "Qtera"): Text 'Qtera' is set on object 'Object Repository/Disposal/Create disposal/Input - Organization company name'
+
+15-09-2025T11:49:00 - [MESSAGE][PASSED] - Text 'Qtera' is set on object 'Object Repository/Disposal/Create disposal/Input - Organization company name'
+
+15-09-2025T11:49:00 - [TEST_STEP][PASSED] - setText(findTestObject("Disposal/Create disposal/Input - Aditional note"), "asd"): Text 'asd' is set on object 'Object Repository/Disposal/Create disposal/Input - Aditional note'
+
+15-09-2025T11:49:01 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/Disposal/Create disposal/Input - Aditional note'
+
+15-09-2025T11:49:01 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Select Group")): Object: 'Object Repository/Disposal/Create disposal/Button - Select Group' is clicked on
+
+15-09-2025T11:49:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Select Group' is clicked on
+
+15-09-2025T11:49:02 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/List - Select group")): Object: 'Object Repository/Disposal/Create disposal/List - Select group' is clicked on
+
+15-09-2025T11:49:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/List - Select group' is clicked on
+
+15-09-2025T11:49:03 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Select")): Object: 'Object Repository/Disposal/Create disposal/Button - Select' is clicked on
+
+15-09-2025T11:49:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Select' is clicked on
+
+15-09-2025T11:49:03 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Submit")): Object: 'Object Repository/Disposal/Create disposal/Button - Submit' is clicked on
+
+15-09-2025T11:49:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Submit' is clicked on
+
+15-09-2025T11:49:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Disposal/Create disposal/Toast - Success, disposal request has been submitted"), "Success, disposal request has been submitted."): Actual text and expected text of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' are matched.
+
+15-09-2025T11:49:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Disposal/Request disposal - Damaged No Salvage Value (Bulk action)" time="31.657" classname="Test Cases/Disposal/Request disposal - Damaged No Salvage Value (Bulk action)" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:49:06 - [TEST_CASE][PASSED] - Test Cases/Disposal/Request disposal - Damaged No Salvage Value (Bulk action): Test Cases/Disposal/Request disposal - Damaged No Salvage Value (Bulk action)
+
+15-09-2025T11:49:06 - [TEST_STEP][NOT_RUN] - click(findTestObject("All Menu/Button - Sub menu - Disposal")): NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - Disposal"))
+
+15-09-2025T11:49:06 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - Disposal"))
+
+15-09-2025T11:49:06 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Checkbox - Status damage no salvage value")): Object: 'Object Repository/Disposal/Checkbox - Status damage no salvage value' is clicked on
+
+15-09-2025T11:49:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Checkbox - Status damage no salvage value' is clicked on
+
+15-09-2025T11:49:06 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Bulk Action")): Object: 'Object Repository/File manager/Button - Bulk Action' is clicked on
+
+15-09-2025T11:49:07 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Bulk Action' is clicked on
+
+15-09-2025T11:49:07 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Option Request Disposal")): Object: 'Object Repository/Disposal/Create disposal/Button - Option Request Disposal' is clicked on
+
+15-09-2025T11:49:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Option Request Disposal' is clicked on
+
+15-09-2025T11:49:08 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Select disposal method")): Object: 'Object Repository/Disposal/Create disposal/Button - Select disposal method' is clicked on
+
+15-09-2025T11:49:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Select disposal method' is clicked on
+
+15-09-2025T11:49:09 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Option Donate")): Object: 'Object Repository/Disposal/Create disposal/Button - Option Donate' is clicked on
+
+15-09-2025T11:49:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Option Donate' is clicked on
+
+15-09-2025T11:49:10 - [TEST_STEP][PASSED] - setText(findTestObject("Disposal/Create disposal/Input - Organization company name"), "Qtera"): Text 'Qtera' is set on object 'Object Repository/Disposal/Create disposal/Input - Organization company name'
+
+15-09-2025T11:49:11 - [MESSAGE][PASSED] - Text 'Qtera' is set on object 'Object Repository/Disposal/Create disposal/Input - Organization company name'
+
+15-09-2025T11:49:11 - [TEST_STEP][PASSED] - setText(findTestObject("Disposal/Create disposal/Input - Aditional note"), "asd"): Text 'asd' is set on object 'Object Repository/Disposal/Create disposal/Input - Aditional note'
+
+15-09-2025T11:49:12 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/Disposal/Create disposal/Input - Aditional note'
+
+15-09-2025T11:49:12 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Select Group")): Object: 'Object Repository/Disposal/Create disposal/Button - Select Group' is clicked on
+
+15-09-2025T11:49:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Select Group' is clicked on
+
+15-09-2025T11:49:12 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/List - Select group")): Object: 'Object Repository/Disposal/Create disposal/List - Select group' is clicked on
+
+15-09-2025T11:49:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/List - Select group' is clicked on
+
+15-09-2025T11:49:13 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Select")): Object: 'Object Repository/Disposal/Create disposal/Button - Select' is clicked on
+
+15-09-2025T11:49:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Select' is clicked on
+
+15-09-2025T11:49:14 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Submit")): Object: 'Object Repository/Disposal/Create disposal/Button - Submit' is clicked on
+
+15-09-2025T11:49:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Submit' is clicked on
+
+15-09-2025T11:49:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Disposal/Create disposal/Toast - Success, disposal request has been submitted"), "Success, disposal request has been submitted."): Actual text and expected text of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' are matched.
+
+15-09-2025T11:49:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' are matched.
+
+15-09-2025T11:49:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Disposal/History - Buka disposal log (Single action)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Disposal/History - Buka disposal log (Single action)' successfully
+
+15-09-2025T11:49:16 - [TEST_CASE][PASSED] - Test Cases/Disposal/History - Buka disposal log (Single action): Test Cases/Disposal/History - Buka disposal log (Single action)
+
+15-09-2025T11:49:16 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Sub menu - Disposal")): Object: 'Object Repository/All Menu/Button - Sub menu - Disposal' is clicked on
+
+15-09-2025T11:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Sub menu - Disposal' is clicked on
+
+15-09-2025T11:49:17 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Button - Tab History")): Object: 'Object Repository/Disposal/Button - Tab History' is clicked on
+
+15-09-2025T11:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Button - Tab History' is clicked on
+
+15-09-2025T11:49:17 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Button - Single action disposal")): Object: 'Object Repository/Disposal/Button - Single action disposal' is clicked on
+
+15-09-2025T11:49:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Button - Single action disposal' is clicked on
+
+15-09-2025T11:49:20 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Button - Option Disposal Log")): Object: 'Object Repository/Disposal/Button - Option Disposal Log' is clicked on
+
+15-09-2025T11:49:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Button - Option Disposal Log' is clicked on
+
+15-09-2025T11:49:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Disposal/Dialog - Disposal log"), 10): Object 'Object Repository/Disposal/Dialog - Disposal log' is visible
+
+15-09-2025T11:49:22 - [MESSAGE][PASSED] - Object 'Object Repository/Disposal/Dialog - Disposal log' is visible
+
+15-09-2025T11:49:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Disposal/History - Buka disposal log (Single action)' successfully
+
+15-09-2025T11:49:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Disposal/View Log/View log - Detail asset"), ["expectedAction":"Disposed"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Disposal/View Log/View log - Detail asset' successfully
+
+15-09-2025T11:49:22 - [TEST_CASE][PASSED] - Test Cases/Disposal/View Log/View log - Detail asset: Test Cases/Disposal/View Log/View log - Detail asset
+
+15-09-2025T11:49:22 - [TEST_STEP][PASSED] - click(findTestObject("Transfer/Transfer log/Button - Asset Detail pada transfer log")): Object: 'Object Repository/Transfer/Transfer log/Button - Asset Detail pada transfer log' is clicked on
+
+15-09-2025T11:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Transfer/Transfer log/Button - Asset Detail pada transfer log' is clicked on
+
+15-09-2025T11:49:23 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+15-09-2025T11:49:23 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+15-09-2025T11:49:23 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+15-09-2025T11:49:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+15-09-2025T11:49:23 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Asset detail/Button - Tab Transaction Log")): Object: 'Object Repository/All asset/Asset detail/Button - Tab Transaction Log' is clicked on
+
+15-09-2025T11:49:27 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Asset detail/Button - Tab Transaction Log' is clicked on
+
+15-09-2025T11:49:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+15-09-2025T11:49:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+15-09-2025T11:49:29 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Asset detail/Button - Tab Disposal")): Object: 'Object Repository/All asset/Asset detail/Button - Tab Disposal' is clicked on
+
+15-09-2025T11:49:29 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Asset detail/Button - Tab Disposal' is clicked on
+
+15-09-2025T11:49:29 - [TEST_STEP][PASSED] - actionLog = getText(findTestObject("Report dan log/Text - Action changelog asset")): Text of object 'Object Repository/Report dan log/Text - Action changelog asset' is: 'Disposed'
+
+15-09-2025T11:49:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/Report dan log/Text - Action changelog asset' is: 'Disposed'
+
+15-09-2025T11:49:30 - [TEST_STEP][NOT_RUN] - verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase()): NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+15-09-2025T11:49:30 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+15-09-2025T11:49:30 - [TEST_STEP][PASSED] - verifyMatch(actionLog.toLowerCase(), ".*" + expectedAction.toLowerCase() + ".*", true): Actual text 'disposed' and expected text '.*disposed.*' are matched  using regular expression
+
+15-09-2025T11:49:30 - [MESSAGE][PASSED] - Actual text 'disposed' and expected text '.*disposed.*' are matched  using regular expression
+
+15-09-2025T11:49:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Disposal/View Log/View log - Detail asset' successfully
+
+15-09-2025T11:49:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Disposal/View Log/View log - User - Transaction Admin Log"), ["expectedAction":"Complete"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Disposal/View Log/View log - User - Transaction Admin Log' successfully
+
+15-09-2025T11:49:30 - [TEST_CASE][PASSED] - Test Cases/Disposal/View Log/View log - User - Transaction Admin Log: Test Cases/Disposal/View Log/View log - User - Transaction Admin Log
+
+15-09-2025T11:49:30 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Profile")): Object: 'Object Repository/All Menu/Button - Profile' is clicked on
+
+15-09-2025T11:49:31 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Profile' is clicked on
+
+15-09-2025T11:49:31 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Option - Profile")): Object: 'Object Repository/All Menu/Button - Option - Profile' is clicked on
+
+15-09-2025T11:49:32 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Option - Profile' is clicked on
+
+15-09-2025T11:49:32 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Asset detail/Button - Tab Transaction Admin Log")): Object: 'Object Repository/All asset/Asset detail/Button - Tab Transaction Admin Log' is clicked on
+
+15-09-2025T11:49:35 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Asset detail/Button - Tab Transaction Admin Log' is clicked on
+
+15-09-2025T11:49:35 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Asset detail/Button - Tab Disposal")): Object: 'Object Repository/All asset/Asset detail/Button - Tab Disposal' is clicked on
+
+15-09-2025T11:49:36 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Asset detail/Button - Tab Disposal' is clicked on
+
+15-09-2025T11:49:36 - [TEST_STEP][PASSED] - actionLog = getText(findTestObject("Report dan log/Text - Action changelog asset")): Text of object 'Object Repository/Report dan log/Text - Action changelog asset' is: 'Complete'
+
+15-09-2025T11:49:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Report dan log/Text - Action changelog asset' is: 'Complete'
+
+15-09-2025T11:49:37 - [TEST_STEP][NOT_RUN] - verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase()): NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+15-09-2025T11:49:37 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyEqual(actionLog.toLowerCase(), expectedAction.toLowerCase())
+
+15-09-2025T11:49:37 - [TEST_STEP][PASSED] - verifyMatch(actionLog.toLowerCase(), ".*" + expectedAction.toLowerCase() + ".*", true): Actual text 'complete' and expected text '.*complete.*' are matched  using regular expression
+
+15-09-2025T11:49:37 - [MESSAGE][PASSED] - Actual text 'complete' and expected text '.*complete.*' are matched  using regular expression
+
+15-09-2025T11:49:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Disposal/View Log/View log - User - Transaction Admin Log' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-09-2025T11:45:48 - [TEST_SUITE][FAILED] - Disposal: Test Cases/Disposal/Create Disposal Log - Missing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Create Disposal Log - Missing.run(Create Disposal Log - Missing:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757911534402.run(TempTestSuite1757911534402.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Create Disposal Log
+Disposal Method
+*
+Select disposal method
+You must pick a disposal method
+Additional Note
+Disposal Group:
+Select Group
+Asset
+Photo
+Name
+Asset ID
+Brand
+Model/Type
+Origin Group
+Last Condition
+Note
+asd - 64 00000064
+ad
+adad
+Kantor A
+No Salvage Value
+1
+Showing 1 to 1 of 1
+10
+Please input all required field!
+Cancel
+Submit' and expected text 'Success, disposal request has been submitted.' of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[15-09-2025T11:45:48 - [TEST_SUITE][FAILED] - Disposal: Test Cases/Disposal/Create Disposal Log - Missing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Create Disposal Log - Missing.run(Create Disposal Log - Missing:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757911534402.run(TempTestSuite1757911534402.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Create Disposal Log
+Disposal Method
+*
+Select disposal method
+You must pick a disposal method
+Additional Note
+Disposal Group:
+Select Group
+Asset
+Photo
+Name
+Asset ID
+Brand
+Model/Type
+Origin Group
+Last Condition
+Note
+asd - 64 00000064
+ad
+adad
+Kantor A
+No Salvage Value
+1
+Showing 1 to 1 of 1
+10
+Please input all required field!
+Cancel
+Submit' and expected text 'Success, disposal request has been submitted.' of test object 'Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Profile dari My Profile (Isi Foto Lebih dari 1MB)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bcce627e-2552-453f-8199-b3dc1294901d</testCaseGuid>
+</TestCaseEntity>

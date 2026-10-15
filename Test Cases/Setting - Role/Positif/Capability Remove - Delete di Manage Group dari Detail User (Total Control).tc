@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Capability Remove - Delete di Manage Group dari Detail User (Total Control)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c63330fb-8bff-4ed5-9db8-b568611678b0</testCaseGuid>
+</TestCaseEntity>

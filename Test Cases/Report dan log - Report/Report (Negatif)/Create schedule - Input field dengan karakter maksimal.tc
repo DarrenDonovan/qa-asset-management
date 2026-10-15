@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Create schedule - Input field dengan karakter maksimal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4945f516-49fe-46cb-884e-4d50c0061d12</testCaseGuid>
+</TestCaseEntity>

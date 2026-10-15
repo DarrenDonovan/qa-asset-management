@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - Global Role Manage Asset Master Data</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cc161593-d400-4d8f-a6aa-98266ba99833</testCaseGuid>
+</TestCaseEntity>

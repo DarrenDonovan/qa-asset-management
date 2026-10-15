@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Generate Report - Input field dengan karakter maksimal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f05a94cb-399e-4747-a242-6ab8d7a2d94b</testCaseGuid>
+</TestCaseEntity>

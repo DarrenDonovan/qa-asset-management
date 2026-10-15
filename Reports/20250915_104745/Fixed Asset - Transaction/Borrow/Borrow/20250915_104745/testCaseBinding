@@ -1,0 +1,10 @@
+{"testCaseName":"Test Cases/login","testCaseId":"Test Cases/login","iterationVariableName":""}
+{"testCaseName":"Test Cases/Borrow/Transaction - Create borrowing log","testCaseId":"Test Cases/Borrow/Transaction - Create borrowing log","iterationVariableName":""}
+{"testCaseName":"Test Cases/Borrow/Edit borrow (Single action)","testCaseId":"Test Cases/Borrow/Edit borrow (Single action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Borrow/Edit borrow (Bulk action)","testCaseId":"Test Cases/Borrow/Edit borrow (Bulk action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Borrow/Report damage (Single action)","testCaseId":"Test Cases/Borrow/Report damage (Single action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Borrow/Report missing (Single action)","testCaseId":"Test Cases/Borrow/Report missing (Single action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Borrow/Cancel report (Single action)","testCaseId":"Test Cases/Borrow/Cancel report (Single action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Borrow/Cancel report (Bulk action)","testCaseId":"Test Cases/Borrow/Cancel report (Bulk action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Borrow/Return borrow (Single action)","testCaseId":"Test Cases/Borrow/Return borrow (Single action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Borrow/Return borrow (Bulk action)","testCaseId":"Test Cases/Borrow/Return borrow (Bulk action)","iterationVariableName":""}

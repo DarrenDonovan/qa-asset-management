@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Activation - Aktivasi User dari Detail User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b34b2269-3b6d-472a-9dbf-0656e2747258</testCaseGuid>
+</TestCaseEntity>

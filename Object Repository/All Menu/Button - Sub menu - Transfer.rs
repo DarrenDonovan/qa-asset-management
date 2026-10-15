@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Sub menu - Transfer</name>
+   <tag></tag>
+   <elementGuidId>93f89468-d189-4b5f-8913-4f0ef0fa2628</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebar-left-app']/div[2]/div/ul/li/ul/li[4]/div/span[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Sidebar Navigation Menu&quot;i >> internal:text=&quot;Transfer&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>96cbb3be-2cc8-4982-932f-d5fbb78b8555</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-menu-label</name>
+      <type>Main</type>
+      <value>Transfer</value>
+      <webElementGuid>886e812b-977e-4cb9-80e3-d17910ae3815</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-navigate-to</name>
+      <type>Main</type>
+      <value>/assets/transfer</value>
+      <webElementGuid>245407a0-5714-4861-a59d-acc0a432c05c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center gap-1.5 w-full px-[8px] py-[5px]</value>
+      <webElementGuid>2baa28f7-62a4-457e-ae1c-2288da39b400</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Transfer </value>
+      <webElementGuid>afb449e0-e7dd-4b56-bba6-55de9d313c01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-left-app&quot;)/div[@class=&quot;relative pb-3 rounded-md&quot;]/div[@class=&quot;overflow-auto&quot;]/ul[@class=&quot;grid m-0 p-0 gap-1 list-none overflow-auto&quot;]/li[@class=&quot;rounded-md grid gap-0.5 pl-2 focus:outline-none focus:outline-offset-0&quot;]/ul[@class=&quot;m-0 list-none p-0 !pl-2 gap-0.5 grid duration-300 transition-all ease-in&quot;]/li[@class=&quot;rounded-md grid gap-0.5 pl-2 focus:outline-none focus:outline-offset-0&quot;]/div[@class=&quot;flex items-center relative rounded-md gap-[6px] bg-primary-500 text-white dark:bg-primary-300 [&amp;_span.icon]:dark:text-general-800 transition-shadow duration-200 select-none cursor-pointer&quot;]/span[@class=&quot;inline-flex justify-between items-center w-full text-xs font-medium text-white dark:text-general-800&quot;]/div[@class=&quot;flex items-center gap-1.5 w-full px-[8px] py-[5px]&quot;]</value>
+      <webElementGuid>a8994ed0-22b2-4443-93e2-5f5df5a7d115</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebar-left-app']/div[2]/div/ul/li/ul/li[4]/div/span[2]/div</value>
+      <webElementGuid>c87096a0-d9bb-40c2-aefe-6ed5795234af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assignment'])[1]/following::div[2]</value>
+      <webElementGuid>f6987474-8813-495a-bb7b-fd6df667123f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Borrow'])[1]/following::div[4]</value>
+      <webElementGuid>eb1e6d32-97d5-4d7f-ad12-e7df41d016d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Damage'])[1]/preceding::div[1]</value>
+      <webElementGuid>9cd8e1e6-25d0-4733-8a38-fd9233abbb5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Missing'])[1]/preceding::div[3]</value>
+      <webElementGuid>e4d9c60d-8fdc-4840-a5e1-e4f7949ccc39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Transfer']/parent::*</value>
+      <webElementGuid>062c070f-0268-494e-954f-5697117b1939</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/ul/li[4]/div/span[2]/div</value>
+      <webElementGuid>699dae78-cad2-471c-b398-c674e74d08c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Transfer ' or . = ' Transfer ')]</value>
+      <webElementGuid>9da39750-7ee7-4b94-96ae-19450209b678</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

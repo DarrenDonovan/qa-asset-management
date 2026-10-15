@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input - Enter recipient - Bcc</name>
+   <tag></tag>
+   <elementGuidId>7a7d21d2-a3db-483b-a7d9-bb8a9ace9012</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@placeholder = 'Enter recipient'])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Enter recipient&quot;i] >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>02f36d83-c85e-46b5-8fa3-cc879e0726a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>undefined-badge-input</value>
+      <webElementGuid>bfb7f6a2-fa89-495e-bfe3-d7fae6fa705e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-3 py-[5px] w-full bg-transparent h-max text-general-800 text-xs tracking-[0.02em] font-medium placeholder:text-general-200 placeholder:!font-light appearance-none outline-none outline-none !w-full !bg-transparent !p-0 !shadow-none h-max !leading-4 min-w-[70px] focus:placeholder:text-general-200</value>
+      <webElementGuid>1c0724e2-dc0f-47d9-b319-d691d68f8881</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter recipient</value>
+      <webElementGuid>5e36384b-8626-4245-a82b-7a02b5509429</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-wv-section</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>2acf4783-426d-44a7-b62a-b29b5a6329be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>a9e60915-5ccd-451a-9f53-9853dc09d870</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/microtsm-layout[1]/main[1]/microtsm-application[1]/div[@class=&quot;rounded-lg p-6 flex flex-col gap-y-3 bg-white text-general-800&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;flex flex-col gap-2 text-xs tracking-[0.02em] font-medium&quot;]/form[@class=&quot;grid grid-cols-1 gap-4&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;flex flex-col gap-y-3&quot;]/div[@class=&quot;grid grid-cols-4 gap-6&quot;]/div[@class=&quot;flex flex-col gap-3 items-start col-span-2&quot;]/div[@class=&quot;flex flex-col gap-1 w-full&quot;]/div[@class=&quot;flex flex-col items-start justify-start relative gap-1 w-full shrink-0 overflow-hidden&quot;]/div[@class=&quot;flex flex-wrap gap-x-0.5 gap-y-[5px] items-center min-h-[26px] h-fit w-full ring-inset rounded px-[12px] py-[3px] ring-[0.5px] !ring-general-200 !dark:ring-general-200&quot;]/form[@class=&quot;flex-1&quot;]/input[@id=&quot;undefined-badge-input&quot;]</value>
+      <webElementGuid>d66d79bc-8b13-44b0-9dc0-d77c293dfa27</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@id='undefined-badge-input'])[2]</value>
+      <webElementGuid>de12cc7e-068c-4574-917c-7201a97da6d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/form/input</value>
+      <webElementGuid>4d2228d1-9976-4eee-9f31-a98b4b42d29e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'undefined-badge-input' and @placeholder = 'Enter recipient' and @type = 'text']</value>
+      <webElementGuid>bdfb3498-c141-49e4-aff1-08e54cb40c6c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

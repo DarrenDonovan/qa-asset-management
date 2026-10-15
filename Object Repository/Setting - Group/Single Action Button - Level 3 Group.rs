@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Single Action Button - Level 3 Group</name>
+   <tag></tag>
+   <elementGuidId>eb49747f-11e3-4dc3-886e-d99ba0c5c4dc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//aside[@id='sidebar-right']//li[@aria-level='3']//span//button)[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=treeitem[name=&quot;New Group&quot;i] >> internal:role=button</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>8abc2dd8-06f7-476c-807c-2c75711a4f55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon ic-more inherit cursor-pointer !shrink-0 shrink-0 text-base</value>
+      <webElementGuid>bb79ee6b-ca46-4e82-b15f-5d0527970376</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;1755751633031&quot;)/div[@class=&quot;overflow-auto&quot;]/ul[@class=&quot;m-0 p-0 list-none overflow-auto&quot;]/li[@class=&quot;p-0 !pl-1 rounded-md focus:outline-none focus:outline-offset-0&quot;]/ul[@class=&quot;!m-0 list-none p-0 !pl-1&quot;]/li[@class=&quot;p-0 !pl-1 rounded-md focus:outline-none focus:outline-offset-0&quot;]/div[@class=&quot;flex items-center rounded-md p-1 text-surface-700 hover:bg-primary-50 transition-shadow duration-200 cursor-pointer select-none cursor-pointer&quot;]/span[@class=&quot;inline-flex justify-between items-center gap-2 w-full text-xs font-medium text-general-800&quot;]/button[@class=&quot;!w-4 !h-4 !min-w-4 p-0.5 !text-general-200 rounded-full relative items-center inline-flex text-center align-bottom justify-center w-max left leading-none font-medium rounded p-[5px] ring-inset ring-1 bg-transparent ring-transparent text-grayscale-900 focus:outline-none focus:outline-offset-0 hover:bg-grayscale-900/[8%] active:bg-grayscale-900/[12%] transition duration-200 ease-in-out cursor-pointer overflow-hidden select-none [&amp;>[data-pc-name=badge]]:min-w-4 [&amp;>[data-pc-name=badge]]:h-4 [&amp;>[data-pc-name=badge]]:leading-4&quot;]/i[@class=&quot;icon ic-more inherit cursor-pointer !shrink-0 shrink-0 text-base&quot;]</value>
+      <webElementGuid>fd6fdf2e-b7c5-460c-b355-3e983b67b777</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='1755751633031']/div/ul/li/ul/li[3]/div/span[2]/button/i</value>
+      <webElementGuid>4c1a44bc-3fb4-4553-b797-eb3b70254345</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/div/span[2]/button/i</value>
+      <webElementGuid>5b772af2-040a-48fb-9c63-cf2b40605a06</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Mark a repaired (Bulk action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>348a8223-f4be-4f5c-a7a4-ba29db1f2c7d</testCaseGuid>
+</TestCaseEntity>

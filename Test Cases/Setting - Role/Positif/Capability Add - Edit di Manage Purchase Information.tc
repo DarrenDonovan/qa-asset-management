@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Capability Add - Edit di Manage Purchase Information</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6fd1a3e3-4e1d-43e0-aaa8-e6a6f6a52985</testCaseGuid>
+</TestCaseEntity>

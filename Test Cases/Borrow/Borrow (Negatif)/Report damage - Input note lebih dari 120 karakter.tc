@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif</description>
+   <name>Report damage - Input note lebih dari 120 karakter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>82c267ea-f55f-49d1-96e9-31c29e1971f6</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Total Control > User Default</description>
+   <name>Remove - System Role Manage Document Deletion (User Default)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8d554d4a-87f8-4985-8242-419bfd317e1b</testCaseGuid>
+</TestCaseEntity>

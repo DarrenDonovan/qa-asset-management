@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>List - Group sidebar</name>
+   <tag></tag>
+   <elementGuidId>d729f4ee-7b4b-4f66-b7ee-311d308da28b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//aside[@id='sidebar-right']//ul[@role='group']/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;All|Total Asset:0Group Code Total Asset Default00000Group ABCDG0015Group Test-0P&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8fa035d6-8c62-46b0-a6a2-74f30a41b22f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex flex-col gap-2</value>
+      <webElementGuid>2e0ad5ab-12e4-4339-85bf-e4fe0132d4e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ts-name</name>
+      <type>Main</type>
+      <value>table-section</value>
+      <webElementGuid>bda6058d-dffc-4c17-afe9-8fc096d0eede</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>All|Total Asset:0Group Code Total Asset Default00000Group ABCDG0015Group Test-0Pendingin-10Pendingins-9asd-01Showing 1 to 6 of 610</value>
+      <webElementGuid>8c679509-4cb3-4d02-acb6-293bf22ae3bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/microtsm-layout[1]/main[1]/microtsm-application[1]/div[@class=&quot;rounded-lg p-6 flex flex-col gap-y-3 bg-white text-general-800&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;flex flex-col gap-2 text-xs tracking-[0.02em] font-medium&quot;]/div[@class=&quot;flex flex-col gap-2&quot;]</value>
+      <webElementGuid>9be56ffe-60ca-4604-99af-844a63662fe9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='>'])[1]/following::div[4]</value>
+      <webElementGuid>f1826cf1-fe7c-4f2e-a5c5-444e5ed51c7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div</value>
+      <webElementGuid>4f2c0b0d-030f-4dd2-bf03-0925cd3671cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'All|Total Asset:0Group Code Total Asset Default00000Group ABCDG0015Group Test-0Pendingin-10Pendingins-9asd-01Showing 1 to 6 of 610' or . = 'All|Total Asset:0Group Code Total Asset Default00000Group ABCDG0015Group Test-0Pendingin-10Pendingins-9asd-01Showing 1 to 6 of 610')]</value>
+      <webElementGuid>92084663-acbf-4057-9744-a84e588fb902</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

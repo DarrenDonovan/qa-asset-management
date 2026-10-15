@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Capability Remove - Delete di Manage Document Deletion dari Detail User (Total Control)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dc30d894-adcf-4c3c-b2b8-454dbcba6ef9</testCaseGuid>
+</TestCaseEntity>

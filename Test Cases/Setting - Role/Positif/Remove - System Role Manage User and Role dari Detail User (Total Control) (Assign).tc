@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Remove - System Role Manage User and Role dari Detail User (Total Control) (Assign)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f8b3c4ef-5afe-40b1-b001-74a014bb9ac8</testCaseGuid>
+</TestCaseEntity>

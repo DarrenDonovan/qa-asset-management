@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - Sub Grup Memiliki Asset</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>09ed7e75-f25c-4f62-b7c0-32efd2f1893b</testCaseGuid>
+</TestCaseEntity>

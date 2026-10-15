@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Inactivation - Nonaktivasi User Diri Sendiri</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>49599261-e755-4b6f-9201-98735dbb4927</testCaseGuid>
+</TestCaseEntity>

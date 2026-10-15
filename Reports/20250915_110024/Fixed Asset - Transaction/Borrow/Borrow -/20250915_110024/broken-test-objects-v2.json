@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Borrow/Return asset/Button - Single action",
+      "brokenLocator": "//tbody/tr/td[14]/div/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027user1..aging\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250915_110024/Fixed Asset - Transaction/Borrow/Borrow -/20250915_110024/Object Repository/Borrow/Return asset/Button - Single action_neighbor.png"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Remove - System Role Manage Purchase Information dari Detail User (Switch)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7e5e1cd5-55a0-48d4-85d5-5f53b052e2f6</testCaseGuid>
+</TestCaseEntity>

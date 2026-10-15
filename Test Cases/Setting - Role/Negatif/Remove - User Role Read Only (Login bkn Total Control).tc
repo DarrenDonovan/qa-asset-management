@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Manage User and Role -> Total Control</description>
+   <name>Remove - User Role Read Only (Login bkn Total Control)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e1357c43-503f-4c00-bdbc-037c975aaf44</testCaseGuid>
+</TestCaseEntity>

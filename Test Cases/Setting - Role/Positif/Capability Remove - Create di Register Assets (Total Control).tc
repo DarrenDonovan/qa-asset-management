@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Manage User and Role > Total Control</description>
+   <name>Capability Remove - Create di Register Assets (Total Control)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>be3406bd-82d7-4e27-87ec-7638c0ad107e</testCaseGuid>
+</TestCaseEntity>

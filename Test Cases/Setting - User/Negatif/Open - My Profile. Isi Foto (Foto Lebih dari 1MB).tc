@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Open - My Profile. Isi Foto (Foto Lebih dari 1MB)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>598f6b6f-664f-4d57-b795-5c492266c4cc</testCaseGuid>
+</TestCaseEntity>

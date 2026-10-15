@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Remove - Monitoring Report pada Role Borrowing Assignment (User Read Only)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>789af98b-d9da-4ff8-9cdb-bed720bc4be7</testCaseGuid>
+</TestCaseEntity>

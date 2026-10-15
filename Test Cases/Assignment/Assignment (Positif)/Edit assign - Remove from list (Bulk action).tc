@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Edit assign - Remove from list (Bulk action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a65f6069-8a0f-4326-b1d2-6231a40400fc</testCaseGuid>
+</TestCaseEntity>

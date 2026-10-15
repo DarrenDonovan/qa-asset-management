@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Total Control > User Default</description>
+   <name>Remove - System Role Manage License (User Default)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9cf6c314-8cdd-4df8-a82d-61b4d52876b4</testCaseGuid>
+</TestCaseEntity>

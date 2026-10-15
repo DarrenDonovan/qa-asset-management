@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check - Melihat Changelog Kategori</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0968b81b-63fa-4e72-8ad4-e7750b6a6356</testCaseGuid>
+</TestCaseEntity>

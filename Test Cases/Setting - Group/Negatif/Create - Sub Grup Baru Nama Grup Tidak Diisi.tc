@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Sub Grup Baru Nama Grup Tidak Diisi</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bebb9a5c-65df-4482-b190-a1fbc2eea7e4</testCaseGuid>
+</TestCaseEntity>

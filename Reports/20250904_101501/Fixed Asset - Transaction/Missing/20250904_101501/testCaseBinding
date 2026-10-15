@@ -1,0 +1,15 @@
+{"testCaseName":"Test Cases/login","testCaseId":"Test Cases/login","iterationVariableName":""}
+{"testCaseName":"Test Cases/Missing/Report disposal (Single action)","testCaseId":"Test Cases/Missing/Report disposal (Single action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Missing/Report disposal - (Negatif)/Report disposal - Input note lebih dari 30 karakter","testCaseId":"Test Cases/Missing/Report disposal - (Negatif)/Report disposal - Input note lebih dari 30 karakter","iterationVariableName":""}
+{"testCaseName":"Test Cases/Missing/Report disposal - (Positif)/Report disposal - Tambah asset lain","testCaseId":"Test Cases/Missing/Report disposal - (Positif)/Report disposal - Tambah asset lain","iterationVariableName":""}
+{"testCaseName":"Test Cases/Missing/Report disposal - (Positif)/Report disposal - Tambah asset lain","testCaseId":"Test Cases/Missing/Report disposal - (Positif)/Report disposal - Tambah asset lain","iterationVariableName":""}
+{"testCaseName":"Test Cases/Missing/Report disposal - (Positif)/Report disposal - Note (Bulk action)","testCaseId":"Test Cases/Missing/Report disposal - (Positif)/Report disposal - Note (Bulk action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Missing/Report disposal - (Positif)/Report disposal - Remove from list (Single action)","testCaseId":"Test Cases/Missing/Report disposal - (Positif)/Report disposal - Remove from list (Single action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Missing/Report disposal - (Positif)/Report disposal - Remove from list (Bulk action)","testCaseId":"Test Cases/Missing/Report disposal - (Positif)/Report disposal - Remove from list (Bulk action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Missing/Report disposal - (Positif)/Report disposal - Cancel report disposal","testCaseId":"Test Cases/Missing/Report disposal - (Positif)/Report disposal - Cancel report disposal","iterationVariableName":""}
+{"testCaseName":"Test Cases/Missing/Report disposal (Bulk action)","testCaseId":"Test Cases/Missing/Report disposal (Bulk action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Missing/Cancel report disposal (Single action)","testCaseId":"Test Cases/Missing/Cancel report disposal (Single action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Missing/Cancel report disposal (Bulk action)","testCaseId":"Test Cases/Missing/Cancel report disposal (Bulk action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Missing/Buka missing log (Single action)","testCaseId":"Test Cases/Missing/Buka missing log (Single action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Missing/Mark a found (Bulk action)","testCaseId":"Test Cases/Missing/Mark a found (Bulk action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Missing/Mark a found (Single action)","testCaseId":"Test Cases/Missing/Mark a found (Single action)","iterationVariableName":""}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Total Control > User Default</description>
+   <name>Remove - System Role Manage Purchase Document (User Default)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fcf6e263-e71a-4543-9e30-fd7454dd0566</testCaseGuid>
+</TestCaseEntity>

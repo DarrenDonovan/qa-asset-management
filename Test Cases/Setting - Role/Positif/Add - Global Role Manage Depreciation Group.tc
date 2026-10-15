@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - Global Role Manage Depreciation Group</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7b6b4bd2-7bc5-4a7c-b718-24b791ad3ba4</testCaseGuid>
+</TestCaseEntity>

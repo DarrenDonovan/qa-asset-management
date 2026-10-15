@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Non Login User. Ceklis Set as Temporary User (Active Period Tidak Diisi)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>88ba350a-ce61-4b18-8981-a67908760480</testCaseGuid>
+</TestCaseEntity>

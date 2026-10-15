@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Manage User Role -> Total Control</description>
+   <name>Remove - Monitoring Report pada Role Missing (Login bkn Total Control)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d4772e04-b2c0-443a-b678-01c0cca1f61c</testCaseGuid>
+</TestCaseEntity>

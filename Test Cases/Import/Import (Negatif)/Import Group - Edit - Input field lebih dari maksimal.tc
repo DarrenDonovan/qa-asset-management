@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Import Group - Edit - Input field lebih dari maksimal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a5d2a06c-14ed-4728-be39-3cff27f96e7e</testCaseGuid>
+</TestCaseEntity>

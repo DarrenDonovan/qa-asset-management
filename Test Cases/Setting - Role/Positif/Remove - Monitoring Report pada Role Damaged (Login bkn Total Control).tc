@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Manage User Role -> Total Control</description>
+   <name>Remove - Monitoring Report pada Role Damaged (Login bkn Total Control)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f0ef1407-c96d-47ce-8d43-ab3ea577309e</testCaseGuid>
+</TestCaseEntity>

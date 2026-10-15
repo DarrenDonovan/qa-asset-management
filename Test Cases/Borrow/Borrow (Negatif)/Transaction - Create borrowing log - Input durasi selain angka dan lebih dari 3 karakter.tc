@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif</description>
+   <name>Transaction - Create borrowing log - Input durasi selain angka dan lebih dari 3 karakter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c311ed5c-9672-46e7-a872-8fbb4b919b68</testCaseGuid>
+</TestCaseEntity>

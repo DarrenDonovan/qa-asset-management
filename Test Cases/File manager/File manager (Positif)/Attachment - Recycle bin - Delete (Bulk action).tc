@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Attachment - Recycle bin - Delete (Bulk action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>16cc43f0-5684-4e33-b37a-d7018e9508ca</testCaseGuid>
+</TestCaseEntity>

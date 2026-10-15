@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - User Role Total Control</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>81cd4e29-f953-4ae3-8566-2bd424df9a4f</testCaseGuid>
+</TestCaseEntity>

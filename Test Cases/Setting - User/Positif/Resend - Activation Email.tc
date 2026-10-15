@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Resend - Activation Email</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eee141e2-e0d0-44c6-8ecb-a6f3867dda6f</testCaseGuid>
+</TestCaseEntity>

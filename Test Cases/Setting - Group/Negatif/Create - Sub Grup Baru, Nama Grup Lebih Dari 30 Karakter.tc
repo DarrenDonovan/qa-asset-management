@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Sub Grup Baru, Nama Grup Lebih Dari 30 Karakter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>caa1fe74-9f02-4d08-95c2-3a4878df536e</testCaseGuid>
+</TestCaseEntity>

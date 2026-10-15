@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Setting - Category/Textbox - Category Name",
+      "brokenLocator": "//div[label[(text() \u003d \u0027Group Name \u0027)]]//input",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//section[@id\u003d\u0027main\u0027]/form/div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250910_133515/Settings - Category/Test Suite - Category/20250910_133515/Object Repository/Setting - Category/Textbox - Category Name_idRelative.png"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Profile dari My Profile (First Name Lebih dari 30 Karakter)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d4c6145d-899c-43ed-b9eb-cf19e2b790b6</testCaseGuid>
+</TestCaseEntity>

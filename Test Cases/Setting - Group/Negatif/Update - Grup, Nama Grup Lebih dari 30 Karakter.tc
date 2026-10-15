@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Update - Grup, Nama Grup Lebih dari 30 Karakter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a122eac9-e1ac-45e3-b9ba-f9dfb8098fdf</testCaseGuid>
+</TestCaseEntity>

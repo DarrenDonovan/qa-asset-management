@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Manage User and Role -> Total Control</description>
+   <name>Remove - Manager pada Role Missing (Login bkn Total Control)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c5ee9589-f1b7-4b71-98df-114faa18569c</testCaseGuid>
+</TestCaseEntity>

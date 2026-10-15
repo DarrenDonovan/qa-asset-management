@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - Manager pada Role Audit</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e059660a-c1e0-4acd-99e8-2df3e0ace518</testCaseGuid>
+</TestCaseEntity>

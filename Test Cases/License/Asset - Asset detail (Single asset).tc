@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Asset - Asset detail (Single asset)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>883a777e-d678-4195-851a-390abf78493e</testCaseGuid>
+</TestCaseEntity>

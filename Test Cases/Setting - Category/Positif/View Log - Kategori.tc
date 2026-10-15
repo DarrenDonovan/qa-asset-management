@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>View Log - Kategori</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>67778bbd-a2f2-49a0-8032-082489e135d0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bc3fa1fd-5ede-4015-93bb-eeec769d1933</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject(null)</defaultValue>
+      <description></description>
+      <id>bc3fa1fd-5ede-4015-93bb-eeec769d1933</id>
+      <masked>false</masked>
+      <name>destination</name>
+   </variable>
+</TestCaseEntity>

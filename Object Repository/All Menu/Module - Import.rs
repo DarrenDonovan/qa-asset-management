@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Module - Import</name>
+   <tag></tag>
+   <elementGuidId>790ee107-8257-44a2-93a9-3fa9d4792aa0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = ' Import ' or . = ' Import ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ec074328-998a-4c9d-bee1-8a1e525f4335</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-menu-label</name>
+      <type>Main</type>
+      <value>Settings</value>
+      <webElementGuid>270bda9b-5950-4f93-bf51-414a75abc5bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center gap-1.5 w-full px-[8px] py-[5px]</value>
+      <webElementGuid>a1cf240c-6194-4a62-8d30-20dfafac7c27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Settings </value>
+      <webElementGuid>183b4f2b-57b8-4050-b4dd-b2a9eae3ac6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-left-app&quot;)/div[@class=&quot;relative pb-3 rounded-md&quot;]/div[@class=&quot;overflow-auto&quot;]/ul[@class=&quot;grid m-0 p-0 gap-1 list-none overflow-auto&quot;]/li[@class=&quot;rounded-md grid gap-0.5 pl-2 focus:outline-none focus:outline-offset-0&quot;]/div[@class=&quot;flex items-center relative rounded-md gap-[6px] hover:bg-general-50 inactive group transition-shadow duration-200 select-none cursor-pointer&quot;]/span[@class=&quot;inline-flex justify-between items-center w-full text-xs font-medium text-general-800 dark:text-general-100 dark:group-hover:text-general-800&quot;]/div[@class=&quot;flex items-center gap-1.5 w-full px-[8px] py-[5px]&quot;]</value>
+      <webElementGuid>1dc66e87-904a-433b-a871-d5fb756e48c2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebar-left-app']/div[2]/div/ul/li[4]/div/span[2]/div</value>
+      <webElementGuid>972c2bb8-7e22-4c57-a1f6-656a8301dadc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Settings']/parent::*</value>
+      <webElementGuid>66e3f0b6-95cb-4cec-90fb-bb6fee9f7cf0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/div/span[2]/div</value>
+      <webElementGuid>bdb5da2e-41ba-4fcd-9676-4cb70562f140</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Settings ' or . = ' Settings ')]</value>
+      <webElementGuid>843d37b3-6537-4df3-a75e-4482afedd2fe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Kategori Baru, Klik Clear Field</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f156349c-cd6a-49ea-9b66-1129ccbb3de4</testCaseGuid>
+</TestCaseEntity>

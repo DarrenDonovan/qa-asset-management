@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite - User,,,,09-10-2025 15:01:27,09-10-2025 15:01:31,3.972s,ERROR
+,,,,,,,
+Test Cases/Setting - User/Positif/Login - Login Navigate ke User,,Positif,,09-10-2025 15:01:28,09-10-2025 15:01:31,2.831s,FAILED
+Common_Utils.openBrowser(url),,,,09-10-2025 15:01:28,09-10-2025 15:01:31,2.144s,FAILED
+,,,,,,,
+Test Cases/Setting - User/Positif/Activation - Aktivasi User,,,,09-10-2025 15:01:31,09-10-2025 15:01:31,0.288s,ERROR
+"click(findTestObject(""Setting - User/Switch Button - User Activation"", [""name"":""User Satu""]))",,,,09-10-2025 15:01:31,09-10-2025 15:01:31,0.103s,ERROR

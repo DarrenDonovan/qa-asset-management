@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Setting - Category/Chevron - Sub Category Test",
+      "brokenLocator": "//ul//div[.//span[starts-with(text(), \u0027Sub Category Test\u0027)]]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li[3]/div/button/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250910_151200/Settings - Category/Test Suite - Category/20250910_151200/Object Repository/Setting - Category/Chevron - Sub Category Test_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Setting - Group/Textbox - Group Name",
+      "brokenLocator": "//div[label[(text() \u003d \u0027Group Name \u0027)]]//input",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250910_151200/Settings - Category"
+    }
+  ]
+}

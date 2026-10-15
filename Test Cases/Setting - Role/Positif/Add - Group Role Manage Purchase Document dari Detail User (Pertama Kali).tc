@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - Group Role Manage Purchase Document dari Detail User (Pertama Kali)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>704b94e2-2c79-4b3a-a85d-fe20ecf06b5c</testCaseGuid>
+</TestCaseEntity>

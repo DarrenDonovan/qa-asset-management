@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Capability Add - Edit di Manage License</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1badc818-f2a1-49e3-bd2f-fd1bcd16682d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>View Log - System Role</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>499ccfc0-4057-418d-87a3-6cda3a827d2a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>101e8fd0-dd9b-4365-9987-fe7878a0740c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject(null)</defaultValue>
+      <description></description>
+      <id>101e8fd0-dd9b-4365-9987-fe7878a0740c</id>
+      <masked>false</masked>
+      <name>destination</name>
+   </variable>
+</TestCaseEntity>

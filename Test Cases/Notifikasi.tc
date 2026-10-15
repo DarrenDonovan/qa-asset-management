@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Notifikasi</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2d221855-e02d-47fd-b4fd-595b2bb00f16</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e9d46276-8d94-44b1-97b5-3134832ada57</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e9d46276-8d94-44b1-97b5-3134832ada57</id>
+      <masked>false</masked>
+      <name>expectedStatus</name>
+   </variable>
+</TestCaseEntity>

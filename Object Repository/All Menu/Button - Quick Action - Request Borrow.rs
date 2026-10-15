@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Quick Action - Request Borrow</name>
+   <tag></tag>
+   <elementGuidId>f5dd2a29-cae8-4efc-ad39-b137c2ee12b9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div//li[contains(@data-ts-name, 'borrow')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>a >> internal:has-text=&quot;Request Borrow&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>a2ea0ec5-ff8f-4b98-9292-81cdeec258b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center justify-start gap-2 px-4 py-2 hover:bg-primary-50 no-underline overflow-hidden cursor-pointer select-none</value>
+      <webElementGuid>f9acb9d1-0d6d-47b3-a4a9-c46d5be53cce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>action</value>
+      <webElementGuid>92b56d0b-b033-4fc9-9cf1-6f24494668bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>45e6dd5f-0a1d-4ae6-9097-7e04179c83c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Request Borrow</value>
+      <webElementGuid>4e14338c-b0d7-42fa-8984-76a017140bc2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;1755834391732&quot;)/div[@class=&quot;p-overlaypanel-content items-center flex&quot;]/div[@class=&quot;w-max py-2 flex flex-col gap-3&quot;]/ul[@class=&quot;flex flex-col list-none m-0 p-0 outline-none transition-shadow&quot;]/li[@class=&quot;cursor-pointer&quot;]/a[@class=&quot;flex items-center justify-start gap-2 px-4 py-2 hover:bg-primary-50 no-underline overflow-hidden cursor-pointer select-none&quot;]</value>
+      <webElementGuid>f300428b-e9eb-4a22-bea6-1a365bbcaf4a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='1755834391732']/div/div/ul/li/a</value>
+      <webElementGuid>50244581-530a-43e6-8009-244eff9e7f3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 8 of 8'])[1]/following::a[1]</value>
+      <webElementGuid>93c2f6d5-2fba-44ee-8e57-c5f0c6d0efc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Request Assign'])[1]/preceding::a[1]</value>
+      <webElementGuid>df8edd5a-8039-489f-8c6a-ee3e41a7c9f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/a</value>
+      <webElementGuid>2d5aba68-2bae-45f2-b20e-b209820db513</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Request Borrow' or . = 'Request Borrow')]</value>
+      <webElementGuid>62307217-8524-4cdf-b079-37640d6204c2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

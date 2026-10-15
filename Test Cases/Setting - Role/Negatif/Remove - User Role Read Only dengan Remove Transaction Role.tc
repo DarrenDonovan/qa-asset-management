@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Total Control > Read Only</description>
+   <name>Remove - User Role Read Only dengan Remove Transaction Role</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8639289b-e706-4c8d-a01e-2fa20bc5298f</testCaseGuid>
+</TestCaseEntity>

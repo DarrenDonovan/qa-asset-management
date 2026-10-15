@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Profile dari My Profile (Email Diganti Saat Pending Change)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>733b8aa3-308d-4102-9dec-6ec904fe202c</testCaseGuid>
+</TestCaseEntity>

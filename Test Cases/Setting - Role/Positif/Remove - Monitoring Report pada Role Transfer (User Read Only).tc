@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User Total Control -> Read Only</description>
+   <name>Remove - Monitoring Report pada Role Transfer (User Read Only)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>80fdc8bf-308f-45ab-82a9-a966caa4062b</testCaseGuid>
+</TestCaseEntity>

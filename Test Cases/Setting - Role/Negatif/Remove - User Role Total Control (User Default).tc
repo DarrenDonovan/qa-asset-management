@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Total Control -> User Default</description>
+   <name>Remove - User Role Total Control (User Default)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c3226daf-caa0-4888-bb30-27dee6854951</testCaseGuid>
+</TestCaseEntity>

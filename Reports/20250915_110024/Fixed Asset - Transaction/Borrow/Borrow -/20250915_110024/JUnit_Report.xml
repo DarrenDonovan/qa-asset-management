@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Borrow -" time="215.236" tests="30" failures="0" errors="0">
+   <testsuite name="Borrow -" tests="30" failures="0" errors="0" time="215.236" skipped="0" timestamp="15-09-2025T11:00:40" hostname="Administrator - DESKTOP" id="Test Suites/Fixed Asset - Transaction/Borrow/Borrow -">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\automation-test-fixed-asset-basic\\Reports\\20250915_110024\\Fixed Asset - Transaction\\Borrow\\Borrow -\\20250915_110024"/>
+         <property name="logFiles" value="D:\\automation-test-fixed-asset-basic\\Reports\\20250915_110024\\Fixed Asset - Transaction\\Borrow\\Borrow -\\20250915_110024\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - DESKTOP"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.6.223"/>
+         <property name="browser" value="Edge Chromium 140"/>
+         <property name="hostAddress" value="169.254.111.16"/>
+         <property name="sessionId" value="5184588a4858384605952e116833da60"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/login" time="33.633" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:00:40 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+15-09-2025T11:00:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2025T11:00:41 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+15-09-2025T11:00:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2025T11:00:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2025T11:00:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+15-09-2025T11:00:43 - [MESSAGE][PASSED] - Current window maximized
+
+15-09-2025T11:00:43 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://staging-console.tagsamurai.com' successfully
+
+15-09-2025T11:00:46 - [MESSAGE][PASSED] - Navigate to 'https://staging-console.tagsamurai.com' successfully
+
+15-09-2025T11:00:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login session object/Input - Email"), email): Text 'user1basic2staging@qwertysystem.net' is set on object 'Object Repository/Login session object/Input - Email'
+
+15-09-2025T11:00:55 - [MESSAGE][PASSED] - Text 'user1basic2staging@qwertysystem.net' is set on object 'Object Repository/Login session object/Input - Email'
+
+15-09-2025T11:00:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login session object/Input - Password"), password): Text 'Gaadaobatnya1@' is set on object 'Object Repository/Login session object/Input - Password'
+
+15-09-2025T11:00:55 - [MESSAGE][PASSED] - Text 'Gaadaobatnya1@' is set on object 'Object Repository/Login session object/Input - Password'
+
+15-09-2025T11:00:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login session object/Button - Login")): Object: 'Object Repository/Login session object/Button - Login' is clicked on
+
+15-09-2025T11:00:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login session object/Button - Login' is clicked on
+
+15-09-2025T11:00:57 - [TEST_STEP][PASSED] - isPopupPresent = verifyElementPresent(findTestObject("Login session object/Page_TAG SAMURAI/Popup duplicate login"), 20, OPTIONAL): Object 'Object Repository/Login session object/Page_TAG SAMURAI/Popup duplicate login' is present
+
+15-09-2025T11:00:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login session object/Page_TAG SAMURAI/Popup duplicate login' is present
+
+15-09-2025T11:00:59 - [TEST_STEP][PASSED] - if (isPopupPresent): Object: 'Object Repository/Login session object/Page_TAG SAMURAI/button_Confirm_duplicate login' is clicked on
+
+15-09-2025T11:00:59 - [TEST_STEP][PASSED] - click(findTestObject("Login session object/Page_TAG SAMURAI/button_Confirm_duplicate login"), STOP_ON_FAILURE): Object: 'Object Repository/Login session object/Page_TAG SAMURAI/button_Confirm_duplicate login' is clicked on
+
+15-09-2025T11:01:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login session object/Page_TAG SAMURAI/button_Confirm_duplicate login' is clicked on
+
+15-09-2025T11:01:00 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+15-09-2025T11:01:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+15-09-2025T11:01:00 - [TEST_STEP][PASSED] - delay(5, OPTIONAL): Delayed 5 second(s)
+
+15-09-2025T11:01:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+15-09-2025T11:01:05 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("All Menu/Button - Module - Fixed Asset"), 30): Object 'Object Repository/All Menu/Button - Module - Fixed Asset' is clickable
+
+15-09-2025T11:01:05 - [MESSAGE][PASSED] - Object 'Object Repository/All Menu/Button - Module - Fixed Asset' is clickable
+
+15-09-2025T11:01:05 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Module - Fixed Asset")): Object: 'Object Repository/All Menu/Button - Module - Fixed Asset' is clicked on
+
+15-09-2025T11:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Module - Fixed Asset' is clicked on
+
+15-09-2025T11:01:07 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+15-09-2025T11:01:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+15-09-2025T11:01:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("All Menu/Button - Menu - Fixed Asset")): Object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is visible
+
+15-09-2025T11:01:13 - [MESSAGE][PASSED] - Object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Edit borrow - (Negatif)/Edit borrow - Submit tanpa field mandatory" time="10.959" classname="Test Cases/Borrow/Edit borrow - (Negatif)/Edit borrow - Submit tanpa field mandatory" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:01:13 - [TEST_CASE][PASSED] - Test Cases/Borrow/Edit borrow - (Negatif)/Edit borrow - Submit tanpa field mandatory: Test Cases/Borrow/Edit borrow - (Negatif)/Edit borrow - Submit tanpa field mandatory
+
+15-09-2025T11:01:14 - [TEST_STEP][PASSED] - buttonAktif = getAttribute(findTestObject("All Menu/Button - Menu - Fixed Asset"), "aria-expanded"): Attribute 'aria-expanded' of object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is: 'false'
+
+15-09-2025T11:01:17 - [MESSAGE][PASSED] - Attribute 'aria-expanded' of object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is: 'false'
+
+15-09-2025T11:01:17 - [TEST_STEP][PASSED] - if (buttonAktif == "false"): Object: 'Object Repository/All Menu/Button - Menu - Fixed Asset' is clicked on
+
+15-09-2025T11:01:17 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Menu - Fixed Asset")): Object: 'Object Repository/All Menu/Button - Menu - Fixed Asset' is clicked on
+
+15-09-2025T11:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Menu - Fixed Asset' is clicked on
+
+15-09-2025T11:01:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/All Menu/Button - Sub menu - Borrow")): Object: 'Object Repository/All Menu/Button - Sub menu - Borrow' is clicked on
+
+15-09-2025T11:01:18 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Sub menu - Borrow' is clicked on
+
+15-09-2025T11:01:18 - [TEST_STEP][PASSED] - isBorrowed = verifyElementPresent(findTestObject("Borrow/Edit borrow/Text - Status Borrowed"), 5): Object 'Object Repository/Borrow/Edit borrow/Text - Status Borrowed' is present
+
+15-09-2025T11:01:21 - [MESSAGE][PASSED] - Object 'Object Repository/Borrow/Edit borrow/Text - Status Borrowed' is present
+
+15-09-2025T11:01:21 - [TEST_STEP][PASSED] - if (isBorrowed): Object: 'Object Repository/Borrow/Edit borrow/Button - Single action' is clicked on
+
+15-09-2025T11:01:21 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/Edit borrow/Button - Single action")): Object: 'Object Repository/Borrow/Edit borrow/Button - Single action' is clicked on
+
+15-09-2025T11:01:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Edit borrow/Button - Single action' is clicked on
+
+15-09-2025T11:01:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Edit borrow/Button - Option Edit")): Object: 'Object Repository/Borrow/Edit borrow/Button - Option Edit' is clicked on
+
+15-09-2025T11:01:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Edit borrow/Button - Option Edit' is clicked on
+
+15-09-2025T11:01:22 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Borrow/Edit borrow/Input - Duration")): Text of object 'Object Repository/Borrow/Edit borrow/Input - Duration' is cleared
+
+15-09-2025T11:01:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/Borrow/Edit borrow/Input - Duration' is cleared
+
+15-09-2025T11:01:23 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/Edit borrow/Button - Submit")): Object: 'Object Repository/Borrow/Edit borrow/Button - Submit' is clicked on
+
+15-09-2025T11:01:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Edit borrow/Button - Submit' is clicked on
+
+15-09-2025T11:01:24 - [TEST_STEP][PASSED] - verifyTextPresent("Duration must not be empty", false): Text 'Duration must not be empty' is present on page 
+
+15-09-2025T11:01:24 - [MESSAGE][PASSED] - Text 'Duration must not be empty' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Edit borrow - (Negatif)/Edit borrow - Input durasi selain angka dan lebih dari 3 karakter" time="1.21" classname="Test Cases/Borrow/Edit borrow - (Negatif)/Edit borrow - Input durasi selain angka dan lebih dari 3 karakter" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:01:24 - [TEST_CASE][PASSED] - Test Cases/Borrow/Edit borrow - (Negatif)/Edit borrow - Input durasi selain angka dan lebih dari 3 karakter: Test Cases/Borrow/Edit borrow - (Negatif)/Edit borrow - Input durasi selain angka dan lebih dari 3 karakter
+
+15-09-2025T11:01:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Borrow/Edit borrow/Input - Duration"), "15b@"): Text '15b@' is set on object 'Object Repository/Borrow/Edit borrow/Input - Duration'
+
+15-09-2025T11:01:25 - [MESSAGE][PASSED] - Text '15b@' is set on object 'Object Repository/Borrow/Edit borrow/Input - Duration'
+
+15-09-2025T11:01:25 - [TEST_STEP][PASSED] - valueuseful = getAttribute(findTestObject("Object Repository/Borrow/Edit borrow/Input - Duration"), "aria-valuenow"): Attribute 'aria-valuenow' of object 'Object Repository/Borrow/Edit borrow/Input - Duration' is: '15'
+
+15-09-2025T11:01:26 - [MESSAGE][PASSED] - Attribute 'aria-valuenow' of object 'Object Repository/Borrow/Edit borrow/Input - Duration' is: '15'
+
+15-09-2025T11:01:26 - [TEST_STEP][PASSED] - verifyLessThanOrEqual(valueuseful.length(), 3): Actual number '2' is less than or equal to expected number '3'
+
+15-09-2025T11:01:26 - [MESSAGE][PASSED] - Actual number '2' is less than or equal to expected number '3'
+
+15-09-2025T11:01:26 - [TEST_STEP][PASSED] - isOnlyDigits = valueuseful.matches("^\d+$"): null
+
+15-09-2025T11:01:26 - [TEST_STEP][PASSED] - verifyEqual(isOnlyDigits, true): Actual object 'true' and expected object 'true' are equal
+
+15-09-2025T11:01:26 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Edit borrow - (Negatif)/Edit borrow - Input note lebih dari 30 karakter" time="1.355" classname="Test Cases/Borrow/Edit borrow - (Negatif)/Edit borrow - Input note lebih dari 30 karakter" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:01:26 - [TEST_CASE][PASSED] - Test Cases/Borrow/Edit borrow - (Negatif)/Edit borrow - Input note lebih dari 30 karakter: Test Cases/Borrow/Edit borrow - (Negatif)/Edit borrow - Input note lebih dari 30 karakter
+
+15-09-2025T11:01:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Borrow/Edit borrow/Input - Note"), "asdasdsasdwssddwwdasceerilnlmfignoiroskdnis"): Text 'asdasdsasdwssddwwdasceerilnlmfignoiroskdnis' is set on object 'Object Repository/Borrow/Edit borrow/Input - Note'
+
+15-09-2025T11:01:27 - [MESSAGE][PASSED] - Text 'asdasdsasdwssddwwdasceerilnlmfignoiroskdnis' is set on object 'Object Repository/Borrow/Edit borrow/Input - Note'
+
+15-09-2025T11:01:27 - [TEST_STEP][PASSED] - actualNote = getAttribute(findTestObject("Object Repository/Borrow/Edit borrow/Input - Note"), "value"): Attribute 'value' of object 'Object Repository/Borrow/Edit borrow/Input - Note' is: 'asdasdsasdwssddwwdasceerilnlmf'
+
+15-09-2025T11:01:27 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Borrow/Edit borrow/Input - Note' is: 'asdasdsasdwssddwwdasceerilnlmf'
+
+15-09-2025T11:01:27 - [TEST_STEP][PASSED] - verifyEqual(actualNote.length(), 30): Actual object '30' and expected object '30' are equal
+
+15-09-2025T11:01:27 - [MESSAGE][PASSED] - Actual object '30' and expected object '30' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Edit borrow - (Positif)/Edit borrow - Note (Bulk action)" time="3.89" classname="Test Cases/Borrow/Edit borrow - (Positif)/Edit borrow - Note (Bulk action)" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:01:27 - [TEST_CASE][PASSED] - Test Cases/Borrow/Edit borrow - (Positif)/Edit borrow - Note (Bulk action): Test Cases/Borrow/Edit borrow - (Positif)/Edit borrow - Note (Bulk action)
+
+15-09-2025T11:01:27 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/Checkbox")): Object: 'Object Repository/Borrow/Checkbox' is clicked on
+
+15-09-2025T11:01:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Checkbox' is clicked on
+
+15-09-2025T11:01:28 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk Action")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+15-09-2025T11:01:28 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+15-09-2025T11:01:28 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/Edit borrow/Button - Option Note")): Object: 'Object Repository/Borrow/Edit borrow/Button - Option Note' is clicked on
+
+15-09-2025T11:01:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Edit borrow/Button - Option Note' is clicked on
+
+15-09-2025T11:01:29 - [TEST_STEP][PASSED] - setText(findTestObject("Borrow/Edit borrow/Input - Note bulk action"), "asd"): Text 'asd' is set on object 'Object Repository/Borrow/Edit borrow/Input - Note bulk action'
+
+15-09-2025T11:01:30 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/Borrow/Edit borrow/Input - Note bulk action'
+
+15-09-2025T11:01:30 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/Edit borrow/Button - Apply")): Object: 'Object Repository/Borrow/Edit borrow/Button - Apply' is clicked on
+
+15-09-2025T11:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Edit borrow/Button - Apply' is clicked on
+
+15-09-2025T11:01:30 - [TEST_STEP][PASSED] - actualNote = getAttribute(findTestObject("Object Repository/Borrow/Edit borrow/Input - Note"), "value"): Attribute 'value' of object 'Object Repository/Borrow/Edit borrow/Input - Note' is: 'asd'
+
+15-09-2025T11:01:31 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Borrow/Edit borrow/Input - Note' is: 'asd'
+
+15-09-2025T11:01:31 - [TEST_STEP][PASSED] - verifyEqual(actualNote, "asd"): Actual object 'asd' and expected object 'asd' are equal
+
+15-09-2025T11:01:31 - [MESSAGE][PASSED] - Actual object 'asd' and expected object 'asd' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Edit borrow - (Positif)/Edit borrow - Set duration (Bulk action)" time="3.741" classname="Test Cases/Borrow/Edit borrow - (Positif)/Edit borrow - Set duration (Bulk action)" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:01:31 - [TEST_CASE][PASSED] - Test Cases/Borrow/Edit borrow - (Positif)/Edit borrow - Set duration (Bulk action): Test Cases/Borrow/Edit borrow - (Positif)/Edit borrow - Set duration (Bulk action)
+
+15-09-2025T11:01:31 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/Checkbox")): Object: 'Object Repository/Borrow/Checkbox' is clicked on
+
+15-09-2025T11:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Checkbox' is clicked on
+
+15-09-2025T11:01:32 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk Action")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+15-09-2025T11:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+15-09-2025T11:01:32 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/Edit borrow/Button - Option Set Duration")): Object: 'Object Repository/Borrow/Edit borrow/Button - Option Set Duration' is clicked on
+
+15-09-2025T11:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Edit borrow/Button - Option Set Duration' is clicked on
+
+15-09-2025T11:01:33 - [TEST_STEP][PASSED] - setText(findTestObject("Borrow/Edit borrow/Input - Set Duration bulk action"), "10"): Text '10' is set on object 'Object Repository/Borrow/Edit borrow/Input - Set Duration bulk action'
+
+15-09-2025T11:01:34 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Borrow/Edit borrow/Input - Set Duration bulk action'
+
+15-09-2025T11:01:34 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/Edit borrow/Button - Apply")): Object: 'Object Repository/Borrow/Edit borrow/Button - Apply' is clicked on
+
+15-09-2025T11:01:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Edit borrow/Button - Apply' is clicked on
+
+15-09-2025T11:01:34 - [TEST_STEP][PASSED] - actualDuration = getAttribute(findTestObject("Object Repository/Borrow/Edit borrow/Input - Duration"), "aria-valuenow"): Attribute 'aria-valuenow' of object 'Object Repository/Borrow/Edit borrow/Input - Duration' is: '10'
+
+15-09-2025T11:01:35 - [MESSAGE][PASSED] - Attribute 'aria-valuenow' of object 'Object Repository/Borrow/Edit borrow/Input - Duration' is: '10'
+
+15-09-2025T11:01:35 - [TEST_STEP][PASSED] - verifyEqual(actualDuration, "10"): Actual object '10' and expected object '10' are equal
+
+15-09-2025T11:01:35 - [MESSAGE][PASSED] - Actual object '10' and expected object '10' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Edit borrow - (Positif)/Edit borrow - Tambah asset lain" time="5.765" classname="Test Cases/Borrow/Edit borrow - (Positif)/Edit borrow - Tambah asset lain" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:01:35 - [TEST_CASE][PASSED] - Test Cases/Borrow/Edit borrow - (Positif)/Edit borrow - Tambah asset lain: Test Cases/Borrow/Edit borrow - (Positif)/Edit borrow - Tambah asset lain
+
+15-09-2025T11:01:35 - [TEST_STEP][PASSED] - rowBefore = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size(): Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+15-09-2025T11:01:35 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+15-09-2025T11:01:35 - [TEST_STEP][PASSED] - println("Jumlah baris sebelum aksi: " + rowBefore): null
+
+15-09-2025T11:01:35 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+15-09-2025T11:01:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+15-09-2025T11:01:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Button - Asset")): Object: 'Object Repository/Borrow/Button - Asset' is clicked on
+
+15-09-2025T11:01:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Asset' is clicked on
+
+15-09-2025T11:01:36 - [TEST_STEP][PASSED] - waitForPageLoad(5, OPTIONAL): Wait for page load successfully
+
+15-09-2025T11:01:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+15-09-2025T11:01:36 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/List - Select asset")): Object: 'Object Repository/Borrow/List - Select asset' is clicked on
+
+15-09-2025T11:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/List - Select asset' is clicked on
+
+15-09-2025T11:01:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Button - Select")): Object: 'Object Repository/Borrow/Button - Select' is clicked on
+
+15-09-2025T11:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Select' is clicked on
+
+15-09-2025T11:01:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+15-09-2025T11:01:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+15-09-2025T11:01:40 - [TEST_STEP][PASSED] - rowAfter = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size(): Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+15-09-2025T11:01:41 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+15-09-2025T11:01:41 - [TEST_STEP][PASSED] - println("Jumlah baris setelah aksi: " + rowAfter): null
+
+15-09-2025T11:01:41 - [TEST_STEP][PASSED] - verifyEqual(rowAfter, rowBefore + 1): Actual object '2' and expected object '2' are equal
+
+15-09-2025T11:01:41 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Edit borrow - (Positif)/Edit borrow - Remove from list (Single action)" time="4.57" classname="Test Cases/Borrow/Edit borrow - (Positif)/Edit borrow - Remove from list (Single action)" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:01:41 - [TEST_CASE][PASSED] - Test Cases/Borrow/Edit borrow - (Positif)/Edit borrow - Remove from list (Single action): Test Cases/Borrow/Edit borrow - (Positif)/Edit borrow - Remove from list (Single action)
+
+15-09-2025T11:01:41 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Single action - Register asset")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Single action - Register asset' is clicked on
+
+15-09-2025T11:01:41 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Single action - Register asset' is clicked on
+
+15-09-2025T11:01:41 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Option remove from List")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Option remove from List' is clicked on
+
+15-09-2025T11:01:42 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Option remove from List' is clicked on
+
+15-09-2025T11:01:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("All asset/Register asset/Remove from list/Dialog - Remove from list"), 10): Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+15-09-2025T11:01:42 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+15-09-2025T11:01:42 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Remove")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+15-09-2025T11:01:43 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+15-09-2025T11:01:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list"), "Success, asset has been removed from list."): Actual text and expected text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are matched.
+
+15-09-2025T11:01:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are matched.
+
+15-09-2025T11:01:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+15-09-2025T11:01:45 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Edit borrow - (Positif)/Edit borrow - Remove from list (Bulk action)" time="5.269" classname="Test Cases/Borrow/Edit borrow - (Positif)/Edit borrow - Remove from list (Bulk action)" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:01:45 - [TEST_CASE][PASSED] - Test Cases/Borrow/Edit borrow - (Positif)/Edit borrow - Remove from list (Bulk action): Test Cases/Borrow/Edit borrow - (Positif)/Edit borrow - Remove from list (Bulk action)
+
+15-09-2025T11:01:45 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Checkbox - Remove from list")): Object: 'Object Repository/All asset/Register asset/Remove from list/Checkbox - Remove from list' is clicked on
+
+15-09-2025T11:01:46 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Checkbox - Remove from list' is clicked on
+
+15-09-2025T11:01:46 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk Action")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+15-09-2025T11:01:46 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+15-09-2025T11:01:46 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk action - Option remove from List")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk action - Option remove from List' is clicked on
+
+15-09-2025T11:01:47 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk action - Option remove from List' is clicked on
+
+15-09-2025T11:01:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("All asset/Register asset/Remove from list/Dialog - Remove from list"), 0): Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+15-09-2025T11:01:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-09-2025T11:01:47 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+15-09-2025T11:01:47 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Remove")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+15-09-2025T11:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+15-09-2025T11:01:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list"), "Success, asset has been removed from list."): Actual text and expected text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are matched.
+
+15-09-2025T11:01:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are matched.
+
+15-09-2025T11:01:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+15-09-2025T11:01:50 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Edit borrow - (Positif)/Edit borrow - Cancel create borrowing log" time="1.76" classname="Test Cases/Borrow/Edit borrow - (Positif)/Edit borrow - Cancel create borrowing log" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:01:50 - [TEST_CASE][PASSED] - Test Cases/Borrow/Edit borrow - (Positif)/Edit borrow - Cancel create borrowing log: Test Cases/Borrow/Edit borrow - (Positif)/Edit borrow - Cancel create borrowing log
+
+15-09-2025T11:01:51 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Cancel")): Object: 'Object Repository/All asset/Register asset/Button - Cancel' is clicked on
+
+15-09-2025T11:01:51 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Cancel' is clicked on
+
+15-09-2025T11:01:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("All asset/Register asset/Dialog - Cancel register"), 10): Object 'Object Repository/All asset/Register asset/Dialog - Cancel register' is visible
+
+15-09-2025T11:01:52 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Dialog - Cancel register' is visible
+
+15-09-2025T11:01:52 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Continue")): Object: 'Object Repository/All asset/Register asset/Button - Continue' is clicked on
+
+15-09-2025T11:01:52 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Continue' is clicked on
+
+15-09-2025T11:01:52 - [TEST_STEP][PASSED] - currentUrl = getUrl(): Current window's url is: 'https://staging-fam.tagsamurai.com/assets/borrow/transaction'
+
+15-09-2025T11:01:52 - [MESSAGE][PASSED] - Current window's url is: 'https://staging-fam.tagsamurai.com/assets/borrow/transaction'
+
+15-09-2025T11:01:52 - [TEST_STEP][PASSED] - verifyMatch(currentUrl, ".*borrow.*", true): Actual text 'https://staging-fam.tagsamurai.com/assets/borrow/transaction' and expected text '.*borrow.*' are matched  using regular expression
+
+15-09-2025T11:01:52 - [MESSAGE][PASSED] - Actual text 'https://staging-fam.tagsamurai.com/assets/borrow/transaction' and expected text '.*borrow.*' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Report damage - (Negatif)/Report damage - Submit tanpa field mandatory" time="4.983" classname="Test Cases/Borrow/Report damage - (Negatif)/Report damage - Submit tanpa field mandatory" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:01:52 - [TEST_CASE][PASSED] - Test Cases/Borrow/Report damage - (Negatif)/Report damage - Submit tanpa field mandatory: Test Cases/Borrow/Report damage - (Negatif)/Report damage - Submit tanpa field mandatory
+
+15-09-2025T11:01:52 - [TEST_STEP][PASSED] - isBorrowed = verifyElementPresent(findTestObject("Borrow/Edit borrow/Text - Status Borrowed"), 5): Object 'Object Repository/Borrow/Edit borrow/Text - Status Borrowed' is present
+
+15-09-2025T11:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/Borrow/Edit borrow/Text - Status Borrowed' is present
+
+15-09-2025T11:01:54 - [TEST_STEP][PASSED] - if (isBorrowed): Object: 'Object Repository/Borrow/Edit borrow/Button - Single action' is clicked on
+
+15-09-2025T11:01:54 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/Edit borrow/Button - Single action")): Object: 'Object Repository/Borrow/Edit borrow/Button - Single action' is clicked on
+
+15-09-2025T11:01:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Edit borrow/Button - Single action' is clicked on
+
+15-09-2025T11:01:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Report damage/Button - Option - Report damage")): Object: 'Object Repository/Borrow/Report damage/Button - Option - Report damage' is clicked on
+
+15-09-2025T11:01:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Report damage/Button - Option - Report damage' is clicked on
+
+15-09-2025T11:01:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Report damage/Button - Submit")): Object: 'Object Repository/Borrow/Report damage/Button - Submit' is clicked on
+
+15-09-2025T11:01:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Report damage/Button - Submit' is clicked on
+
+15-09-2025T11:01:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Borrow/Report damage/Text - Note must not be empty")): Object 'Object Repository/Borrow/Report damage/Text - Note must not be empty' is visible
+
+15-09-2025T11:01:57 - [MESSAGE][PASSED] - Object 'Object Repository/Borrow/Report damage/Text - Note must not be empty' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Report damage - (Negatif)/Report damage - Input note lebih dari 120 karakter" time="2.168" classname="Test Cases/Borrow/Report damage - (Negatif)/Report damage - Input note lebih dari 120 karakter" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:01:57 - [TEST_CASE][PASSED] - Test Cases/Borrow/Report damage - (Negatif)/Report damage - Input note lebih dari 120 karakter: Test Cases/Borrow/Report damage - (Negatif)/Report damage - Input note lebih dari 120 karakter
+
+15-09-2025T11:01:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Borrow/Report damage/Input - Note reported damage"), "asdfaaaaaaaaaaaaaaasdasnkandkankdnkaskdasdasksdfkdnskfsdkfskfsnssdsfsdfsfdfsdfsfsfsaaaaaaassssssadasdasdssssssssssssssssssssssssssssssssssss"): Text 'asdfaaaaaaaaaaaaaaasdasnkandkankdnkaskdasdasksdfkdnskfsdkfskfsnssdsfsdfsfdfsdfsfsfsaaaaaaassssssadasdasdssssssssssssssssssssssssssssssssssss' is set on object 'Object Repository/Borrow/Report damage/Input - Note reported damage'
+
+15-09-2025T11:01:59 - [MESSAGE][PASSED] - Text 'asdfaaaaaaaaaaaaaaasdasnkandkankdnkaskdasdasksdfkdnskfsdkfskfsnssdsfsdfsfdfsdfsfsfsaaaaaaassssssadasdasdssssssssssssssssssssssssssssssssssss' is set on object 'Object Repository/Borrow/Report damage/Input - Note reported damage'
+
+15-09-2025T11:01:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Report damage/Button - Submit")): Object: 'Object Repository/Borrow/Report damage/Button - Submit' is clicked on
+
+15-09-2025T11:01:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Report damage/Button - Submit' is clicked on
+
+15-09-2025T11:01:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Borrow/Report damage/Text - Max. 120 characters")): Object 'Object Repository/Borrow/Report damage/Text - Max. 120 characters' is visible
+
+15-09-2025T11:01:59 - [MESSAGE][PASSED] - Object 'Object Repository/Borrow/Report damage/Text - Max. 120 characters' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Report damage - (Negatif)/Report damage - Upload photo lebih dari 1 MB" time="1.37" classname="Test Cases/Borrow/Report damage - (Negatif)/Report damage - Upload photo lebih dari 1 MB" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:01:59 - [TEST_CASE][PASSED] - Test Cases/Borrow/Report damage - (Negatif)/Report damage - Upload photo lebih dari 1 MB: Test Cases/Borrow/Report damage - (Negatif)/Report damage - Upload photo lebih dari 1 MB
+
+15-09-2025T11:01:59 - [TEST_STEP][PASSED] - uploadFile(findTestObject("All asset/Edit asset/Input - Upload photo"), "D:\Katalon QA - Tag Samurai\katalon-test-tutor\Photo\Group.png"): File 'D:\Katalon QA - Tag Samurai\katalon-test-tutor\Photo\Group.png' sent to object: 'Object Repository/All asset/Edit asset/Input - Upload photo'
+
+15-09-2025T11:02:00 - [MESSAGE][PASSED] - File 'D:\Katalon QA - Tag Samurai\katalon-test-tutor\Photo\Group.png' sent to object: 'Object Repository/All asset/Edit asset/Input - Upload photo'
+
+15-09-2025T11:02:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Borrow/Report damage/Text - Ukuran gambar terlalu besar Maks. 1 MB")): Object 'Object Repository/Borrow/Report damage/Text - Ukuran gambar terlalu besar Maks. 1 MB' is visible
+
+15-09-2025T11:02:00 - [MESSAGE][PASSED] - Object 'Object Repository/Borrow/Report damage/Text - Ukuran gambar terlalu besar Maks. 1 MB' is visible
+
+15-09-2025T11:02:00 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Cancel")): Object: 'Object Repository/All asset/Register asset/Button - Cancel' is clicked on
+
+15-09-2025T11:02:01 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Cancel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Report missing - (Negatif)/Report missing - Submit tanpa field mandatory" time="3.654" classname="Test Cases/Borrow/Report missing - (Negatif)/Report missing - Submit tanpa field mandatory" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:02:01 - [TEST_CASE][PASSED] - Test Cases/Borrow/Report missing - (Negatif)/Report missing - Submit tanpa field mandatory: Test Cases/Borrow/Report missing - (Negatif)/Report missing - Submit tanpa field mandatory
+
+15-09-2025T11:02:01 - [TEST_STEP][PASSED] - isBorrowed = verifyElementPresent(findTestObject("Borrow/Edit borrow/Text - Status Borrowed"), 5): Object 'Object Repository/Borrow/Edit borrow/Text - Status Borrowed' is present
+
+15-09-2025T11:02:01 - [MESSAGE][PASSED] - Object 'Object Repository/Borrow/Edit borrow/Text - Status Borrowed' is present
+
+15-09-2025T11:02:01 - [TEST_STEP][PASSED] - if (isBorrowed): Object: 'Object Repository/Borrow/Edit borrow/Button - Single action' is clicked on
+
+15-09-2025T11:02:01 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/Edit borrow/Button - Single action")): Object: 'Object Repository/Borrow/Edit borrow/Button - Single action' is clicked on
+
+15-09-2025T11:02:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Edit borrow/Button - Single action' is clicked on
+
+15-09-2025T11:02:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Report missing/Button - Option - Report Missing")): Object: 'Object Repository/Borrow/Report missing/Button - Option - Report Missing' is clicked on
+
+15-09-2025T11:02:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Report missing/Button - Option - Report Missing' is clicked on
+
+15-09-2025T11:02:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Report damage/Button - Submit")): Object: 'Object Repository/Borrow/Report damage/Button - Submit' is clicked on
+
+15-09-2025T11:02:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Report damage/Button - Submit' is clicked on
+
+15-09-2025T11:02:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Borrow/Report damage/Text - Note must not be empty")): Object 'Object Repository/Borrow/Report damage/Text - Note must not be empty' is visible
+
+15-09-2025T11:02:04 - [MESSAGE][PASSED] - Object 'Object Repository/Borrow/Report damage/Text - Note must not be empty' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Report missing - (Negatif)/Report missing - Input note lebih dari 120 karakter" time="2.511" classname="Test Cases/Borrow/Report missing - (Negatif)/Report missing - Input note lebih dari 120 karakter" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:02:04 - [TEST_CASE][PASSED] - Test Cases/Borrow/Report missing - (Negatif)/Report missing - Input note lebih dari 120 karakter: Test Cases/Borrow/Report missing - (Negatif)/Report missing - Input note lebih dari 120 karakter
+
+15-09-2025T11:02:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Borrow/Report damage/Input - Note reported damage"), "asdfaaaaaaaaaaaaaaasdasnkandkankdnkaskdasdasksdfkdnskfsdkfskfsnssdsfsdfsfdfsdfsfsfsaaaaaaassssssadasdasdssssssssssssssssssssssssssssssssssss"): Text 'asdfaaaaaaaaaaaaaaasdasnkandkankdnkaskdasdasksdfkdnskfsdkfskfsnssdsfsdfsfdfsdfsfsfsaaaaaaassssssadasdasdssssssssssssssssssssssssssssssssssss' is set on object 'Object Repository/Borrow/Report damage/Input - Note reported damage'
+
+15-09-2025T11:02:06 - [MESSAGE][PASSED] - Text 'asdfaaaaaaaaaaaaaaasdasnkandkankdnkaskdasdasksdfkdnskfsdkfskfsnssdsfsdfsfdfsdfsfsfsaaaaaaassssssadasdasdssssssssssssssssssssssssssssssssssss' is set on object 'Object Repository/Borrow/Report damage/Input - Note reported damage'
+
+15-09-2025T11:02:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Report damage/Button - Submit")): Object: 'Object Repository/Borrow/Report damage/Button - Submit' is clicked on
+
+15-09-2025T11:02:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Report damage/Button - Submit' is clicked on
+
+15-09-2025T11:02:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Borrow/Report damage/Text - Max. 120 characters")): Object 'Object Repository/Borrow/Report damage/Text - Max. 120 characters' is visible
+
+15-09-2025T11:02:07 - [MESSAGE][PASSED] - Object 'Object Repository/Borrow/Report damage/Text - Max. 120 characters' is visible
+
+15-09-2025T11:02:07 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Cancel")): Object: 'Object Repository/All asset/Register asset/Button - Cancel' is clicked on
+
+15-09-2025T11:02:07 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Cancel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Return borrow - (Positif)/Return borrow - Tambah asset lain" time="42.918" classname="Test Cases/Borrow/Return borrow - (Positif)/Return borrow - Tambah asset lain" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:02:35 - [TEST_CASE][PASSED] - Test Cases/Borrow/Return borrow - (Positif)/Return borrow - Tambah asset lain: Test Cases/Borrow/Return borrow - (Positif)/Return borrow - Tambah asset lain
+
+15-09-2025T11:02:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Return asset/Button - Single action")): Object: 'Object Repository/Borrow/Return asset/Button - Single action' is clicked on
+
+15-09-2025T11:03:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //tbody/tr/td[14]/div/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2025T11:03:08 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Borrow/Return asset/Button - Single action'. Try using Self-healing.
+
+15-09-2025T11:03:08 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 207 column 10 path $.brokenTestObjects[20].<<<<<<<
+
+15-09-2025T11:03:08 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//button[@id='button-action-68a58689627a25733354458d']'.
+
+15-09-2025T11:03:10 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[@id='68a58689627a25733354458d']/td[14]/div/button'.
+
+15-09-2025T11:03:10 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='user1..aging'])[1]/following::button[1]'.
+
+15-09-2025T11:03:11 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: D:/automation-test-fixed-asset-basic/Reports/Self-healing/Object Repository/Borrow/Return asset/Button - Single action_neighbor.png
+
+15-09-2025T11:03:11 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 207 column 10 path $.brokenTestObjects[20].<<<<<<<
+
+15-09-2025T11:03:11 - [MESSAGE][ERROR] - [SELF-HEALING] D:\automation-test-fixed-asset-basic\Reports\Self-healing\broken-test-objects-v2.json does not exist or is provided by Self-healing Plugin!
+
+15-09-2025T11:03:11 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Borrow/Return asset/Button - Single action' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='user1..aging'])[1]/following::button[1]'.
+
+15-09-2025T11:03:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Return asset/Button - Single action' is clicked on
+
+15-09-2025T11:03:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Return asset/Button - Option - Return")): Object: 'Object Repository/Borrow/Return asset/Button - Option - Return' is clicked on
+
+15-09-2025T11:03:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Return asset/Button - Option - Return' is clicked on
+
+15-09-2025T11:03:12 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+15-09-2025T11:03:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+15-09-2025T11:03:12 - [TEST_STEP][PASSED] - rowBefore = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size(): Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+15-09-2025T11:03:13 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+15-09-2025T11:03:13 - [TEST_STEP][PASSED] - println("Jumlah baris sebelum aksi: " + rowBefore): null
+
+15-09-2025T11:03:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Button - Asset")): Object: 'Object Repository/Borrow/Button - Asset' is clicked on
+
+15-09-2025T11:03:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Asset' is clicked on
+
+15-09-2025T11:03:14 - [TEST_STEP][PASSED] - waitForPageLoad(5, OPTIONAL): Wait for page load successfully
+
+15-09-2025T11:03:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+15-09-2025T11:03:14 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/List - Select asset")): Object: 'Object Repository/Borrow/List - Select asset' is clicked on
+
+15-09-2025T11:03:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/List - Select asset' is clicked on
+
+15-09-2025T11:03:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Button - Select")): Object: 'Object Repository/Borrow/Button - Select' is clicked on
+
+15-09-2025T11:03:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Select' is clicked on
+
+15-09-2025T11:03:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+15-09-2025T11:03:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+15-09-2025T11:03:17 - [TEST_STEP][PASSED] - rowAfter = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size(): Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+15-09-2025T11:03:18 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+15-09-2025T11:03:18 - [TEST_STEP][PASSED] - println("Jumlah baris setelah aksi: " + rowAfter): null
+
+15-09-2025T11:03:18 - [TEST_STEP][PASSED] - verifyEqual(rowAfter, rowBefore + 1): Actual object '2' and expected object '2' are equal
+
+15-09-2025T11:03:18 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Return borrow - (Positif)/Return borrow - Remove from list (Single action)" time="4.635" classname="Test Cases/Borrow/Return borrow - (Positif)/Return borrow - Remove from list (Single action)" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:03:18 - [TEST_CASE][PASSED] - Test Cases/Borrow/Return borrow - (Positif)/Return borrow - Remove from list (Single action): Test Cases/Borrow/Return borrow - (Positif)/Return borrow - Remove from list (Single action)
+
+15-09-2025T11:03:18 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Single action - Register asset")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Single action - Register asset' is clicked on
+
+15-09-2025T11:03:18 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Single action - Register asset' is clicked on
+
+15-09-2025T11:03:18 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Option remove from List")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Option remove from List' is clicked on
+
+15-09-2025T11:03:19 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Option remove from List' is clicked on
+
+15-09-2025T11:03:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("All asset/Register asset/Remove from list/Dialog - Remove from list"), 10): Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+15-09-2025T11:03:19 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+15-09-2025T11:03:19 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Remove")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+15-09-2025T11:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+15-09-2025T11:03:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list"), "Success, asset has been removed from list."): Actual text and expected text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are matched.
+
+15-09-2025T11:03:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are matched.
+
+15-09-2025T11:03:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+15-09-2025T11:03:22 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Return borrow - (Positif)/Return borrow - Remove from list (Bulk action)" time="3.405" classname="Test Cases/Borrow/Return borrow - (Positif)/Return borrow - Remove from list (Bulk action)" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:03:22 - [TEST_CASE][PASSED] - Test Cases/Borrow/Return borrow - (Positif)/Return borrow - Remove from list (Bulk action): Test Cases/Borrow/Return borrow - (Positif)/Return borrow - Remove from list (Bulk action)
+
+15-09-2025T11:03:23 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Checkbox - Remove from list")): Object: 'Object Repository/All asset/Register asset/Remove from list/Checkbox - Remove from list' is clicked on
+
+15-09-2025T11:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Checkbox - Remove from list' is clicked on
+
+15-09-2025T11:03:23 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk Action")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+15-09-2025T11:03:24 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+15-09-2025T11:03:24 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk action - Option remove from List")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk action - Option remove from List' is clicked on
+
+15-09-2025T11:03:24 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk action - Option remove from List' is clicked on
+
+15-09-2025T11:03:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("All asset/Register asset/Remove from list/Dialog - Remove from list"), 0): Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+15-09-2025T11:03:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-09-2025T11:03:25 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+15-09-2025T11:03:25 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Remove")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+15-09-2025T11:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+15-09-2025T11:03:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list"), "Success, asset has been removed from list."): Actual text and expected text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are matched.
+
+15-09-2025T11:03:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Return borrow - (Positif)/Return borrow - Cancel return" time="3.183" classname="Test Cases/Borrow/Return borrow - (Positif)/Return borrow - Cancel return" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:03:26 - [TEST_CASE][PASSED] - Test Cases/Borrow/Return borrow - (Positif)/Return borrow - Cancel return: Test Cases/Borrow/Return borrow - (Positif)/Return borrow - Cancel return
+
+15-09-2025T11:03:26 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Cancel")): Object: 'Object Repository/All asset/Register asset/Button - Cancel' is clicked on
+
+15-09-2025T11:03:26 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Cancel' is clicked on
+
+15-09-2025T11:03:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("All asset/Register asset/Dialog - Cancel register"), 10): Object 'Object Repository/All asset/Register asset/Dialog - Cancel register' is visible
+
+15-09-2025T11:03:28 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Dialog - Cancel register' is visible
+
+15-09-2025T11:03:28 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Continue")): Object: 'Object Repository/All asset/Register asset/Button - Continue' is clicked on
+
+15-09-2025T11:03:29 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Continue' is clicked on
+
+15-09-2025T11:03:29 - [TEST_STEP][PASSED] - currentUrl = getUrl(): Current window's url is: 'https://staging-fam.tagsamurai.com/assets/borrow/transaction'
+
+15-09-2025T11:03:29 - [MESSAGE][PASSED] - Current window's url is: 'https://staging-fam.tagsamurai.com/assets/borrow/transaction'
+
+15-09-2025T11:03:29 - [TEST_STEP][PASSED] - verifyMatch(currentUrl, ".*borrow.*", true): Actual text 'https://staging-fam.tagsamurai.com/assets/borrow/transaction' and expected text '.*borrow.*' are matched  using regular expression
+
+15-09-2025T11:03:29 - [MESSAGE][PASSED] - Actual text 'https://staging-fam.tagsamurai.com/assets/borrow/transaction' and expected text '.*borrow.*' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Transaction - Create borrowing log - (Negatif)/Transaction - Create borrowing log - Submit tanpa user" time="9.948" classname="Test Cases/Borrow/Transaction - Create borrowing log - (Negatif)/Transaction - Create borrowing log - Submit tanpa user" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:03:29 - [TEST_CASE][PASSED] - Test Cases/Borrow/Transaction - Create borrowing log - (Negatif)/Transaction - Create borrowing log - Submit tanpa user: Test Cases/Borrow/Transaction - Create borrowing log - (Negatif)/Transaction - Create borrowing log - Submit tanpa user
+
+15-09-2025T11:03:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Button - Borrow")): Object: 'Object Repository/Borrow/Button - Borrow' is clicked on
+
+15-09-2025T11:03:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Borrow' is clicked on
+
+15-09-2025T11:03:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Button - Asset")): Object: 'Object Repository/Borrow/Button - Asset' is clicked on
+
+15-09-2025T11:03:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Asset' is clicked on
+
+15-09-2025T11:03:33 - [TEST_STEP][PASSED] - waitForPageLoad(5, OPTIONAL): Wait for page load successfully
+
+15-09-2025T11:03:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+15-09-2025T11:03:33 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/List - Select asset")): Object: 'Object Repository/Borrow/List - Select asset' is clicked on
+
+15-09-2025T11:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/List - Select asset' is clicked on
+
+15-09-2025T11:03:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Button - Select")): Object: 'Object Repository/Borrow/Button - Select' is clicked on
+
+15-09-2025T11:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Select' is clicked on
+
+15-09-2025T11:03:36 - [TEST_STEP][PASSED] - setText(findTestObject("Borrow/Input - Duration"), "12"): Text '12' is set on object 'Object Repository/Borrow/Input - Duration'
+
+15-09-2025T11:03:37 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Borrow/Input - Duration'
+
+15-09-2025T11:03:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Borrow/Input - Note"), "asd"): Text 'asd' is set on object 'Object Repository/Borrow/Input - Note'
+
+15-09-2025T11:03:38 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/Borrow/Input - Note'
+
+15-09-2025T11:03:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Button - Submit")): Object: 'Object Repository/Borrow/Button - Submit' is clicked on
+
+15-09-2025T11:03:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Submit' is clicked on
+
+15-09-2025T11:03:38 - [TEST_STEP][NOT_RUN] - isPopupPresent = verifyElementPresent(findTestObject("Object Repository/Borrow/Dialog - Confirm Status Update"), 0, OPTIONAL): NOT_RUN: isPopupPresent = verifyElementPresent(findTestObject("Object Repository/Borrow/Dialog - Confirm Status Update"), 0, OPTIONAL)
+
+15-09-2025T11:03:38 - [MESSAGE][NOT_RUN] - NOT_RUN: isPopupPresent = verifyElementPresent(findTestObject("Object Repository/Borrow/Dialog - Confirm Status Update"), 0, OPTIONAL)
+
+15-09-2025T11:03:38 - [TEST_STEP][NOT_RUN] - if (isPopupPresent): NOT_RUN: if (isPopupPresent)
+
+15-09-2025T11:03:38 - [MESSAGE][NOT_RUN] - NOT_RUN: if (isPopupPresent)
+
+15-09-2025T11:03:38 - [TEST_STEP][PASSED] - verifyTextPresent("You must pick a user", false): Text 'You must pick a user' is present on page 
+
+15-09-2025T11:03:39 - [MESSAGE][PASSED] - Text 'You must pick a user' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Transaction - Create borrowing log - (Negatif)/Transaction - Create borrowing log - Submit tanpa field mandatory" time="4.085" classname="Test Cases/Borrow/Transaction - Create borrowing log - (Negatif)/Transaction - Create borrowing log - Submit tanpa field mandatory" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:03:39 - [TEST_CASE][PASSED] - Test Cases/Borrow/Transaction - Create borrowing log - (Negatif)/Transaction - Create borrowing log - Submit tanpa field mandatory: Test Cases/Borrow/Transaction - Create borrowing log - (Negatif)/Transaction - Create borrowing log - Submit tanpa field mandatory
+
+15-09-2025T11:03:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Button - Select User")): Object: 'Object Repository/Borrow/Button - Select User' is clicked on
+
+15-09-2025T11:03:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Select User' is clicked on
+
+15-09-2025T11:03:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/List - Select user")): Object: 'Object Repository/Borrow/List - Select user' is clicked on
+
+15-09-2025T11:03:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/List - Select user' is clicked on
+
+15-09-2025T11:03:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Button - Select1")): Object: 'Object Repository/Borrow/Button - Select1' is clicked on
+
+15-09-2025T11:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Select1' is clicked on
+
+15-09-2025T11:03:42 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Borrow/Edit borrow/Input - Duration")): Text of object 'Object Repository/Borrow/Edit borrow/Input - Duration' is cleared
+
+15-09-2025T11:03:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Borrow/Edit borrow/Input - Duration' is cleared
+
+15-09-2025T11:03:42 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/Edit borrow/Button - Submit")): Object: 'Object Repository/Borrow/Edit borrow/Button - Submit' is clicked on
+
+15-09-2025T11:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Edit borrow/Button - Submit' is clicked on
+
+15-09-2025T11:03:43 - [TEST_STEP][PASSED] - verifyTextPresent("Duration must not be empty", false): Text 'Duration must not be empty' is present on page 
+
+15-09-2025T11:03:43 - [MESSAGE][PASSED] - Text 'Duration must not be empty' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Transaction - Create borrowing log - (Negatif)/Transaction - Create borrowing log - Input durasi selain angka dan lebih dari 3 karakter" time="0.984" classname="Test Cases/Borrow/Transaction - Create borrowing log - (Negatif)/Transaction - Create borrowing log - Input durasi selain angka dan lebih dari 3 karakter" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:03:43 - [TEST_CASE][PASSED] - Test Cases/Borrow/Transaction - Create borrowing log - (Negatif)/Transaction - Create borrowing log - Input durasi selain angka dan lebih dari 3 karakter: Test Cases/Borrow/Transaction - Create borrowing log - (Negatif)/Transaction - Create borrowing log - Input durasi selain angka dan lebih dari 3 karakter
+
+15-09-2025T11:03:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Borrow/Edit borrow/Input - Duration"), "15b@"): Text '15b@' is set on object 'Object Repository/Borrow/Edit borrow/Input - Duration'
+
+15-09-2025T11:03:44 - [MESSAGE][PASSED] - Text '15b@' is set on object 'Object Repository/Borrow/Edit borrow/Input - Duration'
+
+15-09-2025T11:03:44 - [TEST_STEP][PASSED] - valueuseful = getAttribute(findTestObject("Object Repository/Borrow/Edit borrow/Input - Duration"), "aria-valuenow"): Attribute 'aria-valuenow' of object 'Object Repository/Borrow/Edit borrow/Input - Duration' is: '15'
+
+15-09-2025T11:03:44 - [MESSAGE][PASSED] - Attribute 'aria-valuenow' of object 'Object Repository/Borrow/Edit borrow/Input - Duration' is: '15'
+
+15-09-2025T11:03:44 - [TEST_STEP][PASSED] - verifyLessThanOrEqual(valueuseful.length(), 3): Actual number '2' is less than or equal to expected number '3'
+
+15-09-2025T11:03:44 - [MESSAGE][PASSED] - Actual number '2' is less than or equal to expected number '3'
+
+15-09-2025T11:03:44 - [TEST_STEP][PASSED] - isOnlyDigits = valueuseful.matches("^\d+$"): null
+
+15-09-2025T11:03:44 - [TEST_STEP][PASSED] - verifyEqual(isOnlyDigits, true): Actual object 'true' and expected object 'true' are equal
+
+15-09-2025T11:03:44 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Transaction - Create borrowing log - (Negatif)/Transaction - Create borrowing log - Input note lebih dari 30 karakter" time="1.344" classname="Test Cases/Borrow/Transaction - Create borrowing log - (Negatif)/Transaction - Create borrowing log - Input note lebih dari 30 karakter" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:03:44 - [TEST_CASE][PASSED] - Test Cases/Borrow/Transaction - Create borrowing log - (Negatif)/Transaction - Create borrowing log - Input note lebih dari 30 karakter: Test Cases/Borrow/Transaction - Create borrowing log - (Negatif)/Transaction - Create borrowing log - Input note lebih dari 30 karakter
+
+15-09-2025T11:03:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Borrow/Edit borrow/Input - Note"), "asdasdsasdwssddwwdasceerilnlmfignoiroskdnis"): Text 'asdasdsasdwssddwwdasceerilnlmfignoiroskdnis' is set on object 'Object Repository/Borrow/Edit borrow/Input - Note'
+
+15-09-2025T11:03:45 - [MESSAGE][PASSED] - Text 'asdasdsasdwssddwwdasceerilnlmfignoiroskdnis' is set on object 'Object Repository/Borrow/Edit borrow/Input - Note'
+
+15-09-2025T11:03:45 - [TEST_STEP][PASSED] - actualNote = getAttribute(findTestObject("Object Repository/Borrow/Edit borrow/Input - Note"), "value"): Attribute 'value' of object 'Object Repository/Borrow/Edit borrow/Input - Note' is: 'asdasdsasdwssddwwdasceerilnlmf'
+
+15-09-2025T11:03:45 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Borrow/Edit borrow/Input - Note' is: 'asdasdsasdwssddwwdasceerilnlmf'
+
+15-09-2025T11:03:45 - [TEST_STEP][PASSED] - verifyEqual(actualNote.length(), 30): Actual object '30' and expected object '30' are equal
+
+15-09-2025T11:03:45 - [MESSAGE][PASSED] - Actual object '30' and expected object '30' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Note (Bulk action)" time="3.565" classname="Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Note (Bulk action)" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:03:46 - [TEST_CASE][PASSED] - Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Note (Bulk action): Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Note (Bulk action)
+
+15-09-2025T11:03:46 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/Checkbox")): Object: 'Object Repository/Borrow/Checkbox' is clicked on
+
+15-09-2025T11:03:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Checkbox' is clicked on
+
+15-09-2025T11:03:46 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk Action")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+15-09-2025T11:03:47 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+15-09-2025T11:03:47 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/Edit borrow/Button - Option Note")): Object: 'Object Repository/Borrow/Edit borrow/Button - Option Note' is clicked on
+
+15-09-2025T11:03:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Edit borrow/Button - Option Note' is clicked on
+
+15-09-2025T11:03:47 - [TEST_STEP][PASSED] - setText(findTestObject("Borrow/Edit borrow/Input - Note bulk action"), "asd"): Text 'asd' is set on object 'Object Repository/Borrow/Edit borrow/Input - Note bulk action'
+
+15-09-2025T11:03:48 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/Borrow/Edit borrow/Input - Note bulk action'
+
+15-09-2025T11:03:48 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/Edit borrow/Button - Apply")): Object: 'Object Repository/Borrow/Edit borrow/Button - Apply' is clicked on
+
+15-09-2025T11:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Edit borrow/Button - Apply' is clicked on
+
+15-09-2025T11:03:49 - [TEST_STEP][PASSED] - actualNote = getAttribute(findTestObject("Object Repository/Borrow/Edit borrow/Input - Note"), "value"): Attribute 'value' of object 'Object Repository/Borrow/Edit borrow/Input - Note' is: 'asd'
+
+15-09-2025T11:03:49 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Borrow/Edit borrow/Input - Note' is: 'asd'
+
+15-09-2025T11:03:49 - [TEST_STEP][PASSED] - verifyEqual(actualNote, "asd"): Actual object 'asd' and expected object 'asd' are equal
+
+15-09-2025T11:03:49 - [MESSAGE][PASSED] - Actual object 'asd' and expected object 'asd' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Select user (Bulk action)" time="4.83" classname="Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Select user (Bulk action)" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:03:49 - [TEST_CASE][PASSED] - Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Select user (Bulk action): Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Select user (Bulk action)
+
+15-09-2025T11:03:49 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/Checkbox")): Object: 'Object Repository/Borrow/Checkbox' is clicked on
+
+15-09-2025T11:03:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Checkbox' is clicked on
+
+15-09-2025T11:03:50 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk Action")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+15-09-2025T11:03:50 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+15-09-2025T11:03:50 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/Button - Option select user")): Object: 'Object Repository/Borrow/Button - Option select user' is clicked on
+
+15-09-2025T11:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Option select user' is clicked on
+
+15-09-2025T11:03:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/List - Select user")): Object: 'Object Repository/Borrow/List - Select user' is clicked on
+
+15-09-2025T11:03:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/List - Select user' is clicked on
+
+15-09-2025T11:03:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Button - Select1")): Object: 'Object Repository/Borrow/Button - Select1' is clicked on
+
+15-09-2025T11:03:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Select1' is clicked on
+
+15-09-2025T11:03:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Borrow/Text - User sudah ada")): Object 'Object Repository/Borrow/Text - User sudah ada' is visible
+
+15-09-2025T11:03:54 - [MESSAGE][PASSED] - Object 'Object Repository/Borrow/Text - User sudah ada' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Set duration (Bulk action)" time="3.631" classname="Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Set duration (Bulk action)" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:03:54 - [TEST_CASE][PASSED] - Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Set duration (Bulk action): Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Set duration (Bulk action)
+
+15-09-2025T11:03:54 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/Checkbox")): Object: 'Object Repository/Borrow/Checkbox' is clicked on
+
+15-09-2025T11:03:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Checkbox' is clicked on
+
+15-09-2025T11:03:54 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk Action")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+15-09-2025T11:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+15-09-2025T11:03:55 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/Edit borrow/Button - Option Set Duration")): Object: 'Object Repository/Borrow/Edit borrow/Button - Option Set Duration' is clicked on
+
+15-09-2025T11:03:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Edit borrow/Button - Option Set Duration' is clicked on
+
+15-09-2025T11:03:56 - [TEST_STEP][PASSED] - setText(findTestObject("Borrow/Edit borrow/Input - Set Duration bulk action"), "10"): Text '10' is set on object 'Object Repository/Borrow/Edit borrow/Input - Set Duration bulk action'
+
+15-09-2025T11:03:57 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Borrow/Edit borrow/Input - Set Duration bulk action'
+
+15-09-2025T11:03:57 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/Edit borrow/Button - Apply")): Object: 'Object Repository/Borrow/Edit borrow/Button - Apply' is clicked on
+
+15-09-2025T11:03:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Edit borrow/Button - Apply' is clicked on
+
+15-09-2025T11:03:57 - [TEST_STEP][PASSED] - actualDuration = getAttribute(findTestObject("Object Repository/Borrow/Edit borrow/Input - Duration"), "aria-valuenow"): Attribute 'aria-valuenow' of object 'Object Repository/Borrow/Edit borrow/Input - Duration' is: '10'
+
+15-09-2025T11:03:58 - [MESSAGE][PASSED] - Attribute 'aria-valuenow' of object 'Object Repository/Borrow/Edit borrow/Input - Duration' is: '10'
+
+15-09-2025T11:03:58 - [TEST_STEP][PASSED] - verifyEqual(actualDuration, "10"): Actual object '10' and expected object '10' are equal
+
+15-09-2025T11:03:58 - [MESSAGE][PASSED] - Actual object '10' and expected object '10' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Tambah asset lain" time="7.78" classname="Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Tambah asset lain" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:03:58 - [TEST_CASE][PASSED] - Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Tambah asset lain: Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Tambah asset lain
+
+15-09-2025T11:03:58 - [TEST_STEP][PASSED] - rowBefore = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size(): Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+15-09-2025T11:03:58 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+15-09-2025T11:03:58 - [TEST_STEP][PASSED] - println("Jumlah baris sebelum aksi: " + rowBefore): null
+
+15-09-2025T11:03:58 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+15-09-2025T11:03:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+15-09-2025T11:03:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Button - Asset")): Object: 'Object Repository/Borrow/Button - Asset' is clicked on
+
+15-09-2025T11:03:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Asset' is clicked on
+
+15-09-2025T11:03:58 - [TEST_STEP][PASSED] - waitForPageLoad(5, OPTIONAL): Wait for page load successfully
+
+15-09-2025T11:03:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+15-09-2025T11:03:59 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/List - Select asset")): Object: 'Object Repository/Borrow/List - Select asset' is clicked on
+
+15-09-2025T11:04:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/List - Select asset' is clicked on
+
+15-09-2025T11:04:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Button - Select")): Object: 'Object Repository/Borrow/Button - Select' is clicked on
+
+15-09-2025T11:04:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Select' is clicked on
+
+15-09-2025T11:04:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+15-09-2025T11:04:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+15-09-2025T11:04:05 - [TEST_STEP][PASSED] - rowAfter = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size(): Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+15-09-2025T11:04:05 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+15-09-2025T11:04:05 - [TEST_STEP][PASSED] - println("Jumlah baris setelah aksi: " + rowAfter): null
+
+15-09-2025T11:04:05 - [TEST_STEP][PASSED] - verifyEqual(rowAfter, rowBefore + 1): Actual object '2' and expected object '2' are equal
+
+15-09-2025T11:04:05 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Remove from list (Single action)" time="4.563" classname="Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Remove from list (Single action)" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:04:05 - [TEST_CASE][PASSED] - Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Remove from list (Single action): Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Remove from list (Single action)
+
+15-09-2025T11:04:05 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Single action - Register asset")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Single action - Register asset' is clicked on
+
+15-09-2025T11:04:06 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Single action - Register asset' is clicked on
+
+15-09-2025T11:04:06 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Option remove from List")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Option remove from List' is clicked on
+
+15-09-2025T11:04:06 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Option remove from List' is clicked on
+
+15-09-2025T11:04:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("All asset/Register asset/Remove from list/Dialog - Remove from list"), 10): Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+15-09-2025T11:04:07 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+15-09-2025T11:04:07 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Remove")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+15-09-2025T11:04:07 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+15-09-2025T11:04:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list"), "Success, asset has been removed from list."): Actual text and expected text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are matched.
+
+15-09-2025T11:04:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are matched.
+
+15-09-2025T11:04:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+15-09-2025T11:04:10 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Remove from list (Bulk action)" time="3.339" classname="Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Remove from list (Bulk action)" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:04:10 - [TEST_CASE][PASSED] - Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Remove from list (Bulk action): Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Remove from list (Bulk action)
+
+15-09-2025T11:04:10 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Checkbox - Remove from list")): Object: 'Object Repository/All asset/Register asset/Remove from list/Checkbox - Remove from list' is clicked on
+
+15-09-2025T11:04:10 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Checkbox - Remove from list' is clicked on
+
+15-09-2025T11:04:10 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk Action")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+15-09-2025T11:04:11 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+15-09-2025T11:04:11 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk action - Option remove from List")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk action - Option remove from List' is clicked on
+
+15-09-2025T11:04:12 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk action - Option remove from List' is clicked on
+
+15-09-2025T11:04:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("All asset/Register asset/Remove from list/Dialog - Remove from list"), 0): Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+15-09-2025T11:04:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-09-2025T11:04:12 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+15-09-2025T11:04:12 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Remove")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+15-09-2025T11:04:13 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+15-09-2025T11:04:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list"), "Success, asset has been removed from list."): Actual text and expected text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are matched.
+
+15-09-2025T11:04:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Cancel create borrowing log" time="1.54" classname="Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Cancel create borrowing log" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:04:13 - [TEST_CASE][PASSED] - Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Cancel create borrowing log: Test Cases/Borrow/Transaction - Create borrowing log - (Positif)/Transaction - Create borrowing log - Cancel create borrowing log
+
+15-09-2025T11:04:13 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Cancel")): Object: 'Object Repository/All asset/Register asset/Button - Cancel' is clicked on
+
+15-09-2025T11:04:14 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Cancel' is clicked on
+
+15-09-2025T11:04:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("All asset/Register asset/Dialog - Cancel register"), 10): Object 'Object Repository/All asset/Register asset/Dialog - Cancel register' is visible
+
+15-09-2025T11:04:14 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Dialog - Cancel register' is visible
+
+15-09-2025T11:04:14 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Continue")): Object: 'Object Repository/All asset/Register asset/Button - Continue' is clicked on
+
+15-09-2025T11:04:15 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Continue' is clicked on
+
+15-09-2025T11:04:15 - [TEST_STEP][PASSED] - currentUrl = getUrl(): Current window's url is: 'https://staging-fam.tagsamurai.com/assets/borrow/transaction'
+
+15-09-2025T11:04:15 - [MESSAGE][PASSED] - Current window's url is: 'https://staging-fam.tagsamurai.com/assets/borrow/transaction'
+
+15-09-2025T11:04:15 - [TEST_STEP][PASSED] - verifyMatch(currentUrl, ".*borrow.*", true): Actual text 'https://staging-fam.tagsamurai.com/assets/borrow/transaction' and expected text '.*borrow.*' are matched  using regular expression
+
+15-09-2025T11:04:15 - [MESSAGE][PASSED] - Actual text 'https://staging-fam.tagsamurai.com/assets/borrow/transaction' and expected text '.*borrow.*' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-09-2025T11:00:40 - [TEST_SUITE][FAILED] - Borrow -: Test Cases/Borrow/Return borrow - (Positif)/Return borrow - Tambah asset lain FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object '2' and expected object '5' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Return borrow - Tambah asset lain.run(Return borrow - Tambah asset lain:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757908824780.run(TempTestSuite1757908824780.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[15-09-2025T11:00:40 - [TEST_SUITE][FAILED] - Borrow -: Test Cases/Borrow/Return borrow - (Positif)/Return borrow - Tambah asset lain FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object '2' and expected object '5' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Return borrow - Tambah asset lain.run(Return borrow - Tambah asset lain:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757908824780.run(TempTestSuite1757908824780.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

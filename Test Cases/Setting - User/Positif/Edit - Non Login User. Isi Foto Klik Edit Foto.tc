@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Non Login User. Isi Foto Klik Edit Foto</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aca5f872-d0cf-4097-9b8a-40174d9419ae</testCaseGuid>
+</TestCaseEntity>

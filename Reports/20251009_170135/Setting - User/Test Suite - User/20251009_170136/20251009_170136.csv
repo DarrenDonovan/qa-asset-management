@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite - User,,,,09-10-2025 17:01:41,09-10-2025 17:01:46,4.630s,ERROR
+,,,,,,,
+Test Cases/Setting - User/Positif/Login - Login Navigate ke User,,Positif,,09-10-2025 17:01:42,09-10-2025 17:01:45,3.305s,FAILED
+Common_Utils.openBrowser(url),,,,09-10-2025 17:01:43,09-10-2025 17:01:45,2.505s,FAILED
+,,,,,,,
+Test Cases/Setting - User/Positif/Activation - Aktivasi User,,,,09-10-2025 17:01:45,09-10-2025 17:01:46,0.339s,ERROR
+"DATA BINDING - {""(Default) name"":""""}",,,,,,,
+"click(findTestObject(""Setting - User/Switch Button - User Activation"", [""name"":""Darren Donovan""]))",,,,09-10-2025 17:01:46,09-10-2025 17:01:46,0.119s,ERROR

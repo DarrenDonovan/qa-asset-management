@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Text - Reported Missing</name>
+   <tag></tag>
+   <elementGuidId>43a265a4-351d-446b-9fd2-7e3d04ae430c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[@id='68a58f36627a2573335445a9']/td[5]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.inline-flex.items-center.p-1.rounded-lg.text-danger-600.bg-danger-100</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;Reported Missing&quot;i] >> span >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>db255667-3a58-45c7-845d-71b3e78e9427</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inline-flex items-center p-1 rounded-lg text-danger-600 bg-danger-100</value>
+      <webElementGuid>26852bf7-73cb-4ce9-85f5-43276a4872c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-wv-name</name>
+      <type>Main</type>
+      <value>badge</value>
+      <webElementGuid>b52aecbf-e30b-4534-ae35-9c1e17887ad7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-wv-section</name>
+      <type>Main</type>
+      <value>root</value>
+      <webElementGuid>86f9f477-57cc-4e21-9afd-f4323d5b5167</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Reported Missing</value>
+      <webElementGuid>e5afdffd-e2fb-4e28-a63e-a4e8bc9027ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;68a58f36627a2573335445a9&quot;)/td[@class=&quot;text-xs px-2 py-[4.5px] border-0 !border-b !border-solid border-general-100 justify-items-start [&amp;:has([data-wv-section=rowcheckbox])]:text-center [&amp;:has([data-wv-section=rowcheckbox])]:text-center&quot;]/span[@class=&quot;inline-flex items-center p-1 rounded-lg text-danger-600 bg-danger-100&quot;]</value>
+      <webElementGuid>d9ecdbf2-eb8c-4f5a-ba9b-b0163e651469</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='68a58f36627a2573335445a9']/td[5]/span</value>
+      <webElementGuid>e71bbf5c-8a16-407f-b90e-942d47337710</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remaining Time'])[1]/following::span[3]</value>
+      <webElementGuid>16031579-602c-4813-b3a0-44cfa6f23cb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kantor A'])[1]/preceding::span[2]</value>
+      <webElementGuid>e4f25d7e-9ee8-4735-a60b-4fbdb9d5fd2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[5]/span</value>
+      <webElementGuid>2fbffc8a-7a2a-45f9-b650-756a030458ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Reported Missing' or . = 'Reported Missing')]</value>
+      <webElementGuid>6df4d8b2-7a12-42d6-8042-8c2e02bee765</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

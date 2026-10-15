@@ -1,0 +1,82 @@
+2025-10-09 14:02:11.886 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Setting - User/Test Suite - User
+2025-10-09 14:02:12.042 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Qa05qwerty
+2025-10-09 14:02:12.044 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = automation-test-fixed-asset-enterprise
+2025-10-09 14:02:12.045 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = HP - Darren
+2025-10-09 14:02:12.046 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-10-09 14:02:12.046 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.88.76
+2025-10-09 14:02:12.047 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.0.0
+2025-10-09 14:02:12.734 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-09 14:02:12.734 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Setting - User/Positif/Login - Login Navigate ke User
+2025-10-09 14:02:13.270 DEBUG t.Login - Login Navigate ke User         - 1: Common_Utils.openBrowser(url)
+2025-10-09 14:02:13.818 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-09 14:02:13.883 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 09, 2025 2:02:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 140
+Oct 09, 2025 2:02:15 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 140.0.7339.208. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-10-09 14:02:16.423 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5332b70a171cb90758aae2990d14f781
+2025-10-09 14:02:16.424 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.208
+2025-10-09 14:02:16.425 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-10-09 14:02:16.426 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-09 14:02:16.438 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-09 14:02:18.243 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Common_Utils.openBrowser is PASSED
+2025-10-09 14:02:18.246 DEBUG t.Login - Login Navigate ke User         - 2: Common_Utils.login(email, password)
+2025-10-09 14:02:32.383 ERROR k.k.c.m.CustomKeywordDelegatingMetaClass - ❌ No such property: nama for class: internal.GlobalVariable
+2025-10-09 14:02:32.387 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Setting - User/Positif/Login - Login Navigate ke User FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: nama for class: internal.GlobalVariable
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at Login - Login Navigate ke User.run(Login - Login Navigate ke User:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1759993319735.run(TempTestSuite1759993319735.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: groovy.lang.MissingPropertyException: No such property: nama for class: internal.GlobalVariable
+	at Common_Utils.login(Common_Utils.groovy:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 16 more
+
+2025-10-09 14:02:32.391 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Setting - User/Positif/Login - Login Navigate ke User FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: nama for class: internal.GlobalVariable
+	at Common_Utils.login(Common_Utils.groovy:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login - Login Navigate ke User.run(Login - Login Navigate ke User:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1759993319735.run(TempTestSuite1759993319735.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-10-09 14:02:32.395 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Setting - User/Positif/Login - Login Navigate ke User
+2025-10-09 14:02:32.401 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-09 14:02:32.401 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Setting - User/Positif/Activation - Aktivasi User
+2025-10-09 14:02:32.536 DEBUG testcase.Activation - Aktivasi User      - 1: click(findTestObject("Setting - User/Switch Button - User Activation", ["name":"user2"]))

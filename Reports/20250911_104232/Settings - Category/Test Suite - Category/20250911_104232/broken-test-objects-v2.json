@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/login session object/Input - Email",
+      "brokenLocator": "//input[@placeholder \u003d \u0027Enter your email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250911_104232/Settings - Category/Test Suite - Category/20250911_104232/Object Repository/login session object/Input - Email_position.png"
+    }
+  ]
+}

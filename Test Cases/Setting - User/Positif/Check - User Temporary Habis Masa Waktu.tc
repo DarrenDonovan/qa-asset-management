@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check - User Temporary Habis Masa Waktu</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>49cf1e1c-c4a0-4d82-a74c-6207affdbb52</testCaseGuid>
+</TestCaseEntity>

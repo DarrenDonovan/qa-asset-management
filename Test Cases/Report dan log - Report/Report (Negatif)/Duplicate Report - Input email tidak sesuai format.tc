@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif</description>
+   <name>Duplicate Report - Input email tidak sesuai format</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5284cbe8-4048-40ed-aeb4-e910c66a7165</testCaseGuid>
+</TestCaseEntity>

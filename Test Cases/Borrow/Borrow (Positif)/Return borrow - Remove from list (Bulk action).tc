@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Return borrow - Remove from list (Bulk action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>11e307d4-a3a3-4156-970d-0e7dca09b09a</testCaseGuid>
+</TestCaseEntity>

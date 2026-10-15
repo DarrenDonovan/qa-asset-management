@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Update - Sub Kategori, Field Nama Kosong</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d0cb0eb4-e014-49a8-8a5e-915d38727cda</testCaseGuid>
+</TestCaseEntity>

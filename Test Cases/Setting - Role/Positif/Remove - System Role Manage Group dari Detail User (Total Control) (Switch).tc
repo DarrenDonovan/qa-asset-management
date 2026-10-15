@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Remove - System Role Manage Group dari Detail User (Total Control) (Switch)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>900a78cf-ad8c-405a-b76d-a53f7401736b</testCaseGuid>
+</TestCaseEntity>

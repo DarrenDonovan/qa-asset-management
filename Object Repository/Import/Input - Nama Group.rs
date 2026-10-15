@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input - Nama Group</name>
+   <tag></tag>
+   <elementGuidId>21acb9fa-5ff9-425c-a6e8-5ed39d5e7cbd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//td[3]/span[@contenteditable='true'])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8cefa4f2-59fb-435c-8d07-8d59a9a65e03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center px-3 py-[5px] leading-4 cursor-text border-general-200 border-[0.5px] h-[26px] rounded-[4px]</value>
+      <webElementGuid>05f1dece-52bd-4a3a-8a1e-0acb52f7115c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>contenteditable</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>cabb7185-7e36-4ea2-932f-c989e3fdad8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;689f09c7a5cd405b7b13f04b&quot;)/td[@class=&quot;text-xs px-2 py-[4.5px] border-0 !border-b !border-solid border-general-100 justify-items-start [&amp;:has([data-wv-section=rowcheckbox])]:text-center [&amp;:has([data-wv-section=rowcheckbox])]:text-center&quot;]/span[@class=&quot;flex items-center px-3 py-[5px] leading-4 cursor-text border-general-200 border-[0.5px] h-[26px] rounded-[4px]&quot;]</value>
+      <webElementGuid>4cf2d92c-7e44-465d-8f45-6959c0e1fd50</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='689f09c7a5cd405b7b13f04b']/td[3]/span</value>
+      <webElementGuid>a66f0b4f-e377-44ec-8684-c6c9155a3f39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/span</value>
+      <webElementGuid>e1881b37-4c99-4a8b-b3da-266bd45e7e6c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Sub Grup Baru, Kode Grup Lebih Dari 4 Karakter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3824b996-ef41-456a-8bb8-be02816f5fce</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif</description>
+   <name>Create Disposal Log - Damaged No Salvage Value - Input Additional Note lebih dari 120 karakter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>984cac61-fb36-4f80-b6ac-d878ab368d01</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Create Disposal Log - Missing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>49c883d4-bfc2-472f-8596-e5b7cfb4c75d</testCaseGuid>
+</TestCaseEntity>

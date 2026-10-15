@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Kategori Baru, Kode Diisi Dengan Bukan Angka atau Huruf</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>10bb02e4-6cf9-4f09-8e96-b6db6d9b77d9</testCaseGuid>
+</TestCaseEntity>

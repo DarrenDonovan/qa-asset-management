@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/All Menu/Module - Setting",
+      "brokenLocator": "//div[(text() \u003d \u0027 Settings \u0027 or . \u003d \u0027 Settings \u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027sidebar-left-app\u0027]/div[2]/div/ul/li[4]/div/span[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250910_152837/Settings - Category/Test Suite - Category/20250910_152837/Object Repository/All Menu/Module - Setting_idRelative.png"
+    }
+  ]
+}

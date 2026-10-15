@@ -1,0 +1,1422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Disposal -" time="518.265" tests="16" failures="5" errors="0">
+   <testsuite name="Disposal -" tests="16" failures="5" errors="0" time="518.265" skipped="0" timestamp="15-09-2025T11:32:15" hostname="Administrator - DESKTOP" id="Test Suites/Fixed Asset - Transaction/Disposal/Disposal -">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200"/>
+         <property name="logFiles" value="D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\execution0.log"/>
+         <property name="attachments" value="D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757910814380.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757910826743.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757910860572.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757910877993.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757911064391.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757911151385.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757911157196.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757911157358.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757911165356.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757911165659.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757911185401.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757911185698.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757911188713.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757911188907.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757911192416.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757911192594.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757911232243.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757911232466.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757911242369.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757911242629.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757911247371.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757911247607.png"/>
+         <property name="hostName" value="Administrator - DESKTOP"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.6.223"/>
+         <property name="browser" value="Edge Chromium 140"/>
+         <property name="hostAddress" value="169.254.111.16"/>
+         <property name="sessionId" value="bf1bc2bf52bb9e9ac50aef85a7589579"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/login" time="31.702" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:32:15 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+15-09-2025T11:32:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2025T11:32:16 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+15-09-2025T11:32:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2025T11:32:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2025T11:32:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+15-09-2025T11:32:18 - [MESSAGE][PASSED] - Current window maximized
+
+15-09-2025T11:32:18 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://staging-console.tagsamurai.com' successfully
+
+15-09-2025T11:32:20 - [MESSAGE][PASSED] - Navigate to 'https://staging-console.tagsamurai.com' successfully
+
+15-09-2025T11:32:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login session object/Input - Email"), email): Text 'user1basic2staging@qwertysystem.net' is set on object 'Object Repository/Login session object/Input - Email'
+
+15-09-2025T11:32:28 - [MESSAGE][PASSED] - Text 'user1basic2staging@qwertysystem.net' is set on object 'Object Repository/Login session object/Input - Email'
+
+15-09-2025T11:32:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login session object/Input - Password"), password): Text 'Gaadaobatnya1@' is set on object 'Object Repository/Login session object/Input - Password'
+
+15-09-2025T11:32:29 - [MESSAGE][PASSED] - Text 'Gaadaobatnya1@' is set on object 'Object Repository/Login session object/Input - Password'
+
+15-09-2025T11:32:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login session object/Button - Login")): Object: 'Object Repository/Login session object/Button - Login' is clicked on
+
+15-09-2025T11:32:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login session object/Button - Login' is clicked on
+
+15-09-2025T11:32:30 - [TEST_STEP][PASSED] - isPopupPresent = verifyElementPresent(findTestObject("Login session object/Page_TAG SAMURAI/Popup duplicate login"), 20, OPTIONAL): Object 'Object Repository/Login session object/Page_TAG SAMURAI/Popup duplicate login' is present
+
+15-09-2025T11:32:32 - [MESSAGE][PASSED] - Object 'Object Repository/Login session object/Page_TAG SAMURAI/Popup duplicate login' is present
+
+15-09-2025T11:32:32 - [TEST_STEP][PASSED] - if (isPopupPresent): Object: 'Object Repository/Login session object/Page_TAG SAMURAI/button_Confirm_duplicate login' is clicked on
+
+15-09-2025T11:32:32 - [TEST_STEP][PASSED] - click(findTestObject("Login session object/Page_TAG SAMURAI/button_Confirm_duplicate login"), STOP_ON_FAILURE): Object: 'Object Repository/Login session object/Page_TAG SAMURAI/button_Confirm_duplicate login' is clicked on
+
+15-09-2025T11:32:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login session object/Page_TAG SAMURAI/button_Confirm_duplicate login' is clicked on
+
+15-09-2025T11:32:33 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+15-09-2025T11:32:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+15-09-2025T11:32:33 - [TEST_STEP][PASSED] - delay(5, OPTIONAL): Delayed 5 second(s)
+
+15-09-2025T11:32:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+15-09-2025T11:32:38 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("All Menu/Button - Module - Fixed Asset"), 30): Object 'Object Repository/All Menu/Button - Module - Fixed Asset' is clickable
+
+15-09-2025T11:32:39 - [MESSAGE][PASSED] - Object 'Object Repository/All Menu/Button - Module - Fixed Asset' is clickable
+
+15-09-2025T11:32:39 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Module - Fixed Asset")): Object: 'Object Repository/All Menu/Button - Module - Fixed Asset' is clicked on
+
+15-09-2025T11:32:40 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Module - Fixed Asset' is clicked on
+
+15-09-2025T11:32:40 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+15-09-2025T11:32:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+15-09-2025T11:32:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("All Menu/Button - Menu - Fixed Asset")): Object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is visible
+
+15-09-2025T11:32:47 - [MESSAGE][PASSED] - Object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Negatif)/Create Disposal Log - Damaged No Salvage Value - Submit tanpa mengisi field mandatory" time="12.076" classname="Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Negatif)/Create Disposal Log - Damaged No Salvage Value - Submit tanpa mengisi field mandatory" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:32:47 - [TEST_CASE][PASSED] - Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Negatif)/Create Disposal Log - Damaged No Salvage Value - Submit tanpa mengisi field mandatory: Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Negatif)/Create Disposal Log - Damaged No Salvage Value - Submit tanpa mengisi field mandatory
+
+15-09-2025T11:32:47 - [TEST_STEP][PASSED] - buttonAktif = getAttribute(findTestObject("All Menu/Button - Menu - Fixed Asset"), "aria-expanded"): Attribute 'aria-expanded' of object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is: 'false'
+
+15-09-2025T11:32:47 - [MESSAGE][PASSED] - Attribute 'aria-expanded' of object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is: 'false'
+
+15-09-2025T11:32:47 - [TEST_STEP][PASSED] - if (buttonAktif == "false"): Object: 'Object Repository/All Menu/Button - Menu - Fixed Asset' is clicked on
+
+15-09-2025T11:32:47 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Menu - Fixed Asset")): Object: 'Object Repository/All Menu/Button - Menu - Fixed Asset' is clicked on
+
+15-09-2025T11:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Menu - Fixed Asset' is clicked on
+
+15-09-2025T11:32:48 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Sub menu - Disposal")): Object: 'Object Repository/All Menu/Button - Sub menu - Disposal' is clicked on
+
+15-09-2025T11:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Sub menu - Disposal' is clicked on
+
+15-09-2025T11:32:48 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Disposal")): Object: 'Object Repository/Disposal/Create disposal/Button - Disposal' is clicked on
+
+15-09-2025T11:32:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Disposal' is clicked on
+
+15-09-2025T11:32:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Disposal/Create disposal/Dialog - Last condition"), 10): Object 'Object Repository/Disposal/Create disposal/Dialog - Last condition' is visible
+
+15-09-2025T11:32:52 - [MESSAGE][PASSED] - Object 'Object Repository/Disposal/Create disposal/Dialog - Last condition' is visible
+
+15-09-2025T11:32:52 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Dropdown last condition")): Object: 'Object Repository/Disposal/Create disposal/Button - Dropdown last condition' is clicked on
+
+15-09-2025T11:32:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Dropdown last condition' is clicked on
+
+15-09-2025T11:32:53 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Option damage atau no salvage value")): Object: 'Object Repository/Disposal/Create disposal/Button - Option damage atau no salvage value' is clicked on
+
+15-09-2025T11:32:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Option damage atau no salvage value' is clicked on
+
+15-09-2025T11:32:53 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Apply")): Object: 'Object Repository/Disposal/Create disposal/Button - Apply' is clicked on
+
+15-09-2025T11:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Apply' is clicked on
+
+15-09-2025T11:32:54 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Asset")): Object: 'Object Repository/Disposal/Create disposal/Button - Asset' is clicked on
+
+15-09-2025T11:32:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Asset' is clicked on
+
+15-09-2025T11:32:55 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/List - Select asset")): Object: 'Object Repository/Disposal/Create disposal/List - Select asset' is clicked on
+
+15-09-2025T11:32:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/List - Select asset' is clicked on
+
+15-09-2025T11:32:57 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Select")): Object: 'Object Repository/Disposal/Create disposal/Button - Select' is clicked on
+
+15-09-2025T11:32:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Select' is clicked on
+
+15-09-2025T11:32:58 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Submit")): Object: 'Object Repository/Disposal/Create disposal/Button - Submit' is clicked on
+
+15-09-2025T11:32:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Submit' is clicked on
+
+15-09-2025T11:32:58 - [TEST_STEP][PASSED] - verifyTextPresent("Please input all required field!", false): Text 'Please input all required field!' is present on page 
+
+15-09-2025T11:32:59 - [MESSAGE][PASSED] - Text 'Please input all required field!' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Negatif)/Create Disposal Log - Damaged No Salvage Value - Submit tanpa disposal group" time="7.271" classname="Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Negatif)/Create Disposal Log - Damaged No Salvage Value - Submit tanpa disposal group" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:32:59 - [TEST_CASE][PASSED] - Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Negatif)/Create Disposal Log - Damaged No Salvage Value - Submit tanpa disposal group: Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Negatif)/Create Disposal Log - Damaged No Salvage Value - Submit tanpa disposal group
+
+15-09-2025T11:32:59 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Select disposal method")): Object: 'Object Repository/Disposal/Create disposal/Button - Select disposal method' is clicked on
+
+15-09-2025T11:33:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Select disposal method' is clicked on
+
+15-09-2025T11:33:00 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Option Donate")): Object: 'Object Repository/Disposal/Create disposal/Button - Option Donate' is clicked on
+
+15-09-2025T11:33:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Option Donate' is clicked on
+
+15-09-2025T11:33:00 - [TEST_STEP][PASSED] - setText(findTestObject("Disposal/Create disposal/Input - Organization company name"), "Qtera"): Text 'Qtera' is set on object 'Object Repository/Disposal/Create disposal/Input - Organization company name'
+
+15-09-2025T11:33:01 - [MESSAGE][PASSED] - Text 'Qtera' is set on object 'Object Repository/Disposal/Create disposal/Input - Organization company name'
+
+15-09-2025T11:33:01 - [TEST_STEP][PASSED] - setText(findTestObject("Disposal/Create disposal/Input - Aditional note"), "asd"): Text 'asd' is set on object 'Object Repository/Disposal/Create disposal/Input - Aditional note'
+
+15-09-2025T11:33:02 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/Disposal/Create disposal/Input - Aditional note'
+
+15-09-2025T11:33:02 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Asset")): Object: 'Object Repository/Disposal/Create disposal/Button - Asset' is clicked on
+
+15-09-2025T11:33:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Asset' is clicked on
+
+15-09-2025T11:33:02 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/List - Select asset")): Object: 'Object Repository/Borrow/List - Select asset' is clicked on
+
+15-09-2025T11:33:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/List - Select asset' is clicked on
+
+15-09-2025T11:33:04 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Select")): Object: 'Object Repository/Disposal/Create disposal/Button - Select' is clicked on
+
+15-09-2025T11:33:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Select' is clicked on
+
+15-09-2025T11:33:05 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Submit")): Object: 'Object Repository/Disposal/Create disposal/Button - Submit' is clicked on
+
+15-09-2025T11:33:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Submit' is clicked on
+
+15-09-2025T11:33:06 - [TEST_STEP][PASSED] - verifyTextPresent("You must pick disposal group", false): Text 'You must pick disposal group' is present on page 
+
+15-09-2025T11:33:06 - [MESSAGE][PASSED] - Text 'You must pick disposal group' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Positif)/Create Disposal Log - Damaged No Salvage Value - Remove from list (Single action)" time="2.68" classname="Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Positif)/Create Disposal Log - Damaged No Salvage Value - Remove from list (Single action)" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:33:06 - [TEST_CASE][PASSED] - Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Positif)/Create Disposal Log - Damaged No Salvage Value - Remove from list (Single action): Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Positif)/Create Disposal Log - Damaged No Salvage Value - Remove from list (Single action)
+
+15-09-2025T11:33:06 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Single action - Register asset")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Single action - Register asset' is clicked on
+
+15-09-2025T11:33:07 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Single action - Register asset' is clicked on
+
+15-09-2025T11:33:07 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Option remove from List")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Option remove from List' is clicked on
+
+15-09-2025T11:33:07 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Option remove from List' is clicked on
+
+15-09-2025T11:33:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("All asset/Register asset/Remove from list/Dialog - Remove from list"), 10): Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+15-09-2025T11:33:08 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+15-09-2025T11:33:08 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Remove")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+15-09-2025T11:33:08 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+15-09-2025T11:33:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list"), "Success, asset(s) has been removed from list."): Actual text and expected text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are matched.
+
+15-09-2025T11:33:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Positif)/Create Disposal Log - Damaged No Salvage Value - Remove from list (Bulk action)" time="3.547" classname="Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Positif)/Create Disposal Log - Damaged No Salvage Value - Remove from list (Bulk action)" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:33:09 - [TEST_CASE][PASSED] - Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Positif)/Create Disposal Log - Damaged No Salvage Value - Remove from list (Bulk action): Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Positif)/Create Disposal Log - Damaged No Salvage Value - Remove from list (Bulk action)
+
+15-09-2025T11:33:09 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Checkbox - Remove from list")): Object: 'Object Repository/All asset/Register asset/Remove from list/Checkbox - Remove from list' is clicked on
+
+15-09-2025T11:33:10 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Checkbox - Remove from list' is clicked on
+
+15-09-2025T11:33:10 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk Action")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+15-09-2025T11:33:10 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+15-09-2025T11:33:10 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk action - Option remove from List")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk action - Option remove from List' is clicked on
+
+15-09-2025T11:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk action - Option remove from List' is clicked on
+
+15-09-2025T11:33:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("All asset/Register asset/Remove from list/Dialog - Remove from list"), 0): Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+15-09-2025T11:33:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-09-2025T11:33:11 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+15-09-2025T11:33:11 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Remove")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+15-09-2025T11:33:12 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+15-09-2025T11:33:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list"), "Success, asset(s) has been removed from list."): Actual text and expected text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are matched.
+
+15-09-2025T11:33:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Negatif)/Create Disposal Log - Damaged No Salvage Value - Submit tanpa asset" time="6.952" classname="Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Negatif)/Create Disposal Log - Damaged No Salvage Value - Submit tanpa asset" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:33:13 - [TEST_CASE][PASSED] - Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Negatif)/Create Disposal Log - Damaged No Salvage Value - Submit tanpa asset: Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Negatif)/Create Disposal Log - Damaged No Salvage Value - Submit tanpa asset
+
+15-09-2025T11:33:13 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Select disposal method")): Object: 'Object Repository/Disposal/Create disposal/Button - Select disposal method' is clicked on
+
+15-09-2025T11:33:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Select disposal method' is clicked on
+
+15-09-2025T11:33:13 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Option Donate")): Object: 'Object Repository/Disposal/Create disposal/Button - Option Donate' is clicked on
+
+15-09-2025T11:33:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Option Donate' is clicked on
+
+15-09-2025T11:33:14 - [TEST_STEP][PASSED] - setText(findTestObject("Disposal/Create disposal/Input - Organization company name"), "Qtera"): Text 'Qtera' is set on object 'Object Repository/Disposal/Create disposal/Input - Organization company name'
+
+15-09-2025T11:33:15 - [MESSAGE][PASSED] - Text 'Qtera' is set on object 'Object Repository/Disposal/Create disposal/Input - Organization company name'
+
+15-09-2025T11:33:15 - [TEST_STEP][PASSED] - setText(findTestObject("Disposal/Create disposal/Input - Aditional note"), "asd"): Text 'asd' is set on object 'Object Repository/Disposal/Create disposal/Input - Aditional note'
+
+15-09-2025T11:33:16 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/Disposal/Create disposal/Input - Aditional note'
+
+15-09-2025T11:33:16 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Select Group")): Object: 'Object Repository/Disposal/Create disposal/Button - Select Group' is clicked on
+
+15-09-2025T11:33:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Select Group' is clicked on
+
+15-09-2025T11:33:16 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/List - Select group")): Object: 'Object Repository/Disposal/Create disposal/List - Select group' is clicked on
+
+15-09-2025T11:33:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/List - Select group' is clicked on
+
+15-09-2025T11:33:18 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Select")): Object: 'Object Repository/Disposal/Create disposal/Button - Select' is clicked on
+
+15-09-2025T11:33:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Select' is clicked on
+
+15-09-2025T11:33:18 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Submit")): Object: 'Object Repository/Disposal/Create disposal/Button - Submit' is clicked on
+
+15-09-2025T11:33:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Submit' is clicked on
+
+15-09-2025T11:33:19 - [TEST_STEP][PASSED] - verifyTextPresent("You must pick an asset", false): Text 'You must pick an asset' is present on page 
+
+15-09-2025T11:33:19 - [MESSAGE][PASSED] - Text 'You must pick an asset' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Negatif)/Create Disposal Log - Damaged No Salvage Value - Input Organization atau Company Name lebih dari 30 karakter" time="1.466" classname="Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Negatif)/Create Disposal Log - Damaged No Salvage Value - Input Organization atau Company Name lebih dari 30 karakter" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:33:19 - [TEST_CASE][PASSED] - Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Negatif)/Create Disposal Log - Damaged No Salvage Value - Input Organization atau Company Name lebih dari 30 karakter: Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Negatif)/Create Disposal Log - Damaged No Salvage Value - Input Organization atau Company Name lebih dari 30 karakter
+
+15-09-2025T11:33:20 - [TEST_STEP][PASSED] - setText(findTestObject("Disposal/Create disposal/Input - Organization company name"), "afasdabsidbjkawnjkhduwiofysdbhfbigbybebshbhjfjsdyfvjshdfh"): Text 'afasdabsidbjkawnjkhduwiofysdbhfbigbybebshbhjfjsdyfvjshdfh' is set on object 'Object Repository/Disposal/Create disposal/Input - Organization company name'
+
+15-09-2025T11:33:20 - [MESSAGE][PASSED] - Text 'afasdabsidbjkawnjkhduwiofysdbhfbigbybebshbhjfjsdyfvjshdfh' is set on object 'Object Repository/Disposal/Create disposal/Input - Organization company name'
+
+15-09-2025T11:33:20 - [TEST_STEP][PASSED] - verifyTextPresent("Max. 30 characters", false): Text 'Max. 30 characters' is present on page 
+
+15-09-2025T11:33:21 - [MESSAGE][PASSED] - Text 'Max. 30 characters' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Negatif)/Create Disposal Log - Damaged No Salvage Value - Input Additional Note lebih dari 120 karakter" time="1.966" classname="Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Negatif)/Create Disposal Log - Damaged No Salvage Value - Input Additional Note lebih dari 120 karakter" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:33:21 - [TEST_CASE][PASSED] - Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Negatif)/Create Disposal Log - Damaged No Salvage Value - Input Additional Note lebih dari 120 karakter: Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Negatif)/Create Disposal Log - Damaged No Salvage Value - Input Additional Note lebih dari 120 karakter
+
+15-09-2025T11:33:21 - [TEST_STEP][PASSED] - setText(findTestObject("Disposal/Create disposal/Input - Aditional note"), "asdfjbahsdwiokonfebufbbshfbhdsbhjfbhjsdhjfhjsfhjdshdjvfhsdhfhjsdvhjfsdhjvfhjsdhfvhjsdvfhjvdfjnsabhdbahbsdjhbhwhajhdhjavshd"): Text 'asdfjbahsdwiokonfebufbbshfbhdsbhjfbhjsdhjfhjsfhjdshdjvfhsdhfhjsdvhjfsdhjvfhjsdhfvhjsdvfhjvdfjnsabhdbahbsdjhbhwhajhdhjavshd' is set on object 'Object Repository/Disposal/Create disposal/Input - Aditional note'
+
+15-09-2025T11:33:22 - [MESSAGE][PASSED] - Text 'asdfjbahsdwiokonfebufbbshfbhdsbhjfbhjsdhjfhjsfhjdshdjvfhsdhfhjsdvhjfsdhjvfhjsdhfvhjsdvfhjvdfjnsabhdbahbsdjhbhwhajhdhjavshd' is set on object 'Object Repository/Disposal/Create disposal/Input - Aditional note'
+
+15-09-2025T11:33:22 - [TEST_STEP][PASSED] - verifyTextPresent("Max. 120 characters", false): Text 'Max. 120 characters' is present on page 
+
+15-09-2025T11:33:23 - [MESSAGE][PASSED] - Text 'Max. 120 characters' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Positif)/Cancel create disposal" time="1.69" classname="Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Positif)/Cancel create disposal" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:33:23 - [TEST_CASE][PASSED] - Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Positif)/Cancel create disposal: Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value - (Positif)/Cancel create disposal
+
+15-09-2025T11:33:23 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Cancel")): Object: 'Object Repository/All asset/Register asset/Button - Cancel' is clicked on
+
+15-09-2025T11:33:23 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Cancel' is clicked on
+
+15-09-2025T11:33:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("All asset/Register asset/Dialog - Cancel register"), 10): Object 'Object Repository/All asset/Register asset/Dialog - Cancel register' is visible
+
+15-09-2025T11:33:24 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Dialog - Cancel register' is visible
+
+15-09-2025T11:33:24 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Continue")): Object: 'Object Repository/All asset/Register asset/Button - Continue' is clicked on
+
+15-09-2025T11:33:25 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Continue' is clicked on
+
+15-09-2025T11:33:25 - [TEST_STEP][PASSED] - currentUrl = getUrl(): Current window's url is: 'https://staging-fam.tagsamurai.com/assets/disposal/reported'
+
+15-09-2025T11:33:25 - [MESSAGE][PASSED] - Current window's url is: 'https://staging-fam.tagsamurai.com/assets/disposal/reported'
+
+15-09-2025T11:33:25 - [TEST_STEP][PASSED] - verifyMatch(currentUrl, ".*disposal.*", true): Actual text 'https://staging-fam.tagsamurai.com/assets/disposal/reported' and expected text '.*disposal.*' are matched  using regular expression
+
+15-09-2025T11:33:25 - [MESSAGE][PASSED] - Actual text 'https://staging-fam.tagsamurai.com/assets/disposal/reported' and expected text '.*disposal.*' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Disposal/Create Disposal Log - Missing - (Negatif)/Create Disposal Log - Missing - Submit tanpa asset" time="17.412" classname="Test Cases/Disposal/Create Disposal Log - Missing - (Negatif)/Create Disposal Log - Missing - Submit tanpa asset" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Disposal/Create Disposal Log - Missing - (Negatif)/Create Disposal Log - Missing - Submit tanpa asset FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'You must pick an asset' is present &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)&#xa;	at Create Disposal Log - Missing - Submit tanpa asset.run(Create Disposal Log - Missing - Submit tanpa asset:42)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'You must pick an asset' is not present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[15-09-2025T11:34:20 - [TEST_CASE][FAILED] - Test Cases/Disposal/Create Disposal Log - Missing - (Negatif)/Create Disposal Log - Missing - Submit tanpa asset: Test Cases/Disposal/Create Disposal Log - Missing - (Negatif)/Create Disposal Log - Missing - Submit tanpa asset FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'You must pick an asset' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at Create Disposal Log - Missing - Submit tanpa asset.run(Create Disposal Log - Missing - Submit tanpa asset:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'You must pick an asset' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+
+15-09-2025T11:34:20 - [TEST_STEP][NOT_RUN] - click(findTestObject("All Menu/Button - Sub menu - Disposal")): NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - Disposal"))
+
+15-09-2025T11:34:20 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("All Menu/Button - Sub menu - Disposal"))
+
+15-09-2025T11:34:20 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Disposal")): Object: 'Object Repository/Disposal/Create disposal/Button - Disposal' is clicked on
+
+15-09-2025T11:34:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Disposal' is clicked on
+
+15-09-2025T11:34:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Disposal/Create disposal/Dialog - Last condition"), 10): Object 'Object Repository/Disposal/Create disposal/Dialog - Last condition' is visible
+
+15-09-2025T11:34:29 - [MESSAGE][PASSED] - Object 'Object Repository/Disposal/Create disposal/Dialog - Last condition' is visible
+
+15-09-2025T11:34:29 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Dropdown last condition")): Object: 'Object Repository/Disposal/Create disposal/Button - Dropdown last condition' is clicked on
+
+15-09-2025T11:34:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Dropdown last condition' is clicked on
+
+15-09-2025T11:34:30 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Option missing")): Object: 'Object Repository/Disposal/Create disposal/Button - Option missing' is clicked on
+
+15-09-2025T11:34:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Option missing' is clicked on
+
+15-09-2025T11:34:31 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Apply")): Object: 'Object Repository/Disposal/Create disposal/Button - Apply' is clicked on
+
+15-09-2025T11:34:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Apply' is clicked on
+
+15-09-2025T11:34:32 - [TEST_STEP][PASSED] - setText(findTestObject("Disposal/Create disposal/Input - Aditional note"), "asd"): Text 'asd' is set on object 'Object Repository/Disposal/Create disposal/Input - Aditional note'
+
+15-09-2025T11:34:33 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/Disposal/Create disposal/Input - Aditional note'
+
+15-09-2025T11:34:33 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Select Group")): Object: 'Object Repository/Disposal/Create disposal/Button - Select Group' is clicked on
+
+15-09-2025T11:34:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Select Group' is clicked on
+
+15-09-2025T11:34:34 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/List - Select group")): Object: 'Object Repository/Disposal/Create disposal/List - Select group' is clicked on
+
+15-09-2025T11:34:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/List - Select group' is clicked on
+
+15-09-2025T11:34:36 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Select")): Object: 'Object Repository/Disposal/Create disposal/Button - Select' is clicked on
+
+15-09-2025T11:34:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Select' is clicked on
+
+15-09-2025T11:34:36 - [TEST_STEP][PASSED] - click(findTestObject("Disposal/Create disposal/Button - Submit")): Object: 'Object Repository/Disposal/Create disposal/Button - Submit' is clicked on
+
+15-09-2025T11:34:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Disposal/Create disposal/Button - Submit' is clicked on
+
+15-09-2025T11:34:37 - [TEST_STEP][FAILED] - verifyTextPresent("You must pick an asset", false): Unable to verify text 'You must pick an asset' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'You must pick an asset' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at Create Disposal Log - Missing - Submit tanpa asset.run(Create Disposal Log - Missing - Submit tanpa asset:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'You must pick an asset' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+)
+
+15-09-2025T11:34:37 - [MESSAGE][FAILED] - Text 'You must pick an asset' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'You must pick an asset' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at Create Disposal Log - Missing - Submit tanpa asset.run(Create Disposal Log - Missing - Submit tanpa asset:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+15-09-2025T11:34:38 - [MESSAGE][FAILED] - Unable to verify text 'You must pick an asset' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'You must pick an asset' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at Create Disposal Log - Missing - Submit tanpa asset.run(Create Disposal Log - Missing - Submit tanpa asset:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'You must pick an asset' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+)
+[[ATTACHMENT|D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757910877993.png]]]]></system-out>
+         <system-err><![CDATA[15-09-2025T11:34:20 - [TEST_CASE][FAILED] - Test Cases/Disposal/Create Disposal Log - Missing - (Negatif)/Create Disposal Log - Missing - Submit tanpa asset: Test Cases/Disposal/Create Disposal Log - Missing - (Negatif)/Create Disposal Log - Missing - Submit tanpa asset FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'You must pick an asset' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at Create Disposal Log - Missing - Submit tanpa asset.run(Create Disposal Log - Missing - Submit tanpa asset:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'You must pick an asset' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Tambah asset lain" time="9.832" classname="Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Tambah asset lain" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Tambah asset lain FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Actual object '10' and expected object '7' are not equal&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at Create Disposal Log - Missing - Tambah asset lain.run(Create Disposal Log - Missing - Tambah asset lain:46)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[15-09-2025T11:35:04 - [TEST_CASE][FAILED] - Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Tambah asset lain: Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Tambah asset lain FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object '10' and expected object '7' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Create Disposal Log - Missing - Tambah asset lain.run(Create Disposal Log - Missing - Tambah asset lain:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+15-09-2025T11:35:04 - [TEST_STEP][PASSED] - rowBefore = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size(): Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+15-09-2025T11:35:06 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+15-09-2025T11:35:06 - [TEST_STEP][PASSED] - println("Jumlah baris sebelum aksi: " + rowBefore): null
+
+15-09-2025T11:35:06 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+15-09-2025T11:35:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+15-09-2025T11:35:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Button - Asset")): Object: 'Object Repository/Borrow/Button - Asset' is clicked on
+
+15-09-2025T11:35:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Asset' is clicked on
+
+15-09-2025T11:35:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Transfer/Dialog - Select asset")): Object 'Object Repository/Transfer/Dialog - Select asset' is visible
+
+15-09-2025T11:35:10 - [MESSAGE][PASSED] - Object 'Object Repository/Transfer/Dialog - Select asset' is visible
+
+15-09-2025T11:35:10 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Missing/Button - Dropdown showing")): Object 'Object Repository/Missing/Button - Dropdown showing' is clickable
+
+15-09-2025T11:35:10 - [MESSAGE][PASSED] - Object 'Object Repository/Missing/Button - Dropdown showing' is clickable
+
+15-09-2025T11:35:10 - [TEST_STEP][PASSED] - waitForPageLoad(5, OPTIONAL): Wait for page load successfully
+
+15-09-2025T11:35:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+15-09-2025T11:35:10 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/List - Select asset")): Object: 'Object Repository/Borrow/List - Select asset' is clicked on
+
+15-09-2025T11:35:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/List - Select asset' is clicked on
+
+15-09-2025T11:35:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Button - Select")): Object: 'Object Repository/Borrow/Button - Select' is clicked on
+
+15-09-2025T11:35:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Select' is clicked on
+
+15-09-2025T11:35:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+15-09-2025T11:35:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+15-09-2025T11:35:13 - [TEST_STEP][PASSED] - rowAfter = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size(): Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+15-09-2025T11:35:14 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+15-09-2025T11:35:14 - [TEST_STEP][PASSED] - println("Jumlah baris setelah aksi: " + rowAfter): null
+
+15-09-2025T11:35:14 - [TEST_STEP][FAILED] - verifyEqual(rowAfter, rowBefore + 1): Unable to verify equal between actual object '10' and expected object '7' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '10' and expected object '7' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Create Disposal Log - Missing - Tambah asset lain.run(Create Disposal Log - Missing - Tambah asset lain:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+15-09-2025T11:35:14 - [MESSAGE][FAILED] - Unable to verify equal between actual object '10' and expected object '7' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '10' and expected object '7' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Create Disposal Log - Missing - Tambah asset lain.run(Create Disposal Log - Missing - Tambah asset lain:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)]]></system-out>
+         <system-err><![CDATA[15-09-2025T11:35:04 - [TEST_CASE][FAILED] - Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Tambah asset lain: Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Tambah asset lain FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object '10' and expected object '7' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Create Disposal Log - Missing - Tambah asset lain.run(Create Disposal Log - Missing - Tambah asset lain:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Tambah asset lain" time="86.942" classname="Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Tambah asset lain" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Tambah asset lain FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Borrow/Button - Select'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at Create Disposal Log - Missing - Tambah asset lain.run(Create Disposal Log - Missing - Tambah asset lain:37)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Borrow/Button - Select' located by '//button[@aria-label = 'Select']' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1423)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[15-09-2025T11:37:44 - [TEST_CASE][FAILED] - Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Tambah asset lain: Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Tambah asset lain FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Borrow/Button - Select'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Create Disposal Log - Missing - Tambah asset lain.run(Create Disposal Log - Missing - Tambah asset lain:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Borrow/Button - Select' located by '//button[@aria-label = 'Select']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1423)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+
+15-09-2025T11:37:44 - [TEST_STEP][PASSED] - rowBefore = findWebElements(findTestObject("Object Repository/All asset/Register asset/Tabel - Row register asset"), 10).size(): Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+15-09-2025T11:37:45 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/All asset/Register asset/Tabel - Row register asset
+
+15-09-2025T11:37:45 - [TEST_STEP][PASSED] - println("Jumlah baris sebelum aksi: " + rowBefore): null
+
+15-09-2025T11:37:45 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+15-09-2025T11:37:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+15-09-2025T11:37:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Borrow/Button - Asset")): Object: 'Object Repository/Borrow/Button - Asset' is clicked on
+
+15-09-2025T11:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/Button - Asset' is clicked on
+
+15-09-2025T11:37:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Transfer/Dialog - Select asset")): Object 'Object Repository/Transfer/Dialog - Select asset' is visible
+
+15-09-2025T11:37:47 - [MESSAGE][PASSED] - Object 'Object Repository/Transfer/Dialog - Select asset' is visible
+
+15-09-2025T11:37:47 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Missing/Button - Dropdown showing")): Object 'Object Repository/Missing/Button - Dropdown showing' is clickable
+
+15-09-2025T11:37:48 - [MESSAGE][PASSED] - Object 'Object Repository/Missing/Button - Dropdown showing' is clickable
+
+15-09-2025T11:37:48 - [TEST_STEP][PASSED] - waitForPageLoad(5, OPTIONAL): Wait for page load successfully
+
+15-09-2025T11:37:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+15-09-2025T11:37:48 - [TEST_STEP][PASSED] - click(findTestObject("Borrow/List - Select asset")): Object: 'Object Repository/Borrow/List - Select asset' is clicked on
+
+15-09-2025T11:38:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//table)[2]/tbody/tr[1]/td[3]
+'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2025T11:38:20 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Borrow/List - Select asset'. Try using Self-healing.
+
+15-09-2025T11:38:20 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 207 column 10 path $.brokenTestObjects[20].<<<<<<<
+
+15-09-2025T11:38:22 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[@id='68955eb5e48a8d28177ef48a']/td[3]'.
+
+15-09-2025T11:38:24 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Model/Type'])[1]/following::td[3]'.
+
+15-09-2025T11:38:24 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: D:/automation-test-fixed-asset-basic/Reports/Self-healing/Object Repository/Borrow/List - Select asset_neighbor.png
+
+15-09-2025T11:38:24 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 207 column 10 path $.brokenTestObjects[20].<<<<<<<
+
+15-09-2025T11:38:24 - [MESSAGE][ERROR] - [SELF-HEALING] D:\automation-test-fixed-asset-basic\Reports\Self-healing\broken-test-objects-v2.json does not exist or is provided by Self-healing Plugin!
+
+15-09-2025T11:38:24 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Borrow/List - Select asset' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Model/Type'])[1]/following::td[3]'.
+
+15-09-2025T11:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrow/List - Select asset' is clicked on
+
+15-09-2025T11:38:24 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Borrow/Button - Select")): Unable to click on object 'Object Repository/Borrow/Button - Select' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Borrow/Button - Select'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Create Disposal Log - Missing - Tambah asset lain.run(Create Disposal Log - Missing - Tambah asset lain:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Borrow/Button - Select' located by '//button[@aria-label = 'Select']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1423)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1756890107015.run(Script1756890107015.groovy:37)
+	... 18 more
+)
+
+15-09-2025T11:38:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@aria-label = 'Select']'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2025T11:38:56 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Borrow/Button - Select'. Try using Self-healing.
+
+15-09-2025T11:38:56 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 207 column 10 path $.brokenTestObjects[20].<<<<<<<
+
+15-09-2025T11:38:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='button'])[51]'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2025T11:39:00 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(//button[@type='button'])[51]'.
+
+15-09-2025T11:39:02 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[2]/following::button[1]'.
+
+15-09-2025T11:39:04 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='You must pick an asset'])[1]/following::button[2]'.
+
+15-09-2025T11:39:06 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[3]/div/div/button[2]'.
+
+15-09-2025T11:39:08 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//button[@type = 'button' and (text() = 'Select' or . = 'Select')]'.
+
+15-09-2025T11:39:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: '. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2025T11:39:11 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Borrow/Button - Select' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Borrow/Button - Select'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Create Disposal Log - Missing - Tambah asset lain.run(Create Disposal Log - Missing - Tambah asset lain:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Borrow/Button - Select' located by '//button[@aria-label = 'Select']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1423)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1756890107015.run(Script1756890107015.groovy:37)
+	... 18 more
+)
+[[ATTACHMENT|D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757911151385.png]]]]></system-out>
+         <system-err><![CDATA[15-09-2025T11:37:44 - [TEST_CASE][FAILED] - Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Tambah asset lain: Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Tambah asset lain FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Borrow/Button - Select'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Create Disposal Log - Missing - Tambah asset lain.run(Create Disposal Log - Missing - Tambah asset lain:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Borrow/Button - Select' located by '//button[@aria-label = 'Select']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1423)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Disposal/Create Disposal Log - Missing - (Negatif)/Create Disposal Log - Missing - Input Additional Note lebih dari 120 karakter" time="2.861" classname="Test Cases/Disposal/Create Disposal Log - Missing - (Negatif)/Create Disposal Log - Missing - Input Additional Note lebih dari 120 karakter" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:39:11 - [TEST_CASE][PASSED] - Test Cases/Disposal/Create Disposal Log - Missing - (Negatif)/Create Disposal Log - Missing - Input Additional Note lebih dari 120 karakter: Test Cases/Disposal/Create Disposal Log - Missing - (Negatif)/Create Disposal Log - Missing - Input Additional Note lebih dari 120 karakter
+
+15-09-2025T11:39:11 - [TEST_STEP][PASSED] - setText(findTestObject("Disposal/Create disposal/Input - Aditional note"), "asdfjbahsdwiokonfebufbbshfbhdsbhjfbhjsdhjfhjsfhjdshdjvfhsdhfhjsdvhjfsdhjvfhjsdhfvhjsdvfhjvdfjnsabhdbahbsdjhbhwhajhdhjavshd"): Text 'asdfjbahsdwiokonfebufbbshfbhdsbhjfbhjsdhjfhjsfhjdshdjvfhsdhfhjsdvhjfsdhjvfhjsdhfvhjsdvfhjvdfjnsabhdbahbsdjhbhwhajhdhjavshd' is set on object 'Object Repository/Disposal/Create disposal/Input - Aditional note'
+
+15-09-2025T11:39:13 - [MESSAGE][PASSED] - Text 'asdfjbahsdwiokonfebufbbshfbhdsbhjfbhjsdhjfhjsfhjdshdjvfhsdhfhjsdvhjfsdhjvfhjsdhfvhjsdvfhjvdfjnsabhdbahbsdjhbhwhajhdhjavshd' is set on object 'Object Repository/Disposal/Create disposal/Input - Aditional note'
+
+15-09-2025T11:39:13 - [TEST_STEP][PASSED] - verifyTextPresent("Max. 120 characters", false): Text 'Max. 120 characters' is present on page 
+
+15-09-2025T11:39:14 - [MESSAGE][PASSED] - Text 'Max. 120 characters' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Remove from list (Single action)" time="3.122" classname="Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Remove from list (Single action)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Remove from list (Single action) FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at Create Disposal Log - Missing - Remove from list (Single action).run(Create Disposal Log - Missing - Remove from list (Single action):28)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Success, asset(s) has been removed from list.' and expected text 'Success, asset has been removed from the list.' of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[15-09-2025T11:39:45 - [TEST_CASE][FAILED] - Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Remove from list (Single action): Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Remove from list (Single action) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Create Disposal Log - Missing - Remove from list (Single action).run(Create Disposal Log - Missing - Remove from list (Single action):28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Success, asset(s) has been removed from list.' and expected text 'Success, asset has been removed from the list.' of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+
+15-09-2025T11:39:45 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Single action - Register asset")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Single action - Register asset' is clicked on
+
+15-09-2025T11:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Single action - Register asset' is clicked on
+
+15-09-2025T11:39:46 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Option remove from List")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Option remove from List' is clicked on
+
+15-09-2025T11:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Option remove from List' is clicked on
+
+15-09-2025T11:39:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("All asset/Register asset/Remove from list/Dialog - Remove from list"), 10): Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+15-09-2025T11:39:47 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+15-09-2025T11:39:47 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Remove")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+15-09-2025T11:39:47 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+15-09-2025T11:39:47 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list"), "Success, asset has been removed from the list."): Verify element text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Create Disposal Log - Missing - Remove from list (Single action).run(Create Disposal Log - Missing - Remove from list (Single action):28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Success, asset(s) has been removed from list.' and expected text 'Success, asset has been removed from the list.' of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+)
+
+15-09-2025T11:39:48 - [MESSAGE][FAILED] - Actual text 'Success, asset(s) has been removed from list.' and expected text 'Success, asset has been removed from the list.' of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Success, asset(s) has been removed from list.' and expected text 'Success, asset has been removed from the list.' of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Create Disposal Log - Missing - Remove from list (Single action).run(Create Disposal Log - Missing - Remove from list (Single action):28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757911188713.png]]
+
+15-09-2025T11:39:49 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Create Disposal Log - Missing - Remove from list (Single action).run(Create Disposal Log - Missing - Remove from list (Single action):28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Success, asset(s) has been removed from list.' and expected text 'Success, asset has been removed from the list.' of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+)
+[[ATTACHMENT|D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757911188907.png]]]]></system-out>
+         <system-err><![CDATA[15-09-2025T11:39:45 - [TEST_CASE][FAILED] - Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Remove from list (Single action): Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Remove from list (Single action) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Create Disposal Log - Missing - Remove from list (Single action).run(Create Disposal Log - Missing - Remove from list (Single action):28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Success, asset(s) has been removed from list.' and expected text 'Success, asset has been removed from the list.' of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Remove from list (Bulk action)" time="4.975" classname="Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Remove from list (Bulk action)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Remove from list (Bulk action) FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at Create Disposal Log - Missing - Remove from list (Bulk action).run(Create Disposal Log - Missing - Remove from list (Bulk action):30)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Success, asset(s) has been removed from list.' and expected text 'Success, asset has been removed from list.' of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[15-09-2025T11:40:42 - [TEST_CASE][FAILED] - Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Remove from list (Bulk action): Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Remove from list (Bulk action) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Create Disposal Log - Missing - Remove from list (Bulk action).run(Create Disposal Log - Missing - Remove from list (Bulk action):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Success, asset(s) has been removed from list.' and expected text 'Success, asset has been removed from list.' of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+
+15-09-2025T11:40:42 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Checkbox - Remove from list")): Object: 'Object Repository/All asset/Register asset/Remove from list/Checkbox - Remove from list' is clicked on
+
+15-09-2025T11:40:43 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Checkbox - Remove from list' is clicked on
+
+15-09-2025T11:40:43 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk Action")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+15-09-2025T11:40:44 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk Action' is clicked on
+
+15-09-2025T11:40:44 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Bulk action - Option remove from List")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk action - Option remove from List' is clicked on
+
+15-09-2025T11:40:45 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Bulk action - Option remove from List' is clicked on
+
+15-09-2025T11:40:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("All asset/Register asset/Remove from list/Dialog - Remove from list"), 0): Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+15-09-2025T11:40:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-09-2025T11:40:45 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Remove from list/Dialog - Remove from list' is visible
+
+15-09-2025T11:40:45 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Remove from list/Button - Remove")): Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+15-09-2025T11:40:46 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Remove from list/Button - Remove' is clicked on
+
+15-09-2025T11:40:46 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list"), "Success, asset has been removed from list."): Verify element text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Create Disposal Log - Missing - Remove from list (Bulk action).run(Create Disposal Log - Missing - Remove from list (Bulk action):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Success, asset(s) has been removed from list.' and expected text 'Success, asset has been removed from list.' of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+)
+
+15-09-2025T11:40:47 - [MESSAGE][FAILED] - Actual text 'Success, asset(s) has been removed from list.' and expected text 'Success, asset has been removed from list.' of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Success, asset(s) has been removed from list.' and expected text 'Success, asset has been removed from list.' of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Create Disposal Log - Missing - Remove from list (Bulk action).run(Create Disposal Log - Missing - Remove from list (Bulk action):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757911247371.png]]
+
+15-09-2025T11:40:47 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Create Disposal Log - Missing - Remove from list (Bulk action).run(Create Disposal Log - Missing - Remove from list (Bulk action):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Success, asset(s) has been removed from list.' and expected text 'Success, asset has been removed from list.' of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+)
+[[ATTACHMENT|D:\\automation-test-fixed-asset-basic\\Reports\\20250915_113200\\Fixed Asset - Transaction\\Disposal\\Disposal -\\20250915_113200\\1757911247607.png]]]]></system-out>
+         <system-err><![CDATA[15-09-2025T11:40:42 - [TEST_CASE][FAILED] - Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Remove from list (Bulk action): Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Remove from list (Bulk action) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Create Disposal Log - Missing - Remove from list (Bulk action).run(Create Disposal Log - Missing - Remove from list (Bulk action):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Success, asset(s) has been removed from list.' and expected text 'Success, asset has been removed from list.' of test object 'Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Cancel create disposal" time="5.966" classname="Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Cancel create disposal" status="PASSED">
+         <system-out><![CDATA[15-09-2025T11:40:47 - [TEST_CASE][PASSED] - Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Cancel create disposal: Test Cases/Disposal/Create Disposal Log - Missing - (Positif)/Create Disposal Log - Missing - Cancel create disposal
+
+15-09-2025T11:40:47 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Cancel")): Object: 'Object Repository/All asset/Register asset/Button - Cancel' is clicked on
+
+15-09-2025T11:40:48 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Cancel' is clicked on
+
+15-09-2025T11:40:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("All asset/Register asset/Dialog - Cancel register"), 10): Object 'Object Repository/All asset/Register asset/Dialog - Cancel register' is visible
+
+15-09-2025T11:40:53 - [MESSAGE][PASSED] - Object 'Object Repository/All asset/Register asset/Dialog - Cancel register' is visible
+
+15-09-2025T11:40:53 - [TEST_STEP][PASSED] - click(findTestObject("All asset/Register asset/Button - Continue")): Object: 'Object Repository/All asset/Register asset/Button - Continue' is clicked on
+
+15-09-2025T11:40:53 - [MESSAGE][PASSED] - Object: 'Object Repository/All asset/Register asset/Button - Continue' is clicked on
+
+15-09-2025T11:40:53 - [TEST_STEP][PASSED] - currentUrl = getUrl(): Current window's url is: 'https://staging-fam.tagsamurai.com/assets/disposal/reported'
+
+15-09-2025T11:40:53 - [MESSAGE][PASSED] - Current window's url is: 'https://staging-fam.tagsamurai.com/assets/disposal/reported'
+
+15-09-2025T11:40:53 - [TEST_STEP][PASSED] - verifyMatch(currentUrl, ".*disposal.*", true): Actual text 'https://staging-fam.tagsamurai.com/assets/disposal/reported' and expected text '.*disposal.*' are matched  using regular expression
+
+15-09-2025T11:40:53 - [MESSAGE][PASSED] - Actual text 'https://staging-fam.tagsamurai.com/assets/disposal/reported' and expected text '.*disposal.*' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-09-2025T11:32:15 - [TEST_SUITE][FAILED] - Disposal -: Test Cases/Disposal/Create Disposal Log - Missing - (Negatif)/Create Disposal Log - Missing - Submit tanpa asset FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'You must pick an asset' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at Create Disposal Log - Missing - Submit tanpa asset.run(Create Disposal Log - Missing - Submit tanpa asset:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'You must pick an asset' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[15-09-2025T11:32:15 - [TEST_SUITE][FAILED] - Disposal -: Test Cases/Disposal/Create Disposal Log - Missing - (Negatif)/Create Disposal Log - Missing - Submit tanpa asset FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'You must pick an asset' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at Create Disposal Log - Missing - Submit tanpa asset.run(Create Disposal Log - Missing - Submit tanpa asset:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757910720339.run(TempTestSuite1757910720339.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'You must pick an asset' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

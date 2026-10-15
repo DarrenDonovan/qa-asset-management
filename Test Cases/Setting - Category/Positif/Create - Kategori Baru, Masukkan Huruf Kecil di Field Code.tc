@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Kategori Baru, Masukkan Huruf Kecil di Field Code</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6998b58d-1117-4271-a6c2-c3595c91f75c</testCaseGuid>
+</TestCaseEntity>

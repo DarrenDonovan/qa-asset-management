@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - Sub Kategori</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dd36f9af-ccd8-43f0-b4aa-e4280e18d49f</testCaseGuid>
+</TestCaseEntity>

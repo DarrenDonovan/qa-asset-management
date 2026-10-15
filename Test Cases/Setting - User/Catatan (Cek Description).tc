@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- User Default: User Satu/user1dev6@qwertysystem.net&#xd;
+- User Total Control: User Darren Donovan/darrendonovann@gmail.com&#xd;
+- User Read Only: user2dev6/user2dev6@qwertysystem.net&#xd;
+- User Basic: user3dev6/user3dev6@qwertysystem.net</description>
+   <name>Catatan (Cek Description)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2a6570ca-9afb-4b31-898d-eba40d48e4a1</testCaseGuid>
+</TestCaseEntity>

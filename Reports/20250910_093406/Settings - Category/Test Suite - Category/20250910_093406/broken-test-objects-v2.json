@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/login session object/Portal - Fixed Asset",
+      "brokenLocator": "//div/div[2]/div[2]/div[2]/a[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Modules\u0027])[1]/following::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250910_093406/Settings - Category/Test Suite - Category/20250910_093406/Object Repository/login session object/Portal - Fixed Asset_neighbor.png"
+    }
+  ]
+}

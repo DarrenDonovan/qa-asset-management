@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Text - Reported Damaged</name>
+   <tag></tag>
+   <elementGuidId>e033691c-7ece-4485-9384-432d2a59630b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[@id='68a58f36627a2573335445a6']/td[5]/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Reported Damaged&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b54d3c3c-6a0a-43d2-9eba-bdc7a98cf357</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-nowrap whitespace-nowrap font-semibold text-[9px] leading-3 tracking-[0.02em]</value>
+      <webElementGuid>b91c906d-bf34-4a12-abb4-aa61cb054766</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>contenteditable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>7424961d-b36b-4b0f-b611-c29e992e4944</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>spellcheck</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>8c783c39-f796-4a56-80b1-6eda95417dd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Reported Damaged</value>
+      <webElementGuid>94d0d124-eb3a-4a08-803f-f2c64e23e10f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;68a58f36627a2573335445a6&quot;)/td[@class=&quot;text-xs px-2 py-[4.5px] border-0 !border-b !border-solid border-general-100 justify-items-start [&amp;:has([data-wv-section=rowcheckbox])]:text-center [&amp;:has([data-wv-section=rowcheckbox])]:text-center&quot;]/span[@class=&quot;inline-flex items-center p-1 rounded-lg text-danger-600 bg-danger-100&quot;]/span[@class=&quot;text-nowrap whitespace-nowrap font-semibold text-[9px] leading-3 tracking-[0.02em]&quot;]</value>
+      <webElementGuid>72ad2c8d-625a-4794-a61c-2ded564d98db</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='68a58f36627a2573335445a6']/td[5]/span/span</value>
+      <webElementGuid>dd103b0b-c939-49e1-a6e1-eaec4be700c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kantor C'])[1]/preceding::span[1]</value>
+      <webElementGuid>9436129b-25a1-4568-8b10-91d3484f2b98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QA Qtera'])[2]/preceding::span[3]</value>
+      <webElementGuid>1c90d0d4-3f4d-4028-a7b3-800ed76664db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Reported Damaged']/parent::*</value>
+      <webElementGuid>c33c8745-d17b-427d-839f-17110f712cdb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[5]/span/span</value>
+      <webElementGuid>5f5eb786-4142-4c93-b617-8b84591f5dc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Reported Damaged' or . = 'Reported Damaged')]</value>
+      <webElementGuid>b245c8dd-1cbc-484f-b941-9989eb944dbd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,502 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite - Category,Chrome 139.0.7258.157,,,10-09-2025 16:50:15,10-09-2025 17:00:20,10m - 5.161s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/Login - Login Navigate ke Category,Chrome 139.0.7258.157,Positif,,10-09-2025 16:50:51,10-09-2025 16:51:37,46.584s,PASSED
+Common_Utils.openBrowser(url),Chrome 139.0.7258.157,,,10-09-2025 16:50:51,10-09-2025 16:50:58,6.868s,PASSED
+"Common_Utils.login(email, password)",Chrome 139.0.7258.157,,,10-09-2025 16:50:58,10-09-2025 16:51:30,32.572s,PASSED
+Common_Utils.navigateToCategory(),Chrome 139.0.7258.157,,,10-09-2025 16:51:30,10-09-2025 16:51:37,7.115s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/Check - Tampilan Default Sidebar,Chrome 139.0.7258.157,,,10-09-2025 16:51:37,10-09-2025 16:51:38,1.173s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Sidebar - Daftar Category""), STOP_ON_FAILURE)",Chrome 139.0.7258.157,,,10-09-2025 16:51:37,10-09-2025 16:51:38,1.064s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/Create - Kategori Baru,Chrome 139.0.7258.157,,,10-09-2025 16:51:38,10-09-2025 16:51:47,8.801s,PASSED
+"click(findTestObject(""Setting - Category/Button - New Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:51:39,10-09-2025 16:51:40,0.993s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Name""), ""Category Test"")",Chrome 139.0.7258.157,,,10-09-2025 16:51:40,10-09-2025 16:51:43,3.276s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Code""), ""TEST"")",Chrome 139.0.7258.157,,,10-09-2025 16:51:43,10-09-2025 16:51:45,1.840s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:51:45,10-09-2025 16:51:46,0.914s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Group/Toast - Success""), ""Success, category has been created."", STOP_ON_FAILURE))",Chrome 139.0.7258.157,,,10-09-2025 16:51:46,10-09-2025 16:51:47,1.633s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/View Log - Kategori,Chrome 139.0.7258.157,,,10-09-2025 16:51:47,10-09-2025 16:52:16,28.495s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 139.0.7258.157,,,10-09-2025 16:51:47,10-09-2025 16:51:49,2.010s,PASSED
+"comment(""Setting > Category > View Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:51:49,10-09-2025 16:51:49,0.016s,PASSED
+LogsCheck.checkCategoryViewLog(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:51:49,10-09-2025 16:51:51,1.828s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 139.0.7258.157,,,10-09-2025 16:51:51,10-09-2025 16:51:51,0.006s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:51:51,10-09-2025 16:51:56,4.603s,PASSED
+"comment(""Profile > System Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:51:56,10-09-2025 16:51:56,0.005s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:51:56,10-09-2025 16:52:02,6.285s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:52:02,10-09-2025 16:52:02,0.004s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:52:02,10-09-2025 16:52:13,10.830s,PASSED
+Common_Utils.navigateToCategory(),Chrome 139.0.7258.157,,,10-09-2025 16:52:13,10-09-2025 16:52:16,2.749s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/Check - Tampilkan Tabel Kategori,Chrome 139.0.7258.157,,,10-09-2025 16:52:16,10-09-2025 16:52:18,1.840s,PASSED
+"click(findTestObject(""Setting - Category/Category Div - All""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:16,10-09-2025 16:52:17,1.495s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Table - Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:17,10-09-2025 16:52:18,0.261s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/Check - Melihat Changelog Kategori,Chrome 139.0.7258.157,,,10-09-2025 16:52:18,10-09-2025 16:52:19,1.817s,PASSED
+"click(findTestObject(""Setting - Category/Button - View Log""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:18,10-09-2025 16:52:18,0.406s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Table - Category Changelog""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:18,10-09-2025 16:52:19,0.995s,PASSED
+"click(findTestObject(""Setting - Category/Button - Close Log""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:19,10-09-2025 16:52:19,0.349s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Field Nama Kosong",Chrome 139.0.7258.157,,,10-09-2025 16:52:19,10-09-2025 16:52:23,3.118s,PASSED
+"click(findTestObject(""Setting - Category/Button - New Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:20,10-09-2025 16:52:20,0.496s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:20,10-09-2025 16:52:22,1.550s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Validator Message - Name Musnt Empty""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:22,10-09-2025 16:52:22,0.591s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:22,10-09-2025 16:52:23,0.374s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Nama Sudah Ada",Chrome 139.0.7258.157,,,10-09-2025 16:52:23,10-09-2025 16:52:26,3.481s,PASSED
+"click(findTestObject(""Setting - Category/Button - New Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:23,10-09-2025 16:52:23,0.585s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Name""), ""Default"")",Chrome 139.0.7258.157,,,10-09-2025 16:52:23,10-09-2025 16:52:25,1.340s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:25,10-09-2025 16:52:25,0.863s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Validator Message - Name Already Exist""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:25,10-09-2025 16:52:26,0.265s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:26,10-09-2025 16:52:26,0.332s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Nama Kategori Lebih Dari 30 Karakter",Chrome 139.0.7258.157,,,10-09-2025 16:52:26,10-09-2025 16:52:30,3.593s,PASSED
+"click(findTestObject(""Setting - Category/Button - New Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:26,10-09-2025 16:52:27,0.481s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Name""), ""aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"")",Chrome 139.0.7258.157,,,10-09-2025 16:52:27,10-09-2025 16:52:28,1.903s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:28,10-09-2025 16:52:29,0.470s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Validator Message - Name Max 30 Char""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:29,10-09-2025 16:52:29,0.279s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:29,10-09-2025 16:52:30,0.399s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Nama Diisi All",Chrome 139.0.7258.157,,,10-09-2025 16:52:30,10-09-2025 16:52:33,3.315s,PASSED
+"click(findTestObject(""Setting - Category/Button - New Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:30,10-09-2025 16:52:30,0.485s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Name""), ""All"")",Chrome 139.0.7258.157,,,10-09-2025 16:52:30,10-09-2025 16:52:31,1.272s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:31,10-09-2025 16:52:32,0.872s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Validator Message - Name Already Exist""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:32,10-09-2025 16:52:33,0.257s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:33,10-09-2025 16:52:33,0.334s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Kode Sudah Ada",Chrome 139.0.7258.157,,,10-09-2025 16:52:33,10-09-2025 16:52:38,4.565s,PASSED
+"click(findTestObject(""Setting - Category/Button - New Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:33,10-09-2025 16:52:34,0.480s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Code""), ""0000"")",Chrome 139.0.7258.157,,,10-09-2025 16:52:34,10-09-2025 16:52:36,2.256s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:36,10-09-2025 16:52:37,0.915s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Validator Message - Code Already Exist""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:37,10-09-2025 16:52:37,0.476s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:37,10-09-2025 16:52:38,0.359s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Kode Lebih Dari 4 Karakter",Chrome 139.0.7258.157,,,10-09-2025 16:52:38,10-09-2025 16:52:41,3.254s,PASSED
+"click(findTestObject(""Setting - Category/Button - New Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:38,10-09-2025 16:52:38,0.510s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Code""), ""CATEGORY"")",Chrome 139.0.7258.157,,,10-09-2025 16:52:38,10-09-2025 16:52:39,1.268s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:39,10-09-2025 16:52:40,0.571s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Validator Message - Code Max 4 Char""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:40,10-09-2025 16:52:40,0.480s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:40,10-09-2025 16:52:41,0.348s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Kode Diisi Dengan Bukan Angka atau Huruf",Chrome 139.0.7258.157,,,10-09-2025 16:52:41,10-09-2025 16:52:45,3.866s,PASSED
+"click(findTestObject(""Setting - Category/Button - New Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:41,10-09-2025 16:52:41,0.486s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Code""), ""!@#$"")",Chrome 139.0.7258.157,,,10-09-2025 16:52:41,10-09-2025 16:52:43,1.851s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:43,10-09-2025 16:52:44,0.887s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:44,10-09-2025 16:52:45,0.566s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Positif/Create - Kategori Baru, Klik Clear Field",Chrome 139.0.7258.157,,,10-09-2025 16:52:45,10-09-2025 16:52:49,4.518s,PASSED
+"click(findTestObject(""Setting - Category/Button - New Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:45,10-09-2025 16:52:45,0.500s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Name""), ""ABCD"")",Chrome 139.0.7258.157,,,10-09-2025 16:52:45,10-09-2025 16:52:47,1.327s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Code""), ""ABCD"")",Chrome 139.0.7258.157,,,10-09-2025 16:52:47,10-09-2025 16:52:48,1.173s,PASSED
+"click(findTestObject(""Setting - Category/Button - Clear Field""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:48,10-09-2025 16:52:49,0.897s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:49,10-09-2025 16:52:49,0.547s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/Update - Kategori,Chrome 139.0.7258.157,,,10-09-2025 16:52:49,10-09-2025 16:52:58,8.649s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:49,10-09-2025 16:52:50,0.461s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Edit Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:50,10-09-2025 16:52:50,0.602s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Category/Textbox - Category Name""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:50,10-09-2025 16:52:52,1.853s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Name""), ""Category Tests"")",Chrome 139.0.7258.157,,,10-09-2025 16:52:52,10-09-2025 16:52:53,0.853s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Category/Textbox - Category Code""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:53,10-09-2025 16:52:54,1.238s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Code""), ""CTES"")",Chrome 139.0.7258.157,,,10-09-2025 16:52:54,10-09-2025 16:52:55,0.814s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:52:55,10-09-2025 16:52:56,0.885s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Category/Toast - Success""), ""Success, category has been edited."", STOP_ON_FAILURE))",Chrome 139.0.7258.157,,,10-09-2025 16:52:56,10-09-2025 16:52:58,1.789s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/View Log - Kategori,Chrome 139.0.7258.157,,,10-09-2025 16:52:58,10-09-2025 16:53:24,26.200s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 139.0.7258.157,,,10-09-2025 16:52:58,10-09-2025 16:53:00,2.004s,PASSED
+"comment(""Setting > Category > View Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:53:00,10-09-2025 16:53:00,0.002s,PASSED
+LogsCheck.checkCategoryViewLog(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:53:00,10-09-2025 16:53:03,3.040s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 139.0.7258.157,,,10-09-2025 16:53:03,10-09-2025 16:53:03,0.004s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:53:03,10-09-2025 16:53:06,3.336s,PASSED
+"comment(""Profile > System Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:53:06,10-09-2025 16:53:06,0.001s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:53:06,10-09-2025 16:53:10,4.086s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:53:10,10-09-2025 16:53:10,0.003s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:53:10,10-09-2025 16:53:21,10.540s,PASSED
+Common_Utils.navigateToCategory(),Chrome 139.0.7258.157,,,10-09-2025 16:53:21,10-09-2025 16:53:24,3.171s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Update - Kategori, Nama Tidak Diisi",Chrome 139.0.7258.157,,,10-09-2025 16:53:24,10-09-2025 16:53:29,5.150s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:24,10-09-2025 16:53:25,1.194s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Edit Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:25,10-09-2025 16:53:26,0.648s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Category/Textbox - Category Name""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:26,10-09-2025 16:53:28,1.910s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:28,10-09-2025 16:53:29,0.570s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Validator Message - Name Musnt Empty""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:29,10-09-2025 16:53:29,0.271s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:29,10-09-2025 16:53:29,0.363s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Update - Kategori, Nama Sudah Ada",Chrome 139.0.7258.157,,,10-09-2025 16:53:29,10-09-2025 16:53:34,5.214s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:29,10-09-2025 16:53:30,0.454s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Edit Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:30,10-09-2025 16:53:30,0.599s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Category/Textbox - Category Name""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:30,10-09-2025 16:53:32,1.407s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Name""), ""Default"")",Chrome 139.0.7258.157,,,10-09-2025 16:53:32,10-09-2025 16:53:33,0.822s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Validator Message - Name Already Exist""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:33,10-09-2025 16:53:33,0.809s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:33,10-09-2025 16:53:34,0.351s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:34,10-09-2025 16:53:34,0.665s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Update - Kategori, Nama Lebih dari 30 Karakter",Chrome 139.0.7258.157,,,10-09-2025 16:53:34,10-09-2025 16:53:39,4.293s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:34,10-09-2025 16:53:35,0.514s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Edit Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:35,10-09-2025 16:53:36,0.612s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Name""), ""aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"")",Chrome 139.0.7258.157,,,10-09-2025 16:53:36,10-09-2025 16:53:38,2.007s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Validator Message - Name Max 30 Char""), STOP_ON_FAILURE)",Chrome 139.0.7258.157,,,10-09-2025 16:53:38,10-09-2025 16:53:38,0.376s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:38,10-09-2025 16:53:38,0.362s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:38,10-09-2025 16:53:39,0.331s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Update - Kategori, Nama Diisi All",Chrome 139.0.7258.157,,,10-09-2025 16:53:39,10-09-2025 16:53:44,4.840s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:39,10-09-2025 16:53:39,0.443s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Edit Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:39,10-09-2025 16:53:40,0.611s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Category/Textbox - Category Name""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:40,10-09-2025 16:53:41,1.384s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Name""), ""All"")",Chrome 139.0.7258.157,,,10-09-2025 16:53:41,10-09-2025 16:53:42,0.815s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Validator Message - Name Already Exist""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:42,10-09-2025 16:53:43,0.799s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:43,10-09-2025 16:53:43,0.348s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:43,10-09-2025 16:53:44,0.332s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Update - Kategori, Kode Sudah Ada",Chrome 139.0.7258.157,,,10-09-2025 16:53:44,10-09-2025 16:53:50,6.269s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:44,10-09-2025 16:53:44,0.459s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Edit Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:44,10-09-2025 16:53:45,1.036s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Category/Textbox - Category Code""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:45,10-09-2025 16:53:48,2.362s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Code""), ""0000"")",Chrome 139.0.7258.157,,,10-09-2025 16:53:48,10-09-2025 16:53:48,0.796s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Validator Message - Code Already Exist""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:48,10-09-2025 16:53:49,0.797s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:49,10-09-2025 16:53:49,0.356s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:49,10-09-2025 16:53:50,0.343s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Update - Kategori, Kode Lebih dari 4 Karakter",Chrome 139.0.7258.157,,,10-09-2025 16:53:50,10-09-2025 16:53:55,5.282s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:50,10-09-2025 16:53:50,0.466s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Edit Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:50,10-09-2025 16:53:51,0.611s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Category/Textbox - Category Code""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:51,10-09-2025 16:53:53,2.069s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Code""), ""EDITCATEGORY"")",Chrome 139.0.7258.157,,,10-09-2025 16:53:53,10-09-2025 16:53:54,0.838s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Validator Message - Code Max 4 Char""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:54,10-09-2025 16:53:54,0.489s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:54,10-09-2025 16:53:55,0.351s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:55,10-09-2025 16:53:55,0.339s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Positif/Update - Kategori, Klik Clear Field",Chrome 139.0.7258.157,,,10-09-2025 16:53:55,10-09-2025 16:53:59,3.677s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:55,10-09-2025 16:53:56,0.462s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Edit Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:56,10-09-2025 16:53:56,0.611s,PASSED
+"click(findTestObject(""Setting - Category/Button - Clear Field""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:56,10-09-2025 16:53:57,1.005s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:57,10-09-2025 16:53:58,0.561s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:58,10-09-2025 16:53:59,0.973s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/Create - Sub Kategori Baru,Chrome 139.0.7258.157,,,10-09-2025 16:53:59,10-09-2025 16:54:06,7.614s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:59,10-09-2025 16:53:59,0.441s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Create Sub Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:53:59,10-09-2025 16:54:00,0.585s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Name""), ""Sub Category Test"")",Chrome 139.0.7258.157,,,10-09-2025 16:54:00,10-09-2025 16:54:02,1.878s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Code""), ""SCTG"")",Chrome 139.0.7258.157,,,10-09-2025 16:54:02,10-09-2025 16:54:03,1.171s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:03,10-09-2025 16:54:04,0.892s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Category/Toast - Success""), ""Success, category has been created."", STOP_ON_FAILURE))",Chrome 139.0.7258.157,,,10-09-2025 16:54:04,10-09-2025 16:54:06,2.536s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/View Log - Kategori,Chrome 139.0.7258.157,,,10-09-2025 16:54:06,10-09-2025 16:54:31,24.750s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 139.0.7258.157,,,10-09-2025 16:54:06,10-09-2025 16:54:08,2.002s,PASSED
+"comment(""Setting > Category > View Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:54:08,10-09-2025 16:54:08,0.002s,PASSED
+LogsCheck.checkCategoryViewLog(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:54:08,10-09-2025 16:54:11,2.117s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 139.0.7258.157,,,10-09-2025 16:54:11,10-09-2025 16:54:11,0.002s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:54:11,10-09-2025 16:54:15,4.125s,PASSED
+"comment(""Profile > System Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:54:15,10-09-2025 16:54:15,0.001s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:54:15,10-09-2025 16:54:20,5.092s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:54:20,10-09-2025 16:54:20,0.002s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:54:20,10-09-2025 16:54:29,9.012s,PASSED
+Common_Utils.navigateToCategory(),Chrome 139.0.7258.157,,,10-09-2025 16:54:29,10-09-2025 16:54:31,2.376s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/Check - Urutan Kategori di Sidebar Ascending,Chrome 139.0.7258.157,,,10-09-2025 16:54:31,10-09-2025 16:54:33,1.778s,PASSED
+"click(findTestObject(""All Menu/Sub Module - Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:31,10-09-2025 16:54:33,1.674s,PASSED
+"comment(""Cek Urutan Group di Sidebar Sebelah Kanan"")",Chrome 139.0.7258.157,,,10-09-2025 16:54:33,10-09-2025 16:54:33,0.005s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Positif/Toggle - Chevron Kategori yang Memiliki Sub Kategori (Expand, Collapse)",Chrome 139.0.7258.157,,,10-09-2025 16:54:33,10-09-2025 16:54:36,3.161s,PASSED
+"click(findTestObject(""Setting - Category/Chevron - Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:33,10-09-2025 16:54:33,0.377s,PASSED
+delay(1),Chrome 139.0.7258.157,,,10-09-2025 16:54:33,10-09-2025 16:54:34,1.007s,PASSED
+"click(findTestObject(""Setting - Category/Chevron - Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:34,10-09-2025 16:54:35,0.336s,PASSED
+delay(1),Chrome 139.0.7258.157,,,10-09-2025 16:54:35,10-09-2025 16:54:36,1.013s,PASSED
+"click(findTestObject(""Setting - Category/Chevron - Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:36,10-09-2025 16:54:36,0.336s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/Toggle - Hierarki Kategori,Chrome 139.0.7258.157,,,10-09-2025 16:54:36,10-09-2025 16:54:39,3.215s,PASSED
+"click(findTestObject(""Setting - Category/Button - Open Hierarchy""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:36,10-09-2025 16:54:37,0.439s,PASSED
+delay(1),Chrome 139.0.7258.157,,,10-09-2025 16:54:37,10-09-2025 16:54:38,1.015s,PASSED
+"click(findTestObject(""Setting - Category/Button - Open Hierarchy""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:38,10-09-2025 16:54:38,0.336s,PASSED
+delay(1),Chrome 139.0.7258.157,,,10-09-2025 16:54:38,10-09-2025 16:54:39,1.012s,PASSED
+"click(findTestObject(""Setting - Category/Button - Open Hierarchy""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:39,10-09-2025 16:54:39,0.349s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Nama Tidak Diisi",Chrome 139.0.7258.157,,,10-09-2025 16:54:39,10-09-2025 16:54:43,4.082s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:39,10-09-2025 16:54:40,0.485s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Create Sub Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:40,10-09-2025 16:54:40,0.585s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:40,10-09-2025 16:54:43,2.123s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Validator Message - Name Musnt Empty""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:43,10-09-2025 16:54:43,0.483s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:43,10-09-2025 16:54:43,0.348s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Nama Sudah Ada",Chrome 139.0.7258.157,,,10-09-2025 16:54:43,10-09-2025 16:54:47,4.067s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:43,10-09-2025 16:54:44,0.551s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Create Sub Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:44,10-09-2025 16:54:45,0.590s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Name""), ""Default"")",Chrome 139.0.7258.157,,,10-09-2025 16:54:45,10-09-2025 16:54:46,1.382s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Validator Message - Name Already Exist""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:46,10-09-2025 16:54:47,0.799s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:47,10-09-2025 16:54:47,0.350s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:47,10-09-2025 16:54:47,0.330s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Nama Lebih dari 30 Karakter",Chrome 139.0.7258.157,,,10-09-2025 16:54:47,10-09-2025 16:54:52,4.272s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:48,10-09-2025 16:54:48,0.450s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Create Sub Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:48,10-09-2025 16:54:49,0.587s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Name""), ""aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"")",Chrome 139.0.7258.157,,,10-09-2025 16:54:49,10-09-2025 16:54:51,2.095s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Validator Message - Name Max 30 Char""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:51,10-09-2025 16:54:51,0.382s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:51,10-09-2025 16:54:51,0.340s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:51,10-09-2025 16:54:52,0.342s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Kode Sudah Ada",Chrome 139.0.7258.157,,,10-09-2025 16:54:52,10-09-2025 16:54:56,4.146s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:52,10-09-2025 16:54:52,0.449s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Create Sub Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:52,10-09-2025 16:54:53,0.595s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Code""), ""0000"")",Chrome 139.0.7258.157,,,10-09-2025 16:54:53,10-09-2025 16:54:54,1.334s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Validator Message - Code Already Exist""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:54,10-09-2025 16:54:55,0.805s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:55,10-09-2025 16:54:55,0.340s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:55,10-09-2025 16:54:56,0.549s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Kode Lebih dari 4 Karakter",Chrome 139.0.7258.157,,,10-09-2025 16:54:56,10-09-2025 16:55:00,4.461s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:56,10-09-2025 16:54:56,0.440s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Create Sub Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:56,10-09-2025 16:54:57,0.575s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Code""), ""ABCDEFGHIJK"")",Chrome 139.0.7258.157,,,10-09-2025 16:54:57,10-09-2025 16:54:59,2.011s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Validator Message - Code Max 4 Char""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:59,10-09-2025 16:54:59,0.482s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:54:59,10-09-2025 16:55:00,0.339s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:55:00,10-09-2025 16:55:00,0.549s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Positif/Create - Sub Kategori, Klik Clear Field",Chrome 139.0.7258.157,,,10-09-2025 16:55:00,10-09-2025 16:55:07,6.563s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:55:00,10-09-2025 16:55:01,0.460s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Create Sub Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:55:01,10-09-2025 16:55:01,0.590s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Name""), ""ABCD"")",Chrome 139.0.7258.157,,,10-09-2025 16:55:01,10-09-2025 16:55:04,2.215s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Code""), ""ABCD"")",Chrome 139.0.7258.157,,,10-09-2025 16:55:04,10-09-2025 16:55:05,1.220s,PASSED
+"click(findTestObject(""Setting - Category/Button - Clear Field""))",Chrome 139.0.7258.157,,,10-09-2025 16:55:05,10-09-2025 16:55:06,0.906s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:55:06,10-09-2025 16:55:06,0.549s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:55:06,10-09-2025 16:55:07,0.552s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Positif/Create - Sub Kategori, Ceklis Stay On This Form",Chrome 139.0.7258.157,,,10-09-2025 16:55:07,10-09-2025 16:55:15,8.288s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Sub Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:55:07,10-09-2025 16:55:08,0.455s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Create Sub Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:55:08,10-09-2025 16:55:08,0.586s,PASSED
+"check(findTestObject(""Setting - Category/Checkbox - Stay on This Form""))",Chrome 139.0.7258.157,,,10-09-2025 16:55:08,10-09-2025 16:55:10,1.570s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Name""), ""Level 3 Category"")",Chrome 139.0.7258.157,,,10-09-2025 16:55:10,10-09-2025 16:55:10,0.662s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Code""), ""LVL3"")",Chrome 139.0.7258.157,,,10-09-2025 16:55:10,10-09-2025 16:55:12,1.187s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:55:12,10-09-2025 16:55:13,1.214s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Category/Toast - Success""), ""Success, category has been created."", STOP_ON_FAILURE))",Chrome 139.0.7258.157,,,10-09-2025 16:55:13,10-09-2025 16:55:15,2.136s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:55:15,10-09-2025 16:55:15,0.365s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/View Log - Kategori,Chrome 139.0.7258.157,,,10-09-2025 16:55:15,10-09-2025 16:55:41,25.364s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 139.0.7258.157,,,10-09-2025 16:55:15,10-09-2025 16:55:17,2.007s,PASSED
+"comment(""Setting > Category > View Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:55:17,10-09-2025 16:55:17,0.001s,PASSED
+LogsCheck.checkCategoryViewLog(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:55:17,10-09-2025 16:55:19,1.746s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 139.0.7258.157,,,10-09-2025 16:55:19,10-09-2025 16:55:19,0.004s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:55:19,10-09-2025 16:55:22,3.451s,PASSED
+"comment(""Profile > System Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:55:22,10-09-2025 16:55:22,0.003s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:55:22,10-09-2025 16:55:28,5.304s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:55:28,10-09-2025 16:55:28,0.003s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:55:28,10-09-2025 16:55:38,10.539s,PASSED
+Common_Utils.navigateToCategory(),Chrome 139.0.7258.157,,,10-09-2025 16:55:38,10-09-2025 16:55:41,2.285s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Hierarki Sub Kategori Lebih dari 3",Chrome 139.0.7258.157,,,10-09-2025 16:55:41,10-09-2025 16:55:44,3.030s,PASSED
+"click(findTestObject(""Setting - Category/Chevron - Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:55:41,10-09-2025 16:55:42,1.402s,PASSED
+"click(findTestObject(""Setting - Category/Chevron - Sub Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:55:42,10-09-2025 16:55:43,0.549s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Level 3 Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:55:43,10-09-2025 16:55:43,0.554s,PASSED
+"verifyElementNotPresent(findTestObject(""Setting - Category/Action Menu - Create Sub Category""), 0)",Chrome 139.0.7258.157,,,10-09-2025 16:55:43,10-09-2025 16:55:44,0.447s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/Update - Sub Kategori,Chrome 139.0.7258.157,,,10-09-2025 16:55:44,10-09-2025 16:55:50,6.547s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Sub Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:55:44,10-09-2025 16:55:44,0.362s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Edit Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:55:44,10-09-2025 16:55:45,0.618s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Category/Textbox - Category Name""))",Chrome 139.0.7258.157,,,10-09-2025 16:55:45,10-09-2025 16:55:46,1.749s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Name""), ""Sub Category Tests"")",Chrome 139.0.7258.157,,,10-09-2025 16:55:46,10-09-2025 16:55:47,0.859s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:55:47,10-09-2025 16:55:48,0.891s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Category/Toast - Success""), ""Success, category has been edited."", STOP_ON_FAILURE))",Chrome 139.0.7258.157,,,10-09-2025 16:55:48,10-09-2025 16:55:50,1.949s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/View Log - Kategori,Chrome 139.0.7258.157,,,10-09-2025 16:55:50,10-09-2025 16:56:13,23.071s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 139.0.7258.157,,,10-09-2025 16:55:50,10-09-2025 16:55:52,2.008s,PASSED
+"comment(""Setting > Category > View Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:55:52,10-09-2025 16:55:52,0.002s,PASSED
+LogsCheck.checkCategoryViewLog(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:55:52,10-09-2025 16:55:55,2.622s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 139.0.7258.157,,,10-09-2025 16:55:55,10-09-2025 16:55:55,0.002s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:55:55,10-09-2025 16:55:58,3.350s,PASSED
+"comment(""Profile > System Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:55:58,10-09-2025 16:55:58,0.002s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:55:58,10-09-2025 16:56:02,3.922s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:56:02,10-09-2025 16:56:02,0.001s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:56:02,10-09-2025 16:56:11,8.730s,PASSED
+Common_Utils.navigateToCategory(),Chrome 139.0.7258.157,,,10-09-2025 16:56:11,10-09-2025 16:56:13,2.417s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Field Nama Kosong",Chrome 139.0.7258.157,,,10-09-2025 16:56:13,10-09-2025 16:56:19,5.677s,PASSED
+"click(findTestObject(""Setting - Category/Chevron - Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:13,10-09-2025 16:56:15,1.439s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Sub Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:15,10-09-2025 16:56:15,0.550s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Edit Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:15,10-09-2025 16:56:16,0.622s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Category/Textbox - Category Name""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:16,10-09-2025 16:56:18,1.777s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:18,10-09-2025 16:56:18,0.563s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Validator Message - Name Musnt Empty""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:18,10-09-2025 16:56:19,0.274s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:19,10-09-2025 16:56:19,0.359s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Nama Sudah Ada",Chrome 139.0.7258.157,,,10-09-2025 16:56:19,10-09-2025 16:56:24,4.729s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Sub Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:19,10-09-2025 16:56:19,0.472s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Edit Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:19,10-09-2025 16:56:20,0.590s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Category/Textbox - Category Name""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:20,10-09-2025 16:56:21,1.322s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Name""), ""Default"")",Chrome 139.0.7258.157,,,10-09-2025 16:56:21,10-09-2025 16:56:22,0.824s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Validator Message - Name Already Exist""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:22,10-09-2025 16:56:23,0.790s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:23,10-09-2025 16:56:23,0.322s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:23,10-09-2025 16:56:24,0.331s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Nama Diisi All",Chrome 139.0.7258.157,,,10-09-2025 16:56:24,10-09-2025 16:56:29,5.160s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Sub Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:24,10-09-2025 16:56:24,0.454s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Edit Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:24,10-09-2025 16:56:25,0.588s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Category/Textbox - Category Name""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:25,10-09-2025 16:56:27,1.765s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Name""), ""All"")",Chrome 139.0.7258.157,,,10-09-2025 16:56:27,10-09-2025 16:56:27,0.797s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Validator Message - Name Already Exist""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:27,10-09-2025 16:56:28,0.804s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:28,10-09-2025 16:56:29,0.351s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:29,10-09-2025 16:56:29,0.335s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Nama Lebih dari 30 Karakter",Chrome 139.0.7258.157,,,10-09-2025 16:56:29,10-09-2025 16:56:33,4.099s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Sub Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:29,10-09-2025 16:56:29,0.571s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Edit Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:29,10-09-2025 16:56:30,0.608s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Name""), ""aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"")",Chrome 139.0.7258.157,,,10-09-2025 16:56:30,10-09-2025 16:56:32,1.822s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Validator Message - Name Max 30 Char""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:32,10-09-2025 16:56:32,0.373s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:32,10-09-2025 16:56:33,0.345s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:33,10-09-2025 16:56:33,0.333s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Kode Sudah Ada",Chrome 139.0.7258.157,,,10-09-2025 16:56:33,10-09-2025 16:56:38,4.706s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Sub Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:33,10-09-2025 16:56:33,0.451s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Edit Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:33,10-09-2025 16:56:34,0.582s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Category/Textbox - Category Code""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:34,10-09-2025 16:56:35,1.374s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Code""), ""0000"")",Chrome 139.0.7258.157,,,10-09-2025 16:56:35,10-09-2025 16:56:36,0.799s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Validator Message - Code Already Exist""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:36,10-09-2025 16:56:37,0.795s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:37,10-09-2025 16:56:37,0.310s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:37,10-09-2025 16:56:38,0.322s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Kode Lebih dari 4 Karakter",Chrome 139.0.7258.157,,,10-09-2025 16:56:38,10-09-2025 16:56:43,4.860s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Sub Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:38,10-09-2025 16:56:38,0.427s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Edit Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:38,10-09-2025 16:56:39,0.563s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Category/Textbox - Category Code""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:39,10-09-2025 16:56:41,1.828s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Code""), ""TAMAGOCHI"")",Chrome 139.0.7258.157,,,10-09-2025 16:56:41,10-09-2025 16:56:41,0.812s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Category/Validator Message - Code Max 4 Char""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:41,10-09-2025 16:56:42,0.475s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:42,10-09-2025 16:56:42,0.334s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:42,10-09-2025 16:56:43,0.318s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Positif/Update - Sub Kategori, Klik Clear Field",Chrome 139.0.7258.157,,,10-09-2025 16:56:43,10-09-2025 16:56:46,3.252s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Sub Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:43,10-09-2025 16:56:43,0.425s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Edit Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:43,10-09-2025 16:56:44,0.573s,PASSED
+"click(findTestObject(""Setting - Category/Button - Clear Field""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:44,10-09-2025 16:56:45,1.094s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:45,10-09-2025 16:56:45,0.550s,PASSED
+"click(findTestObject(""Setting - Category/Button - Cancel Create or Edit""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:45,10-09-2025 16:56:46,0.538s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/Delete - Sub Kategori Memiliki Asset,Chrome 139.0.7258.157,,,10-09-2025 16:56:46,10-09-2025 16:56:50,3.908s,PASSED
+"comment(""Anggap Sub Group Memiliki Asset"")",Chrome 139.0.7258.157,,,10-09-2025 16:56:46,10-09-2025 16:56:46,0.004s,PASSED
+"click(findTestObject(""Setting - Category/Chevron - Sub Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:46,10-09-2025 16:56:46,0.445s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Level 3 Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:46,10-09-2025 16:56:47,0.564s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Delete Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:47,10-09-2025 16:56:47,0.567s,PASSED
+"click(findTestObject(""Setting - Category/Button - Confirm Delete""))",Chrome 139.0.7258.157,,,10-09-2025 16:56:47,10-09-2025 16:56:48,0.570s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Category/Toast - Success""), ""Success, category has been deleted."", STOP_ON_FAILURE))",Chrome 139.0.7258.157,,,10-09-2025 16:56:48,10-09-2025 16:56:50,1.657s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/View Log - Kategori,Chrome 139.0.7258.157,,,10-09-2025 16:56:50,10-09-2025 16:57:17,26.863s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 139.0.7258.157,,,10-09-2025 16:56:50,10-09-2025 16:56:52,2.011s,PASSED
+"comment(""Setting > Category > View Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:56:52,10-09-2025 16:56:52,0.002s,PASSED
+LogsCheck.checkCategoryViewLog(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:56:52,10-09-2025 16:56:53,1.667s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 139.0.7258.157,,,10-09-2025 16:56:53,10-09-2025 16:56:53,0.002s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:56:53,10-09-2025 16:56:57,3.272s,PASSED
+"comment(""Profile > System Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:56:57,10-09-2025 16:56:57,0.001s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:56:57,10-09-2025 16:57:01,4.643s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:57:01,10-09-2025 16:57:01,0.001s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:57:01,10-09-2025 16:57:14,12.962s,PASSED
+Common_Utils.navigateToCategory(),Chrome 139.0.7258.157,,,10-09-2025 16:57:14,10-09-2025 16:57:17,2.288s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/Delete - Sub Kategori,Chrome 139.0.7258.157,,,10-09-2025 16:57:17,10-09-2025 16:57:21,4.563s,PASSED
+"click(findTestObject(""Setting - Category/Chevron - Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:57:17,10-09-2025 16:57:18,1.377s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Sub Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:57:18,10-09-2025 16:57:19,0.559s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Delete Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:57:19,10-09-2025 16:57:19,0.567s,PASSED
+"click(findTestObject(""Setting - Category/Button - Confirm Delete""))",Chrome 139.0.7258.157,,,10-09-2025 16:57:19,10-09-2025 16:57:20,0.582s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Category/Toast - Success""), ""Success, category has been deleted."", STOP_ON_FAILURE))",Chrome 139.0.7258.157,,,10-09-2025 16:57:20,10-09-2025 16:57:21,1.280s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/View Log - Kategori,Chrome 139.0.7258.157,,,10-09-2025 16:57:21,10-09-2025 16:57:47,25.416s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 139.0.7258.157,,,10-09-2025 16:57:21,10-09-2025 16:57:23,2.016s,PASSED
+"comment(""Setting > Category > View Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:57:23,10-09-2025 16:57:23,0.001s,PASSED
+LogsCheck.checkCategoryViewLog(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:57:23,10-09-2025 16:57:25,2.045s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 139.0.7258.157,,,10-09-2025 16:57:25,10-09-2025 16:57:25,0.002s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:57:25,10-09-2025 16:57:30,4.671s,PASSED
+"comment(""Profile > System Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:57:30,10-09-2025 16:57:30,0.003s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:57:30,10-09-2025 16:57:35,5.337s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:57:35,10-09-2025 16:57:35,0.003s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:57:35,10-09-2025 16:57:44,8.965s,PASSED
+Common_Utils.navigateToCategory(),Chrome 139.0.7258.157,,,10-09-2025 16:57:44,10-09-2025 16:57:47,2.354s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/Delete - Kategori,Chrome 139.0.7258.157,,,10-09-2025 16:57:47,10-09-2025 16:57:51,4.039s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:57:47,10-09-2025 16:57:48,1.536s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Delete Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:57:48,10-09-2025 16:57:49,0.581s,PASSED
+"click(findTestObject(""Setting - Category/Button - Confirm Delete""))",Chrome 139.0.7258.157,,,10-09-2025 16:57:49,10-09-2025 16:57:49,0.566s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Category/Toast - Success""), ""Success, category has been deleted."", STOP_ON_FAILURE))",Chrome 139.0.7258.157,,,10-09-2025 16:57:49,10-09-2025 16:57:51,1.235s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/View Log - Kategori,Chrome 139.0.7258.157,,,10-09-2025 16:57:51,10-09-2025 16:58:15,24.634s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 139.0.7258.157,,,10-09-2025 16:57:51,10-09-2025 16:57:53,2.016s,PASSED
+"comment(""Setting > Category > View Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:57:53,10-09-2025 16:57:53,0.003s,PASSED
+LogsCheck.checkCategoryViewLog(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:57:53,10-09-2025 16:57:56,2.892s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 139.0.7258.157,,,10-09-2025 16:57:56,10-09-2025 16:57:56,0.003s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:57:56,10-09-2025 16:57:59,3.414s,PASSED
+"comment(""Profile > System Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:57:59,10-09-2025 16:57:59,0.003s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:57:59,10-09-2025 16:58:03,4.085s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:58:03,10-09-2025 16:58:03,0.002s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:58:03,10-09-2025 16:58:13,9.544s,PASSED
+Common_Utils.navigateToCategory(),Chrome 139.0.7258.157,,,10-09-2025 16:58:13,10-09-2025 16:58:15,2.659s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Positif/Create - Kategori Baru, Masukkan Huruf Kecil di Field Code",Chrome 139.0.7258.157,,,10-09-2025 16:58:15,10-09-2025 16:58:23,7.435s,PASSED
+"click(findTestObject(""Setting - Category/Button - New Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:58:15,10-09-2025 16:58:17,1.749s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Name""), ""Category Test"")",Chrome 139.0.7258.157,,,10-09-2025 16:58:17,10-09-2025 16:58:19,1.845s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Code""), ""test"")",Chrome 139.0.7258.157,,,10-09-2025 16:58:19,10-09-2025 16:58:20,1.194s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:58:20,10-09-2025 16:58:21,0.902s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Group/Toast - Success""), ""Success, category has been created."", STOP_ON_FAILURE))",Chrome 139.0.7258.157,,,10-09-2025 16:58:21,10-09-2025 16:58:23,1.614s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/View Log - Kategori,Chrome 139.0.7258.157,,,10-09-2025 16:58:23,10-09-2025 16:58:46,23.640s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 139.0.7258.157,,,10-09-2025 16:58:23,10-09-2025 16:58:25,2.015s,PASSED
+"comment(""Setting > Category > View Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:58:25,10-09-2025 16:58:25,0.003s,PASSED
+LogsCheck.checkCategoryViewLog(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:58:25,10-09-2025 16:58:27,1.830s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 139.0.7258.157,,,10-09-2025 16:58:27,10-09-2025 16:58:27,0.002s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:58:27,10-09-2025 16:58:30,3.215s,PASSED
+"comment(""Profile > System Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:58:30,10-09-2025 16:58:30,0.002s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:58:30,10-09-2025 16:58:34,3.885s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:58:34,10-09-2025 16:58:34,0.002s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:58:34,10-09-2025 16:58:44,10.346s,PASSED
+Common_Utils.navigateToCategory(),Chrome 139.0.7258.157,,,10-09-2025 16:58:44,10-09-2025 16:58:46,2.326s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/Delete - Kategori Memiliki Asset,Chrome 139.0.7258.157,,,10-09-2025 16:58:46,10-09-2025 16:58:50,4.022s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 16:58:46,10-09-2025 16:58:48,1.579s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Delete Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:58:48,10-09-2025 16:58:48,0.571s,PASSED
+"click(findTestObject(""Setting - Category/Button - Confirm Delete""))",Chrome 139.0.7258.157,,,10-09-2025 16:58:48,10-09-2025 16:58:49,0.568s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Category/Toast - Success""), ""Success, category has been deleted."", STOP_ON_FAILURE))",Chrome 139.0.7258.157,,,10-09-2025 16:58:49,10-09-2025 16:58:50,1.291s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/View Log - Kategori,Chrome 139.0.7258.157,,,10-09-2025 16:58:50,10-09-2025 16:59:14,23.218s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 139.0.7258.157,,,10-09-2025 16:58:50,10-09-2025 16:58:52,2.010s,PASSED
+"comment(""Setting > Category > View Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:58:52,10-09-2025 16:58:52,0.001s,PASSED
+LogsCheck.checkCategoryViewLog(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:58:52,10-09-2025 16:58:55,2.382s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 139.0.7258.157,,,10-09-2025 16:58:55,10-09-2025 16:58:55,0.001s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:58:55,10-09-2025 16:58:58,3.232s,PASSED
+"comment(""Profile > System Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:58:58,10-09-2025 16:58:58,0.001s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:58:58,10-09-2025 16:59:02,3.879s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:59:02,10-09-2025 16:59:02,0.002s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:59:02,10-09-2025 16:59:11,8.854s,PASSED
+Common_Utils.navigateToCategory(),Chrome 139.0.7258.157,,,10-09-2025 16:59:11,10-09-2025 16:59:14,2.840s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/Delete - Kategori Satu-Satunya,Chrome 139.0.7258.157,,,10-09-2025 16:59:14,10-09-2025 16:59:16,2.255s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Default Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:59:14,10-09-2025 16:59:15,1.729s,PASSED
+"verifyElementNotPresent(findTestObject(""Setting - Category/Action Menu - Delete Category""), 0)",Chrome 139.0.7258.157,,,10-09-2025 16:59:15,10-09-2025 16:59:16,0.455s,PASSED
+,,,,,,,
+"Test Cases/Setting - Category/Positif/Create - Kategori Baru, Ceklis Stay On This Form",Chrome 139.0.7258.157,,,10-09-2025 16:59:16,10-09-2025 16:59:23,7.500s,PASSED
+"click(findTestObject(""Setting - Category/Button - New Category""))",Chrome 139.0.7258.157,,,10-09-2025 16:59:16,10-09-2025 16:59:16,0.400s,PASSED
+"check(findTestObject(""Setting - Category/Checkbox - Stay on This Form""))",Chrome 139.0.7258.157,,,10-09-2025 16:59:16,10-09-2025 16:59:18,1.514s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Name""), ""Category Test"")",Chrome 139.0.7258.157,,,10-09-2025 16:59:18,10-09-2025 16:59:18,0.650s,PASSED
+"setText(findTestObject(""Setting - Category/Textbox - Category Code""), ""TEST"")",Chrome 139.0.7258.157,,,10-09-2025 16:59:18,10-09-2025 16:59:20,1.682s,PASSED
+"click(findTestObject(""Setting - Category/Button - Submit""))",Chrome 139.0.7258.157,,,10-09-2025 16:59:20,10-09-2025 16:59:21,0.881s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Group/Toast - Success""), ""Success, category has been created."", STOP_ON_FAILURE))",Chrome 139.0.7258.157,,,10-09-2025 16:59:21,10-09-2025 16:59:23,2.275s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/View Log - Kategori,Chrome 139.0.7258.157,,,10-09-2025 16:59:37,10-09-2025 17:00:15,37.968s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 139.0.7258.157,,,10-09-2025 16:59:37,10-09-2025 16:59:39,2.013s,PASSED
+"comment(""Setting > Category > View Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:59:39,10-09-2025 16:59:39,0.003s,PASSED
+LogsCheck.checkCategoryViewLog(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:59:39,10-09-2025 16:59:51,12.060s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 139.0.7258.157,,,10-09-2025 16:59:51,10-09-2025 16:59:51,0.001s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:59:51,10-09-2025 16:59:56,5.049s,PASSED
+"comment(""Profile > System Log"")",Chrome 139.0.7258.157,,,10-09-2025 16:59:56,10-09-2025 16:59:56,0.001s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 16:59:56,10-09-2025 17:00:00,3.993s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 139.0.7258.157,,,10-09-2025 17:00:00,10-09-2025 17:00:00,0.003s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 139.0.7258.157,,,10-09-2025 17:00:00,10-09-2025 17:00:11,10.855s,PASSED
+Common_Utils.navigateToCategory(),Chrome 139.0.7258.157,,,10-09-2025 17:00:11,10-09-2025 17:00:15,3.977s,PASSED
+,,,,,,,
+Test Cases/Setting - Category/Positif/Delete - Kategori,Chrome 139.0.7258.157,,,10-09-2025 17:00:15,10-09-2025 17:00:19,4.644s,PASSED
+"click(findTestObject(""Setting - Category/Single Action Button - Category Test""))",Chrome 139.0.7258.157,,,10-09-2025 17:00:15,10-09-2025 17:00:16,1.799s,PASSED
+"click(findTestObject(""Setting - Category/Action Menu - Delete Category""))",Chrome 139.0.7258.157,,,10-09-2025 17:00:16,10-09-2025 17:00:17,0.563s,PASSED
+"click(findTestObject(""Setting - Category/Button - Confirm Delete""))",Chrome 139.0.7258.157,,,10-09-2025 17:00:17,10-09-2025 17:00:18,0.550s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Category/Toast - Success""), ""Success, category has been deleted."", STOP_ON_FAILURE))",Chrome 139.0.7258.157,,,10-09-2025 17:00:18,10-09-2025 17:00:19,1.722s,PASSED

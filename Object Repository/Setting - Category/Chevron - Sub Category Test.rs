@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Chevron - Sub Category Test</name>
+   <tag></tag>
+   <elementGuidId>baef2d28-754b-418e-b546-bf9365d254ca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul//div[.//span[starts-with(text(), 'Sub Category Test')]]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=treeitem[name=&quot;Group Test&quot;i] >> button >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>ef0049b6-e112-401d-9ba9-a5ce536e6455</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-wv-section</name>
+      <type>Main</type>
+      <value>togglericon</value>
+      <webElementGuid>f73f978a-c410-4207-a3fe-2c73e90d73a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon ic-arrow-right inherit cursor-pointer !shrink-0 w-4 h-4</value>
+      <webElementGuid>0003d51c-1b40-4fe1-b8aa-757d962954f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;1755855226078&quot;)/div[@class=&quot;overflow-auto&quot;]/ul[@class=&quot;m-0 p-0 list-none overflow-auto&quot;]/li[@class=&quot;p-0 !pl-1 rounded-md focus:outline-none focus:outline-offset-0&quot;]/ul[@class=&quot;!m-0 list-none p-0 !pl-1&quot;]/li[@class=&quot;p-0 !pl-1 rounded-md focus:outline-none focus:outline-offset-0&quot;]/div[@class=&quot;flex items-center rounded-md p-1 text-surface-700 hover:bg-primary-50 transition-shadow duration-200 cursor-pointer select-none cursor-pointer&quot;]/button[@class=&quot;inline-flex items-center justify-center shrink-0 border-0 rounded-full w-4 h-4 mr-0.5 text-general-800 bg-transparent hover:bg-surface-100 transition duration-200 cursor-pointer select-none !pointer-events-auto&quot;]/i[@class=&quot;icon ic-arrow-right inherit cursor-pointer !shrink-0 w-4 h-4&quot;]</value>
+      <webElementGuid>5ac9350b-0515-4e78-8239-311a3dbca357</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='1755855226078']/div/ul/li/ul/li[3]/div/button/i</value>
+      <webElementGuid>0fade5d3-3730-44c3-a9bf-4778e3119fdc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/div/button/i</value>
+      <webElementGuid>a15a23b0-897f-4d52-b68c-7f0677c76126</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

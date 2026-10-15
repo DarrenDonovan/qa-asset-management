@@ -1,0 +1,577 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite - Group,Chrome 140.0.7339.82,,,11-09-2025 11:05:24,11-09-2025 11:19:35,14m - 10.902s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/Login - Login Navigate ke Grup,Chrome 140.0.7339.82,Positif,,11-09-2025 11:05:25,11-09-2025 11:06:10,44.826s,PASSED
+Common_Utils.openBrowser(url),Chrome 140.0.7339.82,,,11-09-2025 11:05:26,11-09-2025 11:05:32,6.253s,PASSED
+"Common_Utils.login(email, password)",Chrome 140.0.7339.82,,,11-09-2025 11:05:32,11-09-2025 11:06:01,29.407s,PASSED
+Common_Utils.navigateToGroup(),Chrome 140.0.7339.82,,,11-09-2025 11:06:01,11-09-2025 11:06:10,8.635s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/Check - Tampilan Default Sidebar,Chrome 140.0.7339.82,,,11-09-2025 11:06:10,11-09-2025 11:06:14,3.750s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Setting - Group/Sidebar - Daftar Grup""), STOP_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:06:10,11-09-2025 11:06:14,3.619s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/Create - Grup Baru,Chrome 140.0.7339.82,,,11-09-2025 11:06:14,11-09-2025 11:06:21,7.826s,PASSED
+"click(findTestObject(""Setting - Group/Button - New Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:06:14,11-09-2025 11:06:14,0.516s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Name""), ""Group Test"")",Chrome 140.0.7339.82,,,11-09-2025 11:06:14,11-09-2025 11:06:16,1.922s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Code""), ""TEST"")",Chrome 140.0.7339.82,,,11-09-2025 11:06:16,11-09-2025 11:06:17,1.190s,PASSED
+delay(1),Chrome 140.0.7339.82,,,11-09-2025 11:06:17,11-09-2025 11:06:18,1.011s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:06:18,11-09-2025 11:06:19,0.388s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Group/Toast - Success""), ""Success, group has been created."", STOP_ON_FAILURE))",Chrome 140.0.7339.82,,,11-09-2025 11:06:19,11-09-2025 11:06:21,2.644s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/Check - Melihat Changelog Grup,Chrome 140.0.7339.82,,,11-09-2025 11:06:21,11-09-2025 11:06:25,3.184s,PASSED
+"click(findTestObject(""Setting - Group/Button - View Log""))",Chrome 140.0.7339.82,,,11-09-2025 11:06:22,11-09-2025 11:06:23,1.668s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Group/Table - Group Changelog""))",Chrome 140.0.7339.82,,,11-09-2025 11:06:23,11-09-2025 11:06:24,1.079s,PASSED
+"click(findTestObject(""Setting - Group/Button - Close Log""))",Chrome 140.0.7339.82,,,11-09-2025 11:06:24,11-09-2025 11:06:25,0.353s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/Check - Tampilkan Tabel Grup,Chrome 140.0.7339.82,,,11-09-2025 11:06:25,11-09-2025 11:06:26,0.851s,PASSED
+"click(findTestObject(""Setting - Group/Group Div - All""))",Chrome 140.0.7339.82,,,11-09-2025 11:06:25,11-09-2025 11:06:25,0.466s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Group/Table - Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:06:25,11-09-2025 11:06:26,0.282s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/View Log - Grup,Chrome 140.0.7339.82,,,11-09-2025 11:06:26,11-09-2025 11:07:05,39.744s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 140.0.7339.82,,,11-09-2025 11:06:26,11-09-2025 11:06:28,2.019s,PASSED
+"comment(""Setting > Group > View Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:06:28,11-09-2025 11:06:28,0.017s,PASSED
+LogsCheck.checkGroupViewLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:06:28,11-09-2025 11:06:29,1.613s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 140.0.7339.82,,,11-09-2025 11:06:29,11-09-2025 11:06:29,0.005s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:06:29,11-09-2025 11:06:35,5.247s,PASSED
+"comment(""Profile > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:06:35,11-09-2025 11:06:35,0.004s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:06:35,11-09-2025 11:06:51,16.343s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:06:51,11-09-2025 11:06:51,0.007s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:06:51,11-09-2025 11:07:02,11.435s,PASSED
+Common_Utils.navigateToGroup(),Chrome 140.0.7339.82,,,11-09-2025 11:07:02,11-09-2025 11:07:05,2.875s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Negatif/Create - Grup Baru, Nama Tidak Diisi",Chrome 140.0.7339.82,,,11-09-2025 11:07:05,11-09-2025 11:07:12,6.625s,PASSED
+"click(findTestObject(""Object Repository/Setting - Group/Button - New Group""), CONTINUE_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:07:05,11-09-2025 11:07:08,2.729s,PASSED
+"click(findTestObject(""Object Repository/Setting - Group/Textbox - Group Name""))",Chrome 140.0.7339.82,,,11-09-2025 11:07:08,11-09-2025 11:07:11,2.474s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:07:11,11-09-2025 11:07:11,0.354s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Group/Validator Message - Name Musnt Empty""), STOP_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:07:11,11-09-2025 11:07:12,0.522s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:07:12,11-09-2025 11:07:12,0.377s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Negatif/Create - Grup Baru, Nama Diisi All",Chrome 140.0.7339.82,,,11-09-2025 11:07:12,11-09-2025 11:07:15,3.417s,PASSED
+"click(findTestObject(""Object Repository/Setting - Group/Button - New Group""), CONTINUE_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:07:12,11-09-2025 11:07:13,0.481s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Name""), ""All"")",Chrome 140.0.7339.82,,,11-09-2025 11:07:13,11-09-2025 11:07:14,1.281s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Group/Validator Message - Name Already Exist""), STOP_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:07:14,11-09-2025 11:07:15,0.808s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:07:15,11-09-2025 11:07:15,0.354s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:07:15,11-09-2025 11:07:15,0.354s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Negatif/Create - Grup Baru, Nama Sudah Ada",Chrome 140.0.7339.82,,,11-09-2025 11:07:15,11-09-2025 11:07:19,3.962s,PASSED
+"click(findTestObject(""Object Repository/Setting - Group/Button - New Group""), CONTINUE_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:07:16,11-09-2025 11:07:16,0.474s,PASSED
+"click(findTestObject(""Object Repository/Setting - Group/Textbox - Group Name""))",Chrome 140.0.7339.82,,,11-09-2025 11:07:16,11-09-2025 11:07:18,1.538s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Name""), ""Group Test"")",Chrome 140.0.7339.82,,,11-09-2025 11:07:18,11-09-2025 11:07:18,0.647s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Group/Validator Message - Name Already Exist""), STOP_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:07:18,11-09-2025 11:07:19,0.810s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:07:19,11-09-2025 11:07:19,0.356s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Negatif/Create - Grup Baru, Nama Grup Lebih dari 30 Karakter",Chrome 140.0.7339.82,,,11-09-2025 11:07:19,11-09-2025 11:07:22,3.049s,PASSED
+"click(findTestObject(""Object Repository/Setting - Group/Button - New Group""), CONTINUE_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:07:19,11-09-2025 11:07:20,0.487s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Name""), ""asddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"")",Chrome 140.0.7339.82,,,11-09-2025 11:07:20,11-09-2025 11:07:21,1.381s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Group/Validator Message - Name Max 30 Char""), STOP_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:07:21,11-09-2025 11:07:22,0.388s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:07:22,11-09-2025 11:07:22,0.352s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:07:22,11-09-2025 11:07:22,0.335s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Negatif/Create - Grup Baru, Kode Grup Sudah Ada",Chrome 140.0.7339.82,,,11-09-2025 11:07:22,11-09-2025 11:07:27,4.113s,PASSED
+"click(findTestObject(""Object Repository/Setting - Group/Button - New Group""), CONTINUE_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:07:23,11-09-2025 11:07:23,0.459s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Code""), ""TEST"")",Chrome 140.0.7339.82,,,11-09-2025 11:07:23,11-09-2025 11:07:25,1.813s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Group/Validator Message - Code Already Exist""), STOP_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:07:25,11-09-2025 11:07:26,0.821s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:07:26,11-09-2025 11:07:26,0.341s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:07:26,11-09-2025 11:07:27,0.564s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Negatif/Create - Grup Baru, Kode Group Lebih dari 4 Karakter",Chrome 140.0.7339.82,,,11-09-2025 11:07:27,11-09-2025 11:07:30,3.358s,PASSED
+"click(findTestObject(""Object Repository/Setting - Group/Button - New Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:07:27,11-09-2025 11:07:27,0.493s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Code""), ""TESTIMONIAL"")",Chrome 140.0.7339.82,,,11-09-2025 11:07:27,11-09-2025 11:07:29,1.360s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Group/Validator Message - Code Max 4 Char""), STOP_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:07:29,11-09-2025 11:07:29,0.501s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:07:29,11-09-2025 11:07:29,0.353s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:07:29,11-09-2025 11:07:30,0.543s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Positif/Create - Grup Baru, Klik Clear Field",Chrome 140.0.7339.82,,,11-09-2025 11:07:30,11-09-2025 11:07:35,5.059s,PASSED
+"click(findTestObject(""Object Repository/Setting - Group/Button - New Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:07:30,11-09-2025 11:07:31,0.479s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Group/Textbox - Group Name""), ""Group Test"")",Chrome 140.0.7339.82,,,11-09-2025 11:07:31,11-09-2025 11:07:32,1.877s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Group/Textbox - Group Code""), ""TEST"")",Chrome 140.0.7339.82,,,11-09-2025 11:07:32,11-09-2025 11:07:34,1.157s,PASSED
+"click(findTestObject(""Setting - Group/Button - Clear Field""))",Chrome 140.0.7339.82,,,11-09-2025 11:07:34,11-09-2025 11:07:34,0.913s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:07:34,11-09-2025 11:07:35,0.536s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Negatif/Create - Grup Baru, Mengisi Kode dengan Bukan Angka atau Huruf",Chrome 140.0.7339.82,,,11-09-2025 11:07:35,11-09-2025 11:07:38,3.350s,PASSED
+"click(findTestObject(""Setting - Group/Button - New Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:07:35,11-09-2025 11:07:36,0.486s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Code""), ""!#@*"")",Chrome 140.0.7339.82,,,11-09-2025 11:07:36,11-09-2025 11:07:37,1.375s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:07:37,11-09-2025 11:07:38,0.866s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:07:38,11-09-2025 11:07:38,0.547s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/Update - Nama Grup,Chrome 140.0.7339.82,,,11-09-2025 11:07:38,11-09-2025 11:07:45,6.946s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:07:39,11-09-2025 11:07:39,0.367s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Edit Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:07:39,11-09-2025 11:07:40,0.614s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Group/Textbox - Group Name""))",Chrome 140.0.7339.82,,,11-09-2025 11:07:40,11-09-2025 11:07:41,1.801s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Name""), ""Group Tests"")",Chrome 140.0.7339.82,,,11-09-2025 11:07:41,11-09-2025 11:07:42,0.864s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:07:42,11-09-2025 11:07:43,0.897s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Group/Toast - Success""), ""Success, group has been edited."", STOP_ON_FAILURE))",Chrome 140.0.7339.82,,,11-09-2025 11:07:43,11-09-2025 11:07:45,2.247s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/View Log - Grup,Chrome 140.0.7339.82,,,11-09-2025 11:07:45,11-09-2025 11:08:13,27.427s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 140.0.7339.82,,,11-09-2025 11:07:45,11-09-2025 11:07:47,2.013s,PASSED
+"comment(""Setting > Group > View Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:07:47,11-09-2025 11:07:47,0.003s,PASSED
+LogsCheck.checkGroupViewLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:07:47,11-09-2025 11:07:49,1.962s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 140.0.7339.82,,,11-09-2025 11:07:49,11-09-2025 11:07:49,0.003s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:07:49,11-09-2025 11:07:53,3.393s,PASSED
+"comment(""Profile > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:07:53,11-09-2025 11:07:53,0.004s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:07:53,11-09-2025 11:07:58,5.686s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:07:58,11-09-2025 11:07:58,0.002s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:07:58,11-09-2025 11:08:09,10.987s,PASSED
+Common_Utils.navigateToGroup(),Chrome 140.0.7339.82,,,11-09-2025 11:08:09,11-09-2025 11:08:13,3.359s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/Update - Kode Grup,Chrome 140.0.7339.82,,,11-09-2025 11:08:13,11-09-2025 11:08:22,9.404s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:08:13,11-09-2025 11:08:16,3.134s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Edit Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:08:16,11-09-2025 11:08:17,0.611s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Code""), ""GRTE"")",Chrome 140.0.7339.82,,,11-09-2025 11:08:17,11-09-2025 11:08:19,1.899s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:08:19,11-09-2025 11:08:19,0.902s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Group/Toast - Success""), ""Success, group has been edited."", STOP_ON_FAILURE))",Chrome 140.0.7339.82,,,11-09-2025 11:08:19,11-09-2025 11:08:22,2.706s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/View Log - Grup,Chrome 140.0.7339.82,,,11-09-2025 11:08:22,11-09-2025 11:08:50,28.289s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 140.0.7339.82,,,11-09-2025 11:08:22,11-09-2025 11:08:24,2.007s,PASSED
+"comment(""Setting > Group > View Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:08:24,11-09-2025 11:08:24,0.002s,PASSED
+LogsCheck.checkGroupViewLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:08:24,11-09-2025 11:08:26,1.823s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 140.0.7339.82,,,11-09-2025 11:08:26,11-09-2025 11:08:26,0.003s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:08:26,11-09-2025 11:08:29,3.319s,PASSED
+"comment(""Profile > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:08:29,11-09-2025 11:08:29,0.001s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:08:29,11-09-2025 11:08:34,4.386s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:08:34,11-09-2025 11:08:34,0.003s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:08:34,11-09-2025 11:08:45,11.635s,PASSED
+Common_Utils.navigateToGroup(),Chrome 140.0.7339.82,,,11-09-2025 11:08:45,11-09-2025 11:08:50,5.094s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Negatif/Update - Grup, Nama Grup Tidak Diisi",Chrome 140.0.7339.82,,,11-09-2025 11:08:50,11-09-2025 11:08:57,6.676s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:08:51,11-09-2025 11:08:54,2.882s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Edit Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:08:54,11-09-2025 11:08:54,0.650s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Group/Textbox - Group Name""))",Chrome 140.0.7339.82,,,11-09-2025 11:08:54,11-09-2025 11:08:56,1.824s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:08:56,11-09-2025 11:08:57,0.547s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Group/Validator Message - Name Musnt Empty""), STOP_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:08:57,11-09-2025 11:08:57,0.259s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:08:57,11-09-2025 11:08:57,0.361s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Negatif/Update - Grup, Nama Grup Sudah Ada",Chrome 140.0.7339.82,,,11-09-2025 11:08:57,11-09-2025 11:09:02,4.821s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:08:57,11-09-2025 11:08:58,0.447s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Edit Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:08:58,11-09-2025 11:08:58,0.591s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Group/Textbox - Group Name""))",Chrome 140.0.7339.82,,,11-09-2025 11:08:58,11-09-2025 11:09:00,1.333s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Name""), ""Default"")",Chrome 140.0.7339.82,,,11-09-2025 11:09:00,11-09-2025 11:09:01,0.840s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Group/Validator Message - Name Already Exist""), STOP_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:09:01,11-09-2025 11:09:01,0.799s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:09:01,11-09-2025 11:09:02,0.352s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:09:02,11-09-2025 11:09:02,0.328s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Negatif/Update - Grup, Nama Grup Lebih dari 30 Karakter",Chrome 140.0.7339.82,,,11-09-2025 11:09:02,11-09-2025 11:09:07,4.944s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:09:02,11-09-2025 11:09:03,0.440s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Edit Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:09:03,11-09-2025 11:09:03,0.580s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Group/Textbox - Group Name""))",Chrome 140.0.7339.82,,,11-09-2025 11:09:03,11-09-2025 11:09:05,1.729s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Name""), ""aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"")",Chrome 140.0.7339.82,,,11-09-2025 11:09:05,11-09-2025 11:09:06,1.003s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Group/Validator Message - Name Max 30 Char""), STOP_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:09:06,11-09-2025 11:09:06,0.371s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:09:06,11-09-2025 11:09:07,0.348s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:09:07,11-09-2025 11:09:07,0.337s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Negatif/Update - Grup, Kode Grup Sudah Ada",Chrome 140.0.7339.82,,,11-09-2025 11:09:07,11-09-2025 11:09:13,5.939s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:09:07,11-09-2025 11:09:07,0.354s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Edit Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:09:07,11-09-2025 11:09:08,0.586s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Group/Textbox - Group Code""))",Chrome 140.0.7339.82,,,11-09-2025 11:09:08,11-09-2025 11:09:09,1.344s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Code""), ""0000"")",Chrome 140.0.7339.82,,,11-09-2025 11:09:09,11-09-2025 11:09:10,0.879s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Group/Validator Message - Code Already Exist""), STOP_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:09:10,11-09-2025 11:09:11,0.862s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:09:11,11-09-2025 11:09:12,0.972s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:09:12,11-09-2025 11:09:13,0.775s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Negatif/Update - Grup, Kode Grup Lebih dari 4 Karakter",Chrome 140.0.7339.82,,,11-09-2025 11:09:13,11-09-2025 11:09:22,8.596s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:09:13,11-09-2025 11:09:14,0.386s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Edit Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:09:14,11-09-2025 11:09:14,0.636s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Group/Textbox - Group Code""))",Chrome 140.0.7339.82,,,11-09-2025 11:09:14,11-09-2025 11:09:20,5.155s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Code""), ""TESTING"")",Chrome 140.0.7339.82,,,11-09-2025 11:09:20,11-09-2025 11:09:20,0.845s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Group/Validator Message - Code Max 4 Char""), STOP_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:09:20,11-09-2025 11:09:21,0.488s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:09:21,11-09-2025 11:09:21,0.354s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:09:21,11-09-2025 11:09:22,0.332s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Positif/Update - Grup, Klik Clear Field",Chrome 140.0.7339.82,,,11-09-2025 11:09:22,11-09-2025 11:09:25,3.056s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:09:22,11-09-2025 11:09:22,0.462s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Edit Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:09:22,11-09-2025 11:09:23,0.591s,PASSED
+"click(findTestObject(""Setting - Group/Button - Clear Field""), STOP_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:09:23,11-09-2025 11:09:24,1.338s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:09:24,11-09-2025 11:09:25,0.567s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/Create - Sub Grup Baru,Chrome 140.0.7339.82,,,11-09-2025 11:09:25,11-09-2025 11:09:32,7.706s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:09:25,11-09-2025 11:09:25,0.352s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Create Sub Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:09:25,11-09-2025 11:09:26,0.617s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Name""), ""Sub Group Test"")",Chrome 140.0.7339.82,,,11-09-2025 11:09:26,11-09-2025 11:09:27,1.522s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Code""), ""TEXT"")",Chrome 140.0.7339.82,,,11-09-2025 11:09:27,11-09-2025 11:09:28,1.194s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:09:28,11-09-2025 11:09:29,0.893s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Group/Toast - Success""), ""Success, group has been created."", STOP_ON_FAILURE))",Chrome 140.0.7339.82,,,11-09-2025 11:09:29,11-09-2025 11:09:32,2.980s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/View Log - Grup,Chrome 140.0.7339.82,,,11-09-2025 11:09:32,11-09-2025 11:09:58,25.823s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 140.0.7339.82,,,11-09-2025 11:09:32,11-09-2025 11:09:34,2.006s,PASSED
+"comment(""Setting > Group > View Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:09:34,11-09-2025 11:09:34,0.001s,PASSED
+LogsCheck.checkGroupViewLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:09:34,11-09-2025 11:09:36,1.739s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 140.0.7339.82,,,11-09-2025 11:09:36,11-09-2025 11:09:36,0.002s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:09:36,11-09-2025 11:09:40,4.139s,PASSED
+"comment(""Profile > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:09:40,11-09-2025 11:09:40,0.002s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:09:40,11-09-2025 11:09:44,4.189s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:09:44,11-09-2025 11:09:44,0.002s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:09:44,11-09-2025 11:09:55,10.611s,PASSED
+Common_Utils.navigateToGroup(),Chrome 140.0.7339.82,,,11-09-2025 11:09:55,11-09-2025 11:09:58,3.114s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/Check - Urutan Grup di Sidebar Ascending,Chrome 140.0.7339.82,,,11-09-2025 11:09:58,11-09-2025 11:10:02,3.442s,PASSED
+"click(findTestObject(""All Menu/Sub Module - Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:09:58,11-09-2025 11:10:02,3.352s,PASSED
+"comment(""Cek Urutan Group di Sidebar Sebelah Kanan"")",Chrome 140.0.7339.82,,,11-09-2025 11:10:02,11-09-2025 11:10:02,0.002s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Positif/Toggle - Chevron Grup yang Memiliki Sub Grup (Expand, Collapse)",Chrome 140.0.7339.82,,,11-09-2025 11:10:02,11-09-2025 11:10:05,3.170s,PASSED
+"click(findTestObject(""Setting - Group/Chevron - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:02,11-09-2025 11:10:02,0.369s,PASSED
+delay(1),Chrome 140.0.7339.82,,,11-09-2025 11:10:02,11-09-2025 11:10:03,1.020s,PASSED
+"click(findTestObject(""Setting - Group/Chevron - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:03,11-09-2025 11:10:03,0.344s,PASSED
+delay(1),Chrome 140.0.7339.82,,,11-09-2025 11:10:03,11-09-2025 11:10:04,1.008s,PASSED
+"click(findTestObject(""Setting - Group/Chevron - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:04,11-09-2025 11:10:05,0.348s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Negatif/Create - Sub Grup Baru Nama Grup Tidak Diisi,Chrome 140.0.7339.82,,,11-09-2025 11:10:05,11-09-2025 11:10:09,3.769s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:05,11-09-2025 11:10:05,0.461s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Create Sub Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:05,11-09-2025 11:10:06,0.598s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:06,11-09-2025 11:10:08,1.790s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Group/Validator Message - Name Musnt Empty""), STOP_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:10:08,11-09-2025 11:10:08,0.487s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:08,11-09-2025 11:10:09,0.354s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Negatif/Create - Sub Grup Baru, Nama Grup Sudah Ada",Chrome 140.0.7339.82,,,11-09-2025 11:10:09,11-09-2025 11:10:13,4.181s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:09,11-09-2025 11:10:09,0.455s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Create Sub Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:09,11-09-2025 11:10:10,0.591s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Name""), ""Sub Group Test"")",Chrome 140.0.7339.82,,,11-09-2025 11:10:10,11-09-2025 11:10:11,1.324s,PASSED
+"verifyElementPresent(findTestObject(""Setting - Group/Validator Message - Name Already Exist""), 0)",Chrome 140.0.7339.82,,,11-09-2025 11:10:11,11-09-2025 11:10:12,0.805s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:12,11-09-2025 11:10:12,0.331s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Group/Validator Message - Name Already Exist""), STOP_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:10:12,11-09-2025 11:10:12,0.246s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:12,11-09-2025 11:10:13,0.337s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Negatif/Create - Sub Grup Baru, Nama Grup Lebih Dari 30 Karakter",Chrome 140.0.7339.82,,,11-09-2025 11:10:13,11-09-2025 11:10:17,4.239s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:13,11-09-2025 11:10:13,0.434s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Create Sub Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:13,11-09-2025 11:10:14,0.578s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Name""), ""aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"")",Chrome 140.0.7339.82,,,11-09-2025 11:10:14,11-09-2025 11:10:16,2.042s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Group/Validator Message - Name Max 30 Char""), STOP_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:10:16,11-09-2025 11:10:16,0.382s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:16,11-09-2025 11:10:17,0.353s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:17,11-09-2025 11:10:17,0.350s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Negatif/Create - Sub Grup Baru, Kode Grup Sudah Ada",Chrome 140.0.7339.82,,,11-09-2025 11:10:17,11-09-2025 11:10:21,4.217s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:17,11-09-2025 11:10:18,0.443s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Create Sub Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:18,11-09-2025 11:10:18,0.590s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Code""), ""TEXT"")",Chrome 140.0.7339.82,,,11-09-2025 11:10:18,11-09-2025 11:10:20,1.409s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:20,11-09-2025 11:10:21,0.886s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Group/Validator Message - Code Already Exist""), STOP_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:10:21,11-09-2025 11:10:21,0.466s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:21,11-09-2025 11:10:21,0.330s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Negatif/Create - Sub Grup Baru, Kode Grup Lebih Dari 4 Karakter",Chrome 140.0.7339.82,,,11-09-2025 11:10:21,11-09-2025 11:10:26,4.416s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:21,11-09-2025 11:10:22,0.443s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Create Sub Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:22,11-09-2025 11:10:22,0.587s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Code""), ""TAGSAMURAI"")",Chrome 140.0.7339.82,,,11-09-2025 11:10:22,11-09-2025 11:10:24,1.906s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Group/Validator Message - Code Max 4 Char""), STOP_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:10:24,11-09-2025 11:10:25,0.485s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:25,11-09-2025 11:10:25,0.358s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:25,11-09-2025 11:10:26,0.553s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Positif/Create - Sub Grup Baru, Klik Clear Field",Chrome 140.0.7339.82,,,11-09-2025 11:10:26,11-09-2025 11:10:31,5.091s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:26,11-09-2025 11:10:26,0.451s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Create Sub Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:26,11-09-2025 11:10:27,0.582s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Name""), ""Sub Group Test"")",Chrome 140.0.7339.82,,,11-09-2025 11:10:27,11-09-2025 11:10:28,1.382s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Code""), ""TEXT"")",Chrome 140.0.7339.82,,,11-09-2025 11:10:28,11-09-2025 11:10:29,1.169s,PASSED
+"click(findTestObject(""Setting - Group/Button - Clear Field""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:29,11-09-2025 11:10:30,0.878s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:30,11-09-2025 11:10:31,0.544s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/Update - Nama Sub Grup,Chrome 140.0.7339.82,,,11-09-2025 11:10:31,11-09-2025 11:10:38,7.151s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Sub Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:31,11-09-2025 11:10:31,0.448s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Edit Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:31,11-09-2025 11:10:32,0.578s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Group/Textbox - Group Name""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:32,11-09-2025 11:10:34,1.925s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Name""), ""Sub Group Tests"")",Chrome 140.0.7339.82,,,11-09-2025 11:10:34,11-09-2025 11:10:35,0.846s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:10:35,11-09-2025 11:10:36,0.885s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Group/Toast - Success""), ""Success, group has been edited."", STOP_ON_FAILURE))",Chrome 140.0.7339.82,,,11-09-2025 11:10:36,11-09-2025 11:10:38,2.324s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/View Log - Grup,Chrome 140.0.7339.82,,,11-09-2025 11:10:38,11-09-2025 11:11:04,26.008s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 140.0.7339.82,,,11-09-2025 11:10:38,11-09-2025 11:10:40,2.008s,PASSED
+"comment(""Setting > Group > View Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:10:40,11-09-2025 11:10:40,0.001s,PASSED
+LogsCheck.checkGroupViewLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:10:40,11-09-2025 11:10:42,1.768s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 140.0.7339.82,,,11-09-2025 11:10:42,11-09-2025 11:10:42,0.002s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:10:42,11-09-2025 11:10:45,3.530s,PASSED
+"comment(""Profile > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:10:45,11-09-2025 11:10:45,0.001s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:10:45,11-09-2025 11:10:52,6.237s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:10:52,11-09-2025 11:10:52,0.002s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:10:52,11-09-2025 11:11:01,9.876s,PASSED
+Common_Utils.navigateToGroup(),Chrome 140.0.7339.82,,,11-09-2025 11:11:01,11-09-2025 11:11:04,2.565s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/Update - Kode Sub Grup,Chrome 140.0.7339.82,,,11-09-2025 11:11:04,11-09-2025 11:11:14,9.891s,PASSED
+"click(findTestObject(""Setting - Group/Chevron - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:11:04,11-09-2025 11:11:07,2.376s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Sub Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:11:07,11-09-2025 11:11:07,0.543s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Edit Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:11:07,11-09-2025 11:11:08,0.619s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Group/Textbox - Group Code""))",Chrome 140.0.7339.82,,,11-09-2025 11:11:08,11-09-2025 11:11:10,1.852s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Code""), ""TXT"")",Chrome 140.0.7339.82,,,11-09-2025 11:11:10,11-09-2025 11:11:10,0.822s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:11:10,11-09-2025 11:11:11,0.884s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Group/Toast - Success""), ""Success, group has been edited."", STOP_ON_FAILURE))",Chrome 140.0.7339.82,,,11-09-2025 11:11:11,11-09-2025 11:11:14,2.546s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/View Log - Grup,Chrome 140.0.7339.82,,,11-09-2025 11:11:14,11-09-2025 11:11:40,26.336s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 140.0.7339.82,,,11-09-2025 11:11:14,11-09-2025 11:11:16,2.013s,PASSED
+"comment(""Setting > Group > View Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:11:16,11-09-2025 11:11:16,0.002s,PASSED
+LogsCheck.checkGroupViewLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:11:16,11-09-2025 11:11:18,1.782s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 140.0.7339.82,,,11-09-2025 11:11:18,11-09-2025 11:11:18,0.001s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:11:18,11-09-2025 11:11:21,3.421s,PASSED
+"comment(""Profile > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:11:21,11-09-2025 11:11:21,0.001s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:11:21,11-09-2025 11:11:25,4.128s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:11:25,11-09-2025 11:11:25,0.003s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:11:25,11-09-2025 11:11:37,11.976s,PASSED
+Common_Utils.navigateToGroup(),Chrome 140.0.7339.82,,,11-09-2025 11:11:37,11-09-2025 11:11:40,2.994s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Negatif/Update - Sub Grup, Nama Grup Tidak Diisi",Chrome 140.0.7339.82,,,11-09-2025 11:11:40,11-09-2025 11:11:48,7.513s,PASSED
+"click(findTestObject(""Setting - Group/Chevron - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:11:40,11-09-2025 11:11:44,3.001s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Sub Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:11:44,11-09-2025 11:11:44,0.565s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Edit Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:11:44,11-09-2025 11:11:45,0.640s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Group/Textbox - Group Name""))",Chrome 140.0.7339.82,,,11-09-2025 11:11:45,11-09-2025 11:11:47,1.882s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:11:47,11-09-2025 11:11:47,0.585s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Group/Validator Message - Name Musnt Empty""), STOP_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:11:47,11-09-2025 11:11:47,0.259s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:11:47,11-09-2025 11:11:48,0.367s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Negatif/Update - Sub Grup, Nama Grup Sudah Ada",Chrome 140.0.7339.82,,,11-09-2025 11:11:48,11-09-2025 11:11:53,4.951s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:11:48,11-09-2025 11:11:48,0.564s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Edit Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:11:48,11-09-2025 11:11:49,0.618s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Group/Textbox - Group Name""))",Chrome 140.0.7339.82,,,11-09-2025 11:11:49,11-09-2025 11:11:50,1.416s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Name""), ""Default"")",Chrome 140.0.7339.82,,,11-09-2025 11:11:50,11-09-2025 11:11:51,0.815s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Group/Validator Message - Name Already Exist""), STOP_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:11:51,11-09-2025 11:11:52,0.798s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:11:52,11-09-2025 11:11:52,0.360s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:11:52,11-09-2025 11:11:53,0.359s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Negatif/Update - Sub Grup, Kode Grup Sudah Ada",Chrome 140.0.7339.82,,,11-09-2025 11:11:53,11-09-2025 11:11:58,5.465s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:11:53,11-09-2025 11:11:53,0.557s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Edit Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:11:53,11-09-2025 11:11:54,0.588s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Group/Textbox - Group Code""))",Chrome 140.0.7339.82,,,11-09-2025 11:11:54,11-09-2025 11:11:56,1.928s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Code""), ""0000"")",Chrome 140.0.7339.82,,,11-09-2025 11:11:56,11-09-2025 11:11:57,0.840s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Group/Validator Message - Code Already Exist""), STOP_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:11:57,11-09-2025 11:11:58,0.794s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:11:58,11-09-2025 11:11:58,0.373s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:11:58,11-09-2025 11:11:58,0.363s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Negatif/Update - Sub Grup, Kode Grup Lebih dari 4 Karakter",Chrome 140.0.7339.82,,,11-09-2025 11:11:58,11-09-2025 11:12:03,5.083s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Sub Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:11:58,11-09-2025 11:11:59,0.370s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Edit Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:11:59,11-09-2025 11:11:59,0.601s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Group/Textbox - Group Code""))",Chrome 140.0.7339.82,,,11-09-2025 11:11:59,11-09-2025 11:12:01,1.918s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Code""), ""TEXTING"")",Chrome 140.0.7339.82,,,11-09-2025 11:12:01,11-09-2025 11:12:02,0.848s,PASSED
+"verifyElementVisible(findTestObject(""Setting - Group/Validator Message - Code Max 4 Char""), STOP_ON_FAILURE)",Chrome 140.0.7339.82,,,11-09-2025 11:12:02,11-09-2025 11:12:03,0.479s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:12:03,11-09-2025 11:12:03,0.362s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:12:03,11-09-2025 11:12:03,0.341s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Positif/Update - Sub Grup, Masukkan Huruf Kecil di Field Kode",Chrome 140.0.7339.82,,,11-09-2025 11:12:03,11-09-2025 11:12:10,6.697s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Sub Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:12:04,11-09-2025 11:12:04,0.369s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Edit Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:12:04,11-09-2025 11:12:05,0.625s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Group/Textbox - Group Code""))",Chrome 140.0.7339.82,,,11-09-2025 11:12:05,11-09-2025 11:12:06,1.452s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Code""), ""text"")",Chrome 140.0.7339.82,,,11-09-2025 11:12:06,11-09-2025 11:12:07,0.865s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:12:07,11-09-2025 11:12:08,0.925s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Group/Toast - Success""), ""Success, group has been edited."", STOP_ON_FAILURE))",Chrome 140.0.7339.82,,,11-09-2025 11:12:08,11-09-2025 11:12:10,2.250s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/View Log - Grup,Chrome 140.0.7339.82,,,11-09-2025 11:12:10,11-09-2025 11:12:36,26.222s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 140.0.7339.82,,,11-09-2025 11:12:10,11-09-2025 11:12:12,2.009s,PASSED
+"comment(""Setting > Group > View Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:12:12,11-09-2025 11:12:12,0.001s,PASSED
+LogsCheck.checkGroupViewLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:12:12,11-09-2025 11:12:14,1.852s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 140.0.7339.82,,,11-09-2025 11:12:14,11-09-2025 11:12:14,0.002s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:12:14,11-09-2025 11:12:18,3.607s,PASSED
+"comment(""Profile > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:12:18,11-09-2025 11:12:18,0.001s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:12:18,11-09-2025 11:12:22,4.405s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:12:22,11-09-2025 11:12:22,0.004s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:12:22,11-09-2025 11:12:33,11.495s,PASSED
+Common_Utils.navigateToGroup(),Chrome 140.0.7339.82,,,11-09-2025 11:12:33,11-09-2025 11:12:36,2.829s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Positif/Update - Sub Grup, Klik Clear Field",Chrome 140.0.7339.82,,,11-09-2025 11:12:36,11-09-2025 11:12:43,6.388s,PASSED
+"click(findTestObject(""Setting - Group/Chevron - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:12:36,11-09-2025 11:12:39,2.975s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Sub Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:12:39,11-09-2025 11:12:40,0.593s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Edit Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:12:40,11-09-2025 11:12:41,0.631s,PASSED
+"click(findTestObject(""Setting - Group/Button - Clear Field""))",Chrome 140.0.7339.82,,,11-09-2025 11:12:41,11-09-2025 11:12:42,1.477s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:12:42,11-09-2025 11:12:43,0.574s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/Delete - Sub Grup,Chrome 140.0.7339.82,,,11-09-2025 11:12:43,11-09-2025 11:12:47,4.235s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Sub Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:12:43,11-09-2025 11:12:43,0.447s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Delete Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:12:43,11-09-2025 11:12:44,0.597s,PASSED
+"click(findTestObject(""Setting - Group/Button - Confirm Delete""))",Chrome 140.0.7339.82,,,11-09-2025 11:12:44,11-09-2025 11:12:45,0.619s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Group/Toast - Success""), ""Success, group has been deleted."", STOP_ON_FAILURE))",Chrome 140.0.7339.82,,,11-09-2025 11:12:45,11-09-2025 11:12:47,2.428s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/View Log - Grup,Chrome 140.0.7339.82,,,11-09-2025 11:12:47,11-09-2025 11:13:14,26.702s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 140.0.7339.82,,,11-09-2025 11:12:47,11-09-2025 11:12:49,2.008s,PASSED
+"comment(""Setting > Group > View Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:12:49,11-09-2025 11:12:49,0.002s,PASSED
+LogsCheck.checkGroupViewLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:12:49,11-09-2025 11:12:52,2.706s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 140.0.7339.82,,,11-09-2025 11:12:52,11-09-2025 11:12:52,0.002s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:12:52,11-09-2025 11:12:55,3.601s,PASSED
+"comment(""Profile > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:12:55,11-09-2025 11:12:55,0.001s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:12:55,11-09-2025 11:13:00,4.458s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:13:00,11-09-2025 11:13:00,0.005s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:13:00,11-09-2025 11:13:11,10.753s,PASSED
+Common_Utils.navigateToGroup(),Chrome 140.0.7339.82,,,11-09-2025 11:13:11,11-09-2025 11:13:14,3.146s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/Delete - Grup,Chrome 140.0.7339.82,,,11-09-2025 11:13:14,11-09-2025 11:13:20,6.529s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:13:14,11-09-2025 11:13:17,3.336s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Delete Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:13:17,11-09-2025 11:13:18,0.609s,PASSED
+"click(findTestObject(""Setting - Group/Button - Confirm Delete""))",Chrome 140.0.7339.82,,,11-09-2025 11:13:18,11-09-2025 11:13:18,0.584s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Group/Toast - Success""), ""Success, group has been deleted."", STOP_ON_FAILURE))",Chrome 140.0.7339.82,,,11-09-2025 11:13:18,11-09-2025 11:13:20,1.824s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/View Log - Grup,Chrome 140.0.7339.82,,,11-09-2025 11:13:20,11-09-2025 11:13:47,26.563s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 140.0.7339.82,,,11-09-2025 11:13:20,11-09-2025 11:13:22,2.005s,PASSED
+"comment(""Setting > Group > View Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:13:22,11-09-2025 11:13:22,0.001s,PASSED
+LogsCheck.checkGroupViewLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:13:22,11-09-2025 11:13:24,1.739s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 140.0.7339.82,,,11-09-2025 11:13:24,11-09-2025 11:13:24,0.002s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:13:24,11-09-2025 11:13:27,3.376s,PASSED
+"comment(""Profile > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:13:27,11-09-2025 11:13:27,0.002s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:13:27,11-09-2025 11:13:32,4.316s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:13:32,11-09-2025 11:13:32,0.003s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:13:32,11-09-2025 11:13:44,12.479s,PASSED
+Common_Utils.navigateToGroup(),Chrome 140.0.7339.82,,,11-09-2025 11:13:44,11-09-2025 11:13:47,2.622s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Positif/Create - Grup Baru, Masukkan Huruf Kecil di Field Kode",Chrome 140.0.7339.82,,,11-09-2025 11:13:47,11-09-2025 11:13:56,9.617s,PASSED
+"click(findTestObject(""Object Repository/Setting - Group/Button - New Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:13:47,11-09-2025 11:13:50,2.840s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Name""), ""Group Test"")",Chrome 140.0.7339.82,,,11-09-2025 11:13:50,11-09-2025 11:13:52,1.786s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Code""), ""test"")",Chrome 140.0.7339.82,,,11-09-2025 11:13:52,11-09-2025 11:13:53,1.189s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:13:53,11-09-2025 11:13:54,0.896s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Group/Toast - Success""), ""Success, group has been created."", STOP_ON_FAILURE))",Chrome 140.0.7339.82,,,11-09-2025 11:13:54,11-09-2025 11:13:56,2.712s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/View Log - Grup,Chrome 140.0.7339.82,,,11-09-2025 11:13:56,11-09-2025 11:14:23,26.788s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 140.0.7339.82,,,11-09-2025 11:13:56,11-09-2025 11:13:58,2.010s,PASSED
+"comment(""Setting > Group > View Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:13:58,11-09-2025 11:13:58,0.001s,PASSED
+LogsCheck.checkGroupViewLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:13:58,11-09-2025 11:14:00,1.774s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 140.0.7339.82,,,11-09-2025 11:14:00,11-09-2025 11:14:00,0.002s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:14:00,11-09-2025 11:14:04,3.609s,PASSED
+"comment(""Profile > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:14:04,11-09-2025 11:14:04,0.002s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:14:04,11-09-2025 11:14:09,5.300s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:14:09,11-09-2025 11:14:09,0.004s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:14:09,11-09-2025 11:14:20,10.773s,PASSED
+Common_Utils.navigateToGroup(),Chrome 140.0.7339.82,,,11-09-2025 11:14:20,11-09-2025 11:14:23,3.298s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Positif/Create - Sub Grup Baru, Masukkan Huruf Kecil di Field Kode",Chrome 140.0.7339.82,,,11-09-2025 11:14:23,11-09-2025 11:14:34,10.957s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:14:23,11-09-2025 11:14:27,3.109s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Create Sub Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:14:27,11-09-2025 11:14:27,0.592s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Name""), ""Sub Group Test"")",Chrome 140.0.7339.82,,,11-09-2025 11:14:27,11-09-2025 11:14:29,2.321s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Code""), ""text"")",Chrome 140.0.7339.82,,,11-09-2025 11:14:29,11-09-2025 11:14:31,1.192s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:14:31,11-09-2025 11:14:31,0.884s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Group/Toast - Success""), ""Success, group has been created."", STOP_ON_FAILURE))",Chrome 140.0.7339.82,,,11-09-2025 11:14:31,11-09-2025 11:14:34,2.692s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/View Log - Grup,Chrome 140.0.7339.82,,,11-09-2025 11:14:34,11-09-2025 11:15:03,29.006s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 140.0.7339.82,,,11-09-2025 11:14:34,11-09-2025 11:14:36,2.001s,PASSED
+"comment(""Setting > Group > View Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:14:36,11-09-2025 11:14:36,0.003s,PASSED
+LogsCheck.checkGroupViewLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:14:36,11-09-2025 11:14:38,1.855s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 140.0.7339.82,,,11-09-2025 11:14:38,11-09-2025 11:14:38,0.001s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:14:38,11-09-2025 11:14:41,3.386s,PASSED
+"comment(""Profile > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:14:41,11-09-2025 11:14:41,0.004s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:14:41,11-09-2025 11:14:46,4.104s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:14:46,11-09-2025 11:14:46,0.002s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:14:46,11-09-2025 11:14:58,12.927s,PASSED
+Common_Utils.navigateToGroup(),Chrome 140.0.7339.82,,,11-09-2025 11:14:58,11-09-2025 11:15:03,4.713s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Positif/Create - Sub Grup Baru, Ceklis Stay on This Form",Chrome 140.0.7339.82,,,11-09-2025 11:15:03,11-09-2025 11:15:15,11.882s,PASSED
+"click(findTestObject(""Setting - Group/Chevron - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:15:03,11-09-2025 11:15:07,3.306s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Sub Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:15:07,11-09-2025 11:15:07,0.547s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Create Sub Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:15:07,11-09-2025 11:15:08,0.609s,PASSED
+"check(findTestObject(""Setting - Group/Checkbox - Stay on This Form""))",Chrome 140.0.7339.82,,,11-09-2025 11:15:08,11-09-2025 11:15:09,1.524s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Name""), ""Level 3 Group"")",Chrome 140.0.7339.82,,,11-09-2025 11:15:09,11-09-2025 11:15:10,0.631s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Code""), ""LVL3"")",Chrome 140.0.7339.82,,,11-09-2025 11:15:10,11-09-2025 11:15:11,1.158s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:15:11,11-09-2025 11:15:12,0.882s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Group/Toast - Success""), ""Success, group has been created."", STOP_ON_FAILURE))",Chrome 140.0.7339.82,,,11-09-2025 11:15:12,11-09-2025 11:15:15,2.761s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:15:15,11-09-2025 11:15:15,0.351s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/View Log - Grup,Chrome 140.0.7339.82,,,11-09-2025 11:15:15,11-09-2025 11:15:42,26.773s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 140.0.7339.82,,,11-09-2025 11:15:15,11-09-2025 11:15:17,2.003s,PASSED
+"comment(""Setting > Group > View Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:15:17,11-09-2025 11:15:17,0.002s,PASSED
+LogsCheck.checkGroupViewLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:15:17,11-09-2025 11:15:19,2.348s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 140.0.7339.82,,,11-09-2025 11:15:19,11-09-2025 11:15:19,0.001s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:15:19,11-09-2025 11:15:23,3.302s,PASSED
+"comment(""Profile > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:15:23,11-09-2025 11:15:23,0.001s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:15:23,11-09-2025 11:15:28,4.924s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:15:28,11-09-2025 11:15:28,0.003s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:15:28,11-09-2025 11:15:39,11.078s,PASSED
+Common_Utils.navigateToGroup(),Chrome 140.0.7339.82,,,11-09-2025 11:15:39,11-09-2025 11:15:42,3.098s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Negatif/Create - Sub Grup Baru, Hierarki Sub Grup Lebih dari 3 Level",Chrome 140.0.7339.82,,,11-09-2025 11:15:42,11-09-2025 11:15:49,6.727s,PASSED
+"click(findTestObject(""Setting - Group/Chevron - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:15:42,11-09-2025 11:15:47,5.137s,PASSED
+"click(findTestObject(""Setting - Group/Chevron - Sub Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:15:47,11-09-2025 11:15:48,0.543s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Level 3 Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:15:48,11-09-2025 11:15:48,0.557s,PASSED
+"verifyElementNotPresent(findTestObject(""Setting - Group/Action Menu - Create Sub Group""), 0)",Chrome 140.0.7339.82,,,11-09-2025 11:15:48,11-09-2025 11:15:49,0.421s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Positif/Update - Grup, Masukkan Huruf Kecil di Field Kode",Chrome 140.0.7339.82,,,11-09-2025 11:15:49,11-09-2025 11:15:58,8.897s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Sub Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:15:49,11-09-2025 11:15:49,0.363s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Edit Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:15:49,11-09-2025 11:15:50,0.595s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Group/Textbox - Group Name""))",Chrome 140.0.7339.82,,,11-09-2025 11:15:50,11-09-2025 11:15:52,1.909s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Name""), ""Sub Group Tests"")",Chrome 140.0.7339.82,,,11-09-2025 11:15:52,11-09-2025 11:15:52,0.851s,PASSED
+"Common_Utils.deleteField(findTestObject(""Setting - Group/Textbox - Group Code""))",Chrome 140.0.7339.82,,,11-09-2025 11:15:52,11-09-2025 11:15:54,1.184s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Code""), ""abcd"")",Chrome 140.0.7339.82,,,11-09-2025 11:15:54,11-09-2025 11:15:54,0.797s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:15:54,11-09-2025 11:15:55,0.892s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Group/Toast - Success""), ""Success, group has been edited."", STOP_ON_FAILURE))",Chrome 140.0.7339.82,,,11-09-2025 11:15:55,11-09-2025 11:15:58,2.205s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/View Log - Grup,Chrome 140.0.7339.82,,,11-09-2025 11:15:58,11-09-2025 11:16:23,25.182s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 140.0.7339.82,,,11-09-2025 11:15:58,11-09-2025 11:16:00,2.003s,PASSED
+"comment(""Setting > Group > View Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:16:00,11-09-2025 11:16:00,0.002s,PASSED
+LogsCheck.checkGroupViewLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:16:00,11-09-2025 11:16:01,1.742s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 140.0.7339.82,,,11-09-2025 11:16:01,11-09-2025 11:16:01,0.002s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:16:01,11-09-2025 11:16:05,3.334s,PASSED
+"comment(""Profile > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:16:05,11-09-2025 11:16:05,0.001s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:16:05,11-09-2025 11:16:09,4.825s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:16:09,11-09-2025 11:16:09,0.002s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:16:09,11-09-2025 11:16:20,10.769s,PASSED
+Common_Utils.navigateToGroup(),Chrome 140.0.7339.82,,,11-09-2025 11:16:20,11-09-2025 11:16:23,2.490s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/Delete - Sub Grup Memiliki Asset,Chrome 140.0.7339.82,,,11-09-2025 11:16:23,11-09-2025 11:16:29,6.158s,PASSED
+"comment(""Anggap Sub Group Memiliki Asset"")",Chrome 140.0.7339.82,,,11-09-2025 11:16:23,11-09-2025 11:16:23,0.004s,PASSED
+"click(findTestObject(""Setting - Group/Chevron - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:16:23,11-09-2025 11:16:25,2.656s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Sub Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:16:25,11-09-2025 11:16:26,0.553s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Delete Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:16:26,11-09-2025 11:16:27,0.571s,PASSED
+"click(findTestObject(""Setting - Group/Button - Confirm Delete""))",Chrome 140.0.7339.82,,,11-09-2025 11:16:27,11-09-2025 11:16:27,0.547s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Group/Toast - Success""), ""Success, group has been deleted."", STOP_ON_FAILURE))",Chrome 140.0.7339.82,,,11-09-2025 11:16:27,11-09-2025 11:16:29,1.719s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/View Log - Grup,Chrome 140.0.7339.82,,,11-09-2025 11:16:29,11-09-2025 11:16:57,28.310s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 140.0.7339.82,,,11-09-2025 11:16:29,11-09-2025 11:16:31,2.002s,PASSED
+"comment(""Setting > Group > View Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:16:31,11-09-2025 11:16:31,0.001s,PASSED
+LogsCheck.checkGroupViewLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:16:31,11-09-2025 11:16:33,1.729s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 140.0.7339.82,,,11-09-2025 11:16:33,11-09-2025 11:16:33,0.002s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:16:33,11-09-2025 11:16:36,3.442s,PASSED
+"comment(""Profile > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:16:36,11-09-2025 11:16:36,0.001s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:16:36,11-09-2025 11:16:42,6.077s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:16:42,11-09-2025 11:16:42,0.002s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:16:42,11-09-2025 11:16:53,10.499s,PASSED
+Common_Utils.navigateToGroup(),Chrome 140.0.7339.82,,,11-09-2025 11:16:53,11-09-2025 11:16:57,4.543s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/Delete - Grup Memiliki Asset,Chrome 140.0.7339.82,,,11-09-2025 11:16:57,11-09-2025 11:17:08,10.385s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:16:57,11-09-2025 11:17:03,5.647s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Delete Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:17:03,11-09-2025 11:17:03,0.587s,PASSED
+"click(findTestObject(""Setting - Group/Button - Confirm Delete""))",Chrome 140.0.7339.82,,,11-09-2025 11:17:03,11-09-2025 11:17:04,0.636s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Group/Toast - Success""), ""Success, group has been deleted."", STOP_ON_FAILURE))",Chrome 140.0.7339.82,,,11-09-2025 11:17:04,11-09-2025 11:17:08,3.498s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/View Log - Grup,Chrome 140.0.7339.82,,,11-09-2025 11:17:08,11-09-2025 11:17:37,29.218s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 140.0.7339.82,,,11-09-2025 11:17:08,11-09-2025 11:17:10,2.012s,PASSED
+"comment(""Setting > Group > View Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:17:10,11-09-2025 11:17:10,0.002s,PASSED
+LogsCheck.checkGroupViewLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:17:10,11-09-2025 11:17:13,3.183s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 140.0.7339.82,,,11-09-2025 11:17:13,11-09-2025 11:17:13,0.001s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:17:13,11-09-2025 11:17:17,3.795s,PASSED
+"comment(""Profile > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:17:17,11-09-2025 11:17:17,0.001s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:17:17,11-09-2025 11:17:21,4.420s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:17:21,11-09-2025 11:17:21,0.003s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:17:21,11-09-2025 11:17:34,12.970s,PASSED
+Common_Utils.navigateToGroup(),Chrome 140.0.7339.82,,,11-09-2025 11:17:34,11-09-2025 11:17:37,2.818s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/Delete - Grup Satu-Satunya,Chrome 140.0.7339.82,,,11-09-2025 11:17:37,11-09-2025 11:17:40,3.327s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Default Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:17:37,11-09-2025 11:17:40,2.788s,PASSED
+"verifyElementNotPresent(findTestObject(""Setting - Group/Action Menu - Delete Group""), 0)",Chrome 140.0.7339.82,,,11-09-2025 11:17:40,11-09-2025 11:17:40,0.463s,PASSED
+,,,,,,,
+"Test Cases/Setting - Group/Positif/Create - Grup Baru, Ceklis Stay On This Form",Chrome 140.0.7339.82,,,11-09-2025 11:18:51,11-09-2025 11:19:00,9.310s,PASSED
+"click(findTestObject(""Setting - Group/Button - New Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:18:51,11-09-2025 11:18:52,1.578s,PASSED
+"check(findTestObject(""Setting - Group/Checkbox - Stay on This Form""))",Chrome 140.0.7339.82,,,11-09-2025 11:18:52,11-09-2025 11:18:54,1.581s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Name""), ""Group Test"")",Chrome 140.0.7339.82,,,11-09-2025 11:18:54,11-09-2025 11:18:55,0.645s,PASSED
+"setText(findTestObject(""Setting - Group/Textbox - Group Code""), ""TEST"")",Chrome 140.0.7339.82,,,11-09-2025 11:18:55,11-09-2025 11:18:56,1.163s,PASSED
+"click(findTestObject(""Setting - Group/Button - Submit""))",Chrome 140.0.7339.82,,,11-09-2025 11:18:56,11-09-2025 11:18:57,0.898s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Group/Toast - Success""), ""Success, group has been created."", STOP_ON_FAILURE))",Chrome 140.0.7339.82,,,11-09-2025 11:18:57,11-09-2025 11:19:00,3.096s,PASSED
+"click(findTestObject(""Setting - Group/Button - Cancel Create or Edit""))",Chrome 140.0.7339.82,,,11-09-2025 11:19:00,11-09-2025 11:19:00,0.337s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/View Log - Grup,Chrome 140.0.7339.82,,,11-09-2025 11:19:00,11-09-2025 11:19:28,28.134s,PASSED
+"DATA BINDING - {""(Default) desti..."":""null""}",,,,,,,
+delay(2),Chrome 140.0.7339.82,,,11-09-2025 11:19:00,11-09-2025 11:19:02,2.003s,PASSED
+"comment(""Setting > Group > View Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:19:02,11-09-2025 11:19:02,0.002s,PASSED
+LogsCheck.checkGroupViewLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:19:02,11-09-2025 11:19:06,3.537s,PASSED
+"comment(""Report & Log > Activity Log > User Actions"")",Chrome 140.0.7339.82,,,11-09-2025 11:19:06,11-09-2025 11:19:06,0.002s,PASSED
+LogsCheck.checkLogReportandLog(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:19:06,11-09-2025 11:19:09,3.302s,PASSED
+"comment(""Profile > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:19:09,11-09-2025 11:19:09,0.001s,PASSED
+LogsCheck.checkLogProfile(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:19:09,11-09-2025 11:19:13,4.571s,PASSED
+"comment(""Setting > User > Detail > System Log"")",Chrome 140.0.7339.82,,,11-09-2025 11:19:13,11-09-2025 11:19:13,0.003s,PASSED
+LogsCheck.checkLogUserDetail(Log_Status),Chrome 140.0.7339.82,,,11-09-2025 11:19:13,11-09-2025 11:19:24,10.510s,PASSED
+Common_Utils.navigateToGroup(),Chrome 140.0.7339.82,,,11-09-2025 11:19:24,11-09-2025 11:19:28,4.191s,PASSED
+,,,,,,,
+Test Cases/Setting - Group/Positif/Delete - Grup,Chrome 140.0.7339.82,,,11-09-2025 11:19:28,11-09-2025 11:19:35,6.605s,PASSED
+"click(findTestObject(""Setting - Group/Single Action Button - Group Test""))",Chrome 140.0.7339.82,,,11-09-2025 11:19:28,11-09-2025 11:19:32,3.394s,PASSED
+"click(findTestObject(""Setting - Group/Action Menu - Delete Group""))",Chrome 140.0.7339.82,,,11-09-2025 11:19:32,11-09-2025 11:19:33,1.010s,PASSED
+"click(findTestObject(""Setting - Group/Button - Confirm Delete""))",Chrome 140.0.7339.82,,,11-09-2025 11:19:33,11-09-2025 11:19:33,0.579s,PASSED
+"if (verifyElementText(findTestObject(""Setting - Group/Toast - Success""), ""Success, group has been deleted."", STOP_ON_FAILURE))",Chrome 140.0.7339.82,,,11-09-2025 11:19:33,11-09-2025 11:19:35,1.612s,PASSED

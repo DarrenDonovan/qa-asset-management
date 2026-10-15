@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Request disposal - Missing (Bulk action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>42ee11ab-e2f9-4b7c-ac45-c2e8475dd7f9</testCaseGuid>
+</TestCaseEntity>

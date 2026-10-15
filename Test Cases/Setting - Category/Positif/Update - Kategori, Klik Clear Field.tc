@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Update - Kategori, Klik Clear Field</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2b089de6-d7e3-4afb-8e49-4ce8ca3ac62c</testCaseGuid>
+</TestCaseEntity>

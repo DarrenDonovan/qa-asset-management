@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>History - Buka borrowing log (Single action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>09ae1de0-5484-4074-abae-0d2e2acca7e2</testCaseGuid>
+</TestCaseEntity>

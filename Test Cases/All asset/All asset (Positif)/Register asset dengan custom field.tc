@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Register asset dengan custom field</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3894f07d-4182-4de4-9662-5200f6a2b810</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0482c0d9-4276-400b-a8f1-49a3bf2542f7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'contoh@asdf.com'</defaultValue>
+      <description></description>
+      <id>0482c0d9-4276-400b-a8f1-49a3bf2542f7</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

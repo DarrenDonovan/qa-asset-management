@@ -1,0 +1,233 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+All asset -,Edge Chromium 140,,,12-09-2025 16:26:03,12-09-2025 16:28:58,2m - 55.259s,FAILED
+,,,,,,,
+Test Cases/login,Edge Chromium 140,Positif,,12-09-2025 16:26:03,12-09-2025 16:26:35,31.832s,PASSED
+"openBrowser("""")",Edge Chromium 140,,,12-09-2025 16:26:03,12-09-2025 16:26:06,2.608s,PASSED
+maximizeWindow(),Edge Chromium 140,,,12-09-2025 16:26:06,12-09-2025 16:26:06,0.151s,PASSED
+navigateToUrl(url),Edge Chromium 140,,,12-09-2025 16:26:06,12-09-2025 16:26:08,1.749s,PASSED
+"setText(findTestObject(""Object Repository/Login session object/Input - Email""), email)",Edge Chromium 140,,,12-09-2025 16:26:08,12-09-2025 16:26:18,9.773s,PASSED
+"setText(findTestObject(""Object Repository/Login session object/Input - Password""), password)",Edge Chromium 140,,,12-09-2025 16:26:18,12-09-2025 16:26:19,1.556s,PASSED
+"click(findTestObject(""Object Repository/Login session object/Button - Login""))",Edge Chromium 140,,,12-09-2025 16:26:19,12-09-2025 16:26:20,0.485s,PASSED
+"isPopupPresent = verifyElementPresent(findTestObject(""Login session object/Page_TAG SAMURAI/Popup duplicate login""), 20, OPTIONAL)",Edge Chromium 140,,,12-09-2025 16:26:20,12-09-2025 16:26:21,1.609s,PASSED
+if (isPopupPresent),Edge Chromium 140,,,12-09-2025 16:26:21,12-09-2025 16:26:22,0.460s,PASSED
+waitForPageLoad(30),Edge Chromium 140,,,12-09-2025 16:26:22,12-09-2025 16:26:22,0.197s,PASSED
+"delay(5, OPTIONAL)",Edge Chromium 140,,,12-09-2025 16:26:22,12-09-2025 16:26:27,5.054s,PASSED
+"waitForElementClickable(findTestObject(""All Menu/Button - Module - Fixed Asset""), 30)",Edge Chromium 140,,,12-09-2025 16:26:27,12-09-2025 16:26:27,0.341s,PASSED
+"click(findTestObject(""All Menu/Button - Module - Fixed Asset""))",Edge Chromium 140,,,12-09-2025 16:26:27,12-09-2025 16:26:29,1.501s,PASSED
+waitForPageLoad(20),Edge Chromium 140,,,12-09-2025 16:26:29,12-09-2025 16:26:29,0.021s,PASSED
+"verifyElementVisible(findTestObject(""All Menu/Button - Menu - Fixed Asset""))",Edge Chromium 140,,,12-09-2025 16:26:29,12-09-2025 16:26:35,5.813s,PASSED
+,,,,,,,
+Test Cases/All asset/Register asset - (Negatif)/Register asset - Register tanpa grup,Edge Chromium 140,Negatif,,12-09-2025 16:26:45,12-09-2025 16:26:46,0.760s,FAILED
+"buttonAktif = getAttribute(findTestObject(""All Menu/Button - Menu - Fixed Asset""), ""aria-expanded"")",Edge Chromium 140,,,12-09-2025 16:26:45,12-09-2025 16:26:45,0.300s,PASSED
+"if (buttonAktif == ""false"")",Edge Chromium 140,,,12-09-2025 16:26:45,12-09-2025 16:26:45,0.000s,PASSED
+else,Edge Chromium 140,,,12-09-2025 16:26:45,12-09-2025 16:26:45,0.000s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - All Assets""))",Edge Chromium 140,,,12-09-2025 16:26:45,12-09-2025 16:26:46,0.440s,FAILED
+,,,,,,,
+Test Cases/All asset/Register asset - (Negatif)/Register asset - Register tanpa category,Edge Chromium 140,Negatif,,12-09-2025 16:26:46,12-09-2025 16:26:57,11.010s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - All Assets""))",Edge Chromium 140,,,12-09-2025 16:26:46,12-09-2025 16:26:46,0.001s,NOT_RUN
+"click(findTestObject(""All asset/Register asset/Button - Register""))",Edge Chromium 140,,,12-09-2025 16:26:46,12-09-2025 16:26:46,0.000s,NOT_RUN
+refresh(),Edge Chromium 140,,,12-09-2025 16:26:46,12-09-2025 16:26:46,0.394s,PASSED
+"click(findTestObject(""All asset/Register asset/Button - Select Group""))",Edge Chromium 140,,,12-09-2025 16:26:46,12-09-2025 16:26:50,4.290s,PASSED
+"click(findTestObject(""All asset/Register asset/List - Group""))",Edge Chromium 140,,,12-09-2025 16:26:50,12-09-2025 16:26:52,1.160s,PASSED
+"click(findTestObject(""All asset/Register asset/Button - Select""))",Edge Chromium 140,,,12-09-2025 16:26:52,12-09-2025 16:26:52,0.400s,PASSED
+"setText(findTestObject(""All asset/Register asset/Input - Asset name""), ""asd"")",Edge Chromium 140,,,12-09-2025 16:26:52,12-09-2025 16:26:53,0.950s,PASSED
+"setText(findTestObject(""All asset/Register asset/Input - Brand""), ""asd"")",Edge Chromium 140,,,12-09-2025 16:26:53,12-09-2025 16:26:54,0.698s,PASSED
+"setText(findTestObject(""All asset/Register asset/Input - Model""), ""asd"")",Edge Chromium 140,,,12-09-2025 16:26:54,12-09-2025 16:26:54,0.682s,PASSED
+"setText(findTestObject(""All asset/Register asset/Input - Measurement""), ""asd"")",Edge Chromium 140,,,12-09-2025 16:26:54,12-09-2025 16:26:55,0.700s,PASSED
+"setText(findTestObject(""All asset/Register asset/Input - Useful life""), ""123"")",Edge Chromium 140,,,12-09-2025 16:26:55,12-09-2025 16:26:56,0.714s,PASSED
+"click(findTestObject(""All asset/Register asset/Button - Register""))",Edge Chromium 140,,,12-09-2025 16:26:56,12-09-2025 16:26:56,0.402s,PASSED
+"verifyElementVisible(findTestObject(""All asset/Register asset/Alert - You must pick a category""), STOP_ON_FAILURE)",Edge Chromium 140,,,12-09-2025 16:26:56,12-09-2025 16:26:57,0.523s,PASSED
+,,,,,,,
+Test Cases/All asset/Register asset - (Negatif)/Register asset - Register tanpa mengisi field mandatory,Edge Chromium 140,Negatif,,12-09-2025 16:26:57,12-09-2025 16:27:10,13.000s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - All Assets""))",Edge Chromium 140,,,12-09-2025 16:26:57,12-09-2025 16:26:57,0.000s,NOT_RUN
+"click(findTestObject(""All asset/Register asset/Button - Register""))",Edge Chromium 140,,,12-09-2025 16:26:57,12-09-2025 16:26:57,0.000s,NOT_RUN
+refresh(),Edge Chromium 140,,,12-09-2025 16:26:57,12-09-2025 16:26:58,1.414s,PASSED
+"click(findTestObject(""All asset/Register asset/Button - Select Group""))",Edge Chromium 140,,,12-09-2025 16:26:58,12-09-2025 16:27:03,4.986s,PASSED
+"click(findTestObject(""All asset/Register asset/List - Group""))",Edge Chromium 140,,,12-09-2025 16:27:03,12-09-2025 16:27:04,1.167s,PASSED
+"click(findTestObject(""All asset/Register asset/Button - Select""))",Edge Chromium 140,,,12-09-2025 16:27:04,12-09-2025 16:27:05,0.403s,PASSED
+"click(findTestObject(""All asset/Register asset/Button - Select Category""))",Edge Chromium 140,,,12-09-2025 16:27:05,12-09-2025 16:27:06,0.769s,PASSED
+"click(findTestObject(""All asset/Register asset/List - Category""))",Edge Chromium 140,,,12-09-2025 16:27:06,12-09-2025 16:27:07,1.530s,PASSED
+"click(findTestObject(""All asset/Register asset/Button - Select""))",Edge Chromium 140,,,12-09-2025 16:27:07,12-09-2025 16:27:07,0.401s,PASSED
+"click(findTestObject(""All asset/Register asset/Button - Register""))",Edge Chromium 140,,,12-09-2025 16:27:07,12-09-2025 16:27:09,1.418s,PASSED
+"verifyElementVisible(findTestObject(""All asset/Register asset/Field - Border danger""))",Edge Chromium 140,,,12-09-2025 16:27:09,12-09-2025 16:27:09,0.539s,PASSED
+"verifyElementVisible(findTestObject(""All asset/Register asset/Alert - Field mandatory""))",Edge Chromium 140,,,12-09-2025 16:27:09,12-09-2025 16:27:10,0.300s,PASSED
+,,,,,,,
+Test Cases/All asset/Register asset - (Negatif)/Register asset - Input field lebih dari 30 karakter,Edge Chromium 140,Negatif,,12-09-2025 16:27:10,12-09-2025 16:27:15,4.890s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - All Assets""))",Edge Chromium 140,,,12-09-2025 16:27:10,12-09-2025 16:27:10,0.000s,NOT_RUN
+"click(findTestObject(""All asset/Register asset/Button - Register""))",Edge Chromium 140,,,12-09-2025 16:27:10,12-09-2025 16:27:10,0.010s,NOT_RUN
+"click(findTestObject(""All asset/Register asset/Button - Select Group""))",Edge Chromium 140,,,12-09-2025 16:27:10,12-09-2025 16:27:10,0.000s,NOT_RUN
+"click(findTestObject(""All asset/Register asset/List - Group""))",Edge Chromium 140,,,12-09-2025 16:27:10,12-09-2025 16:27:10,0.000s,NOT_RUN
+"click(findTestObject(""All asset/Register asset/Button - Select""))",Edge Chromium 140,,,12-09-2025 16:27:10,12-09-2025 16:27:10,0.010s,NOT_RUN
+"click(findTestObject(""All asset/Register asset/Button - Select Category""))",Edge Chromium 140,,,12-09-2025 16:27:10,12-09-2025 16:27:10,0.000s,NOT_RUN
+"click(findTestObject(""All asset/Register asset/List - Category""))",Edge Chromium 140,,,12-09-2025 16:27:10,12-09-2025 16:27:10,0.010s,NOT_RUN
+"click(findTestObject(""All asset/Register asset/Button - Select""))",Edge Chromium 140,,,12-09-2025 16:27:10,12-09-2025 16:27:10,0.000s,NOT_RUN
+"setText(findTestObject(""All asset/Register asset/Input - Asset name""), ""AAAAaaaaaBBBBbbbbCCCCccccDDDDDDDdddddd"")",Edge Chromium 140,,,12-09-2025 16:27:10,12-09-2025 16:27:11,0.954s,PASSED
+"actualValue = getAttribute(findTestObject(""All asset/Register asset/Input - Asset name""), ""value"")",Edge Chromium 140,,,12-09-2025 16:27:11,12-09-2025 16:27:11,0.286s,PASSED
+"verifyLessThanOrEqual(actualValue.length(), 30)",Edge Chromium 140,,,12-09-2025 16:27:11,12-09-2025 16:27:11,0.020s,PASSED
+"setText(findTestObject(""All asset/Register asset/Input - Brand""), ""AAAAaaaaaBBBBbbbbCCCCccccDDDDDDDdddddd"")",Edge Chromium 140,,,12-09-2025 16:27:11,12-09-2025 16:27:12,0.830s,PASSED
+"actualValue1 = getAttribute(findTestObject(""All asset/Register asset/Input - Brand""), ""value"")",Edge Chromium 140,,,12-09-2025 16:27:12,12-09-2025 16:27:12,0.280s,PASSED
+"verifyLessThanOrEqual(actualValue1.length(), 30)",Edge Chromium 140,,,12-09-2025 16:27:12,12-09-2025 16:27:12,0.010s,PASSED
+"setText(findTestObject(""All asset/Register asset/Input - Model""), ""AAAAaaaaaBBBBbbbbCCCCccccDDDDDDDdddddd"")",Edge Chromium 140,,,12-09-2025 16:27:12,12-09-2025 16:27:13,0.841s,PASSED
+"actualValue2 = getAttribute(findTestObject(""All asset/Register asset/Input - Model""), ""value"")",Edge Chromium 140,,,12-09-2025 16:27:13,12-09-2025 16:27:13,0.309s,PASSED
+"verifyLessThanOrEqual(actualValue2.length(), 30)",Edge Chromium 140,,,12-09-2025 16:27:13,12-09-2025 16:27:13,0.020s,PASSED
+"setText(findTestObject(""All asset/Register asset/Input - Measurement""), ""AAAAaaaaaBBBBbbbbCCCCccccDDDDDDDdddddd"")",Edge Chromium 140,,,12-09-2025 16:27:13,12-09-2025 16:27:14,0.870s,PASSED
+"actualValue3 = getAttribute(findTestObject(""All asset/Register asset/Input - Measurement""), ""value"")",Edge Chromium 140,,,12-09-2025 16:27:14,12-09-2025 16:27:15,0.320s,PASSED
+"verifyLessThanOrEqual(actualValue3.length(), 30)",Edge Chromium 140,,,12-09-2025 16:27:15,12-09-2025 16:27:15,0.010s,PASSED
+,,,,,,,
+Test Cases/All asset/Register asset - (Negatif)/Register asset - Input useful life selain angka dan lebih dari 3 karakter,Edge Chromium 140,Negatif,,12-09-2025 16:27:15,12-09-2025 16:27:16,1.075s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - All Assets""))",Edge Chromium 140,,,12-09-2025 16:27:15,12-09-2025 16:27:15,0.000s,NOT_RUN
+"click(findTestObject(""All asset/Register asset/Button - Register""))",Edge Chromium 140,,,12-09-2025 16:27:15,12-09-2025 16:27:15,0.005s,NOT_RUN
+"setText(findTestObject(""All asset/Register asset/Input - Useful life""), ""12b@"")",Edge Chromium 140,,,12-09-2025 16:27:15,12-09-2025 16:27:15,0.710s,PASSED
+"valueuseful = getAttribute(findTestObject(""All asset/Register asset/Input - Useful life""), ""value"")",Edge Chromium 140,,,12-09-2025 16:27:15,12-09-2025 16:27:16,0.270s,PASSED
+"if (valueuseful ==~ ""^\d*$"")",Edge Chromium 140,,,12-09-2025 16:27:16,12-09-2025 16:27:16,0.015s,PASSED
+"verifyLessThanOrEqual(valueuseful.length(), 3)",Edge Chromium 140,,,12-09-2025 16:27:16,12-09-2025 16:27:16,0.000s,PASSED
+,,,,,,,
+Test Cases/All asset/Register asset - (Positif)/Register asset - Duplicate list register asset (single action),Edge Chromium 140,Positif,,12-09-2025 16:27:16,12-09-2025 16:27:17,1.180s,PASSED
+"rowBefore = findWebElements(findTestObject(""Object Repository/All asset/Register asset/Tabel - Row register asset""), 10).size()",Edge Chromium 140,,,12-09-2025 16:27:16,12-09-2025 16:27:16,0.000s,NOT_RUN
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Single action - Duplikat""))",Edge Chromium 140,,,12-09-2025 16:27:16,12-09-2025 16:27:16,0.396s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Option duplikat""))",Edge Chromium 140,,,12-09-2025 16:27:16,12-09-2025 16:27:17,0.683s,PASSED
+"rowAfter = findWebElements(findTestObject(""Object Repository/All asset/Register asset/Tabel - Row register asset""), 10).size()",Edge Chromium 140,,,12-09-2025 16:27:17,12-09-2025 16:27:17,0.000s,NOT_RUN
+delay(2),Edge Chromium 140,,,12-09-2025 16:27:17,12-09-2025 16:27:17,0.006s,NOT_RUN
+"verifyEqual(rowAfter, rowBefore + 1)",Edge Chromium 140,,,12-09-2025 16:27:17,12-09-2025 16:27:17,0.000s,NOT_RUN
+,,,,,,,
+Test Cases/All asset/Register asset - (Positif)/Register asset - Duplicate list register asset (bulk action),Edge Chromium 140,Positif,,12-09-2025 16:27:17,12-09-2025 16:27:19,1.926s,PASSED
+"rowBefore = findWebElements(findTestObject(""Object Repository/All asset/Register asset/Tabel - Row register asset""), 10).size()",Edge Chromium 140,,,12-09-2025 16:27:17,12-09-2025 16:27:17,0.004s,NOT_RUN
+"click(findTestObject(""All asset/Register asset/Remove from list/Checkbox - Untuk duplicate""))",Edge Chromium 140,,,12-09-2025 16:27:17,12-09-2025 16:27:17,0.529s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Bulk Action""))",Edge Chromium 140,,,12-09-2025 16:27:17,12-09-2025 16:27:18,0.627s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Bulk action - Option duplicate""))",Edge Chromium 140,,,12-09-2025 16:27:18,12-09-2025 16:27:19,0.686s,PASSED
+"rowAfter = findWebElements(findTestObject(""Object Repository/All asset/Register asset/Tabel - Row register asset""), 10).size()",Edge Chromium 140,,,12-09-2025 16:27:19,12-09-2025 16:27:19,0.004s,NOT_RUN
+delay(2),Edge Chromium 140,,,12-09-2025 16:27:19,12-09-2025 16:27:19,0.006s,NOT_RUN
+"verifyEqual(rowAfter, rowBefore + 1)",Edge Chromium 140,,,12-09-2025 16:27:19,12-09-2025 16:27:19,0.000s,NOT_RUN
+,,,,,,,
+Test Cases/All asset/Register asset - (Positif)/Register asset - Tambah row register asset,Edge Chromium 140,Positif,,12-09-2025 16:27:19,12-09-2025 16:27:20,1.630s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - All Assets""))",Edge Chromium 140,,,12-09-2025 16:27:19,12-09-2025 16:27:19,0.003s,NOT_RUN
+"click(findTestObject(""All asset/Register asset/Button - Register""))",Edge Chromium 140,,,12-09-2025 16:27:19,12-09-2025 16:27:19,0.000s,NOT_RUN
+"click(findTestObject(""All asset/Register asset/Button - Select Group""))",Edge Chromium 140,,,12-09-2025 16:27:19,12-09-2025 16:27:19,0.004s,NOT_RUN
+"click(findTestObject(""All asset/Register asset/List - Group""))",Edge Chromium 140,,,12-09-2025 16:27:19,12-09-2025 16:27:19,0.000s,NOT_RUN
+"click(findTestObject(""All asset/Register asset/Button - Select""))",Edge Chromium 140,,,12-09-2025 16:27:19,12-09-2025 16:27:19,0.005s,NOT_RUN
+"click(findTestObject(""All asset/Register asset/Button - Select Category""))",Edge Chromium 140,,,12-09-2025 16:27:19,12-09-2025 16:27:19,0.000s,NOT_RUN
+"click(findTestObject(""All asset/Register asset/List - Category""))",Edge Chromium 140,,,12-09-2025 16:27:19,12-09-2025 16:27:19,0.008s,NOT_RUN
+"click(findTestObject(""All asset/Register asset/Button - Select""))",Edge Chromium 140,,,12-09-2025 16:27:19,12-09-2025 16:27:19,0.000s,NOT_RUN
+"setText(findTestObject(""All asset/Register asset/Input - Asset name""), ""asd"")",Edge Chromium 140,,,12-09-2025 16:27:19,12-09-2025 16:27:19,0.000s,NOT_RUN
+"setText(findTestObject(""All asset/Register asset/Input - Brand""), ""asd"")",Edge Chromium 140,,,12-09-2025 16:27:19,12-09-2025 16:27:19,0.007s,NOT_RUN
+"setText(findTestObject(""All asset/Register asset/Input - Model""), ""asd"")",Edge Chromium 140,,,12-09-2025 16:27:19,12-09-2025 16:27:19,0.000s,NOT_RUN
+"setText(findTestObject(""All asset/Register asset/Input - Measurement""), ""asd"")",Edge Chromium 140,,,12-09-2025 16:27:19,12-09-2025 16:27:19,0.005s,NOT_RUN
+"setText(findTestObject(""All asset/Register asset/Input - Useful life""), ""123"")",Edge Chromium 140,,,12-09-2025 16:27:19,12-09-2025 16:27:19,0.005s,NOT_RUN
+"rowBefore = findWebElements(findTestObject(""Object Repository/All asset/Register asset/Tabel - Row register asset""), 10).size()",Edge Chromium 140,,,12-09-2025 16:27:19,12-09-2025 16:27:19,0.270s,PASSED
+"verifyElementClickable(findTestObject(""All asset/Register asset/Button - Tambah Row""))",Edge Chromium 140,,,12-09-2025 16:27:19,12-09-2025 16:27:20,0.310s,PASSED
+"click(findTestObject(""All asset/Register asset/Button - Tambah Row""))",Edge Chromium 140,,,12-09-2025 16:27:20,12-09-2025 16:27:20,0.402s,PASSED
+"rowAfter = findWebElements(findTestObject(""Object Repository/All asset/Register asset/Tabel - Row register asset""), 10).size()",Edge Chromium 140,,,12-09-2025 16:27:20,12-09-2025 16:27:20,0.498s,PASSED
+"verifyEqual(rowAfter, rowBefore + 1)",Edge Chromium 140,,,12-09-2025 16:27:20,12-09-2025 16:27:20,0.010s,PASSED
+,,,,,,,
+Test Cases/All asset/Register asset - (Positif)/Register asset - Remove from list (Single action),Edge Chromium 140,Positif,,12-09-2025 16:27:20,12-09-2025 16:27:23,2.570s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Single action - Register asset""))",Edge Chromium 140,,,12-09-2025 16:27:20,12-09-2025 16:27:21,0.414s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Option remove from List""))",Edge Chromium 140,,,12-09-2025 16:27:21,12-09-2025 16:27:22,0.688s,PASSED
+"waitForElementVisible(findTestObject(""All asset/Register asset/Remove from list/Dialog - Remove from list""), 10)",Edge Chromium 140,,,12-09-2025 16:27:22,12-09-2025 16:27:22,0.438s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Remove""))",Edge Chromium 140,,,12-09-2025 16:27:22,12-09-2025 16:27:22,0.441s,PASSED
+"verifyElementText(findTestObject(""All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list""), ""Success, asset has been removed from list."")",Edge Chromium 140,,,12-09-2025 16:27:22,12-09-2025 16:27:23,0.539s,PASSED
+,,,,,,,
+Test Cases/All asset/Register asset - (Positif)/Register asset - Remove from list (Bulk action),Edge Chromium 140,Positif,,12-09-2025 16:27:24,12-09-2025 16:27:25,0.480s,FAILED
+"click(findTestObject(""All asset/Register asset/Remove from list/Checkbox - Remove from list""))",Edge Chromium 140,,,12-09-2025 16:27:25,12-09-2025 16:27:25,0.460s,FAILED
+,,,,,,,
+Test Cases/All asset/Register asset - (Positif)/Register asset - Cancel register,Edge Chromium 140,Positif,,12-09-2025 16:27:25,12-09-2025 16:27:27,1.773s,PASSED
+"click(findTestObject(""All asset/Register asset/Button - Cancel""))",Edge Chromium 140,,,12-09-2025 16:27:25,12-09-2025 16:27:26,0.573s,PASSED
+"waitForElementVisible(findTestObject(""All asset/Register asset/Dialog - Cancel register""), 10)",Edge Chromium 140,,,12-09-2025 16:27:26,12-09-2025 16:27:26,0.449s,PASSED
+"click(findTestObject(""All asset/Register asset/Button - Continue""))",Edge Chromium 140,,,12-09-2025 16:27:26,12-09-2025 16:27:26,0.378s,PASSED
+currentUrl = getUrl(),Edge Chromium 140,,,12-09-2025 16:27:26,12-09-2025 16:27:27,0.288s,PASSED
+"verifyMatch(currentUrl, "".*assets.*"", true)",Edge Chromium 140,,,12-09-2025 16:27:27,12-09-2025 16:27:27,0.015s,PASSED
+,,,,,,,
+Test Cases/All asset/Edit asset - (Negatif)/Edit asset - Clear field dan submit,Edge Chromium 140,Negatif,,12-09-2025 16:27:27,12-09-2025 16:27:34,6.910s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - All Assets""))",Edge Chromium 140,,,12-09-2025 16:27:27,12-09-2025 16:27:27,0.005s,NOT_RUN
+"click(findTestObject(""All asset/Edit asset/Button - single action""))",Edge Chromium 140,,,12-09-2025 16:27:27,12-09-2025 16:27:30,2.715s,PASSED
+"click(findTestObject(""All asset/Edit asset/Button - Option Edit""))",Edge Chromium 140,,,12-09-2025 16:27:30,12-09-2025 16:27:30,0.760s,PASSED
+"click(findTestObject(""All asset/Bulk action/Button - Clear Field""))",Edge Chromium 140,,,12-09-2025 16:27:30,12-09-2025 16:27:32,1.674s,PASSED
+"click(findTestObject(""All asset/Edit asset/Button - Submit""))",Edge Chromium 140,,,12-09-2025 16:27:32,12-09-2025 16:27:33,0.846s,PASSED
+"verifyElementVisible(findTestObject(""All asset/Edit asset/Field - Border danger edit""))",Edge Chromium 140,,,12-09-2025 16:27:33,12-09-2025 16:27:33,0.510s,PASSED
+"verifyElementVisible(findTestObject(""All asset/Edit asset/Alert - Field mandatory edit""))",Edge Chromium 140,,,12-09-2025 16:27:33,12-09-2025 16:27:34,0.320s,PASSED
+,,,,,,,
+Test Cases/All asset/Edit asset - (Negatif)/Edit asset - Upload photo lebih dari 1 MB,Edge Chromium 140,Negatif,,12-09-2025 16:27:34,12-09-2025 16:27:35,1.391s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - All Assets""))",Edge Chromium 140,,,12-09-2025 16:27:34,12-09-2025 16:27:34,0.000s,NOT_RUN
+"click(findTestObject(""All asset/Edit asset/Button - single action""))",Edge Chromium 140,,,12-09-2025 16:27:34,12-09-2025 16:27:34,0.000s,NOT_RUN
+"click(findTestObject(""All asset/Edit asset/Button - Option Edit""))",Edge Chromium 140,,,12-09-2025 16:27:34,12-09-2025 16:27:34,0.000s,NOT_RUN
+"uploadFile(findTestObject(""All asset/Edit asset/Input - Upload photo""), ""D:\Katalon QA - Tag Samurai\katalon-test-tutor\Photo\Group.png"")",Edge Chromium 140,,,12-09-2025 16:27:34,12-09-2025 16:27:34,0.334s,PASSED
+"verifyElementVisible(findTestObject(""All asset/Edit asset/Alert - Field mandatory edit""))",Edge Chromium 140,,,12-09-2025 16:27:34,12-09-2025 16:27:35,0.526s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ESCAPE))",Edge Chromium 140,,,12-09-2025 16:27:35,12-09-2025 16:27:35,0.462s,PASSED
+,,,,,,,
+Test Cases/All asset/Report damage - (Negatif)/Report damage - Submit tanpa field mandatory,Edge Chromium 140,Negatif,,12-09-2025 16:27:35,12-09-2025 16:27:39,3.504s,PASSED
+"click(findTestObject(""All asset/Button - Single action untuk report""))",Edge Chromium 140,,,12-09-2025 16:27:35,12-09-2025 16:27:36,0.533s,PASSED
+"click(findTestObject(""All asset/Button - Single action - Option report damage""))",Edge Chromium 140,,,12-09-2025 16:27:36,12-09-2025 16:27:36,0.765s,PASSED
+"click(findTestObject(""Object Repository/Borrow/Report damage/Button - Submit""))",Edge Chromium 140,,,12-09-2025 16:27:36,12-09-2025 16:27:38,1.627s,PASSED
+"verifyElementVisible(findTestObject(""Borrow/Report damage/Text - Note must not be empty""))",Edge Chromium 140,,,12-09-2025 16:27:38,12-09-2025 16:27:39,0.521s,PASSED
+,,,,,,,
+Test Cases/All asset/Report damage - (Negatif)/Report damage - Input note lebih dari 120 karakter,Edge Chromium 140,Negatif,,12-09-2025 16:27:39,12-09-2025 16:27:41,2.036s,PASSED
+"setText(findTestObject(""Object Repository/Borrow/Report damage/Input - Note reported damage""), ""asdfaaaaaaaaaaaaaaasdasnkandkankdnkaskdasdasksdfkdnskfsdkfskfsnssdsfsdfsfdfsdfsfsfsaaaaaaassssssadasdasdssssssssssssssssssssssssssssssssssss"")",Edge Chromium 140,,,12-09-2025 16:27:39,12-09-2025 16:27:40,1.223s,PASSED
+"click(findTestObject(""Object Repository/Borrow/Report damage/Button - Submit""))",Edge Chromium 140,,,12-09-2025 16:27:40,12-09-2025 16:27:40,0.477s,PASSED
+"verifyElementVisible(findTestObject(""Borrow/Report damage/Text - Max. 120 characters""))",Edge Chromium 140,,,12-09-2025 16:27:40,12-09-2025 16:27:41,0.280s,PASSED
+,,,,,,,
+Test Cases/All asset/Report damage - (Negatif)/Report damage - Upload photo lebih dari 1 MB,Edge Chromium 140,Negatif,,12-09-2025 16:27:41,12-09-2025 16:27:42,1.360s,PASSED
+"uploadFile(findTestObject(""All asset/Edit asset/Input - Upload photo""), ""D:\Katalon QA - Tag Samurai\katalon-test-tutor\Photo\Group.png"")",Edge Chromium 140,,,12-09-2025 16:27:41,12-09-2025 16:27:41,0.299s,PASSED
+"verifyElementVisible(findTestObject(""Borrow/Report damage/Text - Ukuran gambar terlalu besar Maks. 1 MB""))",Edge Chromium 140,,,12-09-2025 16:27:41,12-09-2025 16:27:42,0.542s,PASSED
+"click(findTestObject(""All asset/Register asset/Button - Cancel""))",Edge Chromium 140,,,12-09-2025 16:27:42,12-09-2025 16:27:42,0.453s,PASSED
+,,,,,,,
+Test Cases/All asset/Report missing - (Negatif)/Report missing - Submit tanpa field mandatory,Edge Chromium 140,Negatif,,12-09-2025 16:27:42,12-09-2025 16:27:48,5.730s,PASSED
+"click(findTestObject(""All asset/Button - Single action untuk report""))",Edge Chromium 140,,,12-09-2025 16:27:42,12-09-2025 16:27:43,0.570s,PASSED
+"click(findTestObject(""All asset/Button - Single action - Option report missing""))",Edge Chromium 140,,,12-09-2025 16:27:43,12-09-2025 16:27:43,0.789s,PASSED
+"click(findTestObject(""Object Repository/Borrow/Report damage/Button - Submit""))",Edge Chromium 140,,,12-09-2025 16:27:43,12-09-2025 16:27:47,3.761s,PASSED
+"verifyElementVisible(findTestObject(""Borrow/Report damage/Text - Note must not be empty""))",Edge Chromium 140,,,12-09-2025 16:27:47,12-09-2025 16:27:48,0.539s,PASSED
+,,,,,,,
+Test Cases/All asset/Report missing - (Negatif)/Report missing - Input note lebih dari 120 karakter,Edge Chromium 140,Negatif,,12-09-2025 16:27:48,12-09-2025 16:27:50,2.503s,PASSED
+"setText(findTestObject(""Object Repository/Borrow/Report damage/Input - Note reported damage""), ""asdfaaaaaaaaaaaaaaasdasnkandkankdnkaskdasdasksdfkdnskfsdkfskfsnssdsfsdfsfdfsdfsfsfsaaaaaaassssssadasdasdssssssssssssssssssssssssssssssssssss"")",Edge Chromium 140,,,12-09-2025 16:27:48,12-09-2025 16:27:49,1.197s,PASSED
+"click(findTestObject(""Object Repository/Borrow/Report damage/Button - Submit""))",Edge Chromium 140,,,12-09-2025 16:27:49,12-09-2025 16:27:49,0.492s,PASSED
+"verifyElementVisible(findTestObject(""Borrow/Report damage/Text - Max. 120 characters""))",Edge Chromium 140,,,12-09-2025 16:27:49,12-09-2025 16:27:50,0.301s,PASSED
+"click(findTestObject(""All asset/Register asset/Button - Cancel""))",Edge Chromium 140,,,12-09-2025 16:27:50,12-09-2025 16:27:50,0.463s,PASSED
+,,,,,,,
+Test Cases/All asset/Report disposal - (Negatif)/Report disposal - Input note lebih dari 30 karakter,Edge Chromium 140,Negatif,,12-09-2025 16:27:50,12-09-2025 16:27:55,5.115s,PASSED
+"click(findTestObject(""All asset/Edit asset/Button - single action""))",Edge Chromium 140,,,12-09-2025 16:27:50,12-09-2025 16:27:51,0.645s,PASSED
+"click(findTestObject(""All asset/Button - Single action - Option report disposal""))",Edge Chromium 140,,,12-09-2025 16:27:51,12-09-2025 16:27:52,0.590s,PASSED
+"setText(findTestObject(""Object Repository/Borrow/Edit borrow/Input - Note""), ""asdasdsasdwssddwwdasceerilnlmfignoiroskdnis"")",Edge Chromium 140,,,12-09-2025 16:27:52,12-09-2025 16:27:55,3.513s,PASSED
+"actualNote = getAttribute(findTestObject(""Object Repository/Borrow/Edit borrow/Input - Note""), ""value"")",Edge Chromium 140,,,12-09-2025 16:27:55,12-09-2025 16:27:55,0.287s,PASSED
+"verifyEqual(actualNote.length(), 30)",Edge Chromium 140,,,12-09-2025 16:27:55,12-09-2025 16:27:55,0.008s,PASSED
+,,,,,,,
+Test Cases/All asset/Report disposal - (Positif)/Report disposal - Note (Bulk action),Edge Chromium 140,Positif,,12-09-2025 16:27:55,12-09-2025 16:27:59,3.620s,PASSED
+"click(findTestObject(""Borrow/Checkbox""))",Edge Chromium 140,,,12-09-2025 16:27:55,12-09-2025 16:27:56,0.410s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Bulk Action""))",Edge Chromium 140,,,12-09-2025 16:27:56,12-09-2025 16:27:56,0.621s,PASSED
+"click(findTestObject(""Borrow/Edit borrow/Button - Option Note""))",Edge Chromium 140,,,12-09-2025 16:27:56,12-09-2025 16:27:57,0.619s,PASSED
+"setText(findTestObject(""Borrow/Edit borrow/Input - Note bulk action""), ""asd"")",Edge Chromium 140,,,12-09-2025 16:27:57,12-09-2025 16:27:58,0.973s,PASSED
+"click(findTestObject(""Borrow/Edit borrow/Button - Apply""))",Edge Chromium 140,,,12-09-2025 16:27:58,12-09-2025 16:27:58,0.442s,PASSED
+"actualNote = getAttribute(findTestObject(""Object Repository/Borrow/Edit borrow/Input - Note""), ""value"")",Edge Chromium 140,,,12-09-2025 16:27:58,12-09-2025 16:27:59,0.500s,PASSED
+"verifyEqual(actualNote, ""asd"")",Edge Chromium 140,,,12-09-2025 16:27:59,12-09-2025 16:27:59,0.000s,PASSED
+,,,,,,,
+Test Cases/All asset/Report disposal - (Positif)/Report disposal - Tambah asset lain,Edge Chromium 140,Positif,,12-09-2025 16:27:59,12-09-2025 16:28:08,8.920s,PASSED
+"rowBefore = findWebElements(findTestObject(""Object Repository/All asset/Register asset/Tabel - Row register asset""), 10).size()",Edge Chromium 140,,,12-09-2025 16:27:59,12-09-2025 16:27:59,0.279s,PASSED
+"println(""Jumlah baris sebelum aksi: "" + rowBefore)",Edge Chromium 140,,,12-09-2025 16:27:59,12-09-2025 16:27:59,0.000s,PASSED
+waitForPageLoad(10),Edge Chromium 140,,,12-09-2025 16:27:59,12-09-2025 16:27:59,0.020s,PASSED
+"click(findTestObject(""Object Repository/Borrow/Button - Asset""))",Edge Chromium 140,,,12-09-2025 16:27:59,12-09-2025 16:28:00,0.491s,PASSED
+"waitForPageLoad(5, OPTIONAL)",Edge Chromium 140,,,12-09-2025 16:28:00,12-09-2025 16:28:00,0.083s,PASSED
+"click(findTestObject(""Borrow/List - Select asset""))",Edge Chromium 140,,,12-09-2025 16:28:00,12-09-2025 16:28:05,5.175s,PASSED
+"click(findTestObject(""Object Repository/Borrow/Button - Select""))",Edge Chromium 140,,,12-09-2025 16:28:05,12-09-2025 16:28:06,0.494s,PASSED
+delay(2),Edge Chromium 140,,,12-09-2025 16:28:06,12-09-2025 16:28:08,2.007s,PASSED
+"rowAfter = findWebElements(findTestObject(""Object Repository/All asset/Register asset/Tabel - Row register asset""), 10).size()",Edge Chromium 140,,,12-09-2025 16:28:08,12-09-2025 16:28:08,0.290s,PASSED
+"println(""Jumlah baris setelah aksi: "" + rowAfter)",Edge Chromium 140,,,12-09-2025 16:28:08,12-09-2025 16:28:08,0.009s,PASSED
+"verifyEqual(rowAfter, rowBefore + 1)",Edge Chromium 140,,,12-09-2025 16:28:08,12-09-2025 16:28:08,0.000s,PASSED
+,,,,,,,
+Test Cases/All asset/Report disposal - (Positif)/Report disposal - Remove from list (Single action),Edge Chromium 140,Positif,,12-09-2025 16:28:08,12-09-2025 16:28:10,2.553s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Single action - Register asset""))",Edge Chromium 140,,,12-09-2025 16:28:08,12-09-2025 16:28:08,0.382s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Option remove from List""))",Edge Chromium 140,,,12-09-2025 16:28:08,12-09-2025 16:28:09,0.672s,PASSED
+"waitForElementVisible(findTestObject(""All asset/Register asset/Remove from list/Dialog - Remove from list""), 10)",Edge Chromium 140,,,12-09-2025 16:28:09,12-09-2025 16:28:10,0.540s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Remove""))",Edge Chromium 140,,,12-09-2025 16:28:10,12-09-2025 16:28:10,0.412s,PASSED
+"verifyElementText(findTestObject(""All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list""), ""Success, asset has been removed from the list."")",Edge Chromium 140,,,12-09-2025 16:28:10,12-09-2025 16:28:10,0.491s,PASSED
+,,,,,,,
+Test Cases/All asset/Report disposal - (Positif)/Report disposal - Remove from list (Bulk action),Edge Chromium 140,Positif,,12-09-2025 16:28:52,12-09-2025 16:28:55,3.625s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Checkbox - Remove from list""))",Edge Chromium 140,,,12-09-2025 16:28:52,12-09-2025 16:28:53,0.927s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Bulk Action""))",Edge Chromium 140,,,12-09-2025 16:28:53,12-09-2025 16:28:53,0.612s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Bulk action - Option remove from List""))",Edge Chromium 140,,,12-09-2025 16:28:53,12-09-2025 16:28:54,0.619s,PASSED
+"waitForElementVisible(findTestObject(""All asset/Register asset/Remove from list/Dialog - Remove from list""), 0)",Edge Chromium 140,,,12-09-2025 16:28:54,12-09-2025 16:28:54,0.509s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Remove""))",Edge Chromium 140,,,12-09-2025 16:28:54,12-09-2025 16:28:55,0.439s,PASSED
+"verifyElementText(findTestObject(""All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list""), ""Success, asset has been removed from the list."")",Edge Chromium 140,,,12-09-2025 16:28:55,12-09-2025 16:28:55,0.505s,PASSED
+,,,,,,,
+Test Cases/All asset/Report disposal - (Positif)/Report disposal - Cancel report disposal,Edge Chromium 140,Positif,,12-09-2025 16:28:55,12-09-2025 16:28:58,2.632s,PASSED
+"click(findTestObject(""All asset/Register asset/Button - Cancel""))",Edge Chromium 140,,,12-09-2025 16:28:55,12-09-2025 16:28:56,0.469s,PASSED
+"waitForElementVisible(findTestObject(""All asset/Register asset/Dialog - Cancel register""), 10)",Edge Chromium 140,,,12-09-2025 16:28:56,12-09-2025 16:28:57,1.448s,PASSED
+"click(findTestObject(""All asset/Register asset/Button - Continue""))",Edge Chromium 140,,,12-09-2025 16:28:57,12-09-2025 16:28:58,0.545s,PASSED
+currentUrl = getUrl(),Edge Chromium 140,,,12-09-2025 16:28:58,12-09-2025 16:28:58,0.096s,PASSED
+"verifyMatch(currentUrl, "".*assets.*"", true)",Edge Chromium 140,,,12-09-2025 16:28:58,12-09-2025 16:28:58,0.003s,PASSED

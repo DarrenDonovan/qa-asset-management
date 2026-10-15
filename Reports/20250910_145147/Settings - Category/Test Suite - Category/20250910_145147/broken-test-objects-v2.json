@@ -1,0 +1,34 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Setting - Category/Validator Message - Code Max 4 Char",
+      "brokenLocator": "//small[(text() \u003d \u0027Max. 4 characters\u0027 or . \u003d \u0027Max. 4 characters\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//section[@id\u003d\u0027main\u0027]/form/div/div/div[2]/small",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Setting - Category/Single Action Button - Sub Category Test",
+      "brokenLocator": "//span[starts-with(text(), \u0027Sub Category Test\u0027)]/following-sibling::button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li[3]/div/span[2]/button/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250910_145147/Settings - Category/Test Suite - Category/20250910_145147/Object Repository/Setting - Category/Single Action Button - Sub Category Test_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Setting - Category/Single Action Button - Level 3 Category",
+      "brokenLocator": "//span[starts-with(text(), \u0027Level 3 Category\u0027)]/following-sibling::button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li[3]/div/span[2]/button/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250910_145147/Settings - Category/Test Suite - Category/20250910_145147/Object Repository/Setting - Category/Single Action Button - Level 3 Category_position.png"
+    }
+  ]
+}

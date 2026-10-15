@@ -1,0 +1,156 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+File manager,Edge Chromium 140,,,12-09-2025 15:56:18,12-09-2025 16:05:20,9m - 2.214s,FAILED
+,,,,,,,
+Test Cases/login,Edge Chromium 140,Positif,,12-09-2025 15:56:18,12-09-2025 15:56:48,29.915s,PASSED
+"openBrowser("""")",Edge Chromium 140,,,12-09-2025 15:56:19,12-09-2025 15:56:21,2.357s,PASSED
+maximizeWindow(),Edge Chromium 140,,,12-09-2025 15:56:21,12-09-2025 15:56:21,0.117s,PASSED
+navigateToUrl(url),Edge Chromium 140,,,12-09-2025 15:56:21,12-09-2025 15:56:24,2.767s,PASSED
+"setText(findTestObject(""Object Repository/Login session object/Input - Email""), email)",Edge Chromium 140,,,12-09-2025 15:56:24,12-09-2025 15:56:31,6.817s,PASSED
+"setText(findTestObject(""Object Repository/Login session object/Input - Password""), password)",Edge Chromium 140,,,12-09-2025 15:56:31,12-09-2025 15:56:32,1.670s,PASSED
+"click(findTestObject(""Object Repository/Login session object/Button - Login""))",Edge Chromium 140,,,12-09-2025 15:56:32,12-09-2025 15:56:33,0.467s,PASSED
+"isPopupPresent = verifyElementPresent(findTestObject(""Login session object/Page_TAG SAMURAI/Popup duplicate login""), 20, OPTIONAL)",Edge Chromium 140,,,12-09-2025 15:56:33,12-09-2025 15:56:35,2.413s,PASSED
+if (isPopupPresent),Edge Chromium 140,,,12-09-2025 15:56:35,12-09-2025 15:56:36,0.516s,PASSED
+waitForPageLoad(30),Edge Chromium 140,,,12-09-2025 15:56:36,12-09-2025 15:56:36,0.249s,PASSED
+"delay(5, OPTIONAL)",Edge Chromium 140,,,12-09-2025 15:56:36,12-09-2025 15:56:41,5.068s,PASSED
+"waitForElementClickable(findTestObject(""All Menu/Button - Module - Fixed Asset""), 30)",Edge Chromium 140,,,12-09-2025 15:56:41,12-09-2025 15:56:41,0.375s,PASSED
+"click(findTestObject(""All Menu/Button - Module - Fixed Asset""))",Edge Chromium 140,,,12-09-2025 15:56:41,12-09-2025 15:56:43,1.428s,PASSED
+waitForPageLoad(20),Edge Chromium 140,,,12-09-2025 15:56:43,12-09-2025 15:56:43,0.022s,PASSED
+"verifyElementVisible(findTestObject(""All Menu/Button - Menu - Fixed Asset""))",Edge Chromium 140,,,12-09-2025 15:56:43,12-09-2025 15:56:48,5.172s,PASSED
+,,,,,,,
+Test Cases/File manager/Attachment/Attachment - Delete (Single action),Edge Chromium 140,Positif,,12-09-2025 15:56:48,12-09-2025 15:57:07,18.927s,PASSED
+"click(findTestObject(""All Menu/Button - Menu - File Manager""))",Edge Chromium 140,,,12-09-2025 15:56:48,12-09-2025 15:56:50,1.571s,PASSED
+"click(findTestObject(""File manager/Button - Tab Attachment""))",Edge Chromium 140,,,12-09-2025 15:56:50,12-09-2025 15:56:51,1.540s,PASSED
+"for ([i = 0, i < 4, (i++)])",Edge Chromium 140,,,12-09-2025 15:56:51,12-09-2025 15:57:07,15.625s,PASSED
+,,,,,,,
+Test Cases/File manager/Attachment/Attachment - Delete (Bulk action),Edge Chromium 140,Positif,,12-09-2025 15:57:07,12-09-2025 15:57:12,4.783s,PASSED
+"click(findTestObject(""File manager/Checkbox - file manager""))",Edge Chromium 140,,,12-09-2025 15:57:07,12-09-2025 15:57:08,0.442s,PASSED
+"click(findTestObject(""File manager/Button - Bulk Action""))",Edge Chromium 140,,,12-09-2025 15:57:08,12-09-2025 15:57:08,0.646s,PASSED
+"click(findTestObject(""File manager/Button - Option Delete""))",Edge Chromium 140,,,12-09-2025 15:57:08,12-09-2025 15:57:09,0.672s,PASSED
+"waitForElementVisible(findTestObject(""File manager/Dialog - Delete file""), 10)",Edge Chromium 140,,,12-09-2025 15:57:09,12-09-2025 15:57:10,0.739s,PASSED
+"click(findTestObject(""File manager/Button - Delete""))",Edge Chromium 140,,,12-09-2025 15:57:10,12-09-2025 15:57:10,0.492s,PASSED
+"verifyElementText(findTestObject(""File manager/Toast - Success, file has been deleted""), ""Success, file has been deleted."")",Edge Chromium 140,,,12-09-2025 15:57:10,12-09-2025 15:57:12,1.729s,PASSED
+,,,,,,,
+Test Cases/File manager/Attachment/Attachment - Recycle bin - Delete (Single action),Edge Chromium 140,Positif,,12-09-2025 15:57:12,12-09-2025 15:57:17,5.484s,PASSED
+"click(findTestObject(""File manager/Button - Recycle bin""))",Edge Chromium 140,,,12-09-2025 15:57:12,12-09-2025 15:57:12,0.500s,PASSED
+"waitForElementVisible(findTestObject(""File manager/Dialog - Recycle bin""), 10)",Edge Chromium 140,,,12-09-2025 15:57:12,12-09-2025 15:57:14,1.139s,PASSED
+"click(findTestObject(""File manager/Button - Single action di recycle bin""))",Edge Chromium 140,,,12-09-2025 15:57:14,12-09-2025 15:57:14,0.752s,PASSED
+"click(findTestObject(""File manager/Button - Option Permanently Delete""))",Edge Chromium 140,,,12-09-2025 15:57:14,12-09-2025 15:57:15,0.629s,PASSED
+"waitForElementVisible(findTestObject(""File manager/Dialog - Delete file""), 10)",Edge Chromium 140,,,12-09-2025 15:57:15,12-09-2025 15:57:15,0.524s,PASSED
+"click(findTestObject(""File manager/Button - Permanently Delete""))",Edge Chromium 140,,,12-09-2025 15:57:15,12-09-2025 15:57:16,0.478s,PASSED
+"verifyElementText(findTestObject(""File manager/Toast - Success, file has been deleted""), ""Success, file has been deleted."")",Edge Chromium 140,,,12-09-2025 15:57:16,12-09-2025 15:57:17,1.384s,PASSED
+,,,,,,,
+Test Cases/File manager/Attachment/Attachment - Recycle bin - Recover (Single action),Edge Chromium 140,Positif,,12-09-2025 15:57:17,12-09-2025 15:57:21,3.668s,PASSED
+"click(findTestObject(""File manager/Button - Recycle bin""))",Edge Chromium 140,,,12-09-2025 15:57:17,12-09-2025 15:57:17,0.000s,NOT_RUN
+"waitForElementVisible(findTestObject(""File manager/Dialog - Recycle bin""), 10)",Edge Chromium 140,,,12-09-2025 15:57:17,12-09-2025 15:57:18,0.296s,PASSED
+"click(findTestObject(""File manager/Button - Single action di recycle bin""))",Edge Chromium 140,,,12-09-2025 15:57:18,12-09-2025 15:57:18,0.425s,PASSED
+"click(findTestObject(""File manager/Button - Option Recover""))",Edge Chromium 140,,,12-09-2025 15:57:18,12-09-2025 15:57:19,0.627s,PASSED
+"verifyElementText(findTestObject(""File manager/Toast - Success, file has been deleted""), ""Success, file has been recovered."")",Edge Chromium 140,,,12-09-2025 15:57:19,12-09-2025 15:57:21,2.240s,PASSED
+,,,,,,,
+Test Cases/File manager/Attachment/Attachment - Recycle bin - Delete (Bulk action),Edge Chromium 140,Positif,,12-09-2025 15:57:21,12-09-2025 15:57:26,4.849s,PASSED
+"click(findTestObject(""File manager/Button - Recycle bin""))",Edge Chromium 140,,,12-09-2025 15:57:21,12-09-2025 15:57:21,0.000s,NOT_RUN
+"waitForElementVisible(findTestObject(""File manager/Dialog - Recycle bin""), 10)",Edge Chromium 140,,,12-09-2025 15:57:21,12-09-2025 15:57:21,0.297s,PASSED
+"click(findTestObject(""File manager/Checkbox - recycle bin""))",Edge Chromium 140,,,12-09-2025 15:57:21,12-09-2025 15:57:22,0.426s,PASSED
+"click(findTestObject(""File manager/Button - Bulk Action recycle bin""))",Edge Chromium 140,,,12-09-2025 15:57:22,12-09-2025 15:57:22,0.651s,PASSED
+"click(findTestObject(""File manager/Button - Option Delete""))",Edge Chromium 140,,,12-09-2025 15:57:22,12-09-2025 15:57:23,0.695s,PASSED
+"waitForElementVisible(findTestObject(""File manager/Dialog - Delete file""), 10)",Edge Chromium 140,,,12-09-2025 15:57:23,12-09-2025 15:57:24,0.522s,PASSED
+"click(findTestObject(""File manager/Button - Permanently Delete""))",Edge Chromium 140,,,12-09-2025 15:57:24,12-09-2025 15:57:24,0.477s,PASSED
+"verifyElementText(findTestObject(""File manager/Toast - Success, file has been deleted""), ""Success, file has been deleted."")",Edge Chromium 140,,,12-09-2025 15:57:24,12-09-2025 15:57:26,1.686s,PASSED
+,,,,,,,
+Test Cases/File manager/Attachment/Attachment - Recycle bin - Recover (Bulk action),Edge Chromium 140,Positif,,12-09-2025 15:59:19,12-09-2025 15:59:58,38.925s,FAILED
+"click(findTestObject(""File manager/Button - Recycle bin""))",Edge Chromium 140,,,12-09-2025 15:59:19,12-09-2025 15:59:19,0.002s,NOT_RUN
+"waitForElementVisible(findTestObject(""File manager/Dialog - Recycle bin""), 10)",Edge Chromium 140,,,12-09-2025 15:59:19,12-09-2025 15:59:20,1.330s,PASSED
+"click(findTestObject(""File manager/Checkbox - recycle bin""))",Edge Chromium 140,,,12-09-2025 15:59:20,12-09-2025 15:59:22,2.127s,PASSED
+"click(findTestObject(""File manager/Button - Bulk Action recycle bin""))",Edge Chromium 140,,,12-09-2025 15:59:22,12-09-2025 15:59:24,1.513s,PASSED
+"click(findTestObject(""File manager/Button - Option Recover""))",Edge Chromium 140,,,12-09-2025 15:59:24,12-09-2025 15:59:24,0.665s,PASSED
+"verifyElementText(findTestObject(""File manager/Toast - Success, file has been deleted""), ""Success, file has been recovered."")",Edge Chromium 140,,,12-09-2025 15:59:24,12-09-2025 15:59:58,33.272s,FAILED
+,,,,,,,
+Test Cases/File manager/Attachment/Attachment - Recycle bin - Recover,Edge Chromium 140,Positif,,12-09-2025 16:00:47,12-09-2025 16:00:56,9.533s,FAILED
+"click(findTestObject(""File manager/Button - Recycle bin""))",Edge Chromium 140,,,12-09-2025 16:00:47,12-09-2025 16:00:47,0.000s,NOT_RUN
+"waitForElementVisible(findTestObject(""File manager/Dialog - Recycle bin""), 10)",Edge Chromium 140,,,12-09-2025 16:00:47,12-09-2025 16:00:47,0.328s,PASSED
+"click(findTestObject(""File manager/Button - Recover All""))",Edge Chromium 140,,,12-09-2025 16:00:47,12-09-2025 16:00:48,0.442s,PASSED
+"verifyElementText(findTestObject(""File manager/Toast - Success, file has been deleted""), ""Success, file has been recovered."")",Edge Chromium 140,,,12-09-2025 16:00:48,12-09-2025 16:00:56,8.763s,FAILED
+,,,,,,,
+Test Cases/File manager/Attachment/Attachment - Delete (Bulk action),Edge Chromium 140,Positif,,12-09-2025 16:00:56,12-09-2025 16:01:13,16.247s,PASSED
+"click(findTestObject(""File manager/Checkbox - file manager""))",Edge Chromium 140,,,12-09-2025 16:00:57,12-09-2025 16:01:08,11.519s,PASSED
+"click(findTestObject(""File manager/Button - Bulk Action""))",Edge Chromium 140,,,12-09-2025 16:01:08,12-09-2025 16:01:09,0.657s,PASSED
+"click(findTestObject(""File manager/Button - Option Delete""))",Edge Chromium 140,,,12-09-2025 16:01:09,12-09-2025 16:01:09,0.699s,PASSED
+"waitForElementVisible(findTestObject(""File manager/Dialog - Delete file""), 10)",Edge Chromium 140,,,12-09-2025 16:01:09,12-09-2025 16:01:10,0.524s,PASSED
+"click(findTestObject(""File manager/Button - Delete""))",Edge Chromium 140,,,12-09-2025 16:01:10,12-09-2025 16:01:10,0.451s,PASSED
+"verifyElementText(findTestObject(""File manager/Toast - Success, file has been deleted""), ""Success, file has been deleted."")",Edge Chromium 140,,,12-09-2025 16:01:10,12-09-2025 16:01:13,2.380s,PASSED
+,,,,,,,
+Test Cases/File manager/Attachment/Attachment - Recycle bin - Delete,Edge Chromium 140,Positif,,12-09-2025 16:01:13,12-09-2025 16:01:18,4.994s,PASSED
+"click(findTestObject(""File manager/Button - Recycle bin""))",Edge Chromium 140,,,12-09-2025 16:01:13,12-09-2025 16:01:13,0.496s,PASSED
+"waitForElementVisible(findTestObject(""File manager/Dialog - Recycle bin""), 10)",Edge Chromium 140,,,12-09-2025 16:01:13,12-09-2025 16:01:14,1.047s,PASSED
+"click(findTestObject(""File manager/Button - Empty All""))",Edge Chromium 140,,,12-09-2025 16:01:14,12-09-2025 16:01:15,0.731s,PASSED
+"waitForElementVisible(findTestObject(""File manager/Dialog - Delete file""), 10)",Edge Chromium 140,,,12-09-2025 16:01:15,12-09-2025 16:01:16,0.510s,PASSED
+"click(findTestObject(""File manager/Button - Permanently Delete""))",Edge Chromium 140,,,12-09-2025 16:01:16,12-09-2025 16:01:16,0.443s,PASSED
+"verifyElementText(findTestObject(""File manager/Toast - Success, file has been deleted""), ""Success, file has been deleted."")",Edge Chromium 140,,,12-09-2025 16:01:16,12-09-2025 16:01:17,1.272s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ESCAPE))",Edge Chromium 140,,,12-09-2025 16:01:17,12-09-2025 16:01:18,0.415s,PASSED
+,,,,,,,
+Test Cases/File manager/Damage/Damage - Delete (Single action),Edge Chromium 140,Positif,,12-09-2025 16:01:18,12-09-2025 16:01:37,18.872s,PASSED
+"click(findTestObject(""File manager/Button - Tab Damage""))",Edge Chromium 140,,,12-09-2025 16:01:18,12-09-2025 16:01:19,1.403s,PASSED
+"for ([i = 0, i < 4, (i++)])",Edge Chromium 140,,,12-09-2025 16:01:19,12-09-2025 16:01:37,17.362s,PASSED
+,,,,,,,
+Test Cases/File manager/Damage/Damage - Delete (Bulk action),Edge Chromium 140,Positif,,12-09-2025 16:01:37,12-09-2025 16:01:42,5.746s,PASSED
+"click(findTestObject(""File manager/Checkbox - file manager""))",Edge Chromium 140,,,12-09-2025 16:01:37,12-09-2025 16:01:37,0.447s,PASSED
+"click(findTestObject(""File manager/Button - Bulk Action""))",Edge Chromium 140,,,12-09-2025 16:01:37,12-09-2025 16:01:39,1.804s,PASSED
+"click(findTestObject(""File manager/Button - Option Delete""))",Edge Chromium 140,,,12-09-2025 16:01:39,12-09-2025 16:01:40,0.688s,PASSED
+"waitForElementVisible(findTestObject(""File manager/Dialog - Delete file""), 10)",Edge Chromium 140,,,12-09-2025 16:01:40,12-09-2025 16:01:40,0.488s,PASSED
+"click(findTestObject(""File manager/Button - Delete""))",Edge Chromium 140,,,12-09-2025 16:01:40,12-09-2025 16:01:40,0.427s,PASSED
+"verifyElementText(findTestObject(""File manager/Toast - Success, file has been deleted""), ""Success, file has been deleted."")",Edge Chromium 140,,,12-09-2025 16:01:40,12-09-2025 16:01:42,1.877s,PASSED
+,,,,,,,
+Test Cases/File manager/Damage/Damage - Recycle bin - Delete (Single aciton),Edge Chromium 140,Positif,,12-09-2025 16:01:42,12-09-2025 16:01:48,5.707s,PASSED
+"click(findTestObject(""File manager/Button - Recycle bin""))",Edge Chromium 140,,,12-09-2025 16:01:42,12-09-2025 16:01:43,0.527s,PASSED
+"waitForElementVisible(findTestObject(""File manager/Dialog - Recycle bin""), 10)",Edge Chromium 140,,,12-09-2025 16:01:43,12-09-2025 16:01:45,1.594s,PASSED
+"click(findTestObject(""File manager/Button - Single action di recycle bin""))",Edge Chromium 140,,,12-09-2025 16:01:45,12-09-2025 16:01:45,0.437s,PASSED
+"click(findTestObject(""File manager/Button - Option Permanently Delete""))",Edge Chromium 140,,,12-09-2025 16:01:45,12-09-2025 16:01:46,0.653s,PASSED
+"waitForElementVisible(findTestObject(""File manager/Dialog - Delete file""), 10)",Edge Chromium 140,,,12-09-2025 16:01:46,12-09-2025 16:01:46,0.534s,PASSED
+"click(findTestObject(""File manager/Button - Permanently Delete""))",Edge Chromium 140,,,12-09-2025 16:01:46,12-09-2025 16:01:47,0.496s,PASSED
+"verifyElementText(findTestObject(""File manager/Toast - Success, file has been deleted""), ""Success, file has been deleted."")",Edge Chromium 140,,,12-09-2025 16:01:47,12-09-2025 16:01:48,1.419s,PASSED
+,,,,,,,
+Test Cases/File manager/Damage/Damage - Recycle bin - Recover (Single action),Edge Chromium 140,Positif,,12-09-2025 16:01:48,12-09-2025 16:01:51,3.349s,PASSED
+"click(findTestObject(""File manager/Button - Recycle bin""))",Edge Chromium 140,,,12-09-2025 16:01:48,12-09-2025 16:01:48,0.000s,NOT_RUN
+"waitForElementVisible(findTestObject(""File manager/Dialog - Recycle bin""), 10)",Edge Chromium 140,,,12-09-2025 16:01:48,12-09-2025 16:01:48,0.281s,PASSED
+"click(findTestObject(""File manager/Button - Single action di recycle bin""))",Edge Chromium 140,,,12-09-2025 16:01:48,12-09-2025 16:01:49,0.409s,PASSED
+"click(findTestObject(""File manager/Button - Option Recover""))",Edge Chromium 140,,,12-09-2025 16:01:49,12-09-2025 16:01:49,0.600s,PASSED
+"verifyElementText(findTestObject(""File manager/Toast - Success, file has been deleted""), ""Success, file has been recovered."")",Edge Chromium 140,,,12-09-2025 16:01:49,12-09-2025 16:01:51,2.044s,PASSED
+,,,,,,,
+Test Cases/File manager/Damage/Damge - Recycle bin - Delete (Bulk action),Edge Chromium 140,Positif,,12-09-2025 16:01:51,12-09-2025 16:01:56,4.632s,PASSED
+"click(findTestObject(""File manager/Button - Recycle bin""))",Edge Chromium 140,,,12-09-2025 16:01:51,12-09-2025 16:01:51,0.000s,NOT_RUN
+"waitForElementVisible(findTestObject(""File manager/Dialog - Recycle bin""), 10)",Edge Chromium 140,,,12-09-2025 16:01:51,12-09-2025 16:01:52,0.297s,PASSED
+"click(findTestObject(""File manager/Checkbox - recycle bin""))",Edge Chromium 140,,,12-09-2025 16:01:52,12-09-2025 16:01:52,0.449s,PASSED
+"click(findTestObject(""File manager/Button - Bulk Action recycle bin""))",Edge Chromium 140,,,12-09-2025 16:01:52,12-09-2025 16:01:53,0.652s,PASSED
+"click(findTestObject(""File manager/Button - Option Delete""))",Edge Chromium 140,,,12-09-2025 16:01:53,12-09-2025 16:01:54,0.822s,PASSED
+"waitForElementVisible(findTestObject(""File manager/Dialog - Delete file""), 10)",Edge Chromium 140,,,12-09-2025 16:01:54,12-09-2025 16:01:54,0.520s,PASSED
+"click(findTestObject(""File manager/Button - Permanently Delete""))",Edge Chromium 140,,,12-09-2025 16:01:54,12-09-2025 16:01:55,0.462s,PASSED
+"verifyElementText(findTestObject(""File manager/Toast - Success, file has been deleted""), ""Success, file has been deleted."")",Edge Chromium 140,,,12-09-2025 16:01:55,12-09-2025 16:01:56,1.382s,PASSED
+,,,,,,,
+Test Cases/File manager/Damage/Damage - Recycle bin - Recover (Bulk action),Edge Chromium 140,Positif,,12-09-2025 16:03:51,12-09-2025 16:04:25,34.512s,FAILED
+"click(findTestObject(""File manager/Button - Recycle bin""))",Edge Chromium 140,,,12-09-2025 16:03:51,12-09-2025 16:03:51,0.000s,NOT_RUN
+"waitForElementVisible(findTestObject(""File manager/Dialog - Recycle bin""), 10)",Edge Chromium 140,,,12-09-2025 16:03:51,12-09-2025 16:03:52,0.759s,PASSED
+"click(findTestObject(""File manager/Checkbox - recycle bin""))",Edge Chromium 140,,,12-09-2025 16:03:52,12-09-2025 16:03:52,0.437s,PASSED
+"click(findTestObject(""File manager/Button - Bulk Action recycle bin""))",Edge Chromium 140,,,12-09-2025 16:03:52,12-09-2025 16:03:53,0.681s,PASSED
+"click(findTestObject(""File manager/Button - Option Recover""))",Edge Chromium 140,,,12-09-2025 16:03:53,12-09-2025 16:03:53,0.677s,PASSED
+"verifyElementText(findTestObject(""File manager/Toast - Success, file has been deleted""), ""Success, file has been recovered."")",Edge Chromium 140,,,12-09-2025 16:03:53,12-09-2025 16:04:25,31.944s,FAILED
+,,,,,,,
+Test Cases/File manager/Damage/Damage - Recycle bin - Recover,Edge Chromium 140,Positif,,12-09-2025 16:05:01,12-09-2025 16:05:06,5.210s,FAILED
+"click(findTestObject(""File manager/Button - Recycle bin""))",Edge Chromium 140,,,12-09-2025 16:05:01,12-09-2025 16:05:01,0.015s,NOT_RUN
+"waitForElementVisible(findTestObject(""File manager/Dialog - Recycle bin""), 10)",Edge Chromium 140,,,12-09-2025 16:05:01,12-09-2025 16:05:02,1.260s,PASSED
+"click(findTestObject(""File manager/Button - Recover All""))",Edge Chromium 140,,,12-09-2025 16:05:02,12-09-2025 16:05:03,0.465s,PASSED
+"verifyElementText(findTestObject(""File manager/Toast - Success, file has been deleted""), ""Success, file has been recovered."")",Edge Chromium 140,,,12-09-2025 16:05:03,12-09-2025 16:05:06,3.466s,FAILED
+,,,,,,,
+Test Cases/File manager/Damage/Damage - Delete (Bulk action),Edge Chromium 140,Positif,,12-09-2025 16:05:06,12-09-2025 16:05:15,9.096s,PASSED
+"click(findTestObject(""File manager/Checkbox - file manager""))",Edge Chromium 140,,,12-09-2025 16:05:06,12-09-2025 16:05:11,4.777s,PASSED
+"click(findTestObject(""File manager/Button - Bulk Action""))",Edge Chromium 140,,,12-09-2025 16:05:11,12-09-2025 16:05:12,0.812s,PASSED
+"click(findTestObject(""File manager/Button - Option Delete""))",Edge Chromium 140,,,12-09-2025 16:05:12,12-09-2025 16:05:12,0.662s,PASSED
+"waitForElementVisible(findTestObject(""File manager/Dialog - Delete file""), 10)",Edge Chromium 140,,,12-09-2025 16:05:12,12-09-2025 16:05:13,0.508s,PASSED
+"click(findTestObject(""File manager/Button - Delete""))",Edge Chromium 140,,,12-09-2025 16:05:13,12-09-2025 16:05:13,0.462s,PASSED
+"verifyElementText(findTestObject(""File manager/Toast - Success, file has been deleted""), ""Success, file has been deleted."")",Edge Chromium 140,,,12-09-2025 16:05:13,12-09-2025 16:05:15,1.869s,PASSED
+,,,,,,,
+Test Cases/File manager/Damage/Damage - Recycle bin - Delete,Edge Chromium 140,Positif,,12-09-2025 16:05:15,12-09-2025 16:05:20,4.759s,PASSED
+"click(findTestObject(""File manager/Button - Recycle bin""))",Edge Chromium 140,,,12-09-2025 16:05:15,12-09-2025 16:05:16,0.493s,PASSED
+"waitForElementVisible(findTestObject(""File manager/Dialog - Recycle bin""), 10)",Edge Chromium 140,,,12-09-2025 16:05:16,12-09-2025 16:05:17,1.052s,PASSED
+"click(findTestObject(""File manager/Button - Empty All""))",Edge Chromium 140,,,12-09-2025 16:05:17,12-09-2025 16:05:18,0.651s,PASSED
+"waitForElementVisible(findTestObject(""File manager/Dialog - Delete file""), 10)",Edge Chromium 140,,,12-09-2025 16:05:18,12-09-2025 16:05:18,0.580s,PASSED
+"click(findTestObject(""File manager/Button - Permanently Delete""))",Edge Chromium 140,,,12-09-2025 16:05:18,12-09-2025 16:05:19,0.466s,PASSED
+"verifyElementText(findTestObject(""File manager/Toast - Success, file has been deleted""), ""Success, file has been deleted."")",Edge Chromium 140,,,12-09-2025 16:05:19,12-09-2025 16:05:20,1.465s,PASSED

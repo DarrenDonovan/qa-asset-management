@@ -1,0 +1,1485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="File manager" time="542.214" tests="19" failures="4" errors="0">
+   <testsuite name="File manager" tests="19" failures="4" errors="0" time="542.214" skipped="0" timestamp="12-09-2025T15:56:18" hostname="Administrator - DESKTOP" id="Test Suites/Fixed Asset - Transaction/File manager">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603"/>
+         <property name="logFiles" value="D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\execution0.log"/>
+         <property name="attachments" value="D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667483375.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667483645.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667519603.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667520112.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667558604.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667558963.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667597657.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667597908.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667617826.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667618057.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667632028.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667632275.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667646905.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667647210.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667656458.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667656737.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667750001.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667750284.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667789605.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667789978.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667830604.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667831119.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667865384.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667865628.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667878847.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667879078.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667886661.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667886848.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667901112.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667901328.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667906244.png, D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667906506.png"/>
+         <property name="hostName" value="Administrator - DESKTOP"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.6.223"/>
+         <property name="browser" value="Edge Chromium 140"/>
+         <property name="hostAddress" value="169.254.111.16"/>
+         <property name="sessionId" value="5a5e3a3b75deb0930afe4e12bfcaecc7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/login" time="29.915" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[12-09-2025T15:56:18 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+12-09-2025T15:56:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-09-2025T15:56:19 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+12-09-2025T15:56:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-09-2025T15:56:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-09-2025T15:56:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-09-2025T15:56:21 - [MESSAGE][PASSED] - Current window maximized
+
+12-09-2025T15:56:21 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://staging-console.tagsamurai.com' successfully
+
+12-09-2025T15:56:24 - [MESSAGE][PASSED] - Navigate to 'https://staging-console.tagsamurai.com' successfully
+
+12-09-2025T15:56:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login session object/Input - Email"), email): Text 'user1basic2staging@qwertysystem.net' is set on object 'Object Repository/Login session object/Input - Email'
+
+12-09-2025T15:56:31 - [MESSAGE][PASSED] - Text 'user1basic2staging@qwertysystem.net' is set on object 'Object Repository/Login session object/Input - Email'
+
+12-09-2025T15:56:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login session object/Input - Password"), password): Text 'Gaadaobatnya1@' is set on object 'Object Repository/Login session object/Input - Password'
+
+12-09-2025T15:56:32 - [MESSAGE][PASSED] - Text 'Gaadaobatnya1@' is set on object 'Object Repository/Login session object/Input - Password'
+
+12-09-2025T15:56:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login session object/Button - Login")): Object: 'Object Repository/Login session object/Button - Login' is clicked on
+
+12-09-2025T15:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login session object/Button - Login' is clicked on
+
+12-09-2025T15:56:33 - [TEST_STEP][PASSED] - isPopupPresent = verifyElementPresent(findTestObject("Login session object/Page_TAG SAMURAI/Popup duplicate login"), 20, OPTIONAL): Object 'Object Repository/Login session object/Page_TAG SAMURAI/Popup duplicate login' is present
+
+12-09-2025T15:56:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login session object/Page_TAG SAMURAI/Popup duplicate login' is present
+
+12-09-2025T15:56:35 - [TEST_STEP][PASSED] - if (isPopupPresent): Object: 'Object Repository/Login session object/Page_TAG SAMURAI/button_Confirm_duplicate login' is clicked on
+
+12-09-2025T15:56:35 - [TEST_STEP][PASSED] - click(findTestObject("Login session object/Page_TAG SAMURAI/button_Confirm_duplicate login"), STOP_ON_FAILURE): Object: 'Object Repository/Login session object/Page_TAG SAMURAI/button_Confirm_duplicate login' is clicked on
+
+12-09-2025T15:56:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login session object/Page_TAG SAMURAI/button_Confirm_duplicate login' is clicked on
+
+12-09-2025T15:56:36 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+12-09-2025T15:56:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+12-09-2025T15:56:36 - [TEST_STEP][PASSED] - delay(5, OPTIONAL): Delayed 5 second(s)
+
+12-09-2025T15:56:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+12-09-2025T15:56:41 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("All Menu/Button - Module - Fixed Asset"), 30): Object 'Object Repository/All Menu/Button - Module - Fixed Asset' is clickable
+
+12-09-2025T15:56:41 - [MESSAGE][PASSED] - Object 'Object Repository/All Menu/Button - Module - Fixed Asset' is clickable
+
+12-09-2025T15:56:41 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Module - Fixed Asset")): Object: 'Object Repository/All Menu/Button - Module - Fixed Asset' is clicked on
+
+12-09-2025T15:56:43 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Module - Fixed Asset' is clicked on
+
+12-09-2025T15:56:43 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+12-09-2025T15:56:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+12-09-2025T15:56:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("All Menu/Button - Menu - Fixed Asset")): Object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is visible
+
+12-09-2025T15:56:48 - [MESSAGE][PASSED] - Object 'Object Repository/All Menu/Button - Menu - Fixed Asset' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/File manager/Attachment/Attachment - Delete (Single action)" time="18.927" classname="Test Cases/File manager/Attachment/Attachment - Delete (Single action)" status="PASSED">
+         <system-out><![CDATA[12-09-2025T15:56:48 - [TEST_CASE][PASSED] - Test Cases/File manager/Attachment/Attachment - Delete (Single action): Test Cases/File manager/Attachment/Attachment - Delete (Single action)
+
+12-09-2025T15:56:48 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Button - Menu - File Manager")): Object: 'Object Repository/All Menu/Button - Menu - File Manager' is clicked on
+
+12-09-2025T15:56:50 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Button - Menu - File Manager' is clicked on
+
+12-09-2025T15:56:50 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Tab Attachment")): Object: 'Object Repository/File manager/Button - Tab Attachment' is clicked on
+
+12-09-2025T15:56:51 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Tab Attachment' is clicked on
+
+12-09-2025T15:56:51 - [TEST_STEP][PASSED] - for ([i = 0, i < 4, (i++)]): Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T15:56:51 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Single action file manager")): Object: 'Object Repository/File manager/Button - Single action file manager' is clicked on
+
+12-09-2025T15:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Single action file manager' is clicked on
+
+12-09-2025T15:56:53 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Option Delete")): Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T15:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T15:56:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Delete file"), 10): Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T15:56:54 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T15:56:54 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Delete")): Object: 'Object Repository/File manager/Button - Delete' is clicked on
+
+12-09-2025T15:56:54 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Delete' is clicked on
+
+12-09-2025T15:56:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("File manager/Toast - Success, file has been deleted"), "Success, file has been deleted."): Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T15:56:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T15:56:56 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Single action file manager")): Object: 'Object Repository/File manager/Button - Single action file manager' is clicked on
+
+12-09-2025T15:56:56 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Single action file manager' is clicked on
+
+12-09-2025T15:56:56 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Option Delete")): Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T15:56:57 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T15:56:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Delete file"), 10): Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T15:56:57 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T15:56:57 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Delete")): Object: 'Object Repository/File manager/Button - Delete' is clicked on
+
+12-09-2025T15:56:58 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Delete' is clicked on
+
+12-09-2025T15:56:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("File manager/Toast - Success, file has been deleted"), "Success, file has been deleted."): Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T15:57:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T15:57:00 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Single action file manager")): Object: 'Object Repository/File manager/Button - Single action file manager' is clicked on
+
+12-09-2025T15:57:00 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Single action file manager' is clicked on
+
+12-09-2025T15:57:00 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Option Delete")): Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T15:57:01 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T15:57:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Delete file"), 10): Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T15:57:01 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T15:57:01 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Delete")): Object: 'Object Repository/File manager/Button - Delete' is clicked on
+
+12-09-2025T15:57:02 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Delete' is clicked on
+
+12-09-2025T15:57:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("File manager/Toast - Success, file has been deleted"), "Success, file has been deleted."): Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T15:57:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T15:57:04 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Single action file manager")): Object: 'Object Repository/File manager/Button - Single action file manager' is clicked on
+
+12-09-2025T15:57:04 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Single action file manager' is clicked on
+
+12-09-2025T15:57:04 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Option Delete")): Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T15:57:05 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T15:57:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Delete file"), 10): Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T15:57:05 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T15:57:05 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Delete")): Object: 'Object Repository/File manager/Button - Delete' is clicked on
+
+12-09-2025T15:57:05 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Delete' is clicked on
+
+12-09-2025T15:57:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("File manager/Toast - Success, file has been deleted"), "Success, file has been deleted."): Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T15:57:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/File manager/Attachment/Attachment - Delete (Bulk action)" time="4.783" classname="Test Cases/File manager/Attachment/Attachment - Delete (Bulk action)" status="PASSED">
+         <system-out><![CDATA[12-09-2025T15:57:07 - [TEST_CASE][PASSED] - Test Cases/File manager/Attachment/Attachment - Delete (Bulk action): Test Cases/File manager/Attachment/Attachment - Delete (Bulk action)
+
+12-09-2025T15:57:07 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Checkbox - file manager")): Object: 'Object Repository/File manager/Checkbox - file manager' is clicked on
+
+12-09-2025T15:57:08 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Checkbox - file manager' is clicked on
+
+12-09-2025T15:57:08 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Bulk Action")): Object: 'Object Repository/File manager/Button - Bulk Action' is clicked on
+
+12-09-2025T15:57:08 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Bulk Action' is clicked on
+
+12-09-2025T15:57:08 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Option Delete")): Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T15:57:09 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T15:57:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Delete file"), 10): Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T15:57:10 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T15:57:10 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Delete")): Object: 'Object Repository/File manager/Button - Delete' is clicked on
+
+12-09-2025T15:57:10 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Delete' is clicked on
+
+12-09-2025T15:57:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("File manager/Toast - Success, file has been deleted"), "Success, file has been deleted."): Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T15:57:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/File manager/Attachment/Attachment - Recycle bin - Delete (Single action)" time="5.484" classname="Test Cases/File manager/Attachment/Attachment - Recycle bin - Delete (Single action)" status="PASSED">
+         <system-out><![CDATA[12-09-2025T15:57:12 - [TEST_CASE][PASSED] - Test Cases/File manager/Attachment/Attachment - Recycle bin - Delete (Single action): Test Cases/File manager/Attachment/Attachment - Recycle bin - Delete (Single action)
+
+12-09-2025T15:57:12 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Recycle bin")): Object: 'Object Repository/File manager/Button - Recycle bin' is clicked on
+
+12-09-2025T15:57:12 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Recycle bin' is clicked on
+
+12-09-2025T15:57:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Recycle bin"), 10): Object 'Object Repository/File manager/Dialog - Recycle bin' is visible
+
+12-09-2025T15:57:14 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Recycle bin' is visible
+
+12-09-2025T15:57:14 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Single action di recycle bin")): Object: 'Object Repository/File manager/Button - Single action di recycle bin' is clicked on
+
+12-09-2025T15:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Single action di recycle bin' is clicked on
+
+12-09-2025T15:57:14 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Option Permanently Delete")): Object: 'Object Repository/File manager/Button - Option Permanently Delete' is clicked on
+
+12-09-2025T15:57:15 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Option Permanently Delete' is clicked on
+
+12-09-2025T15:57:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Delete file"), 10): Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T15:57:15 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T15:57:15 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Permanently Delete")): Object: 'Object Repository/File manager/Button - Permanently Delete' is clicked on
+
+12-09-2025T15:57:16 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Permanently Delete' is clicked on
+
+12-09-2025T15:57:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("File manager/Toast - Success, file has been deleted"), "Success, file has been deleted."): Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T15:57:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/File manager/Attachment/Attachment - Recycle bin - Recover (Single action)" time="3.668" classname="Test Cases/File manager/Attachment/Attachment - Recycle bin - Recover (Single action)" status="PASSED">
+         <system-out><![CDATA[12-09-2025T15:57:17 - [TEST_CASE][PASSED] - Test Cases/File manager/Attachment/Attachment - Recycle bin - Recover (Single action): Test Cases/File manager/Attachment/Attachment - Recycle bin - Recover (Single action)
+
+12-09-2025T15:57:17 - [TEST_STEP][NOT_RUN] - click(findTestObject("File manager/Button - Recycle bin")): NOT_RUN: click(findTestObject("File manager/Button - Recycle bin"))
+
+12-09-2025T15:57:17 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("File manager/Button - Recycle bin"))
+
+12-09-2025T15:57:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Recycle bin"), 10): Object 'Object Repository/File manager/Dialog - Recycle bin' is visible
+
+12-09-2025T15:57:18 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Recycle bin' is visible
+
+12-09-2025T15:57:18 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Single action di recycle bin")): Object: 'Object Repository/File manager/Button - Single action di recycle bin' is clicked on
+
+12-09-2025T15:57:18 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Single action di recycle bin' is clicked on
+
+12-09-2025T15:57:18 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Option Recover")): Object: 'Object Repository/File manager/Button - Option Recover' is clicked on
+
+12-09-2025T15:57:19 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Option Recover' is clicked on
+
+12-09-2025T15:57:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("File manager/Toast - Success, file has been deleted"), "Success, file has been recovered."): Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T15:57:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/File manager/Attachment/Attachment - Recycle bin - Delete (Bulk action)" time="4.849" classname="Test Cases/File manager/Attachment/Attachment - Recycle bin - Delete (Bulk action)" status="PASSED">
+         <system-out><![CDATA[12-09-2025T15:57:21 - [TEST_CASE][PASSED] - Test Cases/File manager/Attachment/Attachment - Recycle bin - Delete (Bulk action): Test Cases/File manager/Attachment/Attachment - Recycle bin - Delete (Bulk action)
+
+12-09-2025T15:57:21 - [TEST_STEP][NOT_RUN] - click(findTestObject("File manager/Button - Recycle bin")): NOT_RUN: click(findTestObject("File manager/Button - Recycle bin"))
+
+12-09-2025T15:57:21 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("File manager/Button - Recycle bin"))
+
+12-09-2025T15:57:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Recycle bin"), 10): Object 'Object Repository/File manager/Dialog - Recycle bin' is visible
+
+12-09-2025T15:57:21 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Recycle bin' is visible
+
+12-09-2025T15:57:21 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Checkbox - recycle bin")): Object: 'Object Repository/File manager/Checkbox - recycle bin' is clicked on
+
+12-09-2025T15:57:22 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Checkbox - recycle bin' is clicked on
+
+12-09-2025T15:57:22 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Bulk Action recycle bin")): Object: 'Object Repository/File manager/Button - Bulk Action recycle bin' is clicked on
+
+12-09-2025T15:57:22 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Bulk Action recycle bin' is clicked on
+
+12-09-2025T15:57:22 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Option Delete")): Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T15:57:23 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T15:57:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Delete file"), 10): Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T15:57:24 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T15:57:24 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Permanently Delete")): Object: 'Object Repository/File manager/Button - Permanently Delete' is clicked on
+
+12-09-2025T15:57:24 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Permanently Delete' is clicked on
+
+12-09-2025T15:57:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("File manager/Toast - Success, file has been deleted"), "Success, file has been deleted."): Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T15:57:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/File manager/Attachment/Attachment - Recycle bin - Recover (Bulk action)" time="38.925" classname="Test Cases/File manager/Attachment/Attachment - Recycle bin - Recover (Bulk action)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/File manager/Attachment/Attachment - Recycle bin - Recover (Bulk action) FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at Attachment - Recycle bin - Recover (Bulk action).run(Attachment - Recycle bin - Recover (Bulk action):30)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Storage:&#xa;303.94MB of 5.00GB&#xa;Show Detail' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[12-09-2025T15:59:19 - [TEST_CASE][FAILED] - Test Cases/File manager/Attachment/Attachment - Recycle bin - Recover (Bulk action): Test Cases/File manager/Attachment/Attachment - Recycle bin - Recover (Bulk action) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Attachment - Recycle bin - Recover (Bulk action).run(Attachment - Recycle bin - Recover (Bulk action):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Storage:
+303.94MB of 5.00GB
+Show Detail' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+
+12-09-2025T15:59:19 - [TEST_STEP][NOT_RUN] - click(findTestObject("File manager/Button - Recycle bin")): NOT_RUN: click(findTestObject("File manager/Button - Recycle bin"))
+
+12-09-2025T15:59:19 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("File manager/Button - Recycle bin"))
+
+12-09-2025T15:59:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Recycle bin"), 10): Object 'Object Repository/File manager/Dialog - Recycle bin' is visible
+
+12-09-2025T15:59:20 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Recycle bin' is visible
+
+12-09-2025T15:59:20 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Checkbox - recycle bin")): Object: 'Object Repository/File manager/Checkbox - recycle bin' is clicked on
+
+12-09-2025T15:59:22 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Checkbox - recycle bin' is clicked on
+
+12-09-2025T15:59:22 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Bulk Action recycle bin")): Object: 'Object Repository/File manager/Button - Bulk Action recycle bin' is clicked on
+
+12-09-2025T15:59:24 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Bulk Action recycle bin' is clicked on
+
+12-09-2025T15:59:24 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Option Recover")): Object: 'Object Repository/File manager/Button - Option Recover' is clicked on
+
+12-09-2025T15:59:24 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Option Recover' is clicked on
+
+12-09-2025T15:59:24 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("File manager/Toast - Success, file has been deleted"), "Success, file has been recovered."): Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Attachment - Recycle bin - Recover (Bulk action).run(Attachment - Recycle bin - Recover (Bulk action):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Storage:
+303.94MB of 5.00GB
+Show Detail' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+)
+
+12-09-2025T15:59:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[(contains(text(), 'Success') or contains(., 'Success'))]'. Please recheck the objects properties to make sure the desired element is located. 
+
+12-09-2025T15:59:56 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/File manager/Toast - Success, file has been deleted'. Try using Self-healing.
+
+12-09-2025T15:59:57 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/File manager/Toast - Success, file has been deleted' was broken. Propose an alternative one: '//div[2]/div/div/div'.
+
+12-09-2025T15:59:57 - [MESSAGE][FAILED] - Actual text 'Storage:
+303.94MB of 5.00GB
+Show Detail' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Storage:
+303.94MB of 5.00GB
+Show Detail' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Attachment - Recycle bin - Recover (Bulk action).run(Attachment - Recycle bin - Recover (Bulk action):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667597657.png]]
+
+12-09-2025T15:59:58 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Attachment - Recycle bin - Recover (Bulk action).run(Attachment - Recycle bin - Recover (Bulk action):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Storage:
+303.94MB of 5.00GB
+Show Detail' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+)
+[[ATTACHMENT|D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667597908.png]]]]></system-out>
+         <system-err><![CDATA[12-09-2025T15:59:19 - [TEST_CASE][FAILED] - Test Cases/File manager/Attachment/Attachment - Recycle bin - Recover (Bulk action): Test Cases/File manager/Attachment/Attachment - Recycle bin - Recover (Bulk action) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Attachment - Recycle bin - Recover (Bulk action).run(Attachment - Recycle bin - Recover (Bulk action):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Storage:
+303.94MB of 5.00GB
+Show Detail' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/File manager/Attachment/Attachment - Recycle bin - Recover" time="9.533" classname="Test Cases/File manager/Attachment/Attachment - Recycle bin - Recover" status="FAILED">
+         <failure type="FAILED" message="Test Cases/File manager/Attachment/Attachment - Recycle bin - Recover FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at Attachment - Recycle bin - Recover.run(Attachment - Recycle bin - Recover:26)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Success, file has been deleted.' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[12-09-2025T16:00:47 - [TEST_CASE][FAILED] - Test Cases/File manager/Attachment/Attachment - Recycle bin - Recover: Test Cases/File manager/Attachment/Attachment - Recycle bin - Recover FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Attachment - Recycle bin - Recover.run(Attachment - Recycle bin - Recover:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Success, file has been deleted.' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+
+12-09-2025T16:00:47 - [TEST_STEP][NOT_RUN] - click(findTestObject("File manager/Button - Recycle bin")): NOT_RUN: click(findTestObject("File manager/Button - Recycle bin"))
+
+12-09-2025T16:00:47 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("File manager/Button - Recycle bin"))
+
+12-09-2025T16:00:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Recycle bin"), 10): Object 'Object Repository/File manager/Dialog - Recycle bin' is visible
+
+12-09-2025T16:00:47 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Recycle bin' is visible
+
+12-09-2025T16:00:47 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Recover All")): Object: 'Object Repository/File manager/Button - Recover All' is clicked on
+
+12-09-2025T16:00:48 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Recover All' is clicked on
+
+12-09-2025T16:00:48 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("File manager/Toast - Success, file has been deleted"), "Success, file has been recovered."): Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Attachment - Recycle bin - Recover.run(Attachment - Recycle bin - Recover:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Success, file has been deleted.' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+)
+
+12-09-2025T16:00:56 - [MESSAGE][FAILED] - Actual text 'Success, file has been deleted.' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Success, file has been deleted.' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Attachment - Recycle bin - Recover.run(Attachment - Recycle bin - Recover:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667656458.png]]
+
+12-09-2025T16:00:56 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Attachment - Recycle bin - Recover.run(Attachment - Recycle bin - Recover:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Success, file has been deleted.' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+)
+[[ATTACHMENT|D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667656737.png]]]]></system-out>
+         <system-err><![CDATA[12-09-2025T16:00:47 - [TEST_CASE][FAILED] - Test Cases/File manager/Attachment/Attachment - Recycle bin - Recover: Test Cases/File manager/Attachment/Attachment - Recycle bin - Recover FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Attachment - Recycle bin - Recover.run(Attachment - Recycle bin - Recover:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Success, file has been deleted.' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/File manager/Attachment/Attachment - Delete (Bulk action)" time="16.247" classname="Test Cases/File manager/Attachment/Attachment - Delete (Bulk action)" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:00:56 - [TEST_CASE][PASSED] - Test Cases/File manager/Attachment/Attachment - Delete (Bulk action): Test Cases/File manager/Attachment/Attachment - Delete (Bulk action)
+
+12-09-2025T16:00:57 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Checkbox - file manager")): Object: 'Object Repository/File manager/Checkbox - file manager' is clicked on
+
+12-09-2025T16:01:08 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Checkbox - file manager' is clicked on
+
+12-09-2025T16:01:08 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Bulk Action")): Object: 'Object Repository/File manager/Button - Bulk Action' is clicked on
+
+12-09-2025T16:01:09 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Bulk Action' is clicked on
+
+12-09-2025T16:01:09 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Option Delete")): Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T16:01:09 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T16:01:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Delete file"), 10): Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T16:01:10 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T16:01:10 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Delete")): Object: 'Object Repository/File manager/Button - Delete' is clicked on
+
+12-09-2025T16:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Delete' is clicked on
+
+12-09-2025T16:01:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("File manager/Toast - Success, file has been deleted"), "Success, file has been deleted."): Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T16:01:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/File manager/Attachment/Attachment - Recycle bin - Delete" time="4.994" classname="Test Cases/File manager/Attachment/Attachment - Recycle bin - Delete" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:01:13 - [TEST_CASE][PASSED] - Test Cases/File manager/Attachment/Attachment - Recycle bin - Delete: Test Cases/File manager/Attachment/Attachment - Recycle bin - Delete
+
+12-09-2025T16:01:13 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Recycle bin")): Object: 'Object Repository/File manager/Button - Recycle bin' is clicked on
+
+12-09-2025T16:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Recycle bin' is clicked on
+
+12-09-2025T16:01:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Recycle bin"), 10): Object 'Object Repository/File manager/Dialog - Recycle bin' is visible
+
+12-09-2025T16:01:14 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Recycle bin' is visible
+
+12-09-2025T16:01:14 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Empty All")): Object: 'Object Repository/File manager/Button - Empty All' is clicked on
+
+12-09-2025T16:01:15 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Empty All' is clicked on
+
+12-09-2025T16:01:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Delete file"), 10): Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T16:01:16 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T16:01:16 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Permanently Delete")): Object: 'Object Repository/File manager/Button - Permanently Delete' is clicked on
+
+12-09-2025T16:01:16 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Permanently Delete' is clicked on
+
+12-09-2025T16:01:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("File manager/Toast - Success, file has been deleted"), "Success, file has been deleted."): Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T16:01:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T16:01:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+12-09-2025T16:01:17 - [MESSAGE][WARNING] - Test object id is null
+
+12-09-2025T16:01:17 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+12-09-2025T16:01:18 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/File manager/Damage/Damage - Delete (Single action)" time="18.872" classname="Test Cases/File manager/Damage/Damage - Delete (Single action)" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:01:18 - [TEST_CASE][PASSED] - Test Cases/File manager/Damage/Damage - Delete (Single action): Test Cases/File manager/Damage/Damage - Delete (Single action)
+
+12-09-2025T16:01:18 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Tab Damage")): Object: 'Object Repository/File manager/Button - Tab Damage' is clicked on
+
+12-09-2025T16:01:19 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Tab Damage' is clicked on
+
+12-09-2025T16:01:19 - [TEST_STEP][PASSED] - for ([i = 0, i < 4, (i++)]): Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T16:01:19 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Single action file manager")): Object: 'Object Repository/File manager/Button - Single action file manager' is clicked on
+
+12-09-2025T16:01:21 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Single action file manager' is clicked on
+
+12-09-2025T16:01:21 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Option Delete")): Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T16:01:22 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T16:01:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Delete file"), 10): Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T16:01:23 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T16:01:23 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Delete")): Object: 'Object Repository/File manager/Button - Delete' is clicked on
+
+12-09-2025T16:01:23 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Delete' is clicked on
+
+12-09-2025T16:01:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("File manager/Toast - Success, file has been deleted"), "Success, file has been deleted."): Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T16:01:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T16:01:24 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Single action file manager")): Object: 'Object Repository/File manager/Button - Single action file manager' is clicked on
+
+12-09-2025T16:01:25 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Single action file manager' is clicked on
+
+12-09-2025T16:01:25 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Option Delete")): Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T16:01:25 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T16:01:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Delete file"), 10): Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T16:01:26 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T16:01:26 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Delete")): Object: 'Object Repository/File manager/Button - Delete' is clicked on
+
+12-09-2025T16:01:26 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Delete' is clicked on
+
+12-09-2025T16:01:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("File manager/Toast - Success, file has been deleted"), "Success, file has been deleted."): Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T16:01:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T16:01:28 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Single action file manager")): Object: 'Object Repository/File manager/Button - Single action file manager' is clicked on
+
+12-09-2025T16:01:29 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Single action file manager' is clicked on
+
+12-09-2025T16:01:29 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Option Delete")): Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T16:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T16:01:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Delete file"), 10): Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T16:01:31 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T16:01:31 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Delete")): Object: 'Object Repository/File manager/Button - Delete' is clicked on
+
+12-09-2025T16:01:31 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Delete' is clicked on
+
+12-09-2025T16:01:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("File manager/Toast - Success, file has been deleted"), "Success, file has been deleted."): Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T16:01:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T16:01:33 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Single action file manager")): Object: 'Object Repository/File manager/Button - Single action file manager' is clicked on
+
+12-09-2025T16:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Single action file manager' is clicked on
+
+12-09-2025T16:01:33 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Option Delete")): Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T16:01:34 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T16:01:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Delete file"), 10): Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T16:01:34 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T16:01:34 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Delete")): Object: 'Object Repository/File manager/Button - Delete' is clicked on
+
+12-09-2025T16:01:35 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Delete' is clicked on
+
+12-09-2025T16:01:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("File manager/Toast - Success, file has been deleted"), "Success, file has been deleted."): Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T16:01:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/File manager/Damage/Damage - Delete (Bulk action)" time="5.746" classname="Test Cases/File manager/Damage/Damage - Delete (Bulk action)" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:01:37 - [TEST_CASE][PASSED] - Test Cases/File manager/Damage/Damage - Delete (Bulk action): Test Cases/File manager/Damage/Damage - Delete (Bulk action)
+
+12-09-2025T16:01:37 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Checkbox - file manager")): Object: 'Object Repository/File manager/Checkbox - file manager' is clicked on
+
+12-09-2025T16:01:37 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Checkbox - file manager' is clicked on
+
+12-09-2025T16:01:37 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Bulk Action")): Object: 'Object Repository/File manager/Button - Bulk Action' is clicked on
+
+12-09-2025T16:01:39 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Bulk Action' is clicked on
+
+12-09-2025T16:01:39 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Option Delete")): Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T16:01:40 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T16:01:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Delete file"), 10): Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T16:01:40 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T16:01:40 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Delete")): Object: 'Object Repository/File manager/Button - Delete' is clicked on
+
+12-09-2025T16:01:40 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Delete' is clicked on
+
+12-09-2025T16:01:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("File manager/Toast - Success, file has been deleted"), "Success, file has been deleted."): Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T16:01:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/File manager/Damage/Damage - Recycle bin - Delete (Single aciton)" time="5.707" classname="Test Cases/File manager/Damage/Damage - Recycle bin - Delete (Single aciton)" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:01:42 - [TEST_CASE][PASSED] - Test Cases/File manager/Damage/Damage - Recycle bin - Delete (Single aciton): Test Cases/File manager/Damage/Damage - Recycle bin - Delete (Single aciton)
+
+12-09-2025T16:01:42 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Recycle bin")): Object: 'Object Repository/File manager/Button - Recycle bin' is clicked on
+
+12-09-2025T16:01:43 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Recycle bin' is clicked on
+
+12-09-2025T16:01:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Recycle bin"), 10): Object 'Object Repository/File manager/Dialog - Recycle bin' is visible
+
+12-09-2025T16:01:45 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Recycle bin' is visible
+
+12-09-2025T16:01:45 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Single action di recycle bin")): Object: 'Object Repository/File manager/Button - Single action di recycle bin' is clicked on
+
+12-09-2025T16:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Single action di recycle bin' is clicked on
+
+12-09-2025T16:01:45 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Option Permanently Delete")): Object: 'Object Repository/File manager/Button - Option Permanently Delete' is clicked on
+
+12-09-2025T16:01:46 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Option Permanently Delete' is clicked on
+
+12-09-2025T16:01:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Delete file"), 10): Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T16:01:46 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T16:01:46 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Permanently Delete")): Object: 'Object Repository/File manager/Button - Permanently Delete' is clicked on
+
+12-09-2025T16:01:47 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Permanently Delete' is clicked on
+
+12-09-2025T16:01:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("File manager/Toast - Success, file has been deleted"), "Success, file has been deleted."): Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T16:01:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/File manager/Damage/Damage - Recycle bin - Recover (Single action)" time="3.349" classname="Test Cases/File manager/Damage/Damage - Recycle bin - Recover (Single action)" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:01:48 - [TEST_CASE][PASSED] - Test Cases/File manager/Damage/Damage - Recycle bin - Recover (Single action): Test Cases/File manager/Damage/Damage - Recycle bin - Recover (Single action)
+
+12-09-2025T16:01:48 - [TEST_STEP][NOT_RUN] - click(findTestObject("File manager/Button - Recycle bin")): NOT_RUN: click(findTestObject("File manager/Button - Recycle bin"))
+
+12-09-2025T16:01:48 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("File manager/Button - Recycle bin"))
+
+12-09-2025T16:01:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Recycle bin"), 10): Object 'Object Repository/File manager/Dialog - Recycle bin' is visible
+
+12-09-2025T16:01:48 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Recycle bin' is visible
+
+12-09-2025T16:01:48 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Single action di recycle bin")): Object: 'Object Repository/File manager/Button - Single action di recycle bin' is clicked on
+
+12-09-2025T16:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Single action di recycle bin' is clicked on
+
+12-09-2025T16:01:49 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Option Recover")): Object: 'Object Repository/File manager/Button - Option Recover' is clicked on
+
+12-09-2025T16:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Option Recover' is clicked on
+
+12-09-2025T16:01:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("File manager/Toast - Success, file has been deleted"), "Success, file has been recovered."): Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T16:01:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/File manager/Damage/Damge - Recycle bin - Delete (Bulk action)" time="4.632" classname="Test Cases/File manager/Damage/Damge - Recycle bin - Delete (Bulk action)" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:01:51 - [TEST_CASE][PASSED] - Test Cases/File manager/Damage/Damge - Recycle bin - Delete (Bulk action): Test Cases/File manager/Damage/Damge - Recycle bin - Delete (Bulk action)
+
+12-09-2025T16:01:51 - [TEST_STEP][NOT_RUN] - click(findTestObject("File manager/Button - Recycle bin")): NOT_RUN: click(findTestObject("File manager/Button - Recycle bin"))
+
+12-09-2025T16:01:51 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("File manager/Button - Recycle bin"))
+
+12-09-2025T16:01:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Recycle bin"), 10): Object 'Object Repository/File manager/Dialog - Recycle bin' is visible
+
+12-09-2025T16:01:52 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Recycle bin' is visible
+
+12-09-2025T16:01:52 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Checkbox - recycle bin")): Object: 'Object Repository/File manager/Checkbox - recycle bin' is clicked on
+
+12-09-2025T16:01:52 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Checkbox - recycle bin' is clicked on
+
+12-09-2025T16:01:52 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Bulk Action recycle bin")): Object: 'Object Repository/File manager/Button - Bulk Action recycle bin' is clicked on
+
+12-09-2025T16:01:53 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Bulk Action recycle bin' is clicked on
+
+12-09-2025T16:01:53 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Option Delete")): Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T16:01:54 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T16:01:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Delete file"), 10): Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T16:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T16:01:54 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Permanently Delete")): Object: 'Object Repository/File manager/Button - Permanently Delete' is clicked on
+
+12-09-2025T16:01:55 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Permanently Delete' is clicked on
+
+12-09-2025T16:01:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("File manager/Toast - Success, file has been deleted"), "Success, file has been deleted."): Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T16:01:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/File manager/Damage/Damage - Recycle bin - Recover (Bulk action)" time="34.512" classname="Test Cases/File manager/Damage/Damage - Recycle bin - Recover (Bulk action)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/File manager/Damage/Damage - Recycle bin - Recover (Bulk action) FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at Damage - Recycle bin - Recover (Bulk action).run(Damage - Recycle bin - Recover (Bulk action):30)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Storage:&#xa;303.94MB of 5.00GB&#xa;Show Detail' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[12-09-2025T16:03:51 - [TEST_CASE][FAILED] - Test Cases/File manager/Damage/Damage - Recycle bin - Recover (Bulk action): Test Cases/File manager/Damage/Damage - Recycle bin - Recover (Bulk action) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Damage - Recycle bin - Recover (Bulk action).run(Damage - Recycle bin - Recover (Bulk action):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Storage:
+303.94MB of 5.00GB
+Show Detail' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+
+12-09-2025T16:03:51 - [TEST_STEP][NOT_RUN] - click(findTestObject("File manager/Button - Recycle bin")): NOT_RUN: click(findTestObject("File manager/Button - Recycle bin"))
+
+12-09-2025T16:03:51 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("File manager/Button - Recycle bin"))
+
+12-09-2025T16:03:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Recycle bin"), 10): Object 'Object Repository/File manager/Dialog - Recycle bin' is visible
+
+12-09-2025T16:03:52 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Recycle bin' is visible
+
+12-09-2025T16:03:52 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Checkbox - recycle bin")): Object: 'Object Repository/File manager/Checkbox - recycle bin' is clicked on
+
+12-09-2025T16:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Checkbox - recycle bin' is clicked on
+
+12-09-2025T16:03:52 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Bulk Action recycle bin")): Object: 'Object Repository/File manager/Button - Bulk Action recycle bin' is clicked on
+
+12-09-2025T16:03:53 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Bulk Action recycle bin' is clicked on
+
+12-09-2025T16:03:53 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Option Recover")): Object: 'Object Repository/File manager/Button - Option Recover' is clicked on
+
+12-09-2025T16:03:53 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Option Recover' is clicked on
+
+12-09-2025T16:03:53 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("File manager/Toast - Success, file has been deleted"), "Success, file has been recovered."): Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Damage - Recycle bin - Recover (Bulk action).run(Damage - Recycle bin - Recover (Bulk action):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Storage:
+303.94MB of 5.00GB
+Show Detail' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+)
+
+12-09-2025T16:04:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[(contains(text(), 'Success') or contains(., 'Success'))]'. Please recheck the objects properties to make sure the desired element is located. 
+
+12-09-2025T16:04:25 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/File manager/Toast - Success, file has been deleted'. Try using Self-healing.
+
+12-09-2025T16:04:25 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/File manager/Toast - Success, file has been deleted' was broken. Propose an alternative one: '//div[2]/div/div/div'.
+
+12-09-2025T16:04:25 - [MESSAGE][FAILED] - Actual text 'Storage:
+303.94MB of 5.00GB
+Show Detail' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Storage:
+303.94MB of 5.00GB
+Show Detail' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Damage - Recycle bin - Recover (Bulk action).run(Damage - Recycle bin - Recover (Bulk action):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667865384.png]]
+
+12-09-2025T16:04:25 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Damage - Recycle bin - Recover (Bulk action).run(Damage - Recycle bin - Recover (Bulk action):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Storage:
+303.94MB of 5.00GB
+Show Detail' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+)
+[[ATTACHMENT|D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667865628.png]]]]></system-out>
+         <system-err><![CDATA[12-09-2025T16:03:51 - [TEST_CASE][FAILED] - Test Cases/File manager/Damage/Damage - Recycle bin - Recover (Bulk action): Test Cases/File manager/Damage/Damage - Recycle bin - Recover (Bulk action) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Damage - Recycle bin - Recover (Bulk action).run(Damage - Recycle bin - Recover (Bulk action):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Storage:
+303.94MB of 5.00GB
+Show Detail' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/File manager/Damage/Damage - Recycle bin - Recover" time="5.21" classname="Test Cases/File manager/Damage/Damage - Recycle bin - Recover" status="FAILED">
+         <failure type="FAILED" message="Test Cases/File manager/Damage/Damage - Recycle bin - Recover FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at Attachment - Recycle bin - Recover.run(Attachment - Recycle bin - Recover:26)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[12-09-2025T16:05:01 - [TEST_CASE][FAILED] - Test Cases/File manager/Damage/Damage - Recycle bin - Recover: Test Cases/File manager/Damage/Damage - Recycle bin - Recover FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Attachment - Recycle bin - Recover.run(Attachment - Recycle bin - Recover:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+
+12-09-2025T16:05:01 - [TEST_STEP][NOT_RUN] - click(findTestObject("File manager/Button - Recycle bin")): NOT_RUN: click(findTestObject("File manager/Button - Recycle bin"))
+
+12-09-2025T16:05:01 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("File manager/Button - Recycle bin"))
+
+12-09-2025T16:05:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Recycle bin"), 10): Object 'Object Repository/File manager/Dialog - Recycle bin' is visible
+
+12-09-2025T16:05:02 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Recycle bin' is visible
+
+12-09-2025T16:05:02 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Recover All")): Object: 'Object Repository/File manager/Button - Recover All' is clicked on
+
+12-09-2025T16:05:03 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Recover All' is clicked on
+
+12-09-2025T16:05:03 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("File manager/Toast - Success, file has been deleted"), "Success, file has been recovered."): Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Attachment - Recycle bin - Recover.run(Attachment - Recycle bin - Recover:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+)
+
+12-09-2025T16:05:06 - [MESSAGE][FAILED] - Actual text '' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Attachment - Recycle bin - Recover.run(Attachment - Recycle bin - Recover:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667906244.png]]
+
+12-09-2025T16:05:06 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Attachment - Recycle bin - Recover.run(Attachment - Recycle bin - Recover:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+)
+[[ATTACHMENT|D:\\automation-test-fixed-asset-basic\\Reports\\20250912_155603\\Fixed Asset - Transaction\\File manager\\20250912_155603\\1757667906506.png]]]]></system-out>
+         <system-err><![CDATA[12-09-2025T16:05:01 - [TEST_CASE][FAILED] - Test Cases/File manager/Damage/Damage - Recycle bin - Recover: Test Cases/File manager/Damage/Damage - Recycle bin - Recover FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Attachment - Recycle bin - Recover.run(Attachment - Recycle bin - Recover:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/File manager/Damage/Damage - Delete (Bulk action)" time="9.096" classname="Test Cases/File manager/Damage/Damage - Delete (Bulk action)" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:05:06 - [TEST_CASE][PASSED] - Test Cases/File manager/Damage/Damage - Delete (Bulk action): Test Cases/File manager/Damage/Damage - Delete (Bulk action)
+
+12-09-2025T16:05:06 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Checkbox - file manager")): Object: 'Object Repository/File manager/Checkbox - file manager' is clicked on
+
+12-09-2025T16:05:11 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Checkbox - file manager' is clicked on
+
+12-09-2025T16:05:11 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Bulk Action")): Object: 'Object Repository/File manager/Button - Bulk Action' is clicked on
+
+12-09-2025T16:05:12 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Bulk Action' is clicked on
+
+12-09-2025T16:05:12 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Option Delete")): Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T16:05:12 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Option Delete' is clicked on
+
+12-09-2025T16:05:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Delete file"), 10): Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T16:05:13 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T16:05:13 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Delete")): Object: 'Object Repository/File manager/Button - Delete' is clicked on
+
+12-09-2025T16:05:13 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Delete' is clicked on
+
+12-09-2025T16:05:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("File manager/Toast - Success, file has been deleted"), "Success, file has been deleted."): Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T16:05:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/File manager/Damage/Damage - Recycle bin - Delete" time="4.759" classname="Test Cases/File manager/Damage/Damage - Recycle bin - Delete" status="PASSED">
+         <system-out><![CDATA[12-09-2025T16:05:15 - [TEST_CASE][PASSED] - Test Cases/File manager/Damage/Damage - Recycle bin - Delete: Test Cases/File manager/Damage/Damage - Recycle bin - Delete
+
+12-09-2025T16:05:15 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Recycle bin")): Object: 'Object Repository/File manager/Button - Recycle bin' is clicked on
+
+12-09-2025T16:05:16 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Recycle bin' is clicked on
+
+12-09-2025T16:05:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Recycle bin"), 10): Object 'Object Repository/File manager/Dialog - Recycle bin' is visible
+
+12-09-2025T16:05:17 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Recycle bin' is visible
+
+12-09-2025T16:05:17 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Empty All")): Object: 'Object Repository/File manager/Button - Empty All' is clicked on
+
+12-09-2025T16:05:18 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Empty All' is clicked on
+
+12-09-2025T16:05:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("File manager/Dialog - Delete file"), 10): Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T16:05:18 - [MESSAGE][PASSED] - Object 'Object Repository/File manager/Dialog - Delete file' is visible
+
+12-09-2025T16:05:18 - [TEST_STEP][PASSED] - click(findTestObject("File manager/Button - Permanently Delete")): Object: 'Object Repository/File manager/Button - Permanently Delete' is clicked on
+
+12-09-2025T16:05:19 - [MESSAGE][PASSED] - Object: 'Object Repository/File manager/Button - Permanently Delete' is clicked on
+
+12-09-2025T16:05:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("File manager/Toast - Success, file has been deleted"), "Success, file has been deleted."): Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.
+
+12-09-2025T16:05:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-09-2025T15:56:18 - [TEST_SUITE][FAILED] - File manager: Test Cases/File manager/Attachment/Attachment - Recycle bin - Recover (Bulk action) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Attachment - Recycle bin - Recover (Bulk action).run(Attachment - Recycle bin - Recover (Bulk action):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Storage:
+303.94MB of 5.00GB
+Show Detail' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[12-09-2025T15:56:18 - [TEST_SUITE][FAILED] - File manager: Test Cases/File manager/Attachment/Attachment - Recycle bin - Recover (Bulk action) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/File manager/Toast - Success, file has been deleted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Attachment - Recycle bin - Recover (Bulk action).run(Attachment - Recycle bin - Recover (Bulk action):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757667363565.run(TempTestSuite1757667363565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Storage:
+303.94MB of 5.00GB
+Show Detail' and expected text 'Success, file has been recovered.' of test object 'Object Repository/File manager/Toast - Success, file has been deleted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

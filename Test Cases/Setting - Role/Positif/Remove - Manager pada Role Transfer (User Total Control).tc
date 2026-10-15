@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Remove - Manager pada Role Transfer (User Total Control)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fee96482-b4ad-48b3-8203-af386388ca60</testCaseGuid>
+</TestCaseEntity>

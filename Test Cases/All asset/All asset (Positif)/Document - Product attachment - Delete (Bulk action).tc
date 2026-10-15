@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Document - Product attachment - Delete (Bulk action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>685563a5-c134-4c77-bcd9-4cc16ea5ce87</testCaseGuid>
+</TestCaseEntity>

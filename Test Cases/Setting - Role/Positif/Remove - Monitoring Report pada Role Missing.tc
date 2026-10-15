@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Remove - Monitoring Report pada Role Missing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>891ef59e-cebe-4310-8dcf-a49f7f7513dd</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Bulk Add - Global Role Apapun dari Detail User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bb9a8f74-e3c6-4f9a-ba30-7209cffa3da2</testCaseGuid>
+</TestCaseEntity>

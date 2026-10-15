@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Transaction transfer - Cancel transfer log</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5fa69c82-1f21-4c13-b335-0f614c9a5986</testCaseGuid>
+</TestCaseEntity>

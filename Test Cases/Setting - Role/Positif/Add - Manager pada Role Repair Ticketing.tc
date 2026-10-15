@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - Manager pada Role Repair Ticketing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dc52927b-c16c-49f0-87d4-6fe23f3047d3</testCaseGuid>
+</TestCaseEntity>

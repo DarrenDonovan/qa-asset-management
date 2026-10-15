@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Asset - Delete asset data (Single asset)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>82aa91cc-2554-482e-b532-a058f27e4317</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Non Login User (Last Name Lebih Dari 30 Karakter)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>34bfc3b6-33c5-4254-913b-ca2506ddf031</testCaseGuid>
+</TestCaseEntity>

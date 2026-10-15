@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Toggle - Chevron Kategori yang Memiliki Sub Kategori (Expand, Collapse)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3b211f35-1f0b-438b-ba93-9efa43f969fa</testCaseGuid>
+</TestCaseEntity>

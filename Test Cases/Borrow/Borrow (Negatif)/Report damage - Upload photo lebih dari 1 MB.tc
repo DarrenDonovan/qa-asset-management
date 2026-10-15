@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif</description>
+   <name>Report damage - Upload photo lebih dari 1 MB</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>17388e5e-0cc2-4855-b2ba-e6a3eaf09a92</testCaseGuid>
+</TestCaseEntity>

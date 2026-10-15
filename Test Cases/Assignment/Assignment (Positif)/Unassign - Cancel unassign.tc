@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Unassign - Cancel unassign</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3a1f4eaa-0430-4c82-b019-2e8682b2df96</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Linked asset - Linked asset as child</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>50a61284-42f5-44b4-8173-b5e71eccc570</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Total Control > User Default</description>
+   <name>Remove - System Role Manage Categories (User Default)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2cde7c20-a694-4b52-a3c7-86ace82dedad</testCaseGuid>
+</TestCaseEntity>

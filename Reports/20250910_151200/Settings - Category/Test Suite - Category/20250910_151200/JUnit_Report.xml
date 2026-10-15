@@ -1,0 +1,2434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite - Category" time="719.496" tests="59" failures="0" errors="0">
+   <testsuite name="Test Suite - Category" tests="59" failures="0" errors="0" time="719.496" skipped="0" timestamp="2025-09-10T08:12:05.023Z" hostname="HP - Darren" id="Test Suites/Settings - Category/Test Suite - Category">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Magang\\automation-test-fixed-asset\\Reports\\20250910_151200\\Settings - Category\\Test Suite - Category\\20250910_151200"/>
+         <property name="logFiles" value="C:\\Magang\\automation-test-fixed-asset\\Reports\\20250910_151200\\Settings - Category\\Test Suite - Category\\20250910_151200\\console0.log, C:\\Magang\\automation-test-fixed-asset\\Reports\\20250910_151200\\Settings - Category\\Test Suite - Category\\20250910_151200\\execution0.log"/>
+         <property name="attachments" value="C:\\Magang\\automation-test-fixed-asset\\Reports\\20250910_151200\\Settings - Category\\Test Suite - Category\\20250910_151200\\1757492269316.png, C:\\Magang\\automation-test-fixed-asset\\Reports\\20250910_151200\\Settings - Category\\Test Suite - Category\\20250910_151200\\1757492354413.png, C:\\Magang\\automation-test-fixed-asset\\Reports\\20250910_151200\\Settings - Category\\Test Suite - Category\\20250910_151200\\1757492541000.png, C:\\Magang\\automation-test-fixed-asset\\Reports\\20250910_151200\\Settings - Category\\Test Suite - Category\\20250910_151200\\1757492541148.png, C:\\Magang\\automation-test-fixed-asset\\Reports\\20250910_151200\\Settings - Category\\Test Suite - Category\\20250910_151200\\1757492609740.png, C:\\Magang\\automation-test-fixed-asset\\Reports\\20250910_151200\\Settings - Category\\Test Suite - Category\\20250910_151200\\1757492609899.png"/>
+         <property name="hostName" value="HP - Darren"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.0.0"/>
+         <property name="browser" value="Chrome 139.0.7258.157"/>
+         <property name="userFullName" value="Qa05qwerty"/>
+         <property name="hostAddress" value="192.168.88.75"/>
+         <property name="sessionId" value="b817ce9b2a33e52ae603651153db42da"/>
+         <property name="projectName" value="katalon-test-tutor"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Setting - Category/Positif/Login - Login Navigate ke Category" time="40.358" classname="Test Cases/Setting - Category/Positif/Login - Login Navigate ke Category" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:12:05 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/Login - Login Navigate ke Category: Test Cases/Setting - Category/Positif/Login - Login Navigate ke Category
+
+10-09-2025T15:12:06 - [TEST_STEP][PASSED] - Common_Utils.openBrowser(url): Common_Utils.openBrowser is PASSED
+
+10-09-2025T15:12:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-09-2025T15:12:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-09-2025T15:12:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://staging-console.tagsamurai.com'
+
+10-09-2025T15:12:10 - [MESSAGE][PASSED] - Current window maximized
+
+10-09-2025T15:12:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+10-09-2025T15:12:10 - [MESSAGE][PASSED] - Common_Utils.openBrowser is PASSED
+
+10-09-2025T15:12:10 - [TEST_STEP][PASSED] - Common_Utils.login(email, password): Common_Utils.login is PASSED
+
+10-09-2025T15:12:16 - [MESSAGE][PASSED] - Text 'user1basic1staging@qwertysystem.net' is set on object 'Object Repository/login session object/Input - Email'
+
+10-09-2025T15:12:17 - [MESSAGE][PASSED] - Text 'Gaadaobatnya1@' is set on object 'Object Repository/login session object/Input - Password'
+
+10-09-2025T15:12:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-09-2025T15:12:23 - [MESSAGE][PASSED] - Object: 'Object Repository/login session object/Button - Login' is clicked on
+
+10-09-2025T15:12:26 - [MESSAGE][PASSED] - Object: 'Object Repository/login session object/Button - Confirm Duplicate User Login' is clicked on
+
+10-09-2025T15:12:33 - [MESSAGE][WARNING] - Element is detached from the DOM while waiting interactable
+
+10-09-2025T15:12:34 - [MESSAGE][PASSED] - Object: 'Object Repository/login session object/Portal - Fixed Asset' is clicked on
+
+10-09-2025T15:12:34 - [MESSAGE][PASSED] - Common_Utils.login is PASSED
+
+10-09-2025T15:12:34 - [TEST_STEP][PASSED] - Common_Utils.navigateToCategory(): Common_Utils.navigateToCategory is PASSED
+
+10-09-2025T15:12:35 - [MESSAGE][PASSED] - Refresh successfully
+
+10-09-2025T15:12:45 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Setting' is clicked on
+
+10-09-2025T15:12:46 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - Category' is clicked on
+
+10-09-2025T15:12:46 - [MESSAGE][PASSED] - Common_Utils.navigateToCategory is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/Check - Tampilan Default Sidebar" time="1.286" classname="Test Cases/Setting - Category/Positif/Check - Tampilan Default Sidebar" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:12:46 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/Check - Tampilan Default Sidebar: Test Cases/Setting - Category/Positif/Check - Tampilan Default Sidebar
+
+10-09-2025T15:12:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Sidebar - Daftar Category"), STOP_ON_FAILURE): Object 'Object Repository/Setting - Category/Sidebar - Daftar Category' is visible
+
+10-09-2025T15:12:47 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Sidebar - Daftar Category' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/Create - Kategori Baru" time="6.729" classname="Test Cases/Setting - Category/Positif/Create - Kategori Baru" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:12:47 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/Create - Kategori Baru: Test Cases/Setting - Category/Positif/Create - Kategori Baru
+
+10-09-2025T15:12:47 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - New Category")): Object: 'Object Repository/Setting - Category/Button - New Category' is clicked on
+
+10-09-2025T15:12:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - New Category' is clicked on
+
+10-09-2025T15:12:48 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Name"), "Category Test"): Text 'Category Test' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:12:50 - [MESSAGE][PASSED] - Text 'Category Test' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:12:50 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Code"), "TEST"): Text 'TEST' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:12:51 - [MESSAGE][PASSED] - Text 'TEST' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:12:51 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:12:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:12:52 - [TEST_STEP][PASSED] - if (verifyElementText(findTestObject("Setting - Group/Toast - Success"), "Success, category has been created.", STOP_ON_FAILURE)): null
+
+10-09-2025T15:12:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Setting - Group/Toast - Success' are matched.
+
+10-09-2025T15:12:54 - [TEST_STEP][PASSED] - Log_Status = "Create": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/View Log - Kategori" time="30.99" classname="Test Cases/Setting - Category/Positif/View Log - Kategori" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) desti...":"null"}]]></property>
+         </properties>
+         <system-out><![CDATA[10-09-2025T15:12:54 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/View Log - Kategori: Test Cases/Setting - Category/Positif/View Log - Kategori
+
+10-09-2025T15:12:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+10-09-2025T15:12:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+10-09-2025T15:12:56 - [TEST_STEP][PASSED] - comment("Setting > Category > View Log"): Setting > Category > View Log
+
+10-09-2025T15:12:56 - [MESSAGE][INFO] - Setting > Category > View Log
+
+10-09-2025T15:12:56 - [TEST_STEP][PASSED] - LogsCheck.checkCategoryViewLog(Log_Status): LogsCheck.checkCategoryViewLog is PASSED
+
+10-09-2025T15:12:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - View Log' is clicked on
+
+10-09-2025T15:12:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Category/Log Action - Setting _ Category _ View Log' is: 'Create'
+
+10-09-2025T15:12:57 - [MESSAGE][PASSED] - Actual text 'Create' and expected text 'Create' are matched 
+
+10-09-2025T15:12:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - Close Log' is clicked on
+
+10-09-2025T15:12:58 - [MESSAGE][PASSED] - LogsCheck.checkCategoryViewLog is PASSED
+
+10-09-2025T15:12:58 - [TEST_STEP][PASSED] - comment("Report & Log > Activity Log > User Actions"): Report & Log > Activity Log > User Actions
+
+10-09-2025T15:12:58 - [MESSAGE][INFO] - Report & Log > Activity Log > User Actions
+
+10-09-2025T15:12:58 - [TEST_STEP][PASSED] - LogsCheck.checkLogReportandLog(Log_Status): LogsCheck.checkLogReportandLog is PASSED
+
+10-09-2025T15:12:58 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Report and Log' is clicked on
+
+10-09-2025T15:12:59 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - Activity Log' is clicked on
+
+10-09-2025T15:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Activity Log_User Actions' is clicked on
+
+10-09-2025T15:13:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Report and Log _ Activity Log _ User Actions' is: 'Create'
+
+10-09-2025T15:13:02 - [MESSAGE][PASSED] - Actual text 'Create' and expected text 'Create' are matched 
+
+10-09-2025T15:13:02 - [MESSAGE][PASSED] - LogsCheck.checkLogReportandLog is PASSED
+
+10-09-2025T15:13:02 - [TEST_STEP][PASSED] - comment("Profile > System Log"): Profile > System Log
+
+10-09-2025T15:13:02 - [MESSAGE][INFO] - Profile > System Log
+
+10-09-2025T15:13:02 - [TEST_STEP][PASSED] - LogsCheck.checkLogProfile(Log_Status): LogsCheck.checkLogProfile is PASSED
+
+10-09-2025T15:13:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - Profile' is clicked on
+
+10-09-2025T15:13:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Action Menu - My Profile' is clicked on
+
+10-09-2025T15:13:07 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Profile_System Log' is clicked on
+
+10-09-2025T15:13:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Profile _ System Log' is: 'Create'
+
+10-09-2025T15:13:08 - [MESSAGE][PASSED] - Actual text 'Create' and expected text 'Create' are matched 
+
+10-09-2025T15:13:09 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Icon - Tag Samurai' is clicked on
+
+10-09-2025T15:13:09 - [MESSAGE][PASSED] - LogsCheck.checkLogProfile is PASSED
+
+10-09-2025T15:13:09 - [TEST_STEP][PASSED] - comment("Setting > User > Detail > System Log"): Setting > User > Detail > System Log
+
+10-09-2025T15:13:09 - [MESSAGE][INFO] - Setting > User > Detail > System Log
+
+10-09-2025T15:13:09 - [TEST_STEP][PASSED] - LogsCheck.checkLogUserDetail(Log_Status): LogsCheck.checkLogUserDetail is PASSED
+
+10-09-2025T15:13:12 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Setting' is clicked on
+
+10-09-2025T15:13:13 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - User' is clicked on
+
+10-09-2025T15:13:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Single Action Button - Default User' is clicked on
+
+10-09-2025T15:13:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Action Menu - User Detail' is clicked on
+
+10-09-2025T15:13:21 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Profile_System Log' is clicked on
+
+10-09-2025T15:13:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Profile _ System Log' is: 'Create'
+
+10-09-2025T15:13:22 - [MESSAGE][PASSED] - Actual text 'Create' and expected text 'Create' are matched 
+
+10-09-2025T15:13:22 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Icon - Tag Samurai' is clicked on
+
+10-09-2025T15:13:22 - [MESSAGE][PASSED] - LogsCheck.checkLogUserDetail is PASSED
+
+10-09-2025T15:13:22 - [TEST_STEP][PASSED] - Common_Utils.navigateToCategory(): Common_Utils.navigateToCategory is PASSED
+
+10-09-2025T15:13:23 - [MESSAGE][PASSED] - Refresh successfully
+
+10-09-2025T15:13:24 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Setting' is clicked on
+
+10-09-2025T15:13:25 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - Category' is clicked on
+
+10-09-2025T15:13:25 - [MESSAGE][PASSED] - Common_Utils.navigateToCategory is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/Check - Tampilkan Tabel Kategori" time="1.533" classname="Test Cases/Setting - Category/Positif/Check - Tampilkan Tabel Kategori" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:13:25 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/Check - Tampilkan Tabel Kategori: Test Cases/Setting - Category/Positif/Check - Tampilkan Tabel Kategori
+
+10-09-2025T15:13:25 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Category Div - All")): Object: 'Object Repository/Setting - Category/Category Div - All' is clicked on
+
+10-09-2025T15:13:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Category Div - All' is clicked on
+
+10-09-2025T15:13:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Table - Category")): Object 'Object Repository/Setting - Category/Table - Category' is visible
+
+10-09-2025T15:13:26 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Table - Category' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/Check - Melihat Changelog Kategori" time="1.827" classname="Test Cases/Setting - Category/Positif/Check - Melihat Changelog Kategori" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:13:26 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/Check - Melihat Changelog Kategori: Test Cases/Setting - Category/Positif/Check - Melihat Changelog Kategori
+
+10-09-2025T15:13:26 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - View Log")): Object: 'Object Repository/Setting - Category/Button - View Log' is clicked on
+
+10-09-2025T15:13:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - View Log' is clicked on
+
+10-09-2025T15:13:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Table - Category Changelog")): Object 'Object Repository/Setting - Category/Table - Category Changelog' is visible
+
+10-09-2025T15:13:28 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Table - Category Changelog' is visible
+
+10-09-2025T15:13:28 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Close Log")): Object: 'Object Repository/Setting - Category/Button - Close Log' is clicked on
+
+10-09-2025T15:13:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Close Log' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Field Nama Kosong" time="2.991" classname="Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Field Nama Kosong" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:13:28 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Field Nama Kosong: Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Field Nama Kosong
+
+10-09-2025T15:13:28 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - New Category")): Object: 'Object Repository/Setting - Category/Button - New Category' is clicked on
+
+10-09-2025T15:13:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - New Category' is clicked on
+
+10-09-2025T15:13:29 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:13:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:13:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Validator Message - Name Musnt Empty")): Object 'Object Repository/Setting - Category/Validator Message - Name Musnt Empty' is visible
+
+10-09-2025T15:13:31 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Validator Message - Name Musnt Empty' is visible
+
+10-09-2025T15:13:31 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:13:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Nama Sudah Ada" time="3.462" classname="Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Nama Sudah Ada" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:13:31 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Nama Sudah Ada: Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Nama Sudah Ada
+
+10-09-2025T15:13:31 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - New Category")): Object: 'Object Repository/Setting - Category/Button - New Category' is clicked on
+
+10-09-2025T15:13:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - New Category' is clicked on
+
+10-09-2025T15:13:32 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Name"), "Default"): Text 'Default' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:13:33 - [MESSAGE][PASSED] - Text 'Default' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:13:33 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:13:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:13:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Validator Message - Name Already Exist")): Object 'Object Repository/Setting - Category/Validator Message - Name Already Exist' is visible
+
+10-09-2025T15:13:34 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Validator Message - Name Already Exist' is visible
+
+10-09-2025T15:13:34 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:13:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Nama Kategori Lebih Dari 30 Karakter" time="3.572" classname="Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Nama Kategori Lebih Dari 30 Karakter" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:13:34 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Nama Kategori Lebih Dari 30 Karakter: Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Nama Kategori Lebih Dari 30 Karakter
+
+10-09-2025T15:13:34 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - New Category")): Object: 'Object Repository/Setting - Category/Button - New Category' is clicked on
+
+10-09-2025T15:13:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - New Category' is clicked on
+
+10-09-2025T15:13:35 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Name"), "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"): Text 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:13:37 - [MESSAGE][PASSED] - Text 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:13:37 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:13:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:13:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Validator Message - Name Max 30 Char")): Object 'Object Repository/Setting - Category/Validator Message - Name Max 30 Char' is visible
+
+10-09-2025T15:13:38 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Validator Message - Name Max 30 Char' is visible
+
+10-09-2025T15:13:38 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:13:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Nama Diisi All" time="3.389" classname="Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Nama Diisi All" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:13:38 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Nama Diisi All: Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Nama Diisi All
+
+10-09-2025T15:13:38 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - New Category")): Object: 'Object Repository/Setting - Category/Button - New Category' is clicked on
+
+10-09-2025T15:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - New Category' is clicked on
+
+10-09-2025T15:13:39 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Name"), "All"): Text 'All' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:13:40 - [MESSAGE][PASSED] - Text 'All' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:13:40 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:13:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Validator Message - Name Already Exist")): Object 'Object Repository/Setting - Category/Validator Message - Name Already Exist' is visible
+
+10-09-2025T15:13:41 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Validator Message - Name Already Exist' is visible
+
+10-09-2025T15:13:41 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Kode Sudah Ada" time="4.207" classname="Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Kode Sudah Ada" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:13:41 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Kode Sudah Ada: Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Kode Sudah Ada
+
+10-09-2025T15:13:41 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - New Category")): Object: 'Object Repository/Setting - Category/Button - New Category' is clicked on
+
+10-09-2025T15:13:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - New Category' is clicked on
+
+10-09-2025T15:13:42 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Code"), "0000"): Text '0000' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:13:44 - [MESSAGE][PASSED] - Text '0000' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:13:44 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:13:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:13:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Validator Message - Code Already Exist")): Object 'Object Repository/Setting - Category/Validator Message - Code Already Exist' is visible
+
+10-09-2025T15:13:45 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Validator Message - Code Already Exist' is visible
+
+10-09-2025T15:13:45 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:13:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Kode Lebih Dari 4 Karakter" time="3.278" classname="Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Kode Lebih Dari 4 Karakter" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:13:46 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Kode Lebih Dari 4 Karakter: Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Kode Lebih Dari 4 Karakter
+
+10-09-2025T15:13:46 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - New Category")): Object: 'Object Repository/Setting - Category/Button - New Category' is clicked on
+
+10-09-2025T15:13:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - New Category' is clicked on
+
+10-09-2025T15:13:46 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Code"), "CATEGORY"): Text 'CATEGORY' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:13:47 - [MESSAGE][PASSED] - Text 'CATEGORY' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:13:47 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:13:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Validator Message - Code Max 4 Char")): Object 'Object Repository/Setting - Category/Validator Message - Code Max 4 Char' is visible
+
+10-09-2025T15:13:49 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Validator Message - Code Max 4 Char' is visible
+
+10-09-2025T15:13:49 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:13:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Kode Diisi Dengan Bukan Angka atau Huruf" time="3.815" classname="Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Kode Diisi Dengan Bukan Angka atau Huruf" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:13:49 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Kode Diisi Dengan Bukan Angka atau Huruf: Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Kode Diisi Dengan Bukan Angka atau Huruf
+
+10-09-2025T15:13:49 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - New Category")): Object: 'Object Repository/Setting - Category/Button - New Category' is clicked on
+
+10-09-2025T15:13:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - New Category' is clicked on
+
+10-09-2025T15:13:49 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Code"), "!@#$"): Text '!@#$' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:13:51 - [MESSAGE][PASSED] - Text '!@#$' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:13:51 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:13:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:13:52 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:13:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/Create - Kategori Baru, Klik Clear Field" time="4.521" classname="Test Cases/Setting - Category/Positif/Create - Kategori Baru, Klik Clear Field" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:13:53 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/Create - Kategori Baru, Klik Clear Field: Test Cases/Setting - Category/Positif/Create - Kategori Baru, Klik Clear Field
+
+10-09-2025T15:13:53 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - New Category")): Object: 'Object Repository/Setting - Category/Button - New Category' is clicked on
+
+10-09-2025T15:13:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - New Category' is clicked on
+
+10-09-2025T15:13:53 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Name"), "ABCD"): Text 'ABCD' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:13:55 - [MESSAGE][PASSED] - Text 'ABCD' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:13:55 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Code"), "ABCD"): Text 'ABCD' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:13:56 - [MESSAGE][PASSED] - Text 'ABCD' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:13:56 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Clear Field")): Object: 'Object Repository/Setting - Category/Button - Clear Field' is clicked on
+
+10-09-2025T15:13:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Clear Field' is clicked on
+
+10-09-2025T15:13:57 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:13:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/Update - Kategori" time="8.541" classname="Test Cases/Setting - Category/Positif/Update - Kategori" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:13:57 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/Update - Kategori: Test Cases/Setting - Category/Positif/Update - Kategori
+
+10-09-2025T15:13:57 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:13:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:13:58 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Edit Category")): Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:13:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:13:58 - [TEST_STEP][PASSED] - Common_Utils.deleteField(findTestObject("Setting - Category/Textbox - Category Name")): Common_Utils.deleteField is PASSED
+
+10-09-2025T15:14:00 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:14:00 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:14:00 - [MESSAGE][PASSED] - Common_Utils.deleteField is PASSED
+
+10-09-2025T15:14:00 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Name"), "Category Tests"): Text 'Category Tests' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:14:01 - [MESSAGE][PASSED] - Text 'Category Tests' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:14:01 - [TEST_STEP][PASSED] - Common_Utils.deleteField(findTestObject("Setting - Category/Textbox - Category Code")): Common_Utils.deleteField is PASSED
+
+10-09-2025T15:14:02 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:14:02 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:14:02 - [MESSAGE][PASSED] - Common_Utils.deleteField is PASSED
+
+10-09-2025T15:14:02 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Code"), "CTES"): Text 'CTES' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:14:03 - [MESSAGE][PASSED] - Text 'CTES' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:14:03 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:14:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:14:04 - [TEST_STEP][PASSED] - if (verifyElementText(findTestObject("Setting - Category/Toast - Success"), "Success, category has been edited.", STOP_ON_FAILURE)): null
+
+10-09-2025T15:14:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Setting - Category/Toast - Success' are matched.
+
+10-09-2025T15:14:06 - [TEST_STEP][PASSED] - Log_Status = "Edit": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/View Log - Kategori" time="21.76" classname="Test Cases/Setting - Category/Positif/View Log - Kategori" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) desti...":"null"}]]></property>
+         </properties>
+         <system-out><![CDATA[10-09-2025T15:14:06 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/View Log - Kategori: Test Cases/Setting - Category/Positif/View Log - Kategori
+
+10-09-2025T15:14:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+10-09-2025T15:14:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+10-09-2025T15:14:08 - [TEST_STEP][PASSED] - comment("Setting > Category > View Log"): Setting > Category > View Log
+
+10-09-2025T15:14:08 - [MESSAGE][INFO] - Setting > Category > View Log
+
+10-09-2025T15:14:08 - [TEST_STEP][PASSED] - LogsCheck.checkCategoryViewLog(Log_Status): LogsCheck.checkCategoryViewLog is PASSED
+
+10-09-2025T15:14:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - View Log' is clicked on
+
+10-09-2025T15:14:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Category/Log Action - Setting _ Category _ View Log' is: 'Edit'
+
+10-09-2025T15:14:09 - [MESSAGE][PASSED] - Actual text 'Edit' and expected text 'Edit' are matched 
+
+10-09-2025T15:14:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - Close Log' is clicked on
+
+10-09-2025T15:14:10 - [MESSAGE][PASSED] - LogsCheck.checkCategoryViewLog is PASSED
+
+10-09-2025T15:14:10 - [TEST_STEP][PASSED] - comment("Report & Log > Activity Log > User Actions"): Report & Log > Activity Log > User Actions
+
+10-09-2025T15:14:10 - [MESSAGE][INFO] - Report & Log > Activity Log > User Actions
+
+10-09-2025T15:14:10 - [TEST_STEP][PASSED] - LogsCheck.checkLogReportandLog(Log_Status): LogsCheck.checkLogReportandLog is PASSED
+
+10-09-2025T15:14:10 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Report and Log' is clicked on
+
+10-09-2025T15:14:11 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - Activity Log' is clicked on
+
+10-09-2025T15:14:12 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Activity Log_User Actions' is clicked on
+
+10-09-2025T15:14:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Report and Log _ Activity Log _ User Actions' is: 'Edit'
+
+10-09-2025T15:14:13 - [MESSAGE][PASSED] - Actual text 'Edit' and expected text 'Edit' are matched 
+
+10-09-2025T15:14:13 - [MESSAGE][PASSED] - LogsCheck.checkLogReportandLog is PASSED
+
+10-09-2025T15:14:13 - [TEST_STEP][PASSED] - comment("Profile > System Log"): Profile > System Log
+
+10-09-2025T15:14:13 - [MESSAGE][INFO] - Profile > System Log
+
+10-09-2025T15:14:13 - [TEST_STEP][PASSED] - LogsCheck.checkLogProfile(Log_Status): LogsCheck.checkLogProfile is PASSED
+
+10-09-2025T15:14:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - Profile' is clicked on
+
+10-09-2025T15:14:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Action Menu - My Profile' is clicked on
+
+10-09-2025T15:14:16 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Profile_System Log' is clicked on
+
+10-09-2025T15:14:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Profile _ System Log' is: 'Edit'
+
+10-09-2025T15:14:16 - [MESSAGE][PASSED] - Actual text 'Edit' and expected text 'Edit' are matched 
+
+10-09-2025T15:14:17 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Icon - Tag Samurai' is clicked on
+
+10-09-2025T15:14:17 - [MESSAGE][PASSED] - LogsCheck.checkLogProfile is PASSED
+
+10-09-2025T15:14:17 - [TEST_STEP][PASSED] - comment("Setting > User > Detail > System Log"): Setting > User > Detail > System Log
+
+10-09-2025T15:14:17 - [MESSAGE][INFO] - Setting > User > Detail > System Log
+
+10-09-2025T15:14:17 - [TEST_STEP][PASSED] - LogsCheck.checkLogUserDetail(Log_Status): LogsCheck.checkLogUserDetail is PASSED
+
+10-09-2025T15:14:18 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Setting' is clicked on
+
+10-09-2025T15:14:19 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - User' is clicked on
+
+10-09-2025T15:14:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Single Action Button - Default User' is clicked on
+
+10-09-2025T15:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Action Menu - User Detail' is clicked on
+
+10-09-2025T15:14:24 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Profile_System Log' is clicked on
+
+10-09-2025T15:14:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Profile _ System Log' is: 'Edit'
+
+10-09-2025T15:14:25 - [MESSAGE][PASSED] - Actual text 'Edit' and expected text 'Edit' are matched 
+
+10-09-2025T15:14:25 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Icon - Tag Samurai' is clicked on
+
+10-09-2025T15:14:25 - [MESSAGE][PASSED] - LogsCheck.checkLogUserDetail is PASSED
+
+10-09-2025T15:14:25 - [TEST_STEP][PASSED] - Common_Utils.navigateToCategory(): Common_Utils.navigateToCategory is PASSED
+
+10-09-2025T15:14:25 - [MESSAGE][PASSED] - Refresh successfully
+
+10-09-2025T15:14:27 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Setting' is clicked on
+
+10-09-2025T15:14:28 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - Category' is clicked on
+
+10-09-2025T15:14:28 - [MESSAGE][PASSED] - Common_Utils.navigateToCategory is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Update - Kategori, Nama Tidak Diisi" time="5.099" classname="Test Cases/Setting - Category/Negatif/Update - Kategori, Nama Tidak Diisi" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:14:28 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Update - Kategori, Nama Tidak Diisi: Test Cases/Setting - Category/Negatif/Update - Kategori, Nama Tidak Diisi
+
+10-09-2025T15:14:28 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:14:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:14:29 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Edit Category")): Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:14:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:14:30 - [TEST_STEP][PASSED] - Common_Utils.deleteField(findTestObject("Setting - Category/Textbox - Category Name")): Common_Utils.deleteField is PASSED
+
+10-09-2025T15:14:31 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:14:31 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:14:31 - [MESSAGE][PASSED] - Common_Utils.deleteField is PASSED
+
+10-09-2025T15:14:31 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:14:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:14:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Validator Message - Name Musnt Empty")): Object 'Object Repository/Setting - Category/Validator Message - Name Musnt Empty' is visible
+
+10-09-2025T15:14:32 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Validator Message - Name Musnt Empty' is visible
+
+10-09-2025T15:14:32 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Update - Kategori, Nama Sudah Ada" time="4.76" classname="Test Cases/Setting - Category/Negatif/Update - Kategori, Nama Sudah Ada" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:14:33 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Update - Kategori, Nama Sudah Ada: Test Cases/Setting - Category/Negatif/Update - Kategori, Nama Sudah Ada
+
+10-09-2025T15:14:33 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:14:33 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Edit Category")): Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:14:34 - [TEST_STEP][PASSED] - Common_Utils.deleteField(findTestObject("Setting - Category/Textbox - Category Name")): Common_Utils.deleteField is PASSED
+
+10-09-2025T15:14:35 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:14:35 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:14:35 - [MESSAGE][PASSED] - Common_Utils.deleteField is PASSED
+
+10-09-2025T15:14:35 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Name"), "Default"): Text 'Default' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:14:36 - [MESSAGE][PASSED] - Text 'Default' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:14:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Validator Message - Name Already Exist")): Object 'Object Repository/Setting - Category/Validator Message - Name Already Exist' is visible
+
+10-09-2025T15:14:37 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Validator Message - Name Already Exist' is visible
+
+10-09-2025T15:14:37 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:14:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:14:37 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:14:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Update - Kategori, Nama Lebih dari 30 Karakter" time="4.103" classname="Test Cases/Setting - Category/Negatif/Update - Kategori, Nama Lebih dari 30 Karakter" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:14:37 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Update - Kategori, Nama Lebih dari 30 Karakter: Test Cases/Setting - Category/Negatif/Update - Kategori, Nama Lebih dari 30 Karakter
+
+10-09-2025T15:14:37 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:14:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:14:38 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Edit Category")): Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:14:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:14:39 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Name"), "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"): Text 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:14:40 - [MESSAGE][PASSED] - Text 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:14:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Validator Message - Name Max 30 Char"), STOP_ON_FAILURE): Object 'Object Repository/Setting - Category/Validator Message - Name Max 30 Char' is visible
+
+10-09-2025T15:14:41 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Validator Message - Name Max 30 Char' is visible
+
+10-09-2025T15:14:41 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:14:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:14:41 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:14:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Update - Kategori, Nama Diisi All" time="4.688" classname="Test Cases/Setting - Category/Negatif/Update - Kategori, Nama Diisi All" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:14:41 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Update - Kategori, Nama Diisi All: Test Cases/Setting - Category/Negatif/Update - Kategori, Nama Diisi All
+
+10-09-2025T15:14:42 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:14:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:14:42 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Edit Category")): Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:14:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:14:43 - [TEST_STEP][PASSED] - Common_Utils.deleteField(findTestObject("Setting - Category/Textbox - Category Name")): Common_Utils.deleteField is PASSED
+
+10-09-2025T15:14:44 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:14:44 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:14:44 - [MESSAGE][PASSED] - Common_Utils.deleteField is PASSED
+
+10-09-2025T15:14:44 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Name"), "All"): Text 'All' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:14:45 - [MESSAGE][PASSED] - Text 'All' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:14:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Validator Message - Name Already Exist")): Object 'Object Repository/Setting - Category/Validator Message - Name Already Exist' is visible
+
+10-09-2025T15:14:46 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Validator Message - Name Already Exist' is visible
+
+10-09-2025T15:14:46 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:14:46 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Update - Kategori, Kode Sudah Ada" time="5.244" classname="Test Cases/Setting - Category/Negatif/Update - Kategori, Kode Sudah Ada" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:14:46 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Update - Kategori, Kode Sudah Ada: Test Cases/Setting - Category/Negatif/Update - Kategori, Kode Sudah Ada
+
+10-09-2025T15:14:46 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:14:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:14:47 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Edit Category")): Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:14:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:14:47 - [TEST_STEP][PASSED] - Common_Utils.deleteField(findTestObject("Setting - Category/Textbox - Category Code")): Common_Utils.deleteField is PASSED
+
+10-09-2025T15:14:49 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:14:49 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:14:49 - [MESSAGE][PASSED] - Common_Utils.deleteField is PASSED
+
+10-09-2025T15:14:49 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Code"), "0000"): Text '0000' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:14:50 - [MESSAGE][PASSED] - Text '0000' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:14:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Validator Message - Code Already Exist")): Object 'Object Repository/Setting - Category/Validator Message - Code Already Exist' is visible
+
+10-09-2025T15:14:51 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Validator Message - Code Already Exist' is visible
+
+10-09-2025T15:14:51 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:14:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:14:51 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:14:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Update - Kategori, Kode Lebih dari 4 Karakter" time="5.046" classname="Test Cases/Setting - Category/Negatif/Update - Kategori, Kode Lebih dari 4 Karakter" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:14:51 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Update - Kategori, Kode Lebih dari 4 Karakter: Test Cases/Setting - Category/Negatif/Update - Kategori, Kode Lebih dari 4 Karakter
+
+10-09-2025T15:14:52 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:14:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:14:52 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Edit Category")): Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:14:53 - [TEST_STEP][PASSED] - Common_Utils.deleteField(findTestObject("Setting - Category/Textbox - Category Code")): Common_Utils.deleteField is PASSED
+
+10-09-2025T15:14:54 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:14:54 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:14:54 - [MESSAGE][PASSED] - Common_Utils.deleteField is PASSED
+
+10-09-2025T15:14:54 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Code"), "EDITCATEGORY"): Text 'EDITCATEGORY' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:14:55 - [MESSAGE][PASSED] - Text 'EDITCATEGORY' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:14:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Validator Message - Code Max 4 Char")): Object 'Object Repository/Setting - Category/Validator Message - Code Max 4 Char' is visible
+
+10-09-2025T15:14:56 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Validator Message - Code Max 4 Char' is visible
+
+10-09-2025T15:14:56 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:14:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:14:56 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:14:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/Update - Kategori, Klik Clear Field" time="3.254" classname="Test Cases/Setting - Category/Positif/Update - Kategori, Klik Clear Field" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:14:56 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/Update - Kategori, Klik Clear Field: Test Cases/Setting - Category/Positif/Update - Kategori, Klik Clear Field
+
+10-09-2025T15:14:57 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:14:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:14:57 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Edit Category")): Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:14:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:14:58 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Clear Field")): Object: 'Object Repository/Setting - Category/Button - Clear Field' is clicked on
+
+10-09-2025T15:14:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Clear Field' is clicked on
+
+10-09-2025T15:14:59 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:14:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:14:59 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:15:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/Create - Sub Kategori Baru" time="6.702" classname="Test Cases/Setting - Category/Positif/Create - Sub Kategori Baru" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:15:00 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/Create - Sub Kategori Baru: Test Cases/Setting - Category/Positif/Create - Sub Kategori Baru
+
+10-09-2025T15:15:00 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:15:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:15:00 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Create Sub Category")): Object: 'Object Repository/Setting - Category/Action Menu - Create Sub Category' is clicked on
+
+10-09-2025T15:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Create Sub Category' is clicked on
+
+10-09-2025T15:15:01 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Name"), "Sub Category Test"): Text 'Sub Category Test' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:15:03 - [MESSAGE][PASSED] - Text 'Sub Category Test' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:15:03 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Code"), "SCTG"): Text 'SCTG' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:15:04 - [MESSAGE][PASSED] - Text 'SCTG' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:15:04 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:15:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:15:05 - [TEST_STEP][PASSED] - if (verifyElementText(findTestObject("Setting - Category/Toast - Success"), "Success, category has been created.", STOP_ON_FAILURE)): null
+
+10-09-2025T15:15:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Setting - Category/Toast - Success' are matched.
+
+10-09-2025T15:15:06 - [TEST_STEP][PASSED] - Log_Status = "Create": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/View Log - Kategori" time="22.344" classname="Test Cases/Setting - Category/Positif/View Log - Kategori" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) desti...":"null"}]]></property>
+         </properties>
+         <system-out><![CDATA[10-09-2025T15:15:06 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/View Log - Kategori: Test Cases/Setting - Category/Positif/View Log - Kategori
+
+10-09-2025T15:15:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+10-09-2025T15:15:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+10-09-2025T15:15:08 - [TEST_STEP][PASSED] - comment("Setting > Category > View Log"): Setting > Category > View Log
+
+10-09-2025T15:15:08 - [MESSAGE][INFO] - Setting > Category > View Log
+
+10-09-2025T15:15:08 - [TEST_STEP][PASSED] - LogsCheck.checkCategoryViewLog(Log_Status): LogsCheck.checkCategoryViewLog is PASSED
+
+10-09-2025T15:15:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - View Log' is clicked on
+
+10-09-2025T15:15:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Category/Log Action - Setting _ Category _ View Log' is: 'Create'
+
+10-09-2025T15:15:10 - [MESSAGE][PASSED] - Actual text 'Create' and expected text 'Create' are matched 
+
+10-09-2025T15:15:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - Close Log' is clicked on
+
+10-09-2025T15:15:10 - [MESSAGE][PASSED] - LogsCheck.checkCategoryViewLog is PASSED
+
+10-09-2025T15:15:10 - [TEST_STEP][PASSED] - comment("Report & Log > Activity Log > User Actions"): Report & Log > Activity Log > User Actions
+
+10-09-2025T15:15:10 - [MESSAGE][INFO] - Report & Log > Activity Log > User Actions
+
+10-09-2025T15:15:10 - [TEST_STEP][PASSED] - LogsCheck.checkLogReportandLog(Log_Status): LogsCheck.checkLogReportandLog is PASSED
+
+10-09-2025T15:15:11 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Report and Log' is clicked on
+
+10-09-2025T15:15:11 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - Activity Log' is clicked on
+
+10-09-2025T15:15:13 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Activity Log_User Actions' is clicked on
+
+10-09-2025T15:15:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Report and Log _ Activity Log _ User Actions' is: 'Create'
+
+10-09-2025T15:15:14 - [MESSAGE][PASSED] - Actual text 'Create' and expected text 'Create' are matched 
+
+10-09-2025T15:15:14 - [MESSAGE][PASSED] - LogsCheck.checkLogReportandLog is PASSED
+
+10-09-2025T15:15:14 - [TEST_STEP][PASSED] - comment("Profile > System Log"): Profile > System Log
+
+10-09-2025T15:15:14 - [MESSAGE][INFO] - Profile > System Log
+
+10-09-2025T15:15:14 - [TEST_STEP][PASSED] - LogsCheck.checkLogProfile(Log_Status): LogsCheck.checkLogProfile is PASSED
+
+10-09-2025T15:15:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - Profile' is clicked on
+
+10-09-2025T15:15:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Action Menu - My Profile' is clicked on
+
+10-09-2025T15:15:16 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Profile_System Log' is clicked on
+
+10-09-2025T15:15:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Profile _ System Log' is: 'Create'
+
+10-09-2025T15:15:17 - [MESSAGE][PASSED] - Actual text 'Create' and expected text 'Create' are matched 
+
+10-09-2025T15:15:17 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Icon - Tag Samurai' is clicked on
+
+10-09-2025T15:15:17 - [MESSAGE][PASSED] - LogsCheck.checkLogProfile is PASSED
+
+10-09-2025T15:15:17 - [TEST_STEP][PASSED] - comment("Setting > User > Detail > System Log"): Setting > User > Detail > System Log
+
+10-09-2025T15:15:17 - [MESSAGE][INFO] - Setting > User > Detail > System Log
+
+10-09-2025T15:15:17 - [TEST_STEP][PASSED] - LogsCheck.checkLogUserDetail(Log_Status): LogsCheck.checkLogUserDetail is PASSED
+
+10-09-2025T15:15:19 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Setting' is clicked on
+
+10-09-2025T15:15:20 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - User' is clicked on
+
+10-09-2025T15:15:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Single Action Button - Default User' is clicked on
+
+10-09-2025T15:15:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Action Menu - User Detail' is clicked on
+
+10-09-2025T15:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Profile_System Log' is clicked on
+
+10-09-2025T15:15:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Profile _ System Log' is: 'Create'
+
+10-09-2025T15:15:26 - [MESSAGE][PASSED] - Actual text 'Create' and expected text 'Create' are matched 
+
+10-09-2025T15:15:26 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Icon - Tag Samurai' is clicked on
+
+10-09-2025T15:15:26 - [MESSAGE][PASSED] - LogsCheck.checkLogUserDetail is PASSED
+
+10-09-2025T15:15:26 - [TEST_STEP][PASSED] - Common_Utils.navigateToCategory(): Common_Utils.navigateToCategory is PASSED
+
+10-09-2025T15:15:26 - [MESSAGE][PASSED] - Refresh successfully
+
+10-09-2025T15:15:28 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Setting' is clicked on
+
+10-09-2025T15:15:29 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - Category' is clicked on
+
+10-09-2025T15:15:29 - [MESSAGE][PASSED] - Common_Utils.navigateToCategory is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/Check - Urutan Kategori di Sidebar Ascending" time="1.665" classname="Test Cases/Setting - Category/Positif/Check - Urutan Kategori di Sidebar Ascending" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:15:29 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/Check - Urutan Kategori di Sidebar Ascending: Test Cases/Setting - Category/Positif/Check - Urutan Kategori di Sidebar Ascending
+
+10-09-2025T15:15:29 - [TEST_STEP][PASSED] - click(findTestObject("All Menu/Sub Module - Category")): Object: 'Object Repository/All Menu/Sub Module - Category' is clicked on
+
+10-09-2025T15:15:30 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - Category' is clicked on
+
+10-09-2025T15:15:30 - [TEST_STEP][PASSED] - comment("Cek Urutan Group di Sidebar Sebelah Kanan"): Cek Urutan Group di Sidebar Sebelah Kanan
+
+10-09-2025T15:15:30 - [MESSAGE][INFO] - Cek Urutan Group di Sidebar Sebelah Kanan]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/Toggle - Chevron Kategori yang Memiliki Sub Kategori (Expand, Collapse)" time="3.162" classname="Test Cases/Setting - Category/Positif/Toggle - Chevron Kategori yang Memiliki Sub Kategori (Expand, Collapse)" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:15:30 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/Toggle - Chevron Kategori yang Memiliki Sub Kategori (Expand, Collapse): Test Cases/Setting - Category/Positif/Toggle - Chevron Kategori yang Memiliki Sub Kategori (Expand, Collapse)
+
+10-09-2025T15:15:31 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Chevron - Category Test")): Object: 'Object Repository/Setting - Category/Chevron - Category Test' is clicked on
+
+10-09-2025T15:15:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Chevron - Category Test' is clicked on
+
+10-09-2025T15:15:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+10-09-2025T15:15:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+10-09-2025T15:15:32 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Chevron - Category Test")): Object: 'Object Repository/Setting - Category/Chevron - Category Test' is clicked on
+
+10-09-2025T15:15:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Chevron - Category Test' is clicked on
+
+10-09-2025T15:15:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+10-09-2025T15:15:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+10-09-2025T15:15:33 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Chevron - Category Test")): Object: 'Object Repository/Setting - Category/Chevron - Category Test' is clicked on
+
+10-09-2025T15:15:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Chevron - Category Test' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/Toggle - Hierarki Kategori" time="3.339" classname="Test Cases/Setting - Category/Positif/Toggle - Hierarki Kategori" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:15:34 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/Toggle - Hierarki Kategori: Test Cases/Setting - Category/Positif/Toggle - Hierarki Kategori
+
+10-09-2025T15:15:34 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Open Hierarchy")): Object: 'Object Repository/Setting - Category/Button - Open Hierarchy' is clicked on
+
+10-09-2025T15:15:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Open Hierarchy' is clicked on
+
+10-09-2025T15:15:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+10-09-2025T15:15:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+10-09-2025T15:15:35 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Open Hierarchy")): Object: 'Object Repository/Setting - Category/Button - Open Hierarchy' is clicked on
+
+10-09-2025T15:15:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Open Hierarchy' is clicked on
+
+10-09-2025T15:15:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+10-09-2025T15:15:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+10-09-2025T15:15:37 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Open Hierarchy")): Object: 'Object Repository/Setting - Category/Button - Open Hierarchy' is clicked on
+
+10-09-2025T15:15:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Open Hierarchy' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Nama Tidak Diisi" time="3.977" classname="Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Nama Tidak Diisi" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:15:37 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Nama Tidak Diisi: Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Nama Tidak Diisi
+
+10-09-2025T15:15:37 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:15:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:15:38 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Create Sub Category")): Object: 'Object Repository/Setting - Category/Action Menu - Create Sub Category' is clicked on
+
+10-09-2025T15:15:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Create Sub Category' is clicked on
+
+10-09-2025T15:15:38 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:15:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:15:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Validator Message - Name Musnt Empty")): Object 'Object Repository/Setting - Category/Validator Message - Name Musnt Empty' is visible
+
+10-09-2025T15:15:41 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Validator Message - Name Musnt Empty' is visible
+
+10-09-2025T15:15:41 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:15:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Nama Sudah Ada" time="4.005" classname="Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Nama Sudah Ada" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:15:41 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Nama Sudah Ada: Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Nama Sudah Ada
+
+10-09-2025T15:15:41 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:15:42 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Create Sub Category")): Object: 'Object Repository/Setting - Category/Action Menu - Create Sub Category' is clicked on
+
+10-09-2025T15:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Create Sub Category' is clicked on
+
+10-09-2025T15:15:42 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Name"), "Default"): Text 'Default' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:15:44 - [MESSAGE][PASSED] - Text 'Default' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:15:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Validator Message - Name Already Exist")): Object 'Object Repository/Setting - Category/Validator Message - Name Already Exist' is visible
+
+10-09-2025T15:15:44 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Validator Message - Name Already Exist' is visible
+
+10-09-2025T15:15:44 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:15:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:15:45 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:15:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Nama Lebih dari 30 Karakter" time="4.117" classname="Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Nama Lebih dari 30 Karakter" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:15:45 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Nama Lebih dari 30 Karakter: Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Nama Lebih dari 30 Karakter
+
+10-09-2025T15:15:45 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:15:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:15:45 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Create Sub Category")): Object: 'Object Repository/Setting - Category/Action Menu - Create Sub Category' is clicked on
+
+10-09-2025T15:15:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Create Sub Category' is clicked on
+
+10-09-2025T15:15:46 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Name"), "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"): Text 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:15:48 - [MESSAGE][PASSED] - Text 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:15:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Validator Message - Name Max 30 Char")): Object 'Object Repository/Setting - Category/Validator Message - Name Max 30 Char' is visible
+
+10-09-2025T15:15:48 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Validator Message - Name Max 30 Char' is visible
+
+10-09-2025T15:15:48 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:15:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:15:49 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:15:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Kode Sudah Ada" time="4.552" classname="Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Kode Sudah Ada" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:15:49 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Kode Sudah Ada: Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Kode Sudah Ada
+
+10-09-2025T15:15:49 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:15:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:15:50 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Create Sub Category")): Object: 'Object Repository/Setting - Category/Action Menu - Create Sub Category' is clicked on
+
+10-09-2025T15:15:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Create Sub Category' is clicked on
+
+10-09-2025T15:15:50 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Code"), "0000"): Text '0000' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:15:52 - [MESSAGE][PASSED] - Text '0000' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:15:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Validator Message - Code Already Exist")): Object 'Object Repository/Setting - Category/Validator Message - Code Already Exist' is visible
+
+10-09-2025T15:15:53 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Validator Message - Code Already Exist' is visible
+
+10-09-2025T15:15:53 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:15:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:15:53 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Kode Lebih dari 4 Karakter" time="4.751" classname="Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Kode Lebih dari 4 Karakter" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:15:54 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Kode Lebih dari 4 Karakter: Test Cases/Setting - Category/Negatif/Create - Sub Kategori, Kode Lebih dari 4 Karakter
+
+10-09-2025T15:15:54 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:15:54 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Create Sub Category")): Object: 'Object Repository/Setting - Category/Action Menu - Create Sub Category' is clicked on
+
+10-09-2025T15:15:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Create Sub Category' is clicked on
+
+10-09-2025T15:15:55 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Code"), "ABCDEFGHIJK"): Text 'ABCDEFGHIJK' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:15:57 - [MESSAGE][PASSED] - Text 'ABCDEFGHIJK' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:15:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Validator Message - Code Max 4 Char")): Object 'Object Repository/Setting - Category/Validator Message - Code Max 4 Char' is visible
+
+10-09-2025T15:15:58 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Validator Message - Code Max 4 Char' is visible
+
+10-09-2025T15:15:58 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:15:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:15:58 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:15:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/Create - Sub Kategori, Klik Clear Field" time="5.576" classname="Test Cases/Setting - Category/Positif/Create - Sub Kategori, Klik Clear Field" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:15:58 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/Create - Sub Kategori, Klik Clear Field: Test Cases/Setting - Category/Positif/Create - Sub Kategori, Klik Clear Field
+
+10-09-2025T15:15:58 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:15:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:15:59 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Create Sub Category")): Object: 'Object Repository/Setting - Category/Action Menu - Create Sub Category' is clicked on
+
+10-09-2025T15:16:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Create Sub Category' is clicked on
+
+10-09-2025T15:16:00 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Name"), "ABCD"): Text 'ABCD' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:16:01 - [MESSAGE][PASSED] - Text 'ABCD' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:16:01 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Code"), "ABCD"): Text 'ABCD' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:16:02 - [MESSAGE][PASSED] - Text 'ABCD' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:16:02 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Clear Field")): Object: 'Object Repository/Setting - Category/Button - Clear Field' is clicked on
+
+10-09-2025T15:16:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Clear Field' is clicked on
+
+10-09-2025T15:16:03 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:16:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:16:03 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:16:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/Create - Sub Kategori, Ceklis Stay On This Form" time="7.574" classname="Test Cases/Setting - Category/Positif/Create - Sub Kategori, Ceklis Stay On This Form" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:16:04 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/Create - Sub Kategori, Ceklis Stay On This Form: Test Cases/Setting - Category/Positif/Create - Sub Kategori, Ceklis Stay On This Form
+
+10-09-2025T15:16:04 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Sub Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Sub Category Test' is clicked on
+
+10-09-2025T15:16:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Sub Category Test' is clicked on
+
+10-09-2025T15:16:05 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Create Sub Category")): Object: 'Object Repository/Setting - Category/Action Menu - Create Sub Category' is clicked on
+
+10-09-2025T15:16:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Create Sub Category' is clicked on
+
+10-09-2025T15:16:05 - [TEST_STEP][PASSED] - check(findTestObject("Setting - Category/Checkbox - Stay on This Form")): Object 'Object Repository/Setting - Category/Checkbox - Stay on This Form' is checked
+
+10-09-2025T15:16:07 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Checkbox - Stay on This Form' is checked
+
+10-09-2025T15:16:07 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Name"), "Level 3 Category"): Text 'Level 3 Category' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:16:07 - [MESSAGE][PASSED] - Text 'Level 3 Category' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:16:07 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Code"), "LVL3"): Text 'LVL3' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:16:08 - [MESSAGE][PASSED] - Text 'LVL3' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:16:08 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:16:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:16:09 - [TEST_STEP][PASSED] - if (verifyElementText(findTestObject("Setting - Category/Toast - Success"), "Success, category has been created.", STOP_ON_FAILURE)): null
+
+10-09-2025T15:16:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Setting - Category/Toast - Success' are matched.
+
+10-09-2025T15:16:11 - [TEST_STEP][PASSED] - Log_Status = "Create": null
+
+10-09-2025T15:16:11 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/View Log - Kategori" time="22.584" classname="Test Cases/Setting - Category/Positif/View Log - Kategori" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) desti...":"null"}]]></property>
+         </properties>
+         <system-out><![CDATA[10-09-2025T15:16:12 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/View Log - Kategori: Test Cases/Setting - Category/Positif/View Log - Kategori
+
+10-09-2025T15:16:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+10-09-2025T15:16:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+10-09-2025T15:16:14 - [TEST_STEP][PASSED] - comment("Setting > Category > View Log"): Setting > Category > View Log
+
+10-09-2025T15:16:14 - [MESSAGE][INFO] - Setting > Category > View Log
+
+10-09-2025T15:16:14 - [TEST_STEP][PASSED] - LogsCheck.checkCategoryViewLog(Log_Status): LogsCheck.checkCategoryViewLog is PASSED
+
+10-09-2025T15:16:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - View Log' is clicked on
+
+10-09-2025T15:16:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Category/Log Action - Setting _ Category _ View Log' is: 'Create'
+
+10-09-2025T15:16:15 - [MESSAGE][PASSED] - Actual text 'Create' and expected text 'Create' are matched 
+
+10-09-2025T15:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - Close Log' is clicked on
+
+10-09-2025T15:16:15 - [MESSAGE][PASSED] - LogsCheck.checkCategoryViewLog is PASSED
+
+10-09-2025T15:16:15 - [TEST_STEP][PASSED] - comment("Report & Log > Activity Log > User Actions"): Report & Log > Activity Log > User Actions
+
+10-09-2025T15:16:15 - [MESSAGE][INFO] - Report & Log > Activity Log > User Actions
+
+10-09-2025T15:16:15 - [TEST_STEP][PASSED] - LogsCheck.checkLogReportandLog(Log_Status): LogsCheck.checkLogReportandLog is PASSED
+
+10-09-2025T15:16:16 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Report and Log' is clicked on
+
+10-09-2025T15:16:16 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - Activity Log' is clicked on
+
+10-09-2025T15:16:18 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Activity Log_User Actions' is clicked on
+
+10-09-2025T15:16:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Report and Log _ Activity Log _ User Actions' is: 'Create'
+
+10-09-2025T15:16:19 - [MESSAGE][PASSED] - Actual text 'Create' and expected text 'Create' are matched 
+
+10-09-2025T15:16:19 - [MESSAGE][PASSED] - LogsCheck.checkLogReportandLog is PASSED
+
+10-09-2025T15:16:19 - [TEST_STEP][PASSED] - comment("Profile > System Log"): Profile > System Log
+
+10-09-2025T15:16:19 - [MESSAGE][INFO] - Profile > System Log
+
+10-09-2025T15:16:19 - [TEST_STEP][PASSED] - LogsCheck.checkLogProfile(Log_Status): LogsCheck.checkLogProfile is PASSED
+
+10-09-2025T15:16:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - Profile' is clicked on
+
+10-09-2025T15:16:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Action Menu - My Profile' is clicked on
+
+10-09-2025T15:16:21 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Profile_System Log' is clicked on
+
+10-09-2025T15:16:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Profile _ System Log' is: 'Create'
+
+10-09-2025T15:16:22 - [MESSAGE][PASSED] - Actual text 'Create' and expected text 'Create' are matched 
+
+10-09-2025T15:16:23 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Icon - Tag Samurai' is clicked on
+
+10-09-2025T15:16:23 - [MESSAGE][PASSED] - LogsCheck.checkLogProfile is PASSED
+
+10-09-2025T15:16:23 - [TEST_STEP][PASSED] - comment("Setting > User > Detail > System Log"): Setting > User > Detail > System Log
+
+10-09-2025T15:16:23 - [MESSAGE][INFO] - Setting > User > Detail > System Log
+
+10-09-2025T15:16:23 - [TEST_STEP][PASSED] - LogsCheck.checkLogUserDetail(Log_Status): LogsCheck.checkLogUserDetail is PASSED
+
+10-09-2025T15:16:24 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Setting' is clicked on
+
+10-09-2025T15:16:25 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - User' is clicked on
+
+10-09-2025T15:16:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Single Action Button - Default User' is clicked on
+
+10-09-2025T15:16:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Action Menu - User Detail' is clicked on
+
+10-09-2025T15:16:30 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Profile_System Log' is clicked on
+
+10-09-2025T15:16:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Profile _ System Log' is: 'Create'
+
+10-09-2025T15:16:31 - [MESSAGE][PASSED] - Actual text 'Create' and expected text 'Create' are matched 
+
+10-09-2025T15:16:31 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Icon - Tag Samurai' is clicked on
+
+10-09-2025T15:16:31 - [MESSAGE][PASSED] - LogsCheck.checkLogUserDetail is PASSED
+
+10-09-2025T15:16:31 - [TEST_STEP][PASSED] - Common_Utils.navigateToCategory(): Common_Utils.navigateToCategory is PASSED
+
+10-09-2025T15:16:32 - [MESSAGE][PASSED] - Refresh successfully
+
+10-09-2025T15:16:34 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Setting' is clicked on
+
+10-09-2025T15:16:34 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - Category' is clicked on
+
+10-09-2025T15:16:34 - [MESSAGE][PASSED] - Common_Utils.navigateToCategory is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Hierarki Sub Kategori Lebih dari 3" time="3.207" classname="Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Hierarki Sub Kategori Lebih dari 3" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:16:34 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Hierarki Sub Kategori Lebih dari 3: Test Cases/Setting - Category/Negatif/Create - Kategori Baru, Hierarki Sub Kategori Lebih dari 3
+
+10-09-2025T15:16:34 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Chevron - Category Test")): Object: 'Object Repository/Setting - Category/Chevron - Category Test' is clicked on
+
+10-09-2025T15:16:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Chevron - Category Test' is clicked on
+
+10-09-2025T15:16:36 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Chevron - Sub Category Test")): Object: 'Object Repository/Setting - Category/Chevron - Sub Category Test' is clicked on
+
+10-09-2025T15:16:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Chevron - Sub Category Test' is clicked on
+
+10-09-2025T15:16:36 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Level 3 Category")): Object: 'Object Repository/Setting - Category/Single Action Button - Level 3 Category' is clicked on
+
+10-09-2025T15:16:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Level 3 Category' is clicked on
+
+10-09-2025T15:16:37 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Setting - Category/Action Menu - Create Sub Category"), 0): Web element with id: 'Object Repository/Setting - Category/Action Menu - Create Sub Category' located by 'By.xpath: //a[(text() = 'Create Sub Group' or . = 'Create Sub Category')]' is not present after '10' second(s)
+
+10-09-2025T15:16:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+10-09-2025T15:16:37 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Setting - Category/Action Menu - Create Sub Category' located by 'By.xpath: //a[(text() = 'Create Sub Group' or . = 'Create Sub Category')]' is not present after '10' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/Update - Sub Kategori" time="5.972" classname="Test Cases/Setting - Category/Positif/Update - Sub Kategori" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:16:37 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/Update - Sub Kategori: Test Cases/Setting - Category/Positif/Update - Sub Kategori
+
+10-09-2025T15:16:37 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Sub Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Sub Category Test' is clicked on
+
+10-09-2025T15:16:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Sub Category Test' is clicked on
+
+10-09-2025T15:16:38 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Edit Category")): Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:16:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:16:38 - [TEST_STEP][PASSED] - Common_Utils.deleteField(findTestObject("Setting - Category/Textbox - Category Name")): Common_Utils.deleteField is PASSED
+
+10-09-2025T15:16:40 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:16:40 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:16:40 - [MESSAGE][PASSED] - Common_Utils.deleteField is PASSED
+
+10-09-2025T15:16:40 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Name"), "Sub Category Tests"): Text 'Sub Category Tests' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:16:41 - [MESSAGE][PASSED] - Text 'Sub Category Tests' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:16:41 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:16:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:16:42 - [TEST_STEP][PASSED] - if (verifyElementText(findTestObject("Setting - Category/Toast - Success"), "Success, category has been edited.", STOP_ON_FAILURE)): null
+
+10-09-2025T15:16:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Setting - Category/Toast - Success' are matched.
+
+10-09-2025T15:16:43 - [TEST_STEP][PASSED] - Log_Status = "Edit": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/View Log - Kategori" time="22.183" classname="Test Cases/Setting - Category/Positif/View Log - Kategori" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) desti...":"null"}]]></property>
+         </properties>
+         <system-out><![CDATA[10-09-2025T15:16:43 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/View Log - Kategori: Test Cases/Setting - Category/Positif/View Log - Kategori
+
+10-09-2025T15:16:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+10-09-2025T15:16:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+10-09-2025T15:16:45 - [TEST_STEP][PASSED] - comment("Setting > Category > View Log"): Setting > Category > View Log
+
+10-09-2025T15:16:45 - [MESSAGE][INFO] - Setting > Category > View Log
+
+10-09-2025T15:16:45 - [TEST_STEP][PASSED] - LogsCheck.checkCategoryViewLog(Log_Status): LogsCheck.checkCategoryViewLog is PASSED
+
+10-09-2025T15:16:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - View Log' is clicked on
+
+10-09-2025T15:16:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Category/Log Action - Setting _ Category _ View Log' is: 'Edit'
+
+10-09-2025T15:16:47 - [MESSAGE][PASSED] - Actual text 'Edit' and expected text 'Edit' are matched 
+
+10-09-2025T15:16:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - Close Log' is clicked on
+
+10-09-2025T15:16:47 - [MESSAGE][PASSED] - LogsCheck.checkCategoryViewLog is PASSED
+
+10-09-2025T15:16:47 - [TEST_STEP][PASSED] - comment("Report & Log > Activity Log > User Actions"): Report & Log > Activity Log > User Actions
+
+10-09-2025T15:16:47 - [MESSAGE][INFO] - Report & Log > Activity Log > User Actions
+
+10-09-2025T15:16:47 - [TEST_STEP][PASSED] - LogsCheck.checkLogReportandLog(Log_Status): LogsCheck.checkLogReportandLog is PASSED
+
+10-09-2025T15:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Report and Log' is clicked on
+
+10-09-2025T15:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - Activity Log' is clicked on
+
+10-09-2025T15:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Activity Log_User Actions' is clicked on
+
+10-09-2025T15:16:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Report and Log _ Activity Log _ User Actions' is: 'Edit'
+
+10-09-2025T15:16:51 - [MESSAGE][PASSED] - Actual text 'Edit' and expected text 'Edit' are matched 
+
+10-09-2025T15:16:51 - [MESSAGE][PASSED] - LogsCheck.checkLogReportandLog is PASSED
+
+10-09-2025T15:16:51 - [TEST_STEP][PASSED] - comment("Profile > System Log"): Profile > System Log
+
+10-09-2025T15:16:51 - [MESSAGE][INFO] - Profile > System Log
+
+10-09-2025T15:16:51 - [TEST_STEP][PASSED] - LogsCheck.checkLogProfile(Log_Status): LogsCheck.checkLogProfile is PASSED
+
+10-09-2025T15:16:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - Profile' is clicked on
+
+10-09-2025T15:16:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Action Menu - My Profile' is clicked on
+
+10-09-2025T15:16:53 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Profile_System Log' is clicked on
+
+10-09-2025T15:16:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Profile _ System Log' is: 'Edit'
+
+10-09-2025T15:16:54 - [MESSAGE][PASSED] - Actual text 'Edit' and expected text 'Edit' are matched 
+
+10-09-2025T15:16:55 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Icon - Tag Samurai' is clicked on
+
+10-09-2025T15:16:55 - [MESSAGE][PASSED] - LogsCheck.checkLogProfile is PASSED
+
+10-09-2025T15:16:55 - [TEST_STEP][PASSED] - comment("Setting > User > Detail > System Log"): Setting > User > Detail > System Log
+
+10-09-2025T15:16:55 - [MESSAGE][INFO] - Setting > User > Detail > System Log
+
+10-09-2025T15:16:55 - [TEST_STEP][PASSED] - LogsCheck.checkLogUserDetail(Log_Status): LogsCheck.checkLogUserDetail is PASSED
+
+10-09-2025T15:16:56 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Setting' is clicked on
+
+10-09-2025T15:16:57 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - User' is clicked on
+
+10-09-2025T15:16:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Single Action Button - Default User' is clicked on
+
+10-09-2025T15:17:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Action Menu - User Detail' is clicked on
+
+10-09-2025T15:17:02 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Profile_System Log' is clicked on
+
+10-09-2025T15:17:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Profile _ System Log' is: 'Edit'
+
+10-09-2025T15:17:03 - [MESSAGE][PASSED] - Actual text 'Edit' and expected text 'Edit' are matched 
+
+10-09-2025T15:17:03 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Icon - Tag Samurai' is clicked on
+
+10-09-2025T15:17:03 - [MESSAGE][PASSED] - LogsCheck.checkLogUserDetail is PASSED
+
+10-09-2025T15:17:03 - [TEST_STEP][PASSED] - Common_Utils.navigateToCategory(): Common_Utils.navigateToCategory is PASSED
+
+10-09-2025T15:17:03 - [MESSAGE][PASSED] - Refresh successfully
+
+10-09-2025T15:17:05 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Setting' is clicked on
+
+10-09-2025T15:17:06 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - Category' is clicked on
+
+10-09-2025T15:17:06 - [MESSAGE][PASSED] - Common_Utils.navigateToCategory is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Field Nama Kosong" time="5.69" classname="Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Field Nama Kosong" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:17:06 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Field Nama Kosong: Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Field Nama Kosong
+
+10-09-2025T15:17:06 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Chevron - Category Test")): Object: 'Object Repository/Setting - Category/Chevron - Category Test' is clicked on
+
+10-09-2025T15:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Chevron - Category Test' is clicked on
+
+10-09-2025T15:17:07 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Sub Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Sub Category Test' is clicked on
+
+10-09-2025T15:17:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Sub Category Test' is clicked on
+
+10-09-2025T15:17:08 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Edit Category")): Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:17:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:17:08 - [TEST_STEP][PASSED] - Common_Utils.deleteField(findTestObject("Setting - Category/Textbox - Category Name")): Common_Utils.deleteField is PASSED
+
+10-09-2025T15:17:10 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:17:10 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:17:10 - [MESSAGE][PASSED] - Common_Utils.deleteField is PASSED
+
+10-09-2025T15:17:10 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:17:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:17:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Validator Message - Name Musnt Empty")): Object 'Object Repository/Setting - Category/Validator Message - Name Musnt Empty' is visible
+
+10-09-2025T15:17:11 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Validator Message - Name Musnt Empty' is visible
+
+10-09-2025T15:17:11 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:17:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Nama Sudah Ada" time="4.647" classname="Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Nama Sudah Ada" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:17:11 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Nama Sudah Ada: Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Nama Sudah Ada
+
+10-09-2025T15:17:11 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Sub Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Sub Category Test' is clicked on
+
+10-09-2025T15:17:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Sub Category Test' is clicked on
+
+10-09-2025T15:17:12 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Edit Category")): Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:17:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:17:12 - [TEST_STEP][PASSED] - Common_Utils.deleteField(findTestObject("Setting - Category/Textbox - Category Name")): Common_Utils.deleteField is PASSED
+
+10-09-2025T15:17:13 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:17:14 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:17:14 - [MESSAGE][PASSED] - Common_Utils.deleteField is PASSED
+
+10-09-2025T15:17:14 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Name"), "Default"): Text 'Default' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:17:14 - [MESSAGE][PASSED] - Text 'Default' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:17:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Validator Message - Name Already Exist")): Object 'Object Repository/Setting - Category/Validator Message - Name Already Exist' is visible
+
+10-09-2025T15:17:15 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Validator Message - Name Already Exist' is visible
+
+10-09-2025T15:17:15 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:17:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:17:16 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:17:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Nama Diisi All" time="5.134" classname="Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Nama Diisi All" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:17:16 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Nama Diisi All: Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Nama Diisi All
+
+10-09-2025T15:17:16 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Sub Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Sub Category Test' is clicked on
+
+10-09-2025T15:17:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Sub Category Test' is clicked on
+
+10-09-2025T15:17:16 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Edit Category")): Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:17:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:17:17 - [TEST_STEP][PASSED] - Common_Utils.deleteField(findTestObject("Setting - Category/Textbox - Category Name")): Common_Utils.deleteField is PASSED
+
+10-09-2025T15:17:18 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:17:19 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:17:19 - [MESSAGE][PASSED] - Common_Utils.deleteField is PASSED
+
+10-09-2025T15:17:19 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Name"), "All"): Text 'All' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:17:20 - [MESSAGE][PASSED] - Text 'All' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:17:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Validator Message - Name Already Exist")): Object 'Object Repository/Setting - Category/Validator Message - Name Already Exist' is visible
+
+10-09-2025T15:17:20 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Validator Message - Name Already Exist' is visible
+
+10-09-2025T15:17:20 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:17:21 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Nama Lebih dari 30 Karakter" time="4.12" classname="Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Nama Lebih dari 30 Karakter" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:17:21 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Nama Lebih dari 30 Karakter: Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Nama Lebih dari 30 Karakter
+
+10-09-2025T15:17:21 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Sub Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Sub Category Test' is clicked on
+
+10-09-2025T15:17:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Sub Category Test' is clicked on
+
+10-09-2025T15:17:22 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Edit Category")): Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:17:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:17:22 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Name"), "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"): Text 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:17:24 - [MESSAGE][PASSED] - Text 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:17:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Validator Message - Name Max 30 Char")): Object 'Object Repository/Setting - Category/Validator Message - Name Max 30 Char' is visible
+
+10-09-2025T15:17:24 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Validator Message - Name Max 30 Char' is visible
+
+10-09-2025T15:17:24 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:17:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:17:25 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:17:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Kode Sudah Ada" time="4.665" classname="Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Kode Sudah Ada" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:17:25 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Kode Sudah Ada: Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Kode Sudah Ada
+
+10-09-2025T15:17:25 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Sub Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Sub Category Test' is clicked on
+
+10-09-2025T15:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Sub Category Test' is clicked on
+
+10-09-2025T15:17:26 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Edit Category")): Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:17:26 - [TEST_STEP][PASSED] - Common_Utils.deleteField(findTestObject("Setting - Category/Textbox - Category Code")): Common_Utils.deleteField is PASSED
+
+10-09-2025T15:17:27 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:17:28 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:17:28 - [MESSAGE][PASSED] - Common_Utils.deleteField is PASSED
+
+10-09-2025T15:17:28 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Code"), "0000"): Text '0000' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:17:28 - [MESSAGE][PASSED] - Text '0000' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:17:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Validator Message - Code Already Exist")): Object 'Object Repository/Setting - Category/Validator Message - Code Already Exist' is visible
+
+10-09-2025T15:17:29 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Validator Message - Code Already Exist' is visible
+
+10-09-2025T15:17:29 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:17:29 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:17:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Kode Lebih dari 4 Karakter" time="4.916" classname="Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Kode Lebih dari 4 Karakter" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:17:30 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Kode Lebih dari 4 Karakter: Test Cases/Setting - Category/Negatif/Update - Sub Kategori, Kode Lebih dari 4 Karakter
+
+10-09-2025T15:17:30 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Sub Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Sub Category Test' is clicked on
+
+10-09-2025T15:17:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Sub Category Test' is clicked on
+
+10-09-2025T15:17:30 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Edit Category")): Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:17:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:17:31 - [TEST_STEP][PASSED] - Common_Utils.deleteField(findTestObject("Setting - Category/Textbox - Category Code")): Common_Utils.deleteField is PASSED
+
+10-09-2025T15:17:32 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:17:33 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:17:33 - [MESSAGE][PASSED] - Common_Utils.deleteField is PASSED
+
+10-09-2025T15:17:33 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Code"), "TAMAGOCHI"): Text 'TAMAGOCHI' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:17:34 - [MESSAGE][PASSED] - Text 'TAMAGOCHI' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:17:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Setting - Category/Validator Message - Code Max 4 Char")): Object 'Object Repository/Setting - Category/Validator Message - Code Max 4 Char' is visible
+
+10-09-2025T15:17:34 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Validator Message - Code Max 4 Char' is visible
+
+10-09-2025T15:17:34 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:17:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:17:34 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:17:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/Update - Sub Kategori, Klik Clear Field" time="3.225" classname="Test Cases/Setting - Category/Positif/Update - Sub Kategori, Klik Clear Field" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:17:35 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/Update - Sub Kategori, Klik Clear Field: Test Cases/Setting - Category/Positif/Update - Sub Kategori, Klik Clear Field
+
+10-09-2025T15:17:35 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Sub Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Sub Category Test' is clicked on
+
+10-09-2025T15:17:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Sub Category Test' is clicked on
+
+10-09-2025T15:17:35 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Edit Category")): Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:17:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Edit Category' is clicked on
+
+10-09-2025T15:17:36 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Clear Field")): Object: 'Object Repository/Setting - Category/Button - Clear Field' is clicked on
+
+10-09-2025T15:17:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Clear Field' is clicked on
+
+10-09-2025T15:17:37 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:17:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:17:37 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Cancel Create or Edit")): Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on
+
+10-09-2025T15:17:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Cancel Create or Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/Delete - Sub Kategori Memiliki Asset" time="3.671" classname="Test Cases/Setting - Category/Positif/Delete - Sub Kategori Memiliki Asset" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:19:14 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/Delete - Sub Kategori Memiliki Asset: Test Cases/Setting - Category/Positif/Delete - Sub Kategori Memiliki Asset
+
+10-09-2025T15:19:14 - [TEST_STEP][PASSED] - comment("Anggap Sub Group Memiliki Asset"): Anggap Sub Group Memiliki Asset
+
+10-09-2025T15:19:14 - [MESSAGE][INFO] - Anggap Sub Group Memiliki Asset
+
+10-09-2025T15:19:14 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Chevron - Sub Category Test")): Object: 'Object Repository/Setting - Category/Chevron - Sub Category Test' is clicked on
+
+10-09-2025T15:19:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Chevron - Sub Category Test' is clicked on
+
+10-09-2025T15:19:15 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Level 3 Category")): Object: 'Object Repository/Setting - Category/Single Action Button - Level 3 Category' is clicked on
+
+10-09-2025T15:19:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Level 3 Category' is clicked on
+
+10-09-2025T15:19:15 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Delete Category")): Object: 'Object Repository/Setting - Category/Action Menu - Delete Category' is clicked on
+
+10-09-2025T15:19:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Delete Category' is clicked on
+
+10-09-2025T15:19:16 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Confirm Delete")): Object: 'Object Repository/Setting - Category/Button - Confirm Delete' is clicked on
+
+10-09-2025T15:19:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Confirm Delete' is clicked on
+
+10-09-2025T15:19:16 - [TEST_STEP][PASSED] - if (verifyElementText(findTestObject("Setting - Category/Toast - Success"), "Success, category has been deleted.", STOP_ON_FAILURE)): null
+
+10-09-2025T15:19:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Setting - Category/Toast - Success' are matched.
+
+10-09-2025T15:19:18 - [TEST_STEP][PASSED] - Log_Status = "Delete": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/View Log - Kategori" time="22.76" classname="Test Cases/Setting - Category/Positif/View Log - Kategori" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) desti...":"null"}]]></property>
+         </properties>
+         <system-out><![CDATA[10-09-2025T15:19:18 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/View Log - Kategori: Test Cases/Setting - Category/Positif/View Log - Kategori
+
+10-09-2025T15:19:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+10-09-2025T15:19:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+10-09-2025T15:19:20 - [TEST_STEP][PASSED] - comment("Setting > Category > View Log"): Setting > Category > View Log
+
+10-09-2025T15:19:20 - [MESSAGE][INFO] - Setting > Category > View Log
+
+10-09-2025T15:19:20 - [TEST_STEP][PASSED] - LogsCheck.checkCategoryViewLog(Log_Status): LogsCheck.checkCategoryViewLog is PASSED
+
+10-09-2025T15:19:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - View Log' is clicked on
+
+10-09-2025T15:19:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Category/Log Action - Setting _ Category _ View Log' is: 'Delete'
+
+10-09-2025T15:19:21 - [MESSAGE][PASSED] - Actual text 'Delete' and expected text 'Delete' are matched 
+
+10-09-2025T15:19:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - Close Log' is clicked on
+
+10-09-2025T15:19:22 - [MESSAGE][PASSED] - LogsCheck.checkCategoryViewLog is PASSED
+
+10-09-2025T15:19:22 - [TEST_STEP][PASSED] - comment("Report & Log > Activity Log > User Actions"): Report & Log > Activity Log > User Actions
+
+10-09-2025T15:19:22 - [MESSAGE][INFO] - Report & Log > Activity Log > User Actions
+
+10-09-2025T15:19:22 - [TEST_STEP][PASSED] - LogsCheck.checkLogReportandLog(Log_Status): LogsCheck.checkLogReportandLog is PASSED
+
+10-09-2025T15:19:22 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Report and Log' is clicked on
+
+10-09-2025T15:19:23 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - Activity Log' is clicked on
+
+10-09-2025T15:19:24 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Activity Log_User Actions' is clicked on
+
+10-09-2025T15:19:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Report and Log _ Activity Log _ User Actions' is: 'Delete'
+
+10-09-2025T15:19:25 - [MESSAGE][PASSED] - Actual text 'Delete' and expected text 'Delete' are matched 
+
+10-09-2025T15:19:25 - [MESSAGE][PASSED] - LogsCheck.checkLogReportandLog is PASSED
+
+10-09-2025T15:19:25 - [TEST_STEP][PASSED] - comment("Profile > System Log"): Profile > System Log
+
+10-09-2025T15:19:25 - [MESSAGE][INFO] - Profile > System Log
+
+10-09-2025T15:19:25 - [TEST_STEP][PASSED] - LogsCheck.checkLogProfile(Log_Status): LogsCheck.checkLogProfile is PASSED
+
+10-09-2025T15:19:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - Profile' is clicked on
+
+10-09-2025T15:19:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Action Menu - My Profile' is clicked on
+
+10-09-2025T15:19:28 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Profile_System Log' is clicked on
+
+10-09-2025T15:19:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Profile _ System Log' is: 'Delete'
+
+10-09-2025T15:19:29 - [MESSAGE][PASSED] - Actual text 'Delete' and expected text 'Delete' are matched 
+
+10-09-2025T15:19:29 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Icon - Tag Samurai' is clicked on
+
+10-09-2025T15:19:29 - [MESSAGE][PASSED] - LogsCheck.checkLogProfile is PASSED
+
+10-09-2025T15:19:29 - [TEST_STEP][PASSED] - comment("Setting > User > Detail > System Log"): Setting > User > Detail > System Log
+
+10-09-2025T15:19:29 - [MESSAGE][INFO] - Setting > User > Detail > System Log
+
+10-09-2025T15:19:29 - [TEST_STEP][PASSED] - LogsCheck.checkLogUserDetail(Log_Status): LogsCheck.checkLogUserDetail is PASSED
+
+10-09-2025T15:19:31 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Setting' is clicked on
+
+10-09-2025T15:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - User' is clicked on
+
+10-09-2025T15:19:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Single Action Button - Default User' is clicked on
+
+10-09-2025T15:19:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Action Menu - User Detail' is clicked on
+
+10-09-2025T15:19:36 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Profile_System Log' is clicked on
+
+10-09-2025T15:19:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Profile _ System Log' is: 'Delete'
+
+10-09-2025T15:19:37 - [MESSAGE][PASSED] - Actual text 'Delete' and expected text 'Delete' are matched 
+
+10-09-2025T15:19:38 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Icon - Tag Samurai' is clicked on
+
+10-09-2025T15:19:38 - [MESSAGE][PASSED] - LogsCheck.checkLogUserDetail is PASSED
+
+10-09-2025T15:19:38 - [TEST_STEP][PASSED] - Common_Utils.navigateToCategory(): Common_Utils.navigateToCategory is PASSED
+
+10-09-2025T15:19:38 - [MESSAGE][PASSED] - Refresh successfully
+
+10-09-2025T15:19:40 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Setting' is clicked on
+
+10-09-2025T15:19:41 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - Category' is clicked on
+
+10-09-2025T15:19:41 - [MESSAGE][PASSED] - Common_Utils.navigateToCategory is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/Delete - Sub Kategori" time="5.3" classname="Test Cases/Setting - Category/Positif/Delete - Sub Kategori" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:19:41 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/Delete - Sub Kategori: Test Cases/Setting - Category/Positif/Delete - Sub Kategori
+
+10-09-2025T15:19:41 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Chevron - Category Test")): Object: 'Object Repository/Setting - Category/Chevron - Category Test' is clicked on
+
+10-09-2025T15:19:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Chevron - Category Test' is clicked on
+
+10-09-2025T15:19:43 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Sub Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Sub Category Test' is clicked on
+
+10-09-2025T15:19:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Sub Category Test' is clicked on
+
+10-09-2025T15:19:43 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Delete Category")): Object: 'Object Repository/Setting - Category/Action Menu - Delete Category' is clicked on
+
+10-09-2025T15:19:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Delete Category' is clicked on
+
+10-09-2025T15:19:44 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Confirm Delete")): Object: 'Object Repository/Setting - Category/Button - Confirm Delete' is clicked on
+
+10-09-2025T15:19:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Confirm Delete' is clicked on
+
+10-09-2025T15:19:45 - [TEST_STEP][PASSED] - if (verifyElementText(findTestObject("Setting - Category/Toast - Success"), "Success, category has been deleted.", STOP_ON_FAILURE)): null
+
+10-09-2025T15:19:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Setting - Category/Toast - Success' are matched.
+
+10-09-2025T15:19:46 - [TEST_STEP][PASSED] - Log_Status = "Delete": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/View Log - Kategori" time="23.139" classname="Test Cases/Setting - Category/Positif/View Log - Kategori" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) desti...":"null"}]]></property>
+         </properties>
+         <system-out><![CDATA[10-09-2025T15:19:46 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/View Log - Kategori: Test Cases/Setting - Category/Positif/View Log - Kategori
+
+10-09-2025T15:19:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+10-09-2025T15:19:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+10-09-2025T15:19:48 - [TEST_STEP][PASSED] - comment("Setting > Category > View Log"): Setting > Category > View Log
+
+10-09-2025T15:19:48 - [MESSAGE][INFO] - Setting > Category > View Log
+
+10-09-2025T15:19:48 - [TEST_STEP][PASSED] - LogsCheck.checkCategoryViewLog(Log_Status): LogsCheck.checkCategoryViewLog is PASSED
+
+10-09-2025T15:19:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - View Log' is clicked on
+
+10-09-2025T15:19:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Category/Log Action - Setting _ Category _ View Log' is: 'Delete'
+
+10-09-2025T15:19:49 - [MESSAGE][PASSED] - Actual text 'Delete' and expected text 'Delete' are matched 
+
+10-09-2025T15:19:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - Close Log' is clicked on
+
+10-09-2025T15:19:50 - [MESSAGE][PASSED] - LogsCheck.checkCategoryViewLog is PASSED
+
+10-09-2025T15:19:50 - [TEST_STEP][PASSED] - comment("Report & Log > Activity Log > User Actions"): Report & Log > Activity Log > User Actions
+
+10-09-2025T15:19:50 - [MESSAGE][INFO] - Report & Log > Activity Log > User Actions
+
+10-09-2025T15:19:50 - [TEST_STEP][PASSED] - LogsCheck.checkLogReportandLog(Log_Status): LogsCheck.checkLogReportandLog is PASSED
+
+10-09-2025T15:19:50 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Report and Log' is clicked on
+
+10-09-2025T15:19:51 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - Activity Log' is clicked on
+
+10-09-2025T15:19:52 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Activity Log_User Actions' is clicked on
+
+10-09-2025T15:19:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Report and Log _ Activity Log _ User Actions' is: 'Delete'
+
+10-09-2025T15:19:53 - [MESSAGE][PASSED] - Actual text 'Delete' and expected text 'Delete' are matched 
+
+10-09-2025T15:19:53 - [MESSAGE][PASSED] - LogsCheck.checkLogReportandLog is PASSED
+
+10-09-2025T15:19:53 - [TEST_STEP][PASSED] - comment("Profile > System Log"): Profile > System Log
+
+10-09-2025T15:19:53 - [MESSAGE][INFO] - Profile > System Log
+
+10-09-2025T15:19:53 - [TEST_STEP][PASSED] - LogsCheck.checkLogProfile(Log_Status): LogsCheck.checkLogProfile is PASSED
+
+10-09-2025T15:19:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - Profile' is clicked on
+
+10-09-2025T15:19:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Action Menu - My Profile' is clicked on
+
+10-09-2025T15:19:56 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Profile_System Log' is clicked on
+
+10-09-2025T15:19:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Profile _ System Log' is: 'Delete'
+
+10-09-2025T15:19:57 - [MESSAGE][PASSED] - Actual text 'Delete' and expected text 'Delete' are matched 
+
+10-09-2025T15:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Icon - Tag Samurai' is clicked on
+
+10-09-2025T15:19:57 - [MESSAGE][PASSED] - LogsCheck.checkLogProfile is PASSED
+
+10-09-2025T15:19:57 - [TEST_STEP][PASSED] - comment("Setting > User > Detail > System Log"): Setting > User > Detail > System Log
+
+10-09-2025T15:19:57 - [MESSAGE][INFO] - Setting > User > Detail > System Log
+
+10-09-2025T15:19:57 - [TEST_STEP][PASSED] - LogsCheck.checkLogUserDetail(Log_Status): LogsCheck.checkLogUserDetail is PASSED
+
+10-09-2025T15:19:59 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Setting' is clicked on
+
+10-09-2025T15:19:59 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - User' is clicked on
+
+10-09-2025T15:20:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Single Action Button - Default User' is clicked on
+
+10-09-2025T15:20:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Action Menu - User Detail' is clicked on
+
+10-09-2025T15:20:04 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Profile_System Log' is clicked on
+
+10-09-2025T15:20:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Profile _ System Log' is: 'Delete'
+
+10-09-2025T15:20:05 - [MESSAGE][PASSED] - Actual text 'Delete' and expected text 'Delete' are matched 
+
+10-09-2025T15:20:06 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Icon - Tag Samurai' is clicked on
+
+10-09-2025T15:20:06 - [MESSAGE][PASSED] - LogsCheck.checkLogUserDetail is PASSED
+
+10-09-2025T15:20:06 - [TEST_STEP][PASSED] - Common_Utils.navigateToCategory(): Common_Utils.navigateToCategory is PASSED
+
+10-09-2025T15:20:06 - [MESSAGE][PASSED] - Refresh successfully
+
+10-09-2025T15:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Setting' is clicked on
+
+10-09-2025T15:20:09 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - Category' is clicked on
+
+10-09-2025T15:20:09 - [MESSAGE][PASSED] - Common_Utils.navigateToCategory is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/Delete - Kategori" time="3.841" classname="Test Cases/Setting - Category/Positif/Delete - Kategori" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:20:09 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/Delete - Kategori: Test Cases/Setting - Category/Positif/Delete - Kategori
+
+10-09-2025T15:20:09 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:20:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:20:11 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Delete Category")): Object: 'Object Repository/Setting - Category/Action Menu - Delete Category' is clicked on
+
+10-09-2025T15:20:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Delete Category' is clicked on
+
+10-09-2025T15:20:11 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Confirm Delete")): Object: 'Object Repository/Setting - Category/Button - Confirm Delete' is clicked on
+
+10-09-2025T15:20:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Confirm Delete' is clicked on
+
+10-09-2025T15:20:12 - [TEST_STEP][PASSED] - if (verifyElementText(findTestObject("Setting - Category/Toast - Success"), "Success, category has been deleted.", STOP_ON_FAILURE)): null
+
+10-09-2025T15:20:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Setting - Category/Toast - Success' are matched.
+
+10-09-2025T15:20:13 - [TEST_STEP][PASSED] - Log_Status = "Delete": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/View Log - Kategori" time="22.742" classname="Test Cases/Setting - Category/Positif/View Log - Kategori" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) desti...":"null"}]]></property>
+         </properties>
+         <system-out><![CDATA[10-09-2025T15:20:13 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/View Log - Kategori: Test Cases/Setting - Category/Positif/View Log - Kategori
+
+10-09-2025T15:20:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+10-09-2025T15:20:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+10-09-2025T15:20:15 - [TEST_STEP][PASSED] - comment("Setting > Category > View Log"): Setting > Category > View Log
+
+10-09-2025T15:20:15 - [MESSAGE][INFO] - Setting > Category > View Log
+
+10-09-2025T15:20:15 - [TEST_STEP][PASSED] - LogsCheck.checkCategoryViewLog(Log_Status): LogsCheck.checkCategoryViewLog is PASSED
+
+10-09-2025T15:20:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - View Log' is clicked on
+
+10-09-2025T15:20:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Category/Log Action - Setting _ Category _ View Log' is: 'Delete'
+
+10-09-2025T15:20:16 - [MESSAGE][PASSED] - Actual text 'Delete' and expected text 'Delete' are matched 
+
+10-09-2025T15:20:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - Close Log' is clicked on
+
+10-09-2025T15:20:17 - [MESSAGE][PASSED] - LogsCheck.checkCategoryViewLog is PASSED
+
+10-09-2025T15:20:17 - [TEST_STEP][PASSED] - comment("Report & Log > Activity Log > User Actions"): Report & Log > Activity Log > User Actions
+
+10-09-2025T15:20:17 - [MESSAGE][INFO] - Report & Log > Activity Log > User Actions
+
+10-09-2025T15:20:17 - [TEST_STEP][PASSED] - LogsCheck.checkLogReportandLog(Log_Status): LogsCheck.checkLogReportandLog is PASSED
+
+10-09-2025T15:20:17 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Report and Log' is clicked on
+
+10-09-2025T15:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - Activity Log' is clicked on
+
+10-09-2025T15:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Activity Log_User Actions' is clicked on
+
+10-09-2025T15:20:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Report and Log _ Activity Log _ User Actions' is: 'Delete'
+
+10-09-2025T15:20:20 - [MESSAGE][PASSED] - Actual text 'Delete' and expected text 'Delete' are matched 
+
+10-09-2025T15:20:20 - [MESSAGE][PASSED] - LogsCheck.checkLogReportandLog is PASSED
+
+10-09-2025T15:20:20 - [TEST_STEP][PASSED] - comment("Profile > System Log"): Profile > System Log
+
+10-09-2025T15:20:20 - [MESSAGE][INFO] - Profile > System Log
+
+10-09-2025T15:20:20 - [TEST_STEP][PASSED] - LogsCheck.checkLogProfile(Log_Status): LogsCheck.checkLogProfile is PASSED
+
+10-09-2025T15:20:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - Profile' is clicked on
+
+10-09-2025T15:20:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Action Menu - My Profile' is clicked on
+
+10-09-2025T15:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Profile_System Log' is clicked on
+
+10-09-2025T15:20:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Profile _ System Log' is: 'Delete'
+
+10-09-2025T15:20:24 - [MESSAGE][PASSED] - Actual text 'Delete' and expected text 'Delete' are matched 
+
+10-09-2025T15:20:24 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Icon - Tag Samurai' is clicked on
+
+10-09-2025T15:20:24 - [MESSAGE][PASSED] - LogsCheck.checkLogProfile is PASSED
+
+10-09-2025T15:20:24 - [TEST_STEP][PASSED] - comment("Setting > User > Detail > System Log"): Setting > User > Detail > System Log
+
+10-09-2025T15:20:24 - [MESSAGE][INFO] - Setting > User > Detail > System Log
+
+10-09-2025T15:20:24 - [TEST_STEP][PASSED] - LogsCheck.checkLogUserDetail(Log_Status): LogsCheck.checkLogUserDetail is PASSED
+
+10-09-2025T15:20:26 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Setting' is clicked on
+
+10-09-2025T15:20:26 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - User' is clicked on
+
+10-09-2025T15:20:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Single Action Button - Default User' is clicked on
+
+10-09-2025T15:20:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Action Menu - User Detail' is clicked on
+
+10-09-2025T15:20:31 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Profile_System Log' is clicked on
+
+10-09-2025T15:20:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Profile _ System Log' is: 'Delete'
+
+10-09-2025T15:20:32 - [MESSAGE][PASSED] - Actual text 'Delete' and expected text 'Delete' are matched 
+
+10-09-2025T15:20:33 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Icon - Tag Samurai' is clicked on
+
+10-09-2025T15:20:33 - [MESSAGE][PASSED] - LogsCheck.checkLogUserDetail is PASSED
+
+10-09-2025T15:20:33 - [TEST_STEP][PASSED] - Common_Utils.navigateToCategory(): Common_Utils.navigateToCategory is PASSED
+
+10-09-2025T15:20:33 - [MESSAGE][PASSED] - Refresh successfully
+
+10-09-2025T15:20:35 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Setting' is clicked on
+
+10-09-2025T15:20:36 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - Category' is clicked on
+
+10-09-2025T15:20:36 - [MESSAGE][PASSED] - Common_Utils.navigateToCategory is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/Create - Kategori Baru, Masukkan Huruf Kecil di Field Code" time="6.944" classname="Test Cases/Setting - Category/Positif/Create - Kategori Baru, Masukkan Huruf Kecil di Field Code" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:22:21 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/Create - Kategori Baru, Masukkan Huruf Kecil di Field Code: Test Cases/Setting - Category/Positif/Create - Kategori Baru, Masukkan Huruf Kecil di Field Code
+
+10-09-2025T15:22:21 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - New Category")): Object: 'Object Repository/Setting - Category/Button - New Category' is clicked on
+
+10-09-2025T15:22:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - New Category' is clicked on
+
+10-09-2025T15:22:22 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Name"), "Category Test"): Text 'Category Test' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:22:24 - [MESSAGE][PASSED] - Text 'Category Test' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:22:24 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Code"), "test"): Text 'test' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:22:25 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:22:25 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:22:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:22:26 - [TEST_STEP][PASSED] - if (verifyElementText(findTestObject("Setting - Group/Toast - Success"), "Success, category has been created.", STOP_ON_FAILURE)): null
+
+10-09-2025T15:22:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Setting - Group/Toast - Success' are matched.
+
+10-09-2025T15:22:28 - [TEST_STEP][PASSED] - Log_Status = "Create": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/View Log - Kategori" time="22.636" classname="Test Cases/Setting - Category/Positif/View Log - Kategori" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) desti...":"null"}]]></property>
+         </properties>
+         <system-out><![CDATA[10-09-2025T15:22:28 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/View Log - Kategori: Test Cases/Setting - Category/Positif/View Log - Kategori
+
+10-09-2025T15:22:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+10-09-2025T15:22:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+10-09-2025T15:22:30 - [TEST_STEP][PASSED] - comment("Setting > Category > View Log"): Setting > Category > View Log
+
+10-09-2025T15:22:30 - [MESSAGE][INFO] - Setting > Category > View Log
+
+10-09-2025T15:22:30 - [TEST_STEP][PASSED] - LogsCheck.checkCategoryViewLog(Log_Status): LogsCheck.checkCategoryViewLog is PASSED
+
+10-09-2025T15:22:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - View Log' is clicked on
+
+10-09-2025T15:22:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Category/Log Action - Setting _ Category _ View Log' is: 'Create'
+
+10-09-2025T15:22:31 - [MESSAGE][PASSED] - Actual text 'Create' and expected text 'Create' are matched 
+
+10-09-2025T15:22:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - Close Log' is clicked on
+
+10-09-2025T15:22:31 - [MESSAGE][PASSED] - LogsCheck.checkCategoryViewLog is PASSED
+
+10-09-2025T15:22:31 - [TEST_STEP][PASSED] - comment("Report & Log > Activity Log > User Actions"): Report & Log > Activity Log > User Actions
+
+10-09-2025T15:22:31 - [MESSAGE][INFO] - Report & Log > Activity Log > User Actions
+
+10-09-2025T15:22:31 - [TEST_STEP][PASSED] - LogsCheck.checkLogReportandLog(Log_Status): LogsCheck.checkLogReportandLog is PASSED
+
+10-09-2025T15:22:32 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Report and Log' is clicked on
+
+10-09-2025T15:22:33 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - Activity Log' is clicked on
+
+10-09-2025T15:22:34 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Activity Log_User Actions' is clicked on
+
+10-09-2025T15:22:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Report and Log _ Activity Log _ User Actions' is: 'Create'
+
+10-09-2025T15:22:35 - [MESSAGE][PASSED] - Actual text 'Create' and expected text 'Create' are matched 
+
+10-09-2025T15:22:35 - [MESSAGE][PASSED] - LogsCheck.checkLogReportandLog is PASSED
+
+10-09-2025T15:22:35 - [TEST_STEP][PASSED] - comment("Profile > System Log"): Profile > System Log
+
+10-09-2025T15:22:35 - [MESSAGE][INFO] - Profile > System Log
+
+10-09-2025T15:22:35 - [TEST_STEP][PASSED] - LogsCheck.checkLogProfile(Log_Status): LogsCheck.checkLogProfile is PASSED
+
+10-09-2025T15:22:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - Profile' is clicked on
+
+10-09-2025T15:22:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Action Menu - My Profile' is clicked on
+
+10-09-2025T15:22:38 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Profile_System Log' is clicked on
+
+10-09-2025T15:22:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Profile _ System Log' is: 'Create'
+
+10-09-2025T15:22:38 - [MESSAGE][PASSED] - Actual text 'Create' and expected text 'Create' are matched 
+
+10-09-2025T15:22:39 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Icon - Tag Samurai' is clicked on
+
+10-09-2025T15:22:39 - [MESSAGE][PASSED] - LogsCheck.checkLogProfile is PASSED
+
+10-09-2025T15:22:39 - [TEST_STEP][PASSED] - comment("Setting > User > Detail > System Log"): Setting > User > Detail > System Log
+
+10-09-2025T15:22:39 - [MESSAGE][INFO] - Setting > User > Detail > System Log
+
+10-09-2025T15:22:39 - [TEST_STEP][PASSED] - LogsCheck.checkLogUserDetail(Log_Status): LogsCheck.checkLogUserDetail is PASSED
+
+10-09-2025T15:22:40 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Setting' is clicked on
+
+10-09-2025T15:22:41 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - User' is clicked on
+
+10-09-2025T15:22:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Single Action Button - Default User' is clicked on
+
+10-09-2025T15:22:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Action Menu - User Detail' is clicked on
+
+10-09-2025T15:22:46 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Profile_System Log' is clicked on
+
+10-09-2025T15:22:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Profile _ System Log' is: 'Create'
+
+10-09-2025T15:22:47 - [MESSAGE][PASSED] - Actual text 'Create' and expected text 'Create' are matched 
+
+10-09-2025T15:22:47 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Icon - Tag Samurai' is clicked on
+
+10-09-2025T15:22:47 - [MESSAGE][PASSED] - LogsCheck.checkLogUserDetail is PASSED
+
+10-09-2025T15:22:47 - [TEST_STEP][PASSED] - Common_Utils.navigateToCategory(): Common_Utils.navigateToCategory is PASSED
+
+10-09-2025T15:22:48 - [MESSAGE][PASSED] - Refresh successfully
+
+10-09-2025T15:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Setting' is clicked on
+
+10-09-2025T15:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - Category' is clicked on
+
+10-09-2025T15:22:50 - [MESSAGE][PASSED] - Common_Utils.navigateToCategory is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/Delete - Kategori Memiliki Asset" time="4.135" classname="Test Cases/Setting - Category/Positif/Delete - Kategori Memiliki Asset" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:22:50 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/Delete - Kategori Memiliki Asset: Test Cases/Setting - Category/Positif/Delete - Kategori Memiliki Asset
+
+10-09-2025T15:22:50 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Category Test")): Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:22:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Category Test' is clicked on
+
+10-09-2025T15:22:52 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Action Menu - Delete Category")): Object: 'Object Repository/Setting - Category/Action Menu - Delete Category' is clicked on
+
+10-09-2025T15:22:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Action Menu - Delete Category' is clicked on
+
+10-09-2025T15:22:53 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Confirm Delete")): Object: 'Object Repository/Setting - Category/Button - Confirm Delete' is clicked on
+
+10-09-2025T15:22:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Confirm Delete' is clicked on
+
+10-09-2025T15:22:53 - [TEST_STEP][PASSED] - if (verifyElementText(findTestObject("Setting - Category/Toast - Success"), "Success, category has been deleted.", STOP_ON_FAILURE)): null
+
+10-09-2025T15:22:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Setting - Category/Toast - Success' are matched.
+
+10-09-2025T15:22:54 - [TEST_STEP][PASSED] - Log_Status = "Delete": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/View Log - Kategori" time="22.473" classname="Test Cases/Setting - Category/Positif/View Log - Kategori" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) desti...":"null"}]]></property>
+         </properties>
+         <system-out><![CDATA[10-09-2025T15:22:54 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/View Log - Kategori: Test Cases/Setting - Category/Positif/View Log - Kategori
+
+10-09-2025T15:22:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+10-09-2025T15:22:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+10-09-2025T15:22:56 - [TEST_STEP][PASSED] - comment("Setting > Category > View Log"): Setting > Category > View Log
+
+10-09-2025T15:22:57 - [MESSAGE][INFO] - Setting > Category > View Log
+
+10-09-2025T15:22:57 - [TEST_STEP][PASSED] - LogsCheck.checkCategoryViewLog(Log_Status): LogsCheck.checkCategoryViewLog is PASSED
+
+10-09-2025T15:22:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - View Log' is clicked on
+
+10-09-2025T15:22:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Category/Log Action - Setting _ Category _ View Log' is: 'Delete'
+
+10-09-2025T15:22:58 - [MESSAGE][PASSED] - Actual text 'Delete' and expected text 'Delete' are matched 
+
+10-09-2025T15:22:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - Close Log' is clicked on
+
+10-09-2025T15:22:58 - [MESSAGE][PASSED] - LogsCheck.checkCategoryViewLog is PASSED
+
+10-09-2025T15:22:58 - [TEST_STEP][PASSED] - comment("Report & Log > Activity Log > User Actions"): Report & Log > Activity Log > User Actions
+
+10-09-2025T15:22:58 - [MESSAGE][INFO] - Report & Log > Activity Log > User Actions
+
+10-09-2025T15:22:58 - [TEST_STEP][PASSED] - LogsCheck.checkLogReportandLog(Log_Status): LogsCheck.checkLogReportandLog is PASSED
+
+10-09-2025T15:22:59 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Report and Log' is clicked on
+
+10-09-2025T15:22:59 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - Activity Log' is clicked on
+
+10-09-2025T15:23:01 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Activity Log_User Actions' is clicked on
+
+10-09-2025T15:23:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Report and Log _ Activity Log _ User Actions' is: 'Delete'
+
+10-09-2025T15:23:02 - [MESSAGE][PASSED] - Actual text 'Delete' and expected text 'Delete' are matched 
+
+10-09-2025T15:23:02 - [MESSAGE][PASSED] - LogsCheck.checkLogReportandLog is PASSED
+
+10-09-2025T15:23:02 - [TEST_STEP][PASSED] - comment("Profile > System Log"): Profile > System Log
+
+10-09-2025T15:23:02 - [MESSAGE][INFO] - Profile > System Log
+
+10-09-2025T15:23:02 - [TEST_STEP][PASSED] - LogsCheck.checkLogProfile(Log_Status): LogsCheck.checkLogProfile is PASSED
+
+10-09-2025T15:23:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - Profile' is clicked on
+
+10-09-2025T15:23:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Action Menu - My Profile' is clicked on
+
+10-09-2025T15:23:04 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Profile_System Log' is clicked on
+
+10-09-2025T15:23:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Profile _ System Log' is: 'Delete'
+
+10-09-2025T15:23:05 - [MESSAGE][PASSED] - Actual text 'Delete' and expected text 'Delete' are matched 
+
+10-09-2025T15:23:06 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Icon - Tag Samurai' is clicked on
+
+10-09-2025T15:23:06 - [MESSAGE][PASSED] - LogsCheck.checkLogProfile is PASSED
+
+10-09-2025T15:23:06 - [TEST_STEP][PASSED] - comment("Setting > User > Detail > System Log"): Setting > User > Detail > System Log
+
+10-09-2025T15:23:06 - [MESSAGE][INFO] - Setting > User > Detail > System Log
+
+10-09-2025T15:23:06 - [TEST_STEP][PASSED] - LogsCheck.checkLogUserDetail(Log_Status): LogsCheck.checkLogUserDetail is PASSED
+
+10-09-2025T15:23:07 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Setting' is clicked on
+
+10-09-2025T15:23:08 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - User' is clicked on
+
+10-09-2025T15:23:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Single Action Button - Default User' is clicked on
+
+10-09-2025T15:23:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Action Menu - User Detail' is clicked on
+
+10-09-2025T15:23:13 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Profile_System Log' is clicked on
+
+10-09-2025T15:23:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Profile _ System Log' is: 'Delete'
+
+10-09-2025T15:23:14 - [MESSAGE][PASSED] - Actual text 'Delete' and expected text 'Delete' are matched 
+
+10-09-2025T15:23:14 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Icon - Tag Samurai' is clicked on
+
+10-09-2025T15:23:14 - [MESSAGE][PASSED] - LogsCheck.checkLogUserDetail is PASSED
+
+10-09-2025T15:23:14 - [TEST_STEP][PASSED] - Common_Utils.navigateToCategory(): Common_Utils.navigateToCategory is PASSED
+
+10-09-2025T15:23:14 - [MESSAGE][PASSED] - Refresh successfully
+
+10-09-2025T15:23:16 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Setting' is clicked on
+
+10-09-2025T15:23:17 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - Category' is clicked on
+
+10-09-2025T15:23:17 - [MESSAGE][PASSED] - Common_Utils.navigateToCategory is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/Delete - Kategori Satu-Satunya" time="1.115" classname="Test Cases/Setting - Category/Positif/Delete - Kategori Satu-Satunya" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:23:30 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/Delete - Kategori Satu-Satunya: Test Cases/Setting - Category/Positif/Delete - Kategori Satu-Satunya
+
+10-09-2025T15:23:30 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Single Action Button - Default Category")): Object: 'Object Repository/Setting - Category/Single Action Button - Default Category' is clicked on
+
+10-09-2025T15:23:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Single Action Button - Default Category' is clicked on
+
+10-09-2025T15:23:30 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Setting - Category/Action Menu - Delete Category"), 0): Web element with id: 'Object Repository/Setting - Category/Action Menu - Delete Category' located by 'By.xpath: //a[(text() = 'Delete Group' or . = 'Delete Category')]' is not present after '10' second(s)
+
+10-09-2025T15:23:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+10-09-2025T15:23:31 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Setting - Category/Action Menu - Delete Category' located by 'By.xpath: //a[(text() = 'Delete Group' or . = 'Delete Category')]' is not present after '10' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/Create - Kategori Baru, Ceklis Stay On This Form" time="6.783" classname="Test Cases/Setting - Category/Positif/Create - Kategori Baru, Ceklis Stay On This Form" status="PASSED">
+         <system-out><![CDATA[10-09-2025T15:23:31 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/Create - Kategori Baru, Ceklis Stay On This Form: Test Cases/Setting - Category/Positif/Create - Kategori Baru, Ceklis Stay On This Form
+
+10-09-2025T15:23:31 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - New Category")): Object: 'Object Repository/Setting - Category/Button - New Category' is clicked on
+
+10-09-2025T15:23:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - New Category' is clicked on
+
+10-09-2025T15:23:32 - [TEST_STEP][PASSED] - check(findTestObject("Setting - Category/Checkbox - Stay on This Form")): Object 'Object Repository/Setting - Category/Checkbox - Stay on This Form' is checked
+
+10-09-2025T15:23:33 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Category/Checkbox - Stay on This Form' is checked
+
+10-09-2025T15:23:33 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Name"), "Category Test"): Text 'Category Test' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:23:34 - [MESSAGE][PASSED] - Text 'Category Test' is set on object 'Object Repository/Setting - Category/Textbox - Category Name'
+
+10-09-2025T15:23:34 - [TEST_STEP][PASSED] - setText(findTestObject("Setting - Category/Textbox - Category Code"), "TEST"): Text 'TEST' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:23:35 - [MESSAGE][PASSED] - Text 'TEST' is set on object 'Object Repository/Setting - Category/Textbox - Category Code'
+
+10-09-2025T15:23:35 - [TEST_STEP][PASSED] - click(findTestObject("Setting - Category/Button - Submit")): Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Category/Button - Submit' is clicked on
+
+10-09-2025T15:23:36 - [TEST_STEP][PASSED] - if (verifyElementText(findTestObject("Setting - Group/Toast - Success"), "Success, category has been created.", STOP_ON_FAILURE)): null
+
+10-09-2025T15:23:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Setting - Group/Toast - Success' are matched.
+
+10-09-2025T15:23:38 - [TEST_STEP][PASSED] - Log_Status = "Create": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setting - Category/Positif/View Log - Kategori" time="26.507" classname="Test Cases/Setting - Category/Positif/View Log - Kategori" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) desti...":"null"}]]></property>
+         </properties>
+         <system-out><![CDATA[10-09-2025T15:23:38 - [TEST_CASE][PASSED] - Test Cases/Setting - Category/Positif/View Log - Kategori: Test Cases/Setting - Category/Positif/View Log - Kategori
+
+10-09-2025T15:23:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+10-09-2025T15:23:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+10-09-2025T15:23:40 - [TEST_STEP][PASSED] - comment("Setting > Category > View Log"): Setting > Category > View Log
+
+10-09-2025T15:23:40 - [MESSAGE][INFO] - Setting > Category > View Log
+
+10-09-2025T15:23:40 - [TEST_STEP][PASSED] - LogsCheck.checkCategoryViewLog(Log_Status): LogsCheck.checkCategoryViewLog is PASSED
+
+10-09-2025T15:23:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - View Log' is clicked on
+
+10-09-2025T15:23:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Category/Log Action - Setting _ Category _ View Log' is: 'Create'
+
+10-09-2025T15:23:45 - [MESSAGE][PASSED] - Actual text 'Create' and expected text 'Create' are matched 
+
+10-09-2025T15:23:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - Close Log' is clicked on
+
+10-09-2025T15:23:45 - [MESSAGE][PASSED] - LogsCheck.checkCategoryViewLog is PASSED
+
+10-09-2025T15:23:45 - [TEST_STEP][PASSED] - comment("Report & Log > Activity Log > User Actions"): Report & Log > Activity Log > User Actions
+
+10-09-2025T15:23:45 - [MESSAGE][INFO] - Report & Log > Activity Log > User Actions
+
+10-09-2025T15:23:45 - [TEST_STEP][PASSED] - LogsCheck.checkLogReportandLog(Log_Status): LogsCheck.checkLogReportandLog is PASSED
+
+10-09-2025T15:23:46 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Report and Log' is clicked on
+
+10-09-2025T15:23:47 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - Activity Log' is clicked on
+
+10-09-2025T15:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Activity Log_User Actions' is clicked on
+
+10-09-2025T15:23:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Report and Log _ Activity Log _ User Actions' is: 'Create'
+
+10-09-2025T15:23:49 - [MESSAGE][PASSED] - Actual text 'Create' and expected text 'Create' are matched 
+
+10-09-2025T15:23:49 - [MESSAGE][PASSED] - LogsCheck.checkLogReportandLog is PASSED
+
+10-09-2025T15:23:49 - [TEST_STEP][PASSED] - comment("Profile > System Log"): Profile > System Log
+
+10-09-2025T15:23:49 - [MESSAGE][INFO] - Profile > System Log
+
+10-09-2025T15:23:49 - [TEST_STEP][PASSED] - LogsCheck.checkLogProfile(Log_Status): LogsCheck.checkLogProfile is PASSED
+
+10-09-2025T15:23:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Button - Profile' is clicked on
+
+10-09-2025T15:23:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Action Menu - My Profile' is clicked on
+
+10-09-2025T15:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Profile_System Log' is clicked on
+
+10-09-2025T15:23:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Profile _ System Log' is: 'Create'
+
+10-09-2025T15:23:52 - [MESSAGE][PASSED] - Actual text 'Create' and expected text 'Create' are matched 
+
+10-09-2025T15:23:53 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Icon - Tag Samurai' is clicked on
+
+10-09-2025T15:23:53 - [MESSAGE][PASSED] - LogsCheck.checkLogProfile is PASSED
+
+10-09-2025T15:23:53 - [TEST_STEP][PASSED] - comment("Setting > User > Detail > System Log"): Setting > User > Detail > System Log
+
+10-09-2025T15:23:53 - [MESSAGE][INFO] - Setting > User > Detail > System Log
+
+10-09-2025T15:23:53 - [TEST_STEP][PASSED] - LogsCheck.checkLogUserDetail(Log_Status): LogsCheck.checkLogUserDetail is PASSED
+
+10-09-2025T15:23:54 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Setting' is clicked on
+
+10-09-2025T15:23:55 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - User' is clicked on
+
+10-09-2025T15:23:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Single Action Button - Default User' is clicked on
+
+10-09-2025T15:23:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Group/Action Menu - User Detail' is clicked on
+
+10-09-2025T15:24:00 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Submenu - Profile_System Log' is clicked on
+
+10-09-2025T15:24:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Setting - Group/Log Action - Profile _ System Log' is: 'Create'
+
+10-09-2025T15:24:01 - [MESSAGE][PASSED] - Actual text 'Create' and expected text 'Create' are matched 
+
+10-09-2025T15:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Icon - Tag Samurai' is clicked on
+
+10-09-2025T15:24:01 - [MESSAGE][PASSED] - LogsCheck.checkLogUserDetail is PASSED
+
+10-09-2025T15:24:01 - [TEST_STEP][PASSED] - Common_Utils.navigateToCategory(): Common_Utils.navigateToCategory is PASSED
+
+10-09-2025T15:24:02 - [MESSAGE][PASSED] - Refresh successfully
+
+10-09-2025T15:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Module - Setting' is clicked on
+
+10-09-2025T15:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/All Menu/Sub Module - Category' is clicked on
+
+10-09-2025T15:24:04 - [MESSAGE][PASSED] - Common_Utils.navigateToCategory is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[10-09-2025T15:12:05 - [TEST_SUITE][PASSED] - Test Suite - Category: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

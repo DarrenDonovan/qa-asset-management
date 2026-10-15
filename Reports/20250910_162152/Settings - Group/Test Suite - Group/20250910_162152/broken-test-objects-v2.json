@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/login session object/Button - Confirm Duplicate User Login",
+      "brokenLocator": "//button[@aria-label\u003d\u0027Confirm\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@type\u003d\u0027button\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250910_162152/Settings - Group/Test Suite - Group/20250910_162152/Object Repository/login session object/Button - Confirm Duplicate User Login_attributes.png"
+    }
+  ]
+}

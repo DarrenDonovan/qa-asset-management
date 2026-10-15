@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - Group Role Manage Document Deletion dari Detail User (Pertama Kali)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dc0a6c98-4b84-4cba-925f-1082f6b3edeb</testCaseGuid>
+</TestCaseEntity>

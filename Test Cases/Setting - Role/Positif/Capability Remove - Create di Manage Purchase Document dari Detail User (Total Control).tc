@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Capability Remove - Create di Manage Purchase Document dari Detail User (Total Control)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0e3f5fdb-1b34-4f67-9d89-9e79b89503dd</testCaseGuid>
+</TestCaseEntity>

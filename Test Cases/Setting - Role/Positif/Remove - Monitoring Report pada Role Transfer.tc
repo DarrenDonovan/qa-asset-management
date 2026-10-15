@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Remove - Monitoring Report pada Role Transfer</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c52d29dc-f622-44f2-88ed-190b3abfa24e</testCaseGuid>
+</TestCaseEntity>

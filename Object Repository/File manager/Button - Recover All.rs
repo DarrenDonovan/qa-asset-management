@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Recover All</name>
+   <tag></tag>
+   <elementGuidId>49eb700e-74e6-400a-a343-4f9cd6e896ea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[53]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Recover All&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>36937674-75ac-41a9-9a3b-694d0c02abe8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>92b5186d-90cd-4532-b896-b0dd2b803e3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Recover All</value>
+      <webElementGuid>395ae3b0-8d33-4dbf-8c3c-18012ae3a7bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ts-section</name>
+      <type>Main</type>
+      <value>recycle-bin-button-recover</value>
+      <webElementGuid>2c140695-b615-48e0-934c-e40310da5883</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative items-center inline-flex text-center align-bottom justify-center w-max left leading-none font-medium rounded !text-xs px-3 py-[5px] gap-1 ring-inset ring-1 bg-transparent ring-1 text-primary-500 ring-1 ring-primary-500 hover:bg-primary-500/20 focus:outline-none focus:outline-offset-0 hover:bg-primary-500/[8%] active:bg-primary-500/[12%] transition duration-200 ease-in-out cursor-pointer overflow-hidden select-none [&amp;>[data-pc-name=badge]]:min-w-4 [&amp;>[data-pc-name=badge]]:h-4 [&amp;>[data-pc-name=badge]]:leading-4</value>
+      <webElementGuid>ddf3cc63-10b8-4636-9b87-59237e9b5783</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-name</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a2e9f229-1e9c-4141-b681-d2c28fe5183f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>root</value>
+      <webElementGuid>2193b537-c5dc-4af7-b887-411478b2587b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Recover All</value>
+      <webElementGuid>95dc7466-ab69-4c6c-9407-4d5b06ef7c7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;p-overflow-hidden&quot;]/div[@class=&quot;p-dialog-mask p-component-overlay p-component-overlay-enter transition duration-300 has-[.mask-active]:bg-transparent bg-dialog-mask has-[.mask-active]:backdrop-blur-none backdrop-blur-sm&quot;]/div[@class=&quot;p-dialog p-component p-ripple-disabled !max-w-[800px] w-[800px] rounded-[0.4375em] shadow-panel flex flex-col p-6 gap-3 bg-white max-h-[90vh] sm:max-w-[90vw] m-0 transform scale-100&quot;]/div[@class=&quot;p-dialog-content !text-general-800 text-xs font-medium tracking-[0.02em] pr-1.5 -mr-1.5 pl-1.5 -ml-1.5 pt-1.5 -mt-1.5 !pb-1.5 -mb-1.5 flex flex-col gap-3 text-surface-600 overflow-y-auto scrollbar-w-none&quot;]/div[@class=&quot;flex flex-col justify-between gap-2&quot;]/div[@class=&quot;flex justify-between items-center&quot;]/div[@class=&quot;ml-6 flex justify-between items-center gap-1&quot;]/button[@class=&quot;relative items-center inline-flex text-center align-bottom justify-center w-max left leading-none font-medium rounded !text-xs px-3 py-[5px] gap-1 ring-inset ring-1 bg-transparent ring-1 text-primary-500 ring-1 ring-primary-500 hover:bg-primary-500/20 focus:outline-none focus:outline-offset-0 hover:bg-primary-500/[8%] active:bg-primary-500/[12%] transition duration-200 ease-in-out cursor-pointer overflow-hidden select-none [&amp;>[data-pc-name=badge]]:min-w-4 [&amp;>[data-pc-name=badge]]:h-4 [&amp;>[data-pc-name=badge]]:leading-4&quot;]</value>
+      <webElementGuid>4aff0ef4-27a1-4703-9394-416606e2fc4b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[53]</value>
+      <webElementGuid>4718ea98-cb10-4cc7-9405-f9bc7c7c95ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Permanently deleted after 30 days'])[1]/following::button[1]</value>
+      <webElementGuid>bd87c7e1-eed2-4797-9951-e4f637df1df5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Empty All'])[1]/preceding::button[1]</value>
+      <webElementGuid>701d0a17-6bc7-4ebd-8fd3-dc1e3e242070</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[3]/button</value>
+      <webElementGuid>33076535-6872-4c25-a951-8f6e22da7814</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Recover All' or . = 'Recover All')]</value>
+      <webElementGuid>706edc2e-25a6-4570-bc43-ed7264acba29</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

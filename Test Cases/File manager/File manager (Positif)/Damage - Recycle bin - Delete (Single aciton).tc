@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Damage - Recycle bin - Delete (Single aciton)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1b66f467-ebb9-48d4-a21a-ef51078d5ed9</testCaseGuid>
+</TestCaseEntity>

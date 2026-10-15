@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Remove - System Role Manage Document Deletion dari Detail User (Switch)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0fd43ec4-c942-4d4b-8c5d-f5b3ab7266e4</testCaseGuid>
+</TestCaseEntity>

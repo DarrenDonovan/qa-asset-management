@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Remove - Manager pada Role Missing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4ff8f28b-b4a3-44d6-a275-2203c8114a67</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>View Log - Transaction Role</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>61ea7b0c-ea4e-48d0-bf84-dfab43f4d85d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1f262bc6-6792-4f99-81f3-9314de72a906</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject(null)</defaultValue>
+      <description></description>
+      <id>1f262bc6-6792-4f99-81f3-9314de72a906</id>
+      <masked>false</masked>
+      <name>destination</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - Global Role Manage Asset Policy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>192f96ac-e0a4-431c-9f6b-3935f1775c3c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Notifikasi</name>
+   <tag></tag>
+   <elementGuidId>76380067-0aaa-4d92-89a7-32c95df2fe95</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[./i[contains(@class,'notification')]]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;9+&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>8e753c0e-2f97-4952-9afc-b7e8743b22b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon ic-notification inherit cursor-pointer !shrink-0 !text-general-200 !w-6 !h-6</value>
+      <webElementGuid>7aaa22cc-747f-4640-9641-9b520cc81b4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/microtsm-layout[1]/nav[1]/microtsm-application[1]/div[@class=&quot;bg-white w-full h-16 px-6 flex items-center justify-between&quot;]/div[@class=&quot;flex items-center gap-2&quot;]/button[@class=&quot;relative flex items-center !overflow-visible relative items-center inline-flex text-center align-bottom justify-center w-max left leading-none font-medium rounded ring-inset ring-1 bg-transparent ring-transparent text-grayscale-900 focus:outline-none focus:outline-offset-0 hover:bg-grayscale-900/[8%] active:bg-grayscale-900/[12%] transition duration-200 ease-in-out cursor-pointer overflow-hidden select-none [&amp;>[data-pc-name=badge]]:min-w-4 [&amp;>[data-pc-name=badge]]:h-4 [&amp;>[data-pc-name=badge]]:leading-4&quot;]/i[@class=&quot;icon ic-notification inherit cursor-pointer !shrink-0 !text-general-200 !w-6 !h-6&quot;]</value>
+      <webElementGuid>8e0eb6ac-fe3d-464d-8c13-1920abde9464</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button/i</value>
+      <webElementGuid>92fcedce-7d7a-48a9-bcfd-d15d12592f6b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

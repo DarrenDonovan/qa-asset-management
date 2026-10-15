@@ -1,0 +1,154 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Assignment,Edge Chromium 140,,,12-09-2025 17:13:01,12-09-2025 17:17:17,4m - 16.794s,PASSED
+,,,,,,,
+Test Cases/login,Edge Chromium 140,Positif,,12-09-2025 17:13:01,12-09-2025 17:13:39,37.960s,PASSED
+"openBrowser("""")",Edge Chromium 140,,,12-09-2025 17:13:01,12-09-2025 17:13:04,2.566s,PASSED
+maximizeWindow(),Edge Chromium 140,,,12-09-2025 17:13:04,12-09-2025 17:13:04,0.176s,PASSED
+navigateToUrl(url),Edge Chromium 140,,,12-09-2025 17:13:04,12-09-2025 17:13:07,2.776s,PASSED
+"setText(findTestObject(""Object Repository/Login session object/Input - Email""), email)",Edge Chromium 140,,,12-09-2025 17:13:07,12-09-2025 17:13:16,9.533s,PASSED
+"setText(findTestObject(""Object Repository/Login session object/Input - Password""), password)",Edge Chromium 140,,,12-09-2025 17:13:16,12-09-2025 17:13:18,1.256s,PASSED
+"click(findTestObject(""Object Repository/Login session object/Button - Login""))",Edge Chromium 140,,,12-09-2025 17:13:18,12-09-2025 17:13:19,1.344s,PASSED
+"isPopupPresent = verifyElementPresent(findTestObject(""Login session object/Page_TAG SAMURAI/Popup duplicate login""), 20, OPTIONAL)",Edge Chromium 140,,,12-09-2025 17:13:19,12-09-2025 17:13:22,3.040s,PASSED
+if (isPopupPresent),Edge Chromium 140,,,12-09-2025 17:13:22,12-09-2025 17:13:23,0.444s,PASSED
+waitForPageLoad(30),Edge Chromium 140,,,12-09-2025 17:13:23,12-09-2025 17:13:23,0.237s,PASSED
+"delay(5, OPTIONAL)",Edge Chromium 140,,,12-09-2025 17:13:23,12-09-2025 17:13:28,5.070s,PASSED
+"waitForElementClickable(findTestObject(""All Menu/Button - Module - Fixed Asset""), 30)",Edge Chromium 140,,,12-09-2025 17:13:28,12-09-2025 17:13:28,0.379s,PASSED
+"click(findTestObject(""All Menu/Button - Module - Fixed Asset""))",Edge Chromium 140,,,12-09-2025 17:13:28,12-09-2025 17:13:30,1.528s,PASSED
+waitForPageLoad(20),Edge Chromium 140,,,12-09-2025 17:13:30,12-09-2025 17:13:30,0.020s,PASSED
+"verifyElementVisible(findTestObject(""All Menu/Button - Menu - Fixed Asset""))",Edge Chromium 140,,,12-09-2025 17:13:30,12-09-2025 17:13:39,9.107s,PASSED
+,,,,,,,
+Test Cases/Assignment/Transaction - Assignment Request,Edge Chromium 140,Positif,,12-09-2025 17:13:39,12-09-2025 17:14:16,36.950s,PASSED
+"buttonAktif = getAttribute(findTestObject(""All Menu/Button - Menu - Fixed Asset""), ""aria-expanded"")",Edge Chromium 140,,,12-09-2025 17:13:39,12-09-2025 17:13:39,0.345s,PASSED
+"if (buttonAktif == ""false"")",Edge Chromium 140,,,12-09-2025 17:13:39,12-09-2025 17:13:40,0.412s,PASSED
+"click(findTestObject(""Object Repository/All Menu/Button - Sub menu - Assignment""))",Edge Chromium 140,,,12-09-2025 17:13:40,12-09-2025 17:13:41,0.718s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Button - Assign""))",Edge Chromium 140,,,12-09-2025 17:13:41,12-09-2025 17:13:43,2.654s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Button - Asset""))",Edge Chromium 140,,,12-09-2025 17:13:43,12-09-2025 17:13:45,1.715s,PASSED
+"click(findTestObject(""Object Repository/Assignment/List - Asset""))",Edge Chromium 140,,,12-09-2025 17:13:45,12-09-2025 17:13:48,2.754s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Button - Select""))",Edge Chromium 140,,,12-09-2025 17:13:48,12-09-2025 17:13:48,0.466s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Button - Select User""))",Edge Chromium 140,,,12-09-2025 17:13:48,12-09-2025 17:13:50,1.505s,PASSED
+"click(findTestObject(""Object Repository/Assignment/List - Select user""))",Edge Chromium 140,,,12-09-2025 17:13:50,12-09-2025 17:13:51,1.238s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Button - Select1""))",Edge Chromium 140,,,12-09-2025 17:13:51,12-09-2025 17:13:51,0.418s,PASSED
+"setText(findTestObject(""Object Repository/Assignment/Input - Note""), ""contoh"")",Edge Chromium 140,,,12-09-2025 17:13:51,12-09-2025 17:13:52,0.991s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Button - Submit""))",Edge Chromium 140,,,12-09-2025 17:13:52,12-09-2025 17:13:53,0.419s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Assignment/Toast - Success, assignment request has been submitted""), ""Success, assignment request has been submitted."")",Edge Chromium 140,,,12-09-2025 17:13:53,12-09-2025 17:13:56,2.953s,PASSED
+"click(findTestObject(""All asset/Asset detail/Document/Button - Single action""))",Edge Chromium 140,,,12-09-2025 17:13:56,12-09-2025 17:13:56,0.451s,PASSED
+"click(findTestObject(""Damage/Button - Option Damaged Log""))",Edge Chromium 140,,,12-09-2025 17:13:56,12-09-2025 17:13:57,0.818s,PASSED
+"callTestCase(findTestCase(""Assignment/View Log/View log - Detail asset""), [""expectedAction"":""Assign""], STOP_ON_FAILURE)",Edge Chromium 140,,,12-09-2025 17:13:57,12-09-2025 17:14:07,10.350s,PASSED
+"callTestCase(findTestCase(""Assignment/View Log/View log - User - Transaction Admin Log""), [""expectedAction"":""Create""], STOP_ON_FAILURE)",Edge Chromium 140,,,12-09-2025 17:14:07,12-09-2025 17:14:16,8.540s,PASSED
+,,,,,,,
+Test Cases/Assignment/Edit assign (Single action),Edge Chromium 140,Positif,,12-09-2025 17:14:16,12-09-2025 17:14:34,18.370s,PASSED
+"click(findTestObject(""All Menu/Button - Sidebar""))",Edge Chromium 140,,,12-09-2025 17:14:16,12-09-2025 17:14:16,0.413s,PASSED
+"buttonAktif = getAttribute(findTestObject(""All Menu/Button - Menu - Fixed Asset""), ""aria-expanded"")",Edge Chromium 140,,,12-09-2025 17:14:16,12-09-2025 17:14:18,1.293s,PASSED
+"if (buttonAktif == ""false"")",Edge Chromium 140,,,12-09-2025 17:14:18,12-09-2025 17:14:18,0.380s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - Assignment""))",Edge Chromium 140,,,12-09-2025 17:14:18,12-09-2025 17:14:19,0.663s,PASSED
+waitForPageLoad(10),Edge Chromium 140,,,12-09-2025 17:14:19,12-09-2025 17:14:19,0.030s,PASSED
+"isAssign = verifyElementPresent(findTestObject(""Assignment/Edit assign/Text - Status Assigned""), 5)",Edge Chromium 140,,,12-09-2025 17:14:19,12-09-2025 17:14:22,3.421s,PASSED
+if (isAssign),Edge Chromium 140,,,12-09-2025 17:14:22,12-09-2025 17:14:23,0.570s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Edit assign/Button - Option - Edit""))",Edge Chromium 140,,,12-09-2025 17:14:23,12-09-2025 17:14:23,0.627s,PASSED
+"setText(findTestObject(""Object Repository/Assignment/Edit assign/Input - Note""), ""asd"")",Edge Chromium 140,,,12-09-2025 17:14:23,12-09-2025 17:14:25,1.892s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Edit assign/Button - Save""))",Edge Chromium 140,,,12-09-2025 17:14:25,12-09-2025 17:14:26,0.445s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Assignment/Toast - Success, assignment request has been submitted""), ""Success, assignment request has been submitted."")",Edge Chromium 140,,,12-09-2025 17:14:26,12-09-2025 17:14:29,3.010s,PASSED
+"click(findTestObject(""All asset/Asset detail/Document/Button - Single action""))",Edge Chromium 140,,,12-09-2025 17:14:29,12-09-2025 17:14:29,0.000s,NOT_RUN
+"click(findTestObject(""Damage/Button - Option Damaged Log""))",Edge Chromium 140,,,12-09-2025 17:14:29,12-09-2025 17:14:29,0.000s,NOT_RUN
+"callTestCase(findTestCase(""Assignment/View Log/View log - Detail asset""), [""expectedAction"":""edit""], STOP_ON_FAILURE)",Edge Chromium 140,,,12-09-2025 17:14:29,12-09-2025 17:14:29,0.000s,NOT_RUN
+"callTestCase(findTestCase(""Assignment/View Log/View log - User - Transaction Admin Log""), [""expectedAction"":""edit""], STOP_ON_FAILURE)",Edge Chromium 140,,,12-09-2025 17:14:29,12-09-2025 17:14:34,5.490s,PASSED
+,,,,,,,
+Test Cases/Assignment/Edit assign (Bulk action),Edge Chromium 140,Positif,,12-09-2025 17:14:34,12-09-2025 17:14:46,11.560s,PASSED
+"click(findTestObject(""All Menu/Button - Sidebar""))",Edge Chromium 140,,,12-09-2025 17:14:34,12-09-2025 17:14:35,0.387s,PASSED
+"buttonAktif = getAttribute(findTestObject(""All Menu/Button - Menu - Fixed Asset""), ""aria-expanded"")",Edge Chromium 140,,,12-09-2025 17:14:35,12-09-2025 17:14:35,0.308s,PASSED
+"if (buttonAktif == ""false"")",Edge Chromium 140,,,12-09-2025 17:14:35,12-09-2025 17:14:35,0.000s,PASSED
+else,Edge Chromium 140,,,12-09-2025 17:14:35,12-09-2025 17:14:35,0.000s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - Assignment""))",Edge Chromium 140,,,12-09-2025 17:14:35,12-09-2025 17:14:36,0.546s,PASSED
+"click(findTestObject(""Assignment/Checkbox - Status assign""))",Edge Chromium 140,,,12-09-2025 17:14:36,12-09-2025 17:14:39,3.254s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Bulk Action""))",Edge Chromium 140,,,12-09-2025 17:14:39,12-09-2025 17:14:39,0.631s,PASSED
+"click(findTestObject(""Object Repository/Borrow/Edit borrow/Button - Option Edit""))",Edge Chromium 140,,,12-09-2025 17:14:39,12-09-2025 17:14:40,0.771s,PASSED
+waitForPageLoad(3),Edge Chromium 140,,,12-09-2025 17:14:40,12-09-2025 17:14:40,0.040s,PASSED
+"setText(findTestObject(""Object Repository/Assignment/Edit assign/Input - Note""), ""asdf"")",Edge Chromium 140,,,12-09-2025 17:14:40,12-09-2025 17:14:42,2.220s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Edit assign/Button - Save""))",Edge Chromium 140,,,12-09-2025 17:14:42,12-09-2025 17:14:43,0.431s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Assignment/Toast - Success, assignment request has been submitted""), ""Success, assignment request has been submitted."")",Edge Chromium 140,,,12-09-2025 17:14:43,12-09-2025 17:14:46,2.877s,PASSED
+,,,,,,,
+Test Cases/Assignment/Report damage (Single action),Edge Chromium 140,Positif,,12-09-2025 17:14:46,12-09-2025 17:15:12,26.590s,PASSED
+"click(findTestObject(""All Menu/Button - Sidebar""))",Edge Chromium 140,,,12-09-2025 17:14:46,12-09-2025 17:14:46,0.005s,NOT_RUN
+"buttonAktif = getAttribute(findTestObject(""All Menu/Button - Menu - Fixed Asset""), ""aria-expanded"")",Edge Chromium 140,,,12-09-2025 17:14:46,12-09-2025 17:14:46,0.280s,PASSED
+"if (buttonAktif == ""false"")",Edge Chromium 140,,,12-09-2025 17:14:46,12-09-2025 17:14:46,0.000s,PASSED
+else,Edge Chromium 140,,,12-09-2025 17:14:46,12-09-2025 17:14:46,0.000s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - Assignment""))",Edge Chromium 140,,,12-09-2025 17:14:46,12-09-2025 17:14:47,0.893s,PASSED
+waitForPageLoad(10),Edge Chromium 140,,,12-09-2025 17:14:47,12-09-2025 17:14:47,0.018s,PASSED
+"isAssign = verifyElementPresent(findTestObject(""Assignment/Edit assign/Text - Status Assigned""), 5)",Edge Chromium 140,,,12-09-2025 17:14:47,12-09-2025 17:14:47,0.299s,PASSED
+if (isAssign),Edge Chromium 140,,,12-09-2025 17:14:47,12-09-2025 17:14:48,0.464s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Report damage/Button - Option - Report Damage""))",Edge Chromium 140,,,12-09-2025 17:14:48,12-09-2025 17:14:49,0.760s,PASSED
+"uploadFile(findTestObject(""Object Repository/Borrow/Report damage/Button - Upload photo""), ""D:\Katalon QA - Tag Samurai\katalon-test-tutor\Photo\contoh photo damage.jpeg"")",Edge Chromium 140,,,12-09-2025 17:14:49,12-09-2025 17:14:50,1.555s,PASSED
+"click(findTestObject(""Object Repository/Borrow/Report damage/Button - Apply""))",Edge Chromium 140,,,12-09-2025 17:14:50,12-09-2025 17:14:51,0.738s,PASSED
+"setText(findTestObject(""Object Repository/Assignment/Report damage/Input - Note reported damage""), ""asd"")",Edge Chromium 140,,,12-09-2025 17:14:51,12-09-2025 17:14:52,1.055s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Report damage/Button - Submit""))",Edge Chromium 140,,,12-09-2025 17:14:52,12-09-2025 17:14:52,0.462s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Assignment/Report damage/Dialog - Continue""), 10)",Edge Chromium 140,,,12-09-2025 17:14:52,12-09-2025 17:14:53,0.450s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Report damage/Button - Continue""))",Edge Chromium 140,,,12-09-2025 17:14:53,12-09-2025 17:14:53,0.480s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Assignment/Toast - Success, assignment request has been submitted""), ""Success, damaged asset report has been submitted."")",Edge Chromium 140,,,12-09-2025 17:14:53,12-09-2025 17:14:56,3.030s,PASSED
+"click(findTestObject(""All asset/Asset detail/Document/Button - Single action""))",Edge Chromium 140,,,12-09-2025 17:14:56,12-09-2025 17:14:57,0.461s,PASSED
+"click(findTestObject(""Damage/Button - Option Damaged Log""))",Edge Chromium 140,,,12-09-2025 17:14:57,12-09-2025 17:14:58,0.901s,PASSED
+"callTestCase(findTestCase(""Assignment/View Log/View log - Detail asset""), [""expectedAction"":""Reported Damaged""], STOP_ON_FAILURE)",Edge Chromium 140,,,12-09-2025 17:14:58,12-09-2025 17:15:07,9.164s,PASSED
+"callTestCase(findTestCase(""Assignment/View Log/View log - User - Transaction Admin Log""), [""expectedAction"":""Damage""], STOP_ON_FAILURE)",Edge Chromium 140,,,12-09-2025 17:15:07,12-09-2025 17:15:12,5.464s,PASSED
+,,,,,,,
+Test Cases/Assignment/Report missing (Single action),Edge Chromium 140,Positif,,12-09-2025 17:15:12,12-09-2025 17:15:41,28.500s,PASSED
+"click(findTestObject(""All Menu/Button - Sidebar""))",Edge Chromium 140,,,12-09-2025 17:15:12,12-09-2025 17:15:13,0.384s,PASSED
+"buttonAktif = getAttribute(findTestObject(""All Menu/Button - Menu - Fixed Asset""), ""aria-expanded"")",Edge Chromium 140,,,12-09-2025 17:15:13,12-09-2025 17:15:13,0.275s,PASSED
+"if (buttonAktif == ""false"")",Edge Chromium 140,,,12-09-2025 17:15:13,12-09-2025 17:15:14,0.411s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - Assignment""))",Edge Chromium 140,,,12-09-2025 17:15:14,12-09-2025 17:15:14,0.620s,PASSED
+waitForPageLoad(10),Edge Chromium 140,,,12-09-2025 17:15:14,12-09-2025 17:15:14,0.021s,PASSED
+"isAssign = verifyElementPresent(findTestObject(""Object Repository/Assignment/Report missing/Text - Status Assigned""), 5)",Edge Chromium 140,,,12-09-2025 17:15:14,12-09-2025 17:15:17,2.458s,PASSED
+if (isAssign),Edge Chromium 140,,,12-09-2025 17:15:17,12-09-2025 17:15:17,0.451s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Report missing/Button - Option - Report Missing""))",Edge Chromium 140,,,12-09-2025 17:15:17,12-09-2025 17:15:18,0.755s,PASSED
+"setText(findTestObject(""Object Repository/Assignment/Report missing/Input - Note report missing""), ""a"")",Edge Chromium 140,,,12-09-2025 17:15:18,12-09-2025 17:15:20,1.976s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Report missing/Button - Submit""))",Edge Chromium 140,,,12-09-2025 17:15:20,12-09-2025 17:15:20,0.428s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Assignment/Report missing/Dialog - Report Missing Asset""), 10)",Edge Chromium 140,,,12-09-2025 17:15:20,12-09-2025 17:15:21,0.490s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Report missing/Button - Report""))",Edge Chromium 140,,,12-09-2025 17:15:21,12-09-2025 17:15:21,0.460s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Assignment/Toast - Success, assignment request has been submitted""), ""Success, missing asset has been reported."")",Edge Chromium 140,,,12-09-2025 17:15:21,12-09-2025 17:15:25,3.600s,PASSED
+"click(findTestObject(""All asset/Asset detail/Document/Button - Single action""))",Edge Chromium 140,,,12-09-2025 17:15:25,12-09-2025 17:15:26,0.764s,PASSED
+"click(findTestObject(""Damage/Button - Option Damaged Log""))",Edge Chromium 140,,,12-09-2025 17:15:26,12-09-2025 17:15:26,0.643s,PASSED
+"callTestCase(findTestCase(""Assignment/View Log/View log - Detail asset""), [""expectedAction"":""Reported Missing""], STOP_ON_FAILURE)",Edge Chromium 140,,,12-09-2025 17:15:26,12-09-2025 17:15:35,9.027s,PASSED
+"callTestCase(findTestCase(""Assignment/View Log/View log - User - Transaction Admin Log""), [""expectedAction"":""Missing""], STOP_ON_FAILURE)",Edge Chromium 140,,,12-09-2025 17:15:35,12-09-2025 17:15:41,5.610s,PASSED
+,,,,,,,
+Test Cases/Assignment/Cancel report (SIngle action),Edge Chromium 140,Positif,,12-09-2025 17:15:41,12-09-2025 17:15:54,12.851s,PASSED
+"click(findTestObject(""All Menu/Button - Sidebar""))",Edge Chromium 140,,,12-09-2025 17:15:41,12-09-2025 17:15:41,0.383s,PASSED
+"buttonAktif = getAttribute(findTestObject(""All Menu/Button - Menu - Fixed Asset""), ""aria-expanded"")",Edge Chromium 140,,,12-09-2025 17:15:41,12-09-2025 17:15:42,0.287s,PASSED
+"if (buttonAktif == ""false"")",Edge Chromium 140,,,12-09-2025 17:15:42,12-09-2025 17:15:42,0.400s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - Assignment""))",Edge Chromium 140,,,12-09-2025 17:15:42,12-09-2025 17:15:43,0.667s,PASSED
+waitForPageLoad(10),Edge Chromium 140,,,12-09-2025 17:15:43,12-09-2025 17:15:43,0.022s,PASSED
+"isMissing = verifyElementPresent(findTestObject(""Borrow/Cancel report/Text - Reported Missing""), 5)",Edge Chromium 140,,,12-09-2025 17:15:43,12-09-2025 17:15:46,3.300s,PASSED
+"isDamaged = verifyElementPresent(findTestObject(""Borrow/Cancel report/Text - Reported Damaged""), 5)",Edge Chromium 140,,,12-09-2025 17:15:46,12-09-2025 17:15:46,0.314s,PASSED
+if (isMissing && isDamaged),Edge Chromium 140,,,12-09-2025 17:15:46,12-09-2025 17:15:47,0.447s,PASSED
+"click(findTestObject(""Object Repository/Borrow/Cancel report/Button - Option Cancel Report""))",Edge Chromium 140,,,12-09-2025 17:15:47,12-09-2025 17:15:47,0.674s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Borrow/Cancel report/Dialog - Cancel report""), STOP_ON_FAILURE)",Edge Chromium 140,,,12-09-2025 17:15:47,12-09-2025 17:15:48,0.435s,PASSED
+"click(findTestObject(""Object Repository/Borrow/Cancel report/Button - Continue""))",Edge Chromium 140,,,12-09-2025 17:15:48,12-09-2025 17:15:48,0.389s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Borrow/Cancel report/Toast - Success, report has been canceled_1""), ""Success, report has been canceled."")",Edge Chromium 140,,,12-09-2025 17:15:48,12-09-2025 17:15:52,3.420s,PASSED
+delay(2),Edge Chromium 140,,,12-09-2025 17:15:52,12-09-2025 17:15:54,2.011s,PASSED
+,,,,,,,
+Test Cases/Assignment/Cancel report (Bulk action),Edge Chromium 140,Positif,,12-09-2025 17:15:54,12-09-2025 17:16:02,8.467s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - Assignment""))",Edge Chromium 140,,,12-09-2025 17:15:54,12-09-2025 17:15:54,0.000s,NOT_RUN
+"click(findTestObject(""Borrow/Checkbox - Status missing atau damaged""))",Edge Chromium 140,,,12-09-2025 17:15:54,12-09-2025 17:15:54,0.625s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Bulk Action""))",Edge Chromium 140,,,12-09-2025 17:15:54,12-09-2025 17:15:55,0.607s,PASSED
+"click(findTestObject(""Object Repository/Borrow/Cancel report/Button - Option Cancel Report""))",Edge Chromium 140,,,12-09-2025 17:15:55,12-09-2025 17:15:56,0.687s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Borrow/Cancel report/Dialog - Cancel report""), 10)",Edge Chromium 140,,,12-09-2025 17:15:56,12-09-2025 17:15:56,0.550s,PASSED
+"click(findTestObject(""Object Repository/Borrow/Cancel report/Button - Continue""))",Edge Chromium 140,,,12-09-2025 17:15:56,12-09-2025 17:15:57,0.400s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Borrow/Toast - Success, borrowing request has been submitted""), ""Success, report has been canceled."")",Edge Chromium 140,,,12-09-2025 17:15:57,12-09-2025 17:16:00,3.530s,PASSED
+delay(2),Edge Chromium 140,,,12-09-2025 17:16:00,12-09-2025 17:16:02,2.007s,PASSED
+,,,,,,,
+Test Cases/Assignment/Unassign (Single action),Edge Chromium 140,Positif,,12-09-2025 17:16:02,12-09-2025 17:16:36,34.106s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - Assignment""))",Edge Chromium 140,,,12-09-2025 17:16:02,12-09-2025 17:16:02,0.000s,NOT_RUN
+"click(findTestObject(""All asset/Asset detail/Document/Button - Single action""))",Edge Chromium 140,,,12-09-2025 17:16:02,12-09-2025 17:16:03,0.440s,PASSED
+"click(findTestObject(""Assignment/Unassign/Button - Option - Unassign""))",Edge Chromium 140,,,12-09-2025 17:16:03,12-09-2025 17:16:03,0.620s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Report missing/Button - Submit""))",Edge Chromium 140,,,12-09-2025 17:16:03,12-09-2025 17:16:06,2.875s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Assignment/Toast - Success, assignment request has been submitted""), 5)",Edge Chromium 140,,,12-09-2025 17:16:06,12-09-2025 17:16:16,9.515s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Assignment/Toast - Success, assignment request has been submitted""), ""Success, asset has been unassigned."")",Edge Chromium 140,,,12-09-2025 17:16:16,12-09-2025 17:16:34,18.580s,PASSED
+delay(2),Edge Chromium 140,,,12-09-2025 17:16:34,12-09-2025 17:16:36,2.011s,PASSED
+,,,,,,,
+Test Cases/Assignment/Unassign (Bulk action),Edge Chromium 140,Positif,,12-09-2025 17:16:36,12-09-2025 17:17:17,41.166s,PASSED
+"click(findTestObject(""Borrow/Checkbox""))",Edge Chromium 140,,,12-09-2025 17:16:36,12-09-2025 17:16:38,1.872s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Bulk Action""))",Edge Chromium 140,,,12-09-2025 17:16:38,12-09-2025 17:16:39,0.845s,PASSED
+"click(findTestObject(""Assignment/Unassign/Button - Option - Unassign""))",Edge Chromium 140,,,12-09-2025 17:16:39,12-09-2025 17:16:40,0.757s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Report missing/Button - Submit""))",Edge Chromium 140,,,12-09-2025 17:16:40,12-09-2025 17:16:41,1.376s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Assignment/Toast - Success, assignment request has been submitted""), 5)",Edge Chromium 140,,,12-09-2025 17:16:41,12-09-2025 17:16:45,3.935s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Assignment/Toast - Success, assignment request has been submitted""), ""Success, asset has been unassigned."")",Edge Chromium 140,,,12-09-2025 17:16:45,12-09-2025 17:16:56,11.154s,PASSED
+"callTestCase(findTestCase(""Assignment/History - Buka assignment log (Single action)""), [:], STOP_ON_FAILURE)",Edge Chromium 140,,,12-09-2025 17:16:56,12-09-2025 17:17:03,7.075s,PASSED
+"callTestCase(findTestCase(""Assignment/View Log/View log - Detail asset""), [""expectedAction"":""Unassign""], STOP_ON_FAILURE)",Edge Chromium 140,,,12-09-2025 17:17:03,12-09-2025 17:17:12,8.312s,PASSED
+"callTestCase(findTestCase(""Assignment/View Log/View log - User - Transaction Admin Log""), [""expectedAction"":""Unassign""], STOP_ON_FAILURE)",Edge Chromium 140,,,12-09-2025 17:17:12,12-09-2025 17:17:17,5.765s,PASSED

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Bulk action - Activate inactivate diposal policy dari tabel</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d26f2caf-928e-44e5-9d8e-c00d15351cd6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>440384ef-fbec-4fd7-b964-0c6cdbeb03b0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3fce833d-3dcd-4b4a-9b70-345c0dc3c7a1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'true'</defaultValue>
+      <description></description>
+      <id>440384ef-fbec-4fd7-b964-0c6cdbeb03b0</id>
+      <masked>false</masked>
+      <name>valueTrue</name>
+   </variable>
+   <variable>
+      <defaultValue>'false'</defaultValue>
+      <description></description>
+      <id>3fce833d-3dcd-4b4a-9b70-345c0dc3c7a1</id>
+      <masked>false</masked>
+      <name>valueFalse</name>
+   </variable>
+</TestCaseEntity>

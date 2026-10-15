@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Remove - Manager pada Role Borrowing Assigment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>640c2223-680e-42a8-9a8d-3de27573359a</testCaseGuid>
+</TestCaseEntity>

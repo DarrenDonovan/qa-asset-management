@@ -1,0 +1,14 @@
+{"testCaseName":"Test Cases/login","testCaseId":"Test Cases/login","iterationVariableName":""}
+{"testCaseName":"Test Cases/Damage/Report disposal (Single action)","testCaseId":"Test Cases/Damage/Report disposal (Single action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Damage/Report disposal - (Negatif)/Report disposal - Input note lebih dari 30 karakter","testCaseId":"Test Cases/Damage/Report disposal - (Negatif)/Report disposal - Input note lebih dari 30 karakter","iterationVariableName":""}
+{"testCaseName":"Test Cases/Damage/Report disposal - (Positif)/Report disposal - Note (Bulk action)","testCaseId":"Test Cases/Damage/Report disposal - (Positif)/Report disposal - Note (Bulk action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Damage/Report disposal - (Positif)/Report disposal - Tambah asset lain","testCaseId":"Test Cases/Damage/Report disposal - (Positif)/Report disposal - Tambah asset lain","iterationVariableName":""}
+{"testCaseName":"Test Cases/Damage/Report disposal - (Positif)/Report disposal - Remove from list (Single action)","testCaseId":"Test Cases/Damage/Report disposal - (Positif)/Report disposal - Remove from list (Single action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Damage/Report disposal - (Positif)/Report disposal - Remove from list (Bulk action)","testCaseId":"Test Cases/Damage/Report disposal - (Positif)/Report disposal - Remove from list (Bulk action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Damage/Report disposal - (Positif)/Report disposal - Cancel report disposal","testCaseId":"Test Cases/Damage/Report disposal - (Positif)/Report disposal - Cancel report disposal","iterationVariableName":""}
+{"testCaseName":"Test Cases/Damage/Report disposal (Bulk action)","testCaseId":"Test Cases/Damage/Report disposal (Bulk action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Damage/Cancel report disposal (Single action)","testCaseId":"Test Cases/Damage/Cancel report disposal (Single action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Damage/Cancel report disposal (Bulk action)","testCaseId":"Test Cases/Damage/Cancel report disposal (Bulk action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Damage/Reported - Buka damage log (Single action)","testCaseId":"Test Cases/Damage/Reported - Buka damage log (Single action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Damage/Mark a repaired (Bulk action)","testCaseId":"Test Cases/Damage/Mark a repaired (Bulk action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Damage/Mark a repaired (Single action)","testCaseId":"Test Cases/Damage/Mark a repaired (Single action)","iterationVariableName":""}

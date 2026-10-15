@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Damge - Recycle bin - Delete (Bulk action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6e1a554f-edad-4499-ba0a-c4d0e62152f4</testCaseGuid>
+</TestCaseEntity>

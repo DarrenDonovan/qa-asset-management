@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Update - Sub Grup, Kode Grup Lebih dari 4 Karakter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3c135c00-9dc7-4e96-9635-c77e613a0b0e</testCaseGuid>
+</TestCaseEntity>

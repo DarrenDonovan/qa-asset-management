@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>History - Buka disposal log (Single action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c57376c9-1327-4e5e-8db3-f75a3cf69280</testCaseGuid>
+</TestCaseEntity>

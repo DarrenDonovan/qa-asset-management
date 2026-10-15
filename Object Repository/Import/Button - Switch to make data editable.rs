@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Switch to make data editable</name>
+   <tag></tag>
+   <elementGuidId>ecc59c6f-0e97-4580-a6c8-ce8fdae44da7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='checkbox' and @role='switch']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.peer.w-full.h-full.absolute.top-0.left-0.z-10.p-0.m-0.rounded.opacity-0.rounded-md.outline-none.appearance-none.cursor-pointer.input-switch-input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>aeb9e2e4-1180-45ae-81a8-3f96700c2821</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>peer w-full h-full absolute top-0 left-0 z-10 p-0 m-0 rounded opacity-0 rounded-md outline-none appearance-none cursor-pointer input-switch-input</value>
+      <webElementGuid>ae72444e-8dc1-4a5e-a5f2-d7c898031936</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-checked</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>56a64be4-5595-477d-9869-bd1a306323f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>switch</value>
+      <webElementGuid>72f07e72-9b6e-4542-85c0-52574caf4f37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>dbe63f35-14da-4ded-84df-12193f1fc954</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/microtsm-layout[1]/main[1]/microtsm-application[1]/div[@class=&quot;rounded-lg p-6 flex flex-col gap-y-3 bg-white text-general-800&quot;]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;flex flex-col gap-2 text-xs tracking-[0.02em] font-medium&quot;]/div[2]/div[@class=&quot;flex flex-col gap-2&quot;]/div[@class=&quot;flex flex-col gap-2&quot;]/div[@class=&quot;flex justify-between&quot;]/div[@class=&quot;flex justify-end gap-2 items-center&quot;]/span[@class=&quot;inline-flex relative align-middle shrink-0 rounded-[60px] h-4 w-8 cursor-pointer&quot;]/input[@class=&quot;peer w-full h-full absolute top-0 left-0 z-10 p-0 m-0 rounded opacity-0 rounded-md outline-none appearance-none cursor-pointer input-switch-input&quot;]</value>
+      <webElementGuid>f342aa76-3876-40e4-b49a-425feadc5342</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@type='checkbox']</value>
+      <webElementGuid>e8481aed-898c-463b-b148-49fe0d6f7978</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/input</value>
+      <webElementGuid>f16a42d2-399b-48a8-916b-1ee411b1a96a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'checkbox']</value>
+      <webElementGuid>00f5b1be-a8c3-4b7e-bbce-afc71cec07a8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Quick Action - Request Transfer</name>
+   <tag></tag>
+   <elementGuidId>23261264-b91f-49aa-9c26-36997f73d19f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div//li[contains(@data-ts-name, 'transfer')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>a >> internal:has-text=&quot;Request Transfer&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ada7af5f-6344-42b0-b7b7-7bdb44e0db58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center justify-start gap-2 px-4 py-2 hover:bg-primary-50 no-underline overflow-hidden cursor-pointer select-none</value>
+      <webElementGuid>9139b515-42c7-4746-8ef2-d41bc5c23c5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>action</value>
+      <webElementGuid>f4f31b5c-dd56-46b6-a72d-5109b6650d4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>05518bf3-24a1-4ca7-a17d-b3ac5d2f25fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Request Transfer</value>
+      <webElementGuid>7e483eb0-8fcf-4dff-8ecb-705b95082e41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;1755834391732&quot;)/div[@class=&quot;p-overlaypanel-content items-center flex&quot;]/div[@class=&quot;w-max py-2 flex flex-col gap-3&quot;]/ul[@class=&quot;flex flex-col list-none m-0 p-0 outline-none transition-shadow&quot;]/li[@class=&quot;cursor-pointer&quot;]/a[@class=&quot;flex items-center justify-start gap-2 px-4 py-2 hover:bg-primary-50 no-underline overflow-hidden cursor-pointer select-none&quot;]</value>
+      <webElementGuid>70ac1691-5d83-455f-88c3-17234d60ff4c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='1755834391732']/div/div/ul/li[3]/a</value>
+      <webElementGuid>739299f1-a70d-4a98-b335-366e97c2c136</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Request Assign'])[1]/following::a[1]</value>
+      <webElementGuid>0b3a2bf6-0190-4610-89c0-ef7992c9451a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Request Borrow'])[1]/following::a[2]</value>
+      <webElementGuid>d8ea7678-0f56-49ee-a37d-1adb33a94a9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Request Disposal'])[1]/preceding::a[1]</value>
+      <webElementGuid>cd1da1ca-1dfa-4198-b786-c7791f47cc07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a</value>
+      <webElementGuid>8284939a-44d2-43a5-ae18-5b299f66800e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Request Transfer' or . = 'Request Transfer')]</value>
+      <webElementGuid>e359117b-f70d-4f18-a030-01be9e922712</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

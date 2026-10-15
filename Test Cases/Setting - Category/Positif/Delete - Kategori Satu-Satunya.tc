@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - Kategori Satu-Satunya</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a5ff99cc-157f-4875-8aac-1621ef2530ef</testCaseGuid>
+</TestCaseEntity>

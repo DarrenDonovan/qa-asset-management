@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Sidebar - Daftar Category</name>
+   <tag></tag>
+   <elementGuidId>cbdfe03b-b96b-41b8-9fbf-1b6fd9da9f63</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//aside[@id='sidebar-right']/microtsm-application/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3d59d82d-520c-4349-83fc-fc4db7cf906f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative pb-3 w-[214px] bg-surface-0 h-full flex flex-col [&amp;>*]:basis-0 transition-transform</value>
+      <webElementGuid>dcf79276-8041-47be-95e4-ee9e0cdaa069</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ts-name</name>
+      <type>Main</type>
+      <value>sidebar-right</value>
+      <webElementGuid>6f038e3b-5c60-4ee7-9a32-54bc272bc17c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ts-section</name>
+      <type>Main</type>
+      <value>wrapper</value>
+      <webElementGuid>2fe7a56c-f212-4083-a943-0eda4961a668</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Group  New GroupAllDefault Group ABCD Pendingin Pendingins asd View Log</value>
+      <webElementGuid>3765a8cb-3de2-4f2b-b366-1dbb917b1ada</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-right&quot;)/microtsm-application[1]/div[@class=&quot;relative pb-3 w-[214px] bg-surface-0 h-full flex flex-col [&amp;>*]:basis-0 transition-transform&quot;]</value>
+      <webElementGuid>e5190077-a2e7-482c-9137-2627eca2635e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//aside[@id='sidebar-right']/microtsm-application/div</value>
+      <webElementGuid>ea4c099a-9856-4807-bf47-c9063ecc0b64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//aside[2]/microtsm-application/div</value>
+      <webElementGuid>b5c0be53-6b25-4c90-af59-74fe4be47c5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Group  New GroupAllDefault Group ABCD Pendingin Pendingins asd View Log' or . = 'Group  New GroupAllDefault Group ABCD Pendingin Pendingins asd View Log')]</value>
+      <webElementGuid>63a899b8-9b7a-4357-aae4-6179d5898755</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

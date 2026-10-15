@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>View my asset - Nama</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f7d2f966-e8a8-4bc5-8c7f-5ac69bc49674</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Grup Baru, Mengisi Kode dengan Bukan Angka atau Huruf</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5f0dd184-6f38-4b0d-add1-e2b8d6ba7cfc</testCaseGuid>
+</TestCaseEntity>

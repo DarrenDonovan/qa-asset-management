@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Non Login User (Division Kosong) (Tidak bisa unselect)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>121c344c-b1c4-46e8-b100-175cd1d1c54b</testCaseGuid>
+</TestCaseEntity>

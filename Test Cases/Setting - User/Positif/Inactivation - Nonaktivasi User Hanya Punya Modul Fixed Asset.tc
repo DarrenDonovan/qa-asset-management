@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Inactivation - Nonaktivasi User Hanya Punya Modul Fixed Asset</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>38d8a4cf-958d-4b27-8595-d7c260f29ff8</testCaseGuid>
+</TestCaseEntity>

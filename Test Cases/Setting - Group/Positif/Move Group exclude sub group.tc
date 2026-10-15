@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Move Group exclude sub group</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4c811d79-817c-445e-8ba0-ec4ca054e2f5</testCaseGuid>
+</TestCaseEntity>

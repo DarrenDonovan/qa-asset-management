@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Sub Grup Baru, Nama Grup Sudah Ada</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cea92232-379e-47d7-aa3c-fdf69b211aba</testCaseGuid>
+</TestCaseEntity>

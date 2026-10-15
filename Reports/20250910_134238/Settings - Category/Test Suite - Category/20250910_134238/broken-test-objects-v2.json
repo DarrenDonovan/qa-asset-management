@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Setting - Group/Log Action - Setting _ Group _ View Log",
+      "brokenLocator": "//*[@id\u003d\"settings-group-changelog-group\"]//tr[1]/td[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Modified By\u0027])[1]/following::td[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250910_134238/Settings - Category/Test Suite - Category/20250910_134238/Object Repository/Setting - Group/Log Action - Setting _ Group _ View Log_neighbor.png"
+    }
+  ]
+}

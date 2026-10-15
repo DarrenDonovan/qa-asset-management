@@ -1,0 +1,384 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Borrow/Checkbox select asset",
+      "brokenLocator": "(//table)[2]/tbody/tr[1]/td[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id \u003d \u0027checkbox\u0027 and @type \u003d \u0027checkbox\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Borrow/Checkbox select asset_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/login session object/Module-Fixed Asset",
+      "brokenLocator": "((.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Modules\u0027])[1]/following::a[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "internal:role\u003dlink[name\u003d\"Fixed Asset\"i]",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/login session object/Module-Fixed Asset_SMART_LOCATOR.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/login session object/Module-Fixed Asset",
+      "brokenLocator": "((.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Modules\u0027])[1]/following::a[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/login session object/Module-Fixed Asset_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/login session object/Module-Fixed Asset",
+      "brokenLocator": "((.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Modules\u0027])[1]/following::a[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Modules\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/login session object/Module-Fixed Asset_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/login session object/Module-Fixed Asset",
+      "brokenLocator": "((.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Modules\u0027])[1]/following::a[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Basic 2 Staging\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/login session object/Module-Fixed Asset_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/All Menu/Menu-Borrow",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027Borrow\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/All Menu/Menu-Borrow_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Borrow/select asset",
+      "brokenLocator": "(//table)[2]/tbody/tr[1]/td[3]\r\n",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Ruang 1A\u0027])[1]/preceding::td[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Borrow/select asset_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/File manager/Pop up delete file",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027`\u0027])[1]/following::div[8]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[5]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/File manager/Pop up delete file_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Transfer/group sudah ada",
+      "brokenLocator": "//tr[1]/td[8]//span[text() !\u003d \u0027Select Group\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Head ..ice A\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/All Menu/Menu-Fixed Asset",
+      "brokenLocator": "//li[.//div[@data-menu-label\u003d\u0027Fixed Asset\u0027]]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027sidebar-left-app\u0027]/div[2]/div/ul/li/div/span[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/All Menu/Menu-Fixed Asset_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Assignment/div_Success, assignment request has been submitted_1",
+      "brokenLocator": "//div[(contains(text(), \u0027Success\u0027) or contains(., \u0027Success\u0027))]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[(text() \u003d \u0027Success, assignment request has been submitted.\u0027 or . \u003d \u0027Success, assignment request has been submitted.\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Assignment/div_Success, assignment request has been submitted_1_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/All Menu/Menu-Fixed Asset",
+      "brokenLocator": "//li[.//div[@data-menu-label\u003d\u0027Fixed Asset\u0027]]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@data-menu-label \u003d \u0027Fixed Asset\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/All Menu/Menu-Fixed Asset_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/All asset/Register asset/Remove from list/button Bulk Action",
+      "brokenLocator": "//div[@data-pc-name \u003d \u0027dropdown\u0027 and (text() \u003d \u0027Bulk Action\u0027 or . \u003d \u0027Bulk Action\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Apply\u0027])[1]/preceding::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/All asset/Register asset/Remove from list/button Bulk Action_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/missing/kolom asset id pada tabel",
+      "brokenLocator": "//table[contains(@id, \u0027report-page-table\u0027)]/tbody//td[4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//td[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/missing/kolom asset id pada tabel_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Borrow/checkbox status borrowed",
+      "brokenLocator": "(//tr[.//td//span[text()\u003d \u0027Borrowed\u0027]]//td//input[@id\u003d\u0027checkbox\u0027])[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//input[@id\u003d\u0027checkbox\u0027])[8]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Borrow/return asset/single action",
+      "brokenLocator": "//tbody/tr/td[14]/div/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027user1..aging\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Borrow/return asset/single action_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Borrow/history/pop up Borrowing Log",
+      "brokenLocator": "//div[@data-ts-name \u003d \u0027borrowing-log\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[4]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Borrow/div_Success, borrowing request has been submitted_1",
+      "brokenLocator": "//div[(contains(text(), \u0027Success\u0027) or contains(., \u0027Success\u0027))]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Borrow/div_Success, borrowing request has been submitted_1_SMART_LOCATOR.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Borrow/Report missing/Toast - Success, missing asset has been reported_1",
+      "brokenLocator": "//div[(contains(text(), \u0027Success \u0027) or contains(., \u0027Success \u0027))]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[(text() \u003d \u0027Success, missing asset has been reported.\u0027 or . \u003d \u0027Success, missing asset has been reported.\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Borrow/Report missing/Toast - Success, missing asset has been reported_1_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/All asset/Bulk action/Toast - Success, useful life has been edited",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Success, useful life has been edited.\u0027])[1]/following::div[5]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/All asset/Bulk action/Toast - Success, useful life has been edited_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Setting - Group/Button - New Group",
+      "brokenLocator": "//button[@type \u003d \u0027button\u0027 and (text() \u003d \u0027New Group\u0027 or . \u003d \u0027New Group\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+<<<<<<< HEAD
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[19]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Setting - Group/Button - New Group_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Setting - Group/Textbox - Group Name",
+      "brokenLocator": "//div[label[(text() \u003d \u0027Group Name \u0027)]]//input",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/input",
+=======
+      "proposedLocator": "",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Transfer/Toast - Success_SMART_LOCATOR.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/File manager/Dialog - Recycle bin",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027`\u0027])[1]/following::div[8]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "internal:label\u003d\"Recycle Bin\"i",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/File manager/Dialog - Recycle bin_SMART_LOCATOR.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/File manager/Toast - Success, file has been deleted",
+      "brokenLocator": "//div[(contains(text(), \u0027Success\u0027) or contains(., \u0027Success\u0027))]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[2]/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/File manager/Toast - Success, file has been deleted_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list",
+      "brokenLocator": "//div[(contains(text(), \u0027Success\u0027) or contains(., \u0027Success\u0027))]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[1]/following::div[4]",
+>>>>>>> rian
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+<<<<<<< HEAD
+      "testObjectId": "Object Repository/login session object/Portal - Fixed Asset",
+      "brokenLocator": "//div/div[2]/div[2]/div[2]/a[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Modules\u0027])[1]/following::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/login session object/Portal - Fixed Asset_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/login session object/Button - Confirm Duplicate User Login",
+      "brokenLocator": "//button[@aria-label\u003d\u0027Confirm\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@type\u003d\u0027button\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/login session object/Button - Confirm Duplicate User Login_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/All Menu/Module - Setting",
+      "brokenLocator": "//div[(text() \u003d \u0027 Settings \u0027 or . \u003d \u0027 Settings \u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027sidebar-left-app\u0027]/div[2]/div/ul/li[4]/div/span[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/All Menu/Module - Setting_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Setting - Group/Log Action - Setting _ Group _ View Log",
+      "brokenLocator": "//*[@id\u003d\"settings-group-changelog-group\"]//tr[1]/td[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Modified By\u0027])[1]/following::td[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Setting - Group/Log Action - Setting _ Group _ View Log_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Setting - Category/Textbox - Category Name",
+      "brokenLocator": "//div[label[(text() \u003d \u0027Group Name \u0027)]]//input",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//section[@id\u003d\u0027main\u0027]/form/div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Setting - Category/Textbox - Category Name_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Setting - Category/Chevron - Sub Category Test",
+      "brokenLocator": "//ul//div[.//span[starts-with(text(), \u0027Sub Category Test\u0027)]]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li[3]/div/button/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Setting - Category/Chevron - Sub Category Test_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Setting - Category/Single Action Button - Sub Category Test",
+      "brokenLocator": "//span[starts-with(text(), \u0027Sub Category Test\u0027)]/following-sibling::button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li[3]/div/span[2]/button/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Setting - Category/Single Action Button - Sub Category Test_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Setting - Category/Validator Message - Code Max 4 Char",
+      "brokenLocator": "//small[(text() \u003d \u0027Max. 4 characters\u0027 or . \u003d \u0027Max. 4 characters\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//section[@id\u003d\u0027main\u0027]/form/div/div/div[2]/small",
+=======
+      "testObjectId": "Object Repository/Borrow/Cancel report/Dialog - Cancel report",
+      "brokenLocator": "//div[@data-ts-name \u003d \u0027cancel-report\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[4]/div",
+>>>>>>> rian
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+<<<<<<< HEAD
+      "testObjectId": "Object Repository/Setting - Category/Single Action Button - Level 3 Category",
+      "brokenLocator": "//span[starts-with(text(), \u0027Level 3 Category\u0027)]/following-sibling::button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li[3]/div/span[2]/button/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Setting - Category/Single Action Button - Level 3 Category_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/login session object/Input - Email",
+      "brokenLocator": "//input[@placeholder \u003d \u0027Enter your email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/login session object/Input - Email_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/All Menu/Submenu - Profile_System Log",
+      "brokenLocator": "//a[(text() \u003d \u0027System Log\u0027 or . \u003d \u0027System Log\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Transaction Admin Log\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/All Menu/Submenu - Profile_System Log_neighbor.png"
+=======
+      "testObjectId": "Object Repository/Assignment/Toast - Success, assignment request has been submitted",
+      "brokenLocator": "//div[(contains(text(), \u0027Success\u0027) or contains(., \u0027Success\u0027))]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Assignment/Toast - Success, assignment request has been submitted_SMART_LOCATOR.png"
+>>>>>>> rian
+    }
+  ]
+}

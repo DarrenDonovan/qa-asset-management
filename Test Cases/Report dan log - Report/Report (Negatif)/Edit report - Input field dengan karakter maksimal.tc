@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Edit report - Input field dengan karakter maksimal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8f320e49-1d46-4b9e-998f-1829a57be8ea</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>View Log - Grup</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d21943fc-42d5-44af-8668-d31abffe7bb9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>008d0060-cb40-44c0-90d0-e2e2e3f2967a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject(null)</defaultValue>
+      <description></description>
+      <id>008d0060-cb40-44c0-90d0-e2e2e3f2967a</id>
+      <masked>false</masked>
+      <name>destination</name>
+   </variable>
+</TestCaseEntity>

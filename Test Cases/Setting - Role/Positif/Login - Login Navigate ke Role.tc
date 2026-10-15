@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Login - Login Navigate ke Role</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>292c6b7c-3b91-4cd6-81e0-15e52cb3e348</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif</description>
+   <name>Edit asset - Upload photo lebih dari 1 MB</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c9531739-475b-494b-8dfd-1a9237268a35</testCaseGuid>
+</TestCaseEntity>

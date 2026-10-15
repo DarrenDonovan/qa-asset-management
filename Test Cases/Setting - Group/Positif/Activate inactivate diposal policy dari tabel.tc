@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Activate inactivate diposal policy dari tabel</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bafd2aac-6245-448e-ac88-62d7824b5851</testCaseGuid>
+</TestCaseEntity>

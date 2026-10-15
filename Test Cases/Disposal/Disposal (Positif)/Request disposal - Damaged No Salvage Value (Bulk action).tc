@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Request disposal - Damaged No Salvage Value (Bulk action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7e090d73-a465-45d6-93f7-04f0ed934796</testCaseGuid>
+</TestCaseEntity>

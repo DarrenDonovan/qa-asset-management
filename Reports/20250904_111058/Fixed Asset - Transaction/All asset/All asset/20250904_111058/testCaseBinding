@@ -1,0 +1,16 @@
+{"testCaseName":"Test Cases/login","testCaseId":"Test Cases/login","iterationVariableName":""}
+{"testCaseName":"Test Cases/All asset/Register asset","testCaseId":"Test Cases/All asset/Register asset","iterationVariableName":""}
+{"testCaseName":"Test Cases/All asset/Edit asset (Single action)","testCaseId":"Test Cases/All asset/Edit asset (Single action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/All asset/Transaction Assignment (Single action)","testCaseId":"Test Cases/All asset/Transaction Assignment (Single action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/All asset/Transaction Assignment (Bulk action)","testCaseId":"Test Cases/All asset/Transaction Assignment (Bulk action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/All asset/Transaction Borrow (Single action)","testCaseId":"Test Cases/All asset/Transaction Borrow (Single action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/All asset/Transaction Borrow (Bulk action)","testCaseId":"Test Cases/All asset/Transaction Borrow (Bulk action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/All asset/Transaction Transfer (Single action)","testCaseId":"Test Cases/All asset/Transaction Transfer (Single action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/All asset/Transaction Transfer (Bulk action)","testCaseId":"Test Cases/All asset/Transaction Transfer (Bulk action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/All asset/Report damage (Single action)","testCaseId":"Test Cases/All asset/Report damage (Single action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/All asset/Report missing (Single action)","testCaseId":"Test Cases/All asset/Report missing (Single action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/All asset/Report disposal (Single action)","testCaseId":"Test Cases/All asset/Report disposal (Single action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/All asset/Report disposal (Bulk action)","testCaseId":"Test Cases/All asset/Report disposal (Bulk action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/All asset/Cancel Report Disposal (Single action)","testCaseId":"Test Cases/All asset/Cancel Report Disposal (Single action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/All asset/Cancel Report Disposal (Bulk action)","testCaseId":"Test Cases/All asset/Cancel Report Disposal (Bulk action)","iterationVariableName":""}
+{"testCaseName":"Test Cases/All asset/Edit useful life dan clear field (Bulk action)","testCaseId":"Test Cases/All asset/Edit useful life dan clear field (Bulk action)","iterationVariableName":""}

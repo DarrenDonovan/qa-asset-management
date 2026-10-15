@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Edit borrow - Cancel create borrowing log</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0e6d7408-0544-49c4-9943-ed5ebcc54a94</testCaseGuid>
+</TestCaseEntity>

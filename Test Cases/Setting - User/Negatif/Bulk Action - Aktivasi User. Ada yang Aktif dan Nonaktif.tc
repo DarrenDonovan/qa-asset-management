@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Bulk Action - Aktivasi User. Ada yang Aktif dan Nonaktif</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e251a19b-769c-4d22-b451-f0410c484100</testCaseGuid>
+</TestCaseEntity>

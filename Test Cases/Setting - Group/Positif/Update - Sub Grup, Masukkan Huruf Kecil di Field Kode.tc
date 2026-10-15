@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Update - Sub Grup, Masukkan Huruf Kecil di Field Kode</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>40e311c5-da8b-4467-a605-919b5579f683</testCaseGuid>
+</TestCaseEntity>

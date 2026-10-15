@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite - User,Chrome 140.0.7339.208,,,09-10-2025 15:13:02,09-10-2025 15:14:04,1m - 1.300s,FAILED
+,,,,,,,
+Test Cases/Setting - User/Positif/Login - Login Navigate ke User,Chrome 140.0.7339.208,Positif,,09-10-2025 15:13:03,09-10-2025 15:14:02,58.710s,FAILED
+Common_Utils.openBrowser(url),Chrome 140.0.7339.208,,,09-10-2025 15:13:04,09-10-2025 15:13:11,6.484s,PASSED
+"Common_Utils.login(email, password)",Chrome 140.0.7339.208,,,09-10-2025 15:13:11,09-10-2025 15:13:31,19.715s,PASSED
+Common_Utils.navigateToUser(),Chrome 140.0.7339.208,,,09-10-2025 15:13:31,09-10-2025 15:14:02,31.612s,FAILED
+,,,,,,,
+Test Cases/Setting - User/Positif/Activation - Aktivasi User,Chrome 140.0.7339.208,,,09-10-2025 15:14:02,09-10-2025 15:14:03,0.925s,FAILED
+"click(findTestObject(""Setting - User/Switch Button - User Activation"", [""name"":""User Satu""]))",Chrome 140.0.7339.208,,,09-10-2025 15:14:02,09-10-2025 15:14:03,0.607s,FAILED

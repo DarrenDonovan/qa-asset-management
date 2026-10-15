@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Open - Detail User (Total Control, yang akses bukan Total Control)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a3e66591-6dbf-4773-a3dd-f215cd192055</testCaseGuid>
+</TestCaseEntity>

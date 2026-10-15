@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Update - Sub Kategori, Kode Lebih dari 4 Karakter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a22c3035-1037-4ce5-a621-0f5f87d4f85c</testCaseGuid>
+</TestCaseEntity>

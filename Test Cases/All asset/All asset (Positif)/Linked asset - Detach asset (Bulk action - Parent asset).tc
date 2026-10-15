@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Linked asset - Detach asset (Bulk action - Parent asset)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9810606d-fe93-424a-afef-949678876a88</testCaseGuid>
+</TestCaseEntity>

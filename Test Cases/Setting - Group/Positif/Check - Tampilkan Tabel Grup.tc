@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check - Tampilkan Tabel Grup</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>577c2d06-5e47-47f3-82e3-876f570218a9</testCaseGuid>
+</TestCaseEntity>

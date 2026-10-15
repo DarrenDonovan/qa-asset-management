@@ -1,0 +1,129 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Damage,Edge Chromium 140,,,12-09-2025 15:11:39,12-09-2025 15:15:15,3m - 36.382s,PASSED
+,,,,,,,
+Test Cases/login,Edge Chromium 140,Positif,,12-09-2025 15:11:39,12-09-2025 15:12:16,37.267s,PASSED
+"openBrowser("""")",Edge Chromium 140,,,12-09-2025 15:11:39,12-09-2025 15:11:42,2.856s,PASSED
+maximizeWindow(),Edge Chromium 140,,,12-09-2025 15:11:42,12-09-2025 15:11:42,0.129s,PASSED
+navigateToUrl(url),Edge Chromium 140,,,12-09-2025 15:11:42,12-09-2025 15:11:45,2.701s,PASSED
+"setText(findTestObject(""Object Repository/Login session object/Input - Email""), email)",Edge Chromium 140,,,12-09-2025 15:11:45,12-09-2025 15:11:54,8.762s,PASSED
+"setText(findTestObject(""Object Repository/Login session object/Input - Password""), password)",Edge Chromium 140,,,12-09-2025 15:11:54,12-09-2025 15:11:56,1.871s,PASSED
+"click(findTestObject(""Object Repository/Login session object/Button - Login""))",Edge Chromium 140,,,12-09-2025 15:11:56,12-09-2025 15:11:56,0.618s,PASSED
+"isPopupPresent = verifyElementPresent(findTestObject(""Login session object/Page_TAG SAMURAI/Popup duplicate login""), 20, OPTIONAL)",Edge Chromium 140,,,12-09-2025 15:11:56,12-09-2025 15:11:58,1.755s,PASSED
+if (isPopupPresent),Edge Chromium 140,,,12-09-2025 15:11:58,12-09-2025 15:11:59,0.508s,PASSED
+waitForPageLoad(30),Edge Chromium 140,,,12-09-2025 15:11:59,12-09-2025 15:11:59,0.317s,PASSED
+"delay(5, OPTIONAL)",Edge Chromium 140,,,12-09-2025 15:11:59,12-09-2025 15:12:04,5.065s,PASSED
+"waitForElementClickable(findTestObject(""All Menu/Button - Module - Fixed Asset""), 30)",Edge Chromium 140,,,12-09-2025 15:12:04,12-09-2025 15:12:05,0.528s,PASSED
+"click(findTestObject(""All Menu/Button - Module - Fixed Asset""))",Edge Chromium 140,,,12-09-2025 15:12:05,12-09-2025 15:12:06,1.715s,PASSED
+waitForPageLoad(20),Edge Chromium 140,,,12-09-2025 15:12:06,12-09-2025 15:12:06,0.048s,PASSED
+"verifyElementVisible(findTestObject(""All Menu/Button - Menu - Fixed Asset""))",Edge Chromium 140,,,12-09-2025 15:12:06,12-09-2025 15:12:16,9.879s,PASSED
+,,,,,,,
+Test Cases/Damage/Report disposal (Single action),Edge Chromium 140,Positif,,12-09-2025 15:12:42,12-09-2025 15:12:50,8.208s,PASSED
+"buttonAktif = getAttribute(findTestObject(""All Menu/Button - Menu - Fixed Asset""), ""aria-expanded"")",Edge Chromium 140,,,12-09-2025 15:12:42,12-09-2025 15:12:42,0.316s,PASSED
+"if (buttonAktif == ""false"")",Edge Chromium 140,,,12-09-2025 15:12:42,12-09-2025 15:12:42,0.002s,PASSED
+else,Edge Chromium 140,,,12-09-2025 15:12:42,12-09-2025 15:12:42,0.001s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - Damage""))",Edge Chromium 140,,,12-09-2025 15:12:42,12-09-2025 15:12:43,0.694s,PASSED
+"click(findTestObject(""Damage/Button - Single action damage""))",Edge Chromium 140,,,12-09-2025 15:12:43,12-09-2025 15:12:44,0.658s,PASSED
+"click(findTestObject(""Damage/Button - Option Report Disposal""))",Edge Chromium 140,,,12-09-2025 15:12:44,12-09-2025 15:12:45,1.005s,PASSED
+"setText(findTestObject(""Damage/Input - Note report disposal""), ""12"")",Edge Chromium 140,,,12-09-2025 15:12:45,12-09-2025 15:12:47,2.115s,PASSED
+"click(findTestObject(""Object Repository/All asset/Asset detail/Document/Button - Submit""))",Edge Chromium 140,,,12-09-2025 15:12:47,12-09-2025 15:12:48,0.727s,PASSED
+"verifyElementText(findTestObject(""Damage/Toast - Success, disposal report has been canceled""), ""Success, disposal report has been submitted."")",Edge Chromium 140,,,12-09-2025 15:12:48,12-09-2025 15:12:50,2.655s,PASSED
+,,,,,,,
+Test Cases/Damage/Report disposal - (Negatif)/Report disposal - Input note lebih dari 30 karakter,Edge Chromium 140,Negatif,,12-09-2025 15:12:50,12-09-2025 15:12:55,4.850s,PASSED
+"click(findTestObject(""Damage/Button - Single action damage""))",Edge Chromium 140,,,12-09-2025 15:12:51,12-09-2025 15:12:51,0.601s,PASSED
+"click(findTestObject(""Damage/Button - Option Report Disposal""))",Edge Chromium 140,,,12-09-2025 15:12:51,12-09-2025 15:12:52,0.999s,PASSED
+"setText(findTestObject(""Object Repository/Borrow/Edit borrow/Input - Note""), ""asdasdsasdwssddwwdasceerilnlmfignoiroskdnis"")",Edge Chromium 140,,,12-09-2025 15:12:52,12-09-2025 15:12:55,2.601s,PASSED
+"actualNote = getAttribute(findTestObject(""Object Repository/Borrow/Edit borrow/Input - Note""), ""value"")",Edge Chromium 140,,,12-09-2025 15:12:55,12-09-2025 15:12:55,0.336s,PASSED
+"verifyEqual(actualNote.length(), 30)",Edge Chromium 140,,,12-09-2025 15:12:55,12-09-2025 15:12:55,0.061s,PASSED
+,,,,,,,
+Test Cases/Damage/Report disposal - (Positif)/Report disposal - Note (Bulk action),Edge Chromium 140,Positif,,12-09-2025 15:12:55,12-09-2025 15:13:00,4.766s,PASSED
+"click(findTestObject(""Borrow/Checkbox""))",Edge Chromium 140,,,12-09-2025 15:12:55,12-09-2025 15:12:56,0.709s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Bulk Action""))",Edge Chromium 140,,,12-09-2025 15:12:56,12-09-2025 15:12:57,0.736s,PASSED
+"click(findTestObject(""Borrow/Edit borrow/Button - Option Note""))",Edge Chromium 140,,,12-09-2025 15:12:57,12-09-2025 15:12:58,0.713s,PASSED
+"setText(findTestObject(""Borrow/Edit borrow/Input - Note bulk action""), ""asd"")",Edge Chromium 140,,,12-09-2025 15:12:58,12-09-2025 15:12:59,1.177s,PASSED
+"click(findTestObject(""Borrow/Edit borrow/Button - Apply""))",Edge Chromium 140,,,12-09-2025 15:12:59,12-09-2025 15:12:59,0.623s,PASSED
+"actualNote = getAttribute(findTestObject(""Object Repository/Borrow/Edit borrow/Input - Note""), ""value"")",Edge Chromium 140,,,12-09-2025 15:12:59,12-09-2025 15:13:00,0.555s,PASSED
+"verifyEqual(actualNote, ""asd"")",Edge Chromium 140,,,12-09-2025 15:13:00,12-09-2025 15:13:00,0.014s,PASSED
+,,,,,,,
+Test Cases/Damage/Report disposal - (Positif)/Report disposal - Tambah asset lain,Edge Chromium 140,Positif,,12-09-2025 15:13:00,12-09-2025 15:13:06,6.523s,PASSED
+"rowBefore = findWebElements(findTestObject(""Object Repository/All asset/Register asset/Tabel - Row register asset""), 10).size()",Edge Chromium 140,,,12-09-2025 15:13:00,12-09-2025 15:13:01,0.319s,PASSED
+"println(""Jumlah baris sebelum aksi: "" + rowBefore)",Edge Chromium 140,,,12-09-2025 15:13:01,12-09-2025 15:13:01,0.013s,PASSED
+waitForPageLoad(10),Edge Chromium 140,,,12-09-2025 15:13:01,12-09-2025 15:13:01,0.033s,PASSED
+"click(findTestObject(""Object Repository/Borrow/Button - Asset""))",Edge Chromium 140,,,12-09-2025 15:13:01,12-09-2025 15:13:01,0.576s,PASSED
+"waitForPageLoad(5, OPTIONAL)",Edge Chromium 140,,,12-09-2025 15:13:01,12-09-2025 15:13:01,0.043s,PASSED
+"click(findTestObject(""Borrow/List - Select asset""))",Edge Chromium 140,,,12-09-2025 15:13:01,12-09-2025 15:13:03,2.154s,PASSED
+"click(findTestObject(""Object Repository/Borrow/Button - Select""))",Edge Chromium 140,,,12-09-2025 15:13:03,12-09-2025 15:13:04,0.747s,PASSED
+delay(2),Edge Chromium 140,,,12-09-2025 15:13:04,12-09-2025 15:13:06,2.029s,PASSED
+"rowAfter = findWebElements(findTestObject(""Object Repository/All asset/Register asset/Tabel - Row register asset""), 10).size()",Edge Chromium 140,,,12-09-2025 15:13:06,12-09-2025 15:13:06,0.332s,PASSED
+"println(""Jumlah baris setelah aksi: "" + rowAfter)",Edge Chromium 140,,,12-09-2025 15:13:06,12-09-2025 15:13:06,0.000s,PASSED
+"verifyEqual(rowAfter, rowBefore + 1)",Edge Chromium 140,,,12-09-2025 15:13:06,12-09-2025 15:13:06,0.036s,PASSED
+,,,,,,,
+Test Cases/Damage/Report disposal - (Positif)/Report disposal - Remove from list (Single action),Edge Chromium 140,Positif,,12-09-2025 15:13:06,12-09-2025 15:13:09,2.945s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Single action - Register asset""))",Edge Chromium 140,,,12-09-2025 15:13:07,12-09-2025 15:13:07,0.424s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Option remove from List""))",Edge Chromium 140,,,12-09-2025 15:13:07,12-09-2025 15:13:08,0.762s,PASSED
+"waitForElementVisible(findTestObject(""All asset/Register asset/Remove from list/Dialog - Remove from list""), 10)",Edge Chromium 140,,,12-09-2025 15:13:08,12-09-2025 15:13:08,0.494s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Remove""))",Edge Chromium 140,,,12-09-2025 15:13:08,12-09-2025 15:13:09,0.643s,PASSED
+"verifyElementText(findTestObject(""All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list""), ""Success, asset has been removed from the list."")",Edge Chromium 140,,,12-09-2025 15:13:09,12-09-2025 15:13:09,0.432s,PASSED
+,,,,,,,
+Test Cases/Damage/Report disposal - (Positif)/Report disposal - Remove from list (Bulk action),Edge Chromium 140,Positif,,12-09-2025 15:13:09,12-09-2025 15:13:15,5.844s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Checkbox - Remove from list""))",Edge Chromium 140,,,12-09-2025 15:13:10,12-09-2025 15:13:10,0.545s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Bulk Action""))",Edge Chromium 140,,,12-09-2025 15:13:10,12-09-2025 15:13:11,0.742s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Bulk action - Option remove from List""))",Edge Chromium 140,,,12-09-2025 15:13:11,12-09-2025 15:13:12,0.796s,PASSED
+"waitForElementVisible(findTestObject(""All asset/Register asset/Remove from list/Dialog - Remove from list""), 0)",Edge Chromium 140,,,12-09-2025 15:13:12,12-09-2025 15:13:13,0.995s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Remove""))",Edge Chromium 140,,,12-09-2025 15:13:13,12-09-2025 15:13:13,0.639s,PASSED
+"verifyElementText(findTestObject(""All asset/Register asset/Remove from list/Toast - Success, asset has been removed from list""), ""Success, asset has been removed from the list."")",Edge Chromium 140,,,12-09-2025 15:13:13,12-09-2025 15:13:15,2.014s,PASSED
+,,,,,,,
+Test Cases/Damage/Report disposal - (Positif)/Report disposal - Cancel report disposal,Edge Chromium 140,Positif,,12-09-2025 15:13:15,12-09-2025 15:13:22,6.793s,PASSED
+"click(findTestObject(""All asset/Register asset/Button - Cancel""))",Edge Chromium 140,,,12-09-2025 15:13:15,12-09-2025 15:13:21,5.241s,PASSED
+"waitForElementVisible(findTestObject(""All asset/Register asset/Dialog - Cancel register""), 10)",Edge Chromium 140,,,12-09-2025 15:13:21,12-09-2025 15:13:21,0.522s,PASSED
+"click(findTestObject(""All asset/Register asset/Button - Continue""))",Edge Chromium 140,,,12-09-2025 15:13:21,12-09-2025 15:13:22,0.755s,PASSED
+currentUrl = getUrl(),Edge Chromium 140,,,12-09-2025 15:13:22,12-09-2025 15:13:22,0.050s,PASSED
+"verifyMatch(currentUrl, "".*damage.*"", true)",Edge Chromium 140,,,12-09-2025 15:13:22,12-09-2025 15:13:22,0.030s,PASSED
+,,,,,,,
+Test Cases/Damage/Report disposal (Bulk action),Edge Chromium 140,Positif,,12-09-2025 15:13:22,12-09-2025 15:13:31,8.637s,PASSED
+"click(findTestObject(""Damage/Checkbox - status damage""))",Edge Chromium 140,,,12-09-2025 15:13:22,12-09-2025 15:13:24,1.794s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Bulk Action""))",Edge Chromium 140,,,12-09-2025 15:13:24,12-09-2025 15:13:25,0.767s,PASSED
+"click(findTestObject(""Damage/Button - Option Report Disposal""))",Edge Chromium 140,,,12-09-2025 15:13:25,12-09-2025 15:13:26,0.814s,PASSED
+"setText(findTestObject(""Damage/Input - Note report disposal""), ""12"")",Edge Chromium 140,,,12-09-2025 15:13:26,12-09-2025 15:13:28,2.066s,PASSED
+"click(findTestObject(""Object Repository/All asset/Asset detail/Document/Button - Submit""))",Edge Chromium 140,,,12-09-2025 15:13:28,12-09-2025 15:13:28,0.474s,PASSED
+"verifyElementText(findTestObject(""Damage/Toast - Success, disposal report has been canceled""), ""Success, disposal report has been submitted."")",Edge Chromium 140,,,12-09-2025 15:13:28,12-09-2025 15:13:31,2.616s,PASSED
+,,,,,,,
+Test Cases/Damage/Cancel report disposal (Single action),Edge Chromium 140,Positif,,12-09-2025 15:13:31,12-09-2025 15:13:36,5.668s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - Damage""))",Edge Chromium 140,,,12-09-2025 15:13:31,12-09-2025 15:13:32,0.817s,PASSED
+"click(findTestObject(""Damage/Button - Single action status disposal""))",Edge Chromium 140,,,12-09-2025 15:13:32,12-09-2025 15:13:32,0.689s,PASSED
+"click(findTestObject(""Damage/Button - Option Cancel Disposal Report""))",Edge Chromium 140,,,12-09-2025 15:13:32,12-09-2025 15:13:33,0.808s,PASSED
+"click(findTestObject(""Damage/Button - Continue""))",Edge Chromium 140,,,12-09-2025 15:13:33,12-09-2025 15:13:34,0.695s,PASSED
+"verifyElementText(findTestObject(""Damage/Toast - Success, disposal report has been canceled""), ""Success, disposal report has been canceled."")",Edge Chromium 140,,,12-09-2025 15:13:34,12-09-2025 15:13:36,2.517s,PASSED
+,,,,,,,
+Test Cases/Damage/Cancel report disposal (Bulk action),Edge Chromium 140,Positif,,12-09-2025 15:13:36,12-09-2025 15:13:42,5.737s,PASSED
+"click(findTestObject(""Object Repository/All asset/Bulk action/Checkbox - Status disposal""))",Edge Chromium 140,,,12-09-2025 15:13:37,12-09-2025 15:13:37,0.647s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Bulk Action""))",Edge Chromium 140,,,12-09-2025 15:13:37,12-09-2025 15:13:38,0.921s,PASSED
+"click(findTestObject(""Damage/Button - Option Cancel Disposal Report""))",Edge Chromium 140,,,12-09-2025 15:13:38,12-09-2025 15:13:39,0.828s,PASSED
+"click(findTestObject(""Damage/Button - Continue""))",Edge Chromium 140,,,12-09-2025 15:13:39,12-09-2025 15:13:40,0.796s,PASSED
+"verifyElementText(findTestObject(""Damage/Toast - Success, disposal report has been canceled""), ""Success, disposal report has been canceled."")",Edge Chromium 140,,,12-09-2025 15:13:40,12-09-2025 15:13:42,2.419s,PASSED
+,,,,,,,
+Test Cases/Damage/Reported - Buka damage log (Single action),Edge Chromium 140,Positif,,12-09-2025 15:13:42,12-09-2025 15:13:55,13.258s,PASSED
+"click(findTestObject(""All Menu/Button - Menu - Fixed Asset""))",Edge Chromium 140,,,12-09-2025 15:13:42,12-09-2025 15:13:43,0.410s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - Damage""))",Edge Chromium 140,,,12-09-2025 15:13:43,12-09-2025 15:13:43,0.534s,PASSED
+"click(findTestObject(""Damage/Button - Single action history damage""))",Edge Chromium 140,,,12-09-2025 15:13:43,12-09-2025 15:13:44,0.926s,PASSED
+"click(findTestObject(""Damage/Button - Option Damaged Log""))",Edge Chromium 140,,,12-09-2025 15:13:44,12-09-2025 15:13:54,9.456s,PASSED
+"verifyElementVisible(findTestObject(""Damage/Dialog - Damage log""), STOP_ON_FAILURE)",Edge Chromium 140,,,12-09-2025 15:13:54,12-09-2025 15:13:55,1.113s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ESCAPE))",Edge Chromium 140,,,12-09-2025 15:13:55,12-09-2025 15:13:55,0.628s,PASSED
+,,,,,,,
+Test Cases/Damage/Mark a repaired (Bulk action),Edge Chromium 140,Positif,,12-09-2025 15:13:55,12-09-2025 15:14:12,16.711s,PASSED
+"click(findTestObject(""Borrow/Checkbox""))",Edge Chromium 140,,,12-09-2025 15:13:56,12-09-2025 15:13:56,0.689s,PASSED
+"click(findTestObject(""All asset/Register asset/Remove from list/Button - Bulk Action""))",Edge Chromium 140,,,12-09-2025 15:13:56,12-09-2025 15:13:57,0.650s,PASSED
+"click(findTestObject(""Damage/Button - Option mark a repaired""))",Edge Chromium 140,,,12-09-2025 15:13:57,12-09-2025 15:14:08,10.636s,PASSED
+"waitForElementVisible(findTestObject(""Damage/Dialog - Mark a repaired""), 5)",Edge Chromium 140,,,12-09-2025 15:14:08,12-09-2025 15:14:08,0.585s,PASSED
+"click(findTestObject(""Damage/Button - Continue""))",Edge Chromium 140,,,12-09-2025 15:14:08,12-09-2025 15:14:09,0.695s,PASSED
+"verifyElementText(findTestObject(""Damage/Toast - Success, disposal report has been canceled""), ""Success, asset has been marked as repaired."")",Edge Chromium 140,,,12-09-2025 15:14:09,12-09-2025 15:14:12,3.262s,PASSED
+,,,,,,,
+Test Cases/Damage/Mark a repaired (Single action),Edge Chromium 140,Positif,,12-09-2025 15:14:12,12-09-2025 15:15:15,1m - 2.891s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - Damage""))",Edge Chromium 140,,,12-09-2025 15:14:12,12-09-2025 15:14:13,0.704s,PASSED
+"click(findTestObject(""Damage/Button - Single action damage""))",Edge Chromium 140,,,12-09-2025 15:14:13,12-09-2025 15:14:14,0.730s,PASSED
+"click(findTestObject(""Damage/Button - Option mark a repaired""))",Edge Chromium 140,,,12-09-2025 15:14:14,12-09-2025 15:14:15,1.705s,PASSED
+"waitForElementVisible(findTestObject(""Damage/Dialog - Mark a repaired""), 5)",Edge Chromium 140,,,12-09-2025 15:14:15,12-09-2025 15:14:17,1.159s,PASSED
+"click(findTestObject(""Damage/Button - Continue""))",Edge Chromium 140,,,12-09-2025 15:14:17,12-09-2025 15:14:17,0.605s,PASSED
+"verifyElementText(findTestObject(""Damage/Toast - Success, disposal report has been canceled""), ""Success, asset has been marked as repaired."")",Edge Chromium 140,,,12-09-2025 15:14:17,12-09-2025 15:14:20,2.323s,PASSED
+"callTestCase(findTestCase(""Damage/History - Buka damage log (Single action)""), [:], STOP_ON_FAILURE)",Edge Chromium 140,,,12-09-2025 15:14:20,12-09-2025 15:14:40,20.363s,PASSED
+"callTestCase(findTestCase(""Damage/View Log/View log - Detail asset""), [""expectedAction"":""Repaired""], STOP_ON_FAILURE)",Edge Chromium 140,,,12-09-2025 15:14:40,12-09-2025 15:15:07,27.544s,PASSED
+"callTestCase(findTestCase(""Damage/View Log/View log - User - Transaction Admin Log""), [""expectedAction"":""Repaired""], STOP_ON_FAILURE)",Edge Chromium 140,,,12-09-2025 15:15:07,12-09-2025 15:15:15,7.553s,PASSED

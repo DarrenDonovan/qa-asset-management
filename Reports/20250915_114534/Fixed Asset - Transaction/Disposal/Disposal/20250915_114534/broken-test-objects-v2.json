@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted",
+      "brokenLocator": "//div[(contains(text(), \u0027Success, disposal request has been submitted.\u0027) or contains(., \u0027Success, disposal request has been submitted.\u0027))]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[2]/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250915_114534/Fixed Asset - Transaction/Disposal/Disposal/20250915_114534/Object Repository/Disposal/Create disposal/Toast - Success, disposal request has been submitted_position.png"
+    }
+  ]
+}

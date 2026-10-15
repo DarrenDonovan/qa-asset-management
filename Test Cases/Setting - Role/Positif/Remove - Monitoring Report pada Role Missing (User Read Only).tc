@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User Total Control -> Read Only</description>
+   <name>Remove - Monitoring Report pada Role Missing (User Read Only)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f4e5ea09-d79f-4442-b93a-32a6ab539cf0</testCaseGuid>
+</TestCaseEntity>

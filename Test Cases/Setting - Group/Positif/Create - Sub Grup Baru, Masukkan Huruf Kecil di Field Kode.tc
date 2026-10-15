@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Sub Grup Baru, Masukkan Huruf Kecil di Field Kode</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eb701f58-e355-4711-a24c-5e1b7336f0fc</testCaseGuid>
+</TestCaseEntity>

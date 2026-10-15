@@ -1,0 +1,10 @@
+{"testCaseName":"Test Cases/login","testCaseId":"Test Cases/login","iterationVariableName":""}
+{"testCaseName":"Test Cases/Transfer/Melakukan transfer","testCaseId":"Test Cases/Transfer/Melakukan transfer","iterationVariableName":""}
+{"testCaseName":"Test Cases/Transfer/Melakukan transfer -/Submit tanpa field mandatory","testCaseId":"Test Cases/Transfer/Melakukan transfer -/Submit tanpa field mandatory","iterationVariableName":""}
+{"testCaseName":"Test Cases/Transfer/Melakukan transfer -/Input note lebih dari 30 karakter","testCaseId":"Test Cases/Transfer/Melakukan transfer -/Input note lebih dari 30 karakter","iterationVariableName":""}
+{"testCaseName":"Test Cases/Transfer/Melakukan transfer -/Bulk action - select group","testCaseId":"Test Cases/Transfer/Melakukan transfer -/Bulk action - select group","iterationVariableName":""}
+{"testCaseName":"Test Cases/Transfer/Melakukan transfer -/Bulk action - Note","testCaseId":"Test Cases/Transfer/Melakukan transfer -/Bulk action - Note","iterationVariableName":""}
+{"testCaseName":"Test Cases/Transfer/Melakukan transfer -/Tambah asset lain","testCaseId":"Test Cases/Transfer/Melakukan transfer -/Tambah asset lain","iterationVariableName":""}
+{"testCaseName":"Test Cases/Transfer/Melakukan transfer -/Single action - remove from list","testCaseId":"Test Cases/Transfer/Melakukan transfer -/Single action - remove from list","iterationVariableName":""}
+{"testCaseName":"Test Cases/Transfer/Melakukan transfer -/Bulk action - Remove from list","testCaseId":"Test Cases/Transfer/Melakukan transfer -/Bulk action - Remove from list","iterationVariableName":""}
+{"testCaseName":"Test Cases/Transfer/Melakukan transfer -/Cancel transfer log","testCaseId":"Test Cases/Transfer/Melakukan transfer -/Cancel transfer log","iterationVariableName":""}

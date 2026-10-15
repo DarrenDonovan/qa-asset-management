@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif</description>
+   <name>Document - Product attachment - Clear field dan submit tanpa input field mandatory</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d56817cf-ee51-4106-8b28-d71061706331</testCaseGuid>
+</TestCaseEntity>

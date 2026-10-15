@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Import Fixed asset - Switch to make data editable</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2a8aa237-707b-4756-86da-89ae79e708c2</testCaseGuid>
+</TestCaseEntity>

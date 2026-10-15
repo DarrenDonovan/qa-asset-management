@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Total Control -> Default</description>
+   <name>Remove - Manager pada Role Borrowing Assigment (User Default)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>00aa2900-4b58-4625-aff1-e83fd9b0c7d3</testCaseGuid>
+</TestCaseEntity>

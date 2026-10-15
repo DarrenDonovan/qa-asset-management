@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Total Control -> Default</description>
+   <name>Remove - Manager pada Role Damaged (User Default)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d95b9007-9caf-423f-880e-1da8809e20a1</testCaseGuid>
+</TestCaseEntity>

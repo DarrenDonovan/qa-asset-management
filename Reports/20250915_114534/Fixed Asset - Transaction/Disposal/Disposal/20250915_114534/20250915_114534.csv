@@ -1,0 +1,123 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Disposal,Edge Chromium 140,,,15-09-2025 11:45:48,15-09-2025 11:49:37,3m - 49.086s,FAILED
+,,,,,,,
+Test Cases/login,Edge Chromium 140,Positif,,15-09-2025 11:45:49,15-09-2025 11:46:22,33.084s,PASSED
+"openBrowser("""")",Edge Chromium 140,,,15-09-2025 11:45:49,15-09-2025 11:45:51,2.391s,PASSED
+maximizeWindow(),Edge Chromium 140,,,15-09-2025 11:45:51,15-09-2025 11:45:52,0.133s,PASSED
+navigateToUrl(url),Edge Chromium 140,,,15-09-2025 11:45:52,15-09-2025 11:45:54,2.461s,PASSED
+"setText(findTestObject(""Object Repository/Login session object/Input - Email""), email)",Edge Chromium 140,,,15-09-2025 11:45:54,15-09-2025 11:46:02,8.005s,PASSED
+"setText(findTestObject(""Object Repository/Login session object/Input - Password""), password)",Edge Chromium 140,,,15-09-2025 11:46:02,15-09-2025 11:46:04,1.583s,PASSED
+"click(findTestObject(""Object Repository/Login session object/Button - Login""))",Edge Chromium 140,,,15-09-2025 11:46:04,15-09-2025 11:46:04,0.523s,PASSED
+"isPopupPresent = verifyElementPresent(findTestObject(""Login session object/Page_TAG SAMURAI/Popup duplicate login""), 20, OPTIONAL)",Edge Chromium 140,,,15-09-2025 11:46:04,15-09-2025 11:46:07,3.027s,PASSED
+if (isPopupPresent),Edge Chromium 140,,,15-09-2025 11:46:07,15-09-2025 11:46:08,0.452s,PASSED
+waitForPageLoad(30),Edge Chromium 140,,,15-09-2025 11:46:08,15-09-2025 11:46:08,0.178s,PASSED
+"delay(5, OPTIONAL)",Edge Chromium 140,,,15-09-2025 11:46:08,15-09-2025 11:46:13,5.065s,PASSED
+"waitForElementClickable(findTestObject(""All Menu/Button - Module - Fixed Asset""), 30)",Edge Chromium 140,,,15-09-2025 11:46:13,15-09-2025 11:46:13,0.372s,PASSED
+"click(findTestObject(""All Menu/Button - Module - Fixed Asset""))",Edge Chromium 140,,,15-09-2025 11:46:13,15-09-2025 11:46:15,1.427s,PASSED
+waitForPageLoad(20),Edge Chromium 140,,,15-09-2025 11:46:15,15-09-2025 11:46:15,0.022s,PASSED
+"verifyElementVisible(findTestObject(""All Menu/Button - Menu - Fixed Asset""))",Edge Chromium 140,,,15-09-2025 11:46:15,15-09-2025 11:46:22,6.974s,PASSED
+,,,,,,,
+Test Cases/Disposal/Decline report (Single action),Edge Chromium 140,Positif,,15-09-2025 11:46:22,15-09-2025 11:46:30,7.898s,PASSED
+"buttonAktif = getAttribute(findTestObject(""All Menu/Button - Menu - Fixed Asset""), ""aria-expanded"")",Edge Chromium 140,,,15-09-2025 11:46:22,15-09-2025 11:46:22,0.344s,PASSED
+"if (buttonAktif == ""false"")",Edge Chromium 140,,,15-09-2025 11:46:22,15-09-2025 11:46:23,0.394s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - Disposal""))",Edge Chromium 140,,,15-09-2025 11:46:23,15-09-2025 11:46:23,0.676s,PASSED
+"click(findTestObject(""Disposal/Button - Single action disposal""))",Edge Chromium 140,,,15-09-2025 11:46:23,15-09-2025 11:46:26,3.135s,PASSED
+"click(findTestObject(""Disposal/Button - Option Decline Report""))",Edge Chromium 140,,,15-09-2025 11:46:26,15-09-2025 11:46:27,0.600s,PASSED
+"waitForElementVisible(findTestObject(""Disposal/Dialog - Decline report""), 10)",Edge Chromium 140,,,15-09-2025 11:46:27,15-09-2025 11:46:27,0.462s,PASSED
+"click(findTestObject(""Disposal/Button - Decline""))",Edge Chromium 140,,,15-09-2025 11:46:27,15-09-2025 11:46:28,0.474s,PASSED
+"verifyElementText(findTestObject(""Disposal/Toast - Success, report has been declined""), ""Success, report has been declined."")",Edge Chromium 140,,,15-09-2025 11:46:28,15-09-2025 11:46:30,1.686s,PASSED
+,,,,,,,
+Test Cases/Disposal/Decline report (Bulk action),Edge Chromium 140,Positif,,15-09-2025 11:46:30,15-09-2025 11:46:35,5.057s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - Disposal""))",Edge Chromium 140,,,15-09-2025 11:46:30,15-09-2025 11:46:30,0.000s,NOT_RUN
+"click(findTestObject(""Borrow/Checkbox""))",Edge Chromium 140,,,15-09-2025 11:46:30,15-09-2025 11:46:30,0.469s,PASSED
+"click(findTestObject(""File manager/Button - Bulk Action""))",Edge Chromium 140,,,15-09-2025 11:46:30,15-09-2025 11:46:31,0.570s,PASSED
+"click(findTestObject(""Disposal/Button - Option Decline Report""))",Edge Chromium 140,,,15-09-2025 11:46:31,15-09-2025 11:46:31,0.689s,PASSED
+"waitForElementVisible(findTestObject(""Disposal/Dialog - Decline report""), 10)",Edge Chromium 140,,,15-09-2025 11:46:31,15-09-2025 11:46:32,0.646s,PASSED
+"click(findTestObject(""Disposal/Button - Decline""))",Edge Chromium 140,,,15-09-2025 11:46:32,15-09-2025 11:46:32,0.481s,PASSED
+"verifyElementText(findTestObject(""Disposal/Toast - Success, report has been declined""), ""Success, report has been declined."")",Edge Chromium 140,,,15-09-2025 11:46:32,15-09-2025 11:46:35,2.132s,PASSED
+,,,,,,,
+Test Cases/Disposal/Create Disposal Log - Damaged No Salvage Value,Edge Chromium 140,Positif,,15-09-2025 11:46:35,15-09-2025 11:46:49,14.303s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - Disposal""))",Edge Chromium 140,,,15-09-2025 11:46:35,15-09-2025 11:46:35,0.000s,NOT_RUN
+"click(findTestObject(""Disposal/Create disposal/Button - Disposal""))",Edge Chromium 140,,,15-09-2025 11:46:35,15-09-2025 11:46:35,0.480s,PASSED
+"waitForElementVisible(findTestObject(""Disposal/Create disposal/Dialog - Last condition""), 10)",Edge Chromium 140,,,15-09-2025 11:46:35,15-09-2025 11:46:36,0.456s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Dropdown last condition""))",Edge Chromium 140,,,15-09-2025 11:46:36,15-09-2025 11:46:36,0.490s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Option damage atau no salvage value""))",Edge Chromium 140,,,15-09-2025 11:46:36,15-09-2025 11:46:37,0.635s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Apply""))",Edge Chromium 140,,,15-09-2025 11:46:37,15-09-2025 11:46:37,0.608s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Select disposal method""))",Edge Chromium 140,,,15-09-2025 11:46:37,15-09-2025 11:46:39,1.479s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Option Donate""))",Edge Chromium 140,,,15-09-2025 11:46:39,15-09-2025 11:46:40,0.663s,PASSED
+"setText(findTestObject(""Disposal/Create disposal/Input - Organization company name""), ""Qtera"")",Edge Chromium 140,,,15-09-2025 11:46:40,15-09-2025 11:46:41,0.995s,PASSED
+"setText(findTestObject(""Disposal/Create disposal/Input - Aditional note""), ""asd"")",Edge Chromium 140,,,15-09-2025 11:46:41,15-09-2025 11:46:41,0.704s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Select Group""))",Edge Chromium 140,,,15-09-2025 11:46:41,15-09-2025 11:46:42,0.462s,PASSED
+"click(findTestObject(""Disposal/Create disposal/List - Select group""))",Edge Chromium 140,,,15-09-2025 11:46:42,15-09-2025 11:46:43,1.133s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Select""))",Edge Chromium 140,,,15-09-2025 11:46:43,15-09-2025 11:46:43,0.413s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Asset""))",Edge Chromium 140,,,15-09-2025 11:46:43,15-09-2025 11:46:44,0.696s,PASSED
+"click(findTestObject(""Disposal/Create disposal/List - Select asset""))",Edge Chromium 140,,,15-09-2025 11:46:44,15-09-2025 11:46:46,1.576s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Select""))",Edge Chromium 140,,,15-09-2025 11:46:46,15-09-2025 11:46:46,0.636s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Submit""))",Edge Chromium 140,,,15-09-2025 11:46:46,15-09-2025 11:46:47,0.640s,PASSED
+"verifyElementText(findTestObject(""Disposal/Create disposal/Toast - Success, disposal request has been submitted""), ""Success, disposal request has been submitted."")",Edge Chromium 140,,,15-09-2025 11:46:47,15-09-2025 11:46:49,2.132s,PASSED
+,,,,,,,
+Test Cases/Disposal/Create Disposal Log - Missing,Edge Chromium 140,Positif,,15-09-2025 11:47:37,15-09-2025 11:48:34,56.441s,FAILED
+"click(findTestObject(""All Menu/Button - Sub menu - Disposal""))",Edge Chromium 140,,,15-09-2025 11:47:37,15-09-2025 11:47:37,0.001s,NOT_RUN
+"click(findTestObject(""Disposal/Create disposal/Button - Disposal""))",Edge Chromium 140,,,15-09-2025 11:47:37,15-09-2025 11:47:41,3.387s,PASSED
+"waitForElementVisible(findTestObject(""Disposal/Create disposal/Dialog - Last condition""), 10)",Edge Chromium 140,,,15-09-2025 11:47:41,15-09-2025 11:47:42,0.829s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Dropdown last condition""))",Edge Chromium 140,,,15-09-2025 11:47:42,15-09-2025 11:47:42,0.402s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Option missing""))",Edge Chromium 140,,,15-09-2025 11:47:42,15-09-2025 11:47:43,1.025s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Apply""))",Edge Chromium 140,,,15-09-2025 11:47:43,15-09-2025 11:47:44,1.334s,PASSED
+"setText(findTestObject(""Disposal/Create disposal/Input - Aditional note""), ""asd"")",Edge Chromium 140,,,15-09-2025 11:47:44,15-09-2025 11:47:45,0.842s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Asset""))",Edge Chromium 140,,,15-09-2025 11:47:45,15-09-2025 11:47:46,0.476s,PASSED
+"click(findTestObject(""Disposal/Create disposal/List - Select asset""))",Edge Chromium 140,,,15-09-2025 11:47:46,15-09-2025 11:47:48,2.395s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Select""))",Edge Chromium 140,,,15-09-2025 11:47:48,15-09-2025 11:47:50,2.008s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Submit""))",Edge Chromium 140,,,15-09-2025 11:47:50,15-09-2025 11:47:52,1.975s,PASSED
+"verifyElementText(findTestObject(""Disposal/Create disposal/Toast - Success, disposal request has been submitted""), ""Success, disposal request has been submitted."")",Edge Chromium 140,,,15-09-2025 11:47:52,15-09-2025 11:48:34,41.749s,FAILED
+,,,,,,,
+Test Cases/Disposal/Request disposal - Missing (Single action),Edge Chromium 140,Positif,,15-09-2025 11:48:34,15-09-2025 11:48:41,7.165s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - Disposal""))",Edge Chromium 140,,,15-09-2025 11:48:34,15-09-2025 11:48:34,0.000s,NOT_RUN
+"click(findTestObject(""Disposal/Create disposal/Button - Single action missing""))",Edge Chromium 140,,,15-09-2025 11:48:34,15-09-2025 11:48:34,0.418s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Option Request Disposal""))",Edge Chromium 140,,,15-09-2025 11:48:34,15-09-2025 11:48:35,1.043s,PASSED
+"setText(findTestObject(""Disposal/Create disposal/Input - Aditional note""), ""asd"")",Edge Chromium 140,,,15-09-2025 11:48:35,15-09-2025 11:48:38,2.331s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Submit""))",Edge Chromium 140,,,15-09-2025 11:48:38,15-09-2025 11:48:38,0.420s,PASSED
+"verifyElementText(findTestObject(""Disposal/Create disposal/Toast - Success, disposal request has been submitted""), ""Success, disposal request has been submitted."")",Edge Chromium 140,,,15-09-2025 11:48:38,15-09-2025 11:48:41,2.889s,PASSED
+,,,,,,,
+Test Cases/Disposal/Request disposal - Missing (Bulk action),Edge Chromium 140,Positif,,15-09-2025 11:48:41,15-09-2025 11:48:48,7.528s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - Disposal""))",Edge Chromium 140,,,15-09-2025 11:48:41,15-09-2025 11:48:41,0.000s,NOT_RUN
+"click(findTestObject(""Disposal/Checkbox - Status missing""))",Edge Chromium 140,,,15-09-2025 11:48:41,15-09-2025 11:48:43,2.134s,PASSED
+"click(findTestObject(""File manager/Button - Bulk Action""))",Edge Chromium 140,,,15-09-2025 11:48:43,15-09-2025 11:48:44,0.571s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Option Request Disposal""))",Edge Chromium 140,,,15-09-2025 11:48:44,15-09-2025 11:48:44,0.768s,PASSED
+"setText(findTestObject(""Disposal/Create disposal/Input - Aditional note""), ""asd"")",Edge Chromium 140,,,15-09-2025 11:48:44,15-09-2025 11:48:46,1.353s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Submit""))",Edge Chromium 140,,,15-09-2025 11:48:46,15-09-2025 11:48:46,0.416s,PASSED
+"verifyElementText(findTestObject(""Disposal/Create disposal/Toast - Success, disposal request has been submitted""), ""Success, disposal request has been submitted."")",Edge Chromium 140,,,15-09-2025 11:48:46,15-09-2025 11:48:48,2.230s,PASSED
+,,,,,,,
+Test Cases/Disposal/Request disposal - Damaged No Salvage Value (Single action),Edge Chromium 140,Positif,,15-09-2025 11:48:48,15-09-2025 11:49:06,17.376s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - Disposal""))",Edge Chromium 140,,,15-09-2025 11:48:49,15-09-2025 11:48:49,0.000s,NOT_RUN
+"isNoValue = verifyElementPresent(findTestObject(""Disposal/Create disposal/Button - Single action no salvage value""), 5, OPTIONAL)",Edge Chromium 140,,,15-09-2025 11:48:49,15-09-2025 11:48:49,0.282s,PASSED
+"isDamaged = verifyElementPresent(findTestObject(""Disposal/Create disposal/Button - Single action damaged""), 5, OPTIONAL)",Edge Chromium 140,,,15-09-2025 11:48:49,15-09-2025 11:48:56,7.270s,PASSED
+if (isNoValue && isDamaged),Edge Chromium 140,,,15-09-2025 11:48:56,15-09-2025 11:48:56,0.000s,PASSED
+else if (isNoValue),Edge Chromium 140,,,15-09-2025 11:48:56,15-09-2025 11:48:56,0.422s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Option Request Disposal""))",Edge Chromium 140,,,15-09-2025 11:48:56,15-09-2025 11:48:57,0.752s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Select disposal method""))",Edge Chromium 140,,,15-09-2025 11:48:57,15-09-2025 11:48:59,1.586s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Option Donate""))",Edge Chromium 140,,,15-09-2025 11:48:59,15-09-2025 11:48:59,0.635s,PASSED
+"setText(findTestObject(""Disposal/Create disposal/Input - Organization company name""), ""Qtera"")",Edge Chromium 140,,,15-09-2025 11:48:59,15-09-2025 11:49:00,0.971s,PASSED
+"setText(findTestObject(""Disposal/Create disposal/Input - Aditional note""), ""asd"")",Edge Chromium 140,,,15-09-2025 11:49:00,15-09-2025 11:49:01,0.737s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Select Group""))",Edge Chromium 140,,,15-09-2025 11:49:01,15-09-2025 11:49:02,0.458s,PASSED
+"click(findTestObject(""Disposal/Create disposal/List - Select group""))",Edge Chromium 140,,,15-09-2025 11:49:02,15-09-2025 11:49:03,1.176s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Select""))",Edge Chromium 140,,,15-09-2025 11:49:03,15-09-2025 11:49:03,0.425s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Submit""))",Edge Chromium 140,,,15-09-2025 11:49:03,15-09-2025 11:49:04,0.625s,PASSED
+"verifyElementText(findTestObject(""Disposal/Create disposal/Toast - Success, disposal request has been submitted""), ""Success, disposal request has been submitted."")",Edge Chromium 140,,,15-09-2025 11:49:04,15-09-2025 11:49:06,1.938s,PASSED
+,,,,,,,
+Test Cases/Disposal/Request disposal - Damaged No Salvage Value (Bulk action),Edge Chromium 140,Positif,,15-09-2025 11:49:06,15-09-2025 11:49:37,31.657s,PASSED
+"click(findTestObject(""All Menu/Button - Sub menu - Disposal""))",Edge Chromium 140,,,15-09-2025 11:49:06,15-09-2025 11:49:06,0.000s,NOT_RUN
+"click(findTestObject(""Disposal/Checkbox - Status damage no salvage value""))",Edge Chromium 140,,,15-09-2025 11:49:06,15-09-2025 11:49:06,0.434s,PASSED
+"click(findTestObject(""File manager/Button - Bulk Action""))",Edge Chromium 140,,,15-09-2025 11:49:06,15-09-2025 11:49:07,0.659s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Option Request Disposal""))",Edge Chromium 140,,,15-09-2025 11:49:07,15-09-2025 11:49:08,1.245s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Select disposal method""))",Edge Chromium 140,,,15-09-2025 11:49:08,15-09-2025 11:49:09,1.098s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Option Donate""))",Edge Chromium 140,,,15-09-2025 11:49:09,15-09-2025 11:49:10,0.624s,PASSED
+"setText(findTestObject(""Disposal/Create disposal/Input - Organization company name""), ""Qtera"")",Edge Chromium 140,,,15-09-2025 11:49:10,15-09-2025 11:49:11,0.943s,PASSED
+"setText(findTestObject(""Disposal/Create disposal/Input - Aditional note""), ""asd"")",Edge Chromium 140,,,15-09-2025 11:49:11,15-09-2025 11:49:12,0.721s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Select Group""))",Edge Chromium 140,,,15-09-2025 11:49:12,15-09-2025 11:49:12,0.435s,PASSED
+"click(findTestObject(""Disposal/Create disposal/List - Select group""))",Edge Chromium 140,,,15-09-2025 11:49:12,15-09-2025 11:49:13,1.150s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Select""))",Edge Chromium 140,,,15-09-2025 11:49:13,15-09-2025 11:49:14,0.392s,PASSED
+"click(findTestObject(""Disposal/Create disposal/Button - Submit""))",Edge Chromium 140,,,15-09-2025 11:49:14,15-09-2025 11:49:14,0.643s,PASSED
+"verifyElementText(findTestObject(""Disposal/Create disposal/Toast - Success, disposal request has been submitted""), ""Success, disposal request has been submitted."")",Edge Chromium 140,,,15-09-2025 11:49:14,15-09-2025 11:49:16,1.625s,PASSED
+"callTestCase(findTestCase(""Disposal/History - Buka disposal log (Single action)""), [:], STOP_ON_FAILURE)",Edge Chromium 140,,,15-09-2025 11:49:16,15-09-2025 11:49:22,5.946s,PASSED
+"callTestCase(findTestCase(""Disposal/View Log/View log - Detail asset""), [""expectedAction"":""Disposed""], STOP_ON_FAILURE)",Edge Chromium 140,,,15-09-2025 11:49:22,15-09-2025 11:49:30,8.484s,PASSED
+"callTestCase(findTestCase(""Disposal/View Log/View log - User - Transaction Admin Log""), [""expectedAction"":""Complete""], STOP_ON_FAILURE)",Edge Chromium 140,,,15-09-2025 11:49:30,15-09-2025 11:49:37,7.157s,PASSED

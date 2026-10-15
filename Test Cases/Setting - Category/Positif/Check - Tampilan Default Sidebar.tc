@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check - Tampilan Default Sidebar</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c9dfe324-b83e-4748-b0e8-5bd1f75a935d</testCaseGuid>
+</TestCaseEntity>

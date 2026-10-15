@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Manage User Role -> Total Control</description>
+   <name>Remove - Monitoring Report pada Role Disposal (Login bkn Total Control)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>42ec2300-c7e9-4eb9-9a95-792d2bf1f6c8</testCaseGuid>
+</TestCaseEntity>

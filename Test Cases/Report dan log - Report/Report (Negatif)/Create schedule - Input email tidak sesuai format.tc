@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif</description>
+   <name>Create schedule - Input email tidak sesuai format</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c543222e-ee9f-4d9f-a70c-9e1720b8d043</testCaseGuid>
+</TestCaseEntity>

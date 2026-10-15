@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Log in with OTP_h-full flex flex-col ga_d87849</name>
+   <tag></tag>
+   <elementGuidId>ef76d416-c2cf-4f85-94c4-ab4dabf9a6e8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='single-spa-application:@tagsamurai/ts-mfe-auth']/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.h-full >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d2895ebf-add5-4d0d-9646-aead2e62c869</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>h-full flex flex-col gap-6 py-[47.5px] px-6 bg-white</value>
+      <webElementGuid>ecb8fabc-5323-4f17-9cc0-b2ab6600895b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Log in with OTPSign in and start managing your asset  We have sent the code, please check your inbox or spam. You can re-send the code within 00:51userprodcompany7@qwertysystem.netRe-Send OTPVerify and Log inLog in with Password The Simplest Way to Manage Your Asset Privacy PolicyLicense Agreement</value>
+      <webElementGuid>3ae16645-330b-40bd-bfff-d5b771d2f8f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;single-spa-application:@tagsamurai/ts-mfe-auth&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;h-screen p-6 bg-primary-50&quot;]/div[@class=&quot;h-full flex flex-col gap-6 py-[47.5px] px-6 bg-white&quot;]</value>
+      <webElementGuid>1c67c3ba-b0fb-4f0c-b716-55265438b5c7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='single-spa-application:@tagsamurai/ts-mfe-auth']/div/div/div</value>
+      <webElementGuid>2f9d7058-a33e-4649-9474-5dfc52f21a94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div</value>
+      <webElementGuid>c011ff48-8fa9-4df1-afcd-2cebe7c8f735</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Log in with OTPSign in and start managing your asset  We have sent the code, please check your inbox or spam. You can re-send the code within 00:51userprodcompany7@qwertysystem.netRe-Send OTPVerify and Log inLog in with Password The Simplest Way to Manage Your Asset Privacy PolicyLicense Agreement' or . = 'Log in with OTPSign in and start managing your asset  We have sent the code, please check your inbox or spam. You can re-send the code within 00:51userprodcompany7@qwertysystem.netRe-Send OTPVerify and Log inLog in with Password The Simplest Way to Manage Your Asset Privacy PolicyLicense Agreement')]</value>
+      <webElementGuid>2fb04ecd-2e10-4f1e-9af9-8b7c3c3f52b2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

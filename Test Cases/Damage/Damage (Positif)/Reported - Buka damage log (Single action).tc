@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif</description>
+   <name>Reported - Buka damage log (Single action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fd2d9374-0da4-49fa-b9cd-c14c91a1d6ff</testCaseGuid>
+</TestCaseEntity>

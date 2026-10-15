@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Total Control -> Default</description>
+   <name>Remove - Manager pada Role Missing (User Default)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a6e7108e-df94-4e3a-b625-54a3eb73129b</testCaseGuid>
+</TestCaseEntity>
